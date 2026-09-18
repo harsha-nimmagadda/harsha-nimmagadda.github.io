@@ -1,0 +1,302 @@
+[
+  {
+    "id": "20a5e3c0-b0ac-4362-8017-91b45623e156",
+    "name": "SIDHVIK SAI SENTHIL",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  },
+  {
+    "id": "aa89b6e7-cc9b-46fd-8f6e-da9d7fbdbce4",
+    "name": "PRATICHI SINGH",
+    "targetExam": "jee_mains",
+    "batch": "SR MPC"
+  },
+  {
+    "id": "9373e5de-3602-4d4a-8c35-c05155470635",
+    "name": "KALAMATA VAISHNAVI",
+    "targetExam": "jee_advanced",
+    "batch": "SR MPC"
+  },
+  {
+    "id": "8b65150d-9ca3-4419-b5f1-9cf60c7277e4",
+    "name": "ROHIT SAI KOTHURI",
+    "targetExam": "eapcet",
+    "batch": "JR MPC"
+  },
+  {
+    "id": "bd28c24a-d157-4f8e-93fd-92904f2b0eb3",
+    "name": "YUVAN KARTHIK",
+    "targetExam": "ipmat_rohtak",
+    "batch": "JR MEC"
+  },
+  {
+    "id": "20b412ab-f06c-4117-a966-34dced7a273b",
+    "name": "KUSHAL REDDY NARAYANA",
+    "targetExam": "clat",
+    "batch": "JR MEC"
+  },
+  {
+    "id": "09278893-a38f-4f28-9035-a88f82f0c163",
+    "name": "SRI VIHAAN",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  },
+  {
+    "id": "b2b0e3bb-5ed2-4274-821f-760538138358",
+    "name": "DANDE RUDRAKSHAY",
+    "targetExam": "jee_mains",
+    "batch": "SR MPC"
+  },
+  {
+    "id": "a0067ff1-46bf-4df2-8898-7ae90bfa6dca",
+    "name": "PATTABHI SHRAVYA",
+    "targetExam": "eapcet",
+    "batch": "JR MPC"
+  },
+  {
+    "id": "07b9db18-55e8-4181-9bc5-37de2738f248",
+    "name": "KATLA AMRUTH",
+    "targetExam": "ipmat_rohtak",
+    "batch": "JR MEC"
+  },
+  {
+    "id": "5615067d-3599-4a31-bdcb-46c102af8544",
+    "name": "GADI NIMSHITHA",
+    "targetExam": "clat",
+    "batch": "SR MEC"
+  },
+  {
+    "id": "08074247-d249-48da-a74f-87fc1fbcb2d9",
+    "name": "BOINA AGNITESWARI",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  },
+  {
+    "id": "cb98bbfb-2bfb-439f-b3b7-5d8ba5ef956b",
+    "name": "RAKESH ALAPATI",
+    "targetExam": "jee_mains",
+    "batch": "SR MPC"
+  },
+  {
+    "id": "8abaae72-b5f9-4f52-a8fa-65bbbb47397b",
+    "name": "SINGARAM AARYANN SHREEKAR",
+    "targetExam": "eapcet",
+    "batch": "SR CEC"
+  },
+  {
+    "id": "7ca53e36-40da-404a-bc40-d7a331410f22",
+    "name": "AKSHANTALA SIRI",
+    "targetExam": "ipmat_rohtak",
+    "batch": "JR MEC"
+  },
+  {
+    "id": "5add3df1-439d-48ef-a3fc-9143461eaf12",
+    "name": "V Sai Pavan",
+    "targetExam": "clat",
+    "batch": "JR MEC"
+  },
+  {
+    "id": "fc933247-f366-4b26-a50a-a8e7802b33db",
+    "name": "GADE ANTHONY AKSHAYA REDDY",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  },
+  {
+    "id": "dbbb570c-9b8c-4a4d-a059-cd9b9f2eddc0",
+    "name": "GANDU JOSHITHA",
+    "targetExam": "jee_mains",
+    "batch": "SR MPC"
+  },
+  {
+    "id": "cbb86e8e-39e1-47f6-80f4-9624628975aa",
+    "name": "MAKKUVA EESHIKA PATNAIK",
+    "targetExam": "eapcet",
+    "batch": "SR MEC"
+  },
+  {
+    "id": "2a1d5f6b-fac0-4300-9f16-2b2312aba529",
+    "name": "PAGADALA TEJASWI",
+    "targetExam": "ipmat_rohtak",
+    "batch": "JR MEC"
+  },
+  {
+    "id": "a272e45a-a66d-4c70-9438-4c47f77687e2",
+    "name": "N SREE TANVI ",
+    "targetExam": "clat",
+    "batch": "JR MEC"
+  },
+  {
+    "id": "62d0e885-262f-4fba-8e78-ecded03322b6",
+    "name": "VARRE SARANYA SAI",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  },
+  {
+    "id": "289928d2-5cfb-4dd0-b2e6-48e1ffb92ada",
+    "name": "Koora Akshaya",
+    "targetExam": "jee_mains",
+    "batch": "SR MPC"
+  },
+  {
+    "id": "29d0d2da-fabd-45a4-b512-07dde444ed60",
+    "name": "NUNNA SAI JOSHIKA",
+    "targetExam": "eapcet",
+    "batch": "JR MEC"
+  },
+  {
+    "id": "cf8f2a4c-adb0-4347-8033-5dd956acdc8b",
+    "name": "Bhagam Khyathi",
+    "targetExam": "jee_mains",
+    "batch": "SR MPC"
+  },
+  {
+    "id": "7219600e-94e7-4785-a877-ff47e616ec40",
+    "name": "NYAPATHY SAANVI",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  },
+  {
+    "id": "2d2f11b8-8629-4245-89a8-48420d0ba7f6",
+    "name": "A HANSIK RAO",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  },
+  {
+    "id": "15731400-c81a-40d6-8d63-30c6ab75d47f",
+    "name": "ANIKA GARIMELLA",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  },
+  {
+    "id": "85625136-05a0-4685-a148-2ca1772652b3",
+    "name": "MUDUNURI EKAKSHARI SRI SAI PRIYA",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  },
+  {
+    "id": "08e23eee-cfb5-47ee-a4e8-d9ac95e6040a",
+    "name": "KANAPAKA AMRUTHA",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  },
+  {
+    "id": "4c3a3f4f-9c64-4b84-9b54-807139c0f7ab",
+    "name": "NAGESWARA SRI SESANK",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  },
+  {
+    "id": "7d33cad5-d43f-4050-b625-4df7ebe52c8d",
+    "name": "SURNAR YADAV RAO",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  },
+  {
+    "id": "f7422b57-06ad-4d44-a3bd-40df617aae32",
+    "name": "ANUSHKA DAS",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  },
+  {
+    "id": "3259a5a0-e7e9-4d0f-a1f4-a7cbb903a60b",
+    "name": "UPPARI THARAKESHWAR",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  },
+  {
+    "id": "90893de7-72f1-4e4c-8b35-57a4aefbe952",
+    "name": "SAHASRA NAGABOINA",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  },
+  {
+    "id": "a3d6ad45-f9b5-4803-b889-0ae84c97e749",
+    "name": "CHEKSHITHA TANVI BHUMIREDDY",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  },
+  {
+    "id": "57bacbff-d5f5-42a9-9bec-3f936715a226",
+    "name": "JOSHIKA YADAV",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  },
+  {
+    "id": "23c1c97c-3c40-41e8-9c41-287b88f55ff3",
+    "name": "D KREETHIKA",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  },
+  {
+    "id": "6a9932e4-7143-45b5-ba3e-2986081545cd",
+    "name": "PATHAN LIYANA",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  },
+  {
+    "id": "cfd853a7-0424-45fd-9865-ed7e4e5cd390",
+    "name": "HEMANTH KUMAR GOUD",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  },
+  {
+    "id": "f3dce12c-d10f-4996-bf82-2feab3154323",
+    "name": "KONDALA RUCHITHA",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  },
+  {
+    "id": "24a728d7-0ad4-4897-a913-7b286e1354c3",
+    "name": "BUDDOLA ABHISHEK",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  },
+  {
+    "id": "805853f0-1b78-4f2f-ad58-bc1f62faaafe",
+    "name": "U LOHITH SAI CHARAN",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  },
+  {
+    "id": "5f09fa2b-b4d9-4f66-af3d-dd1e0394d164",
+    "name": "BHUKYA MEGHANA",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  },
+  {
+    "id": "170e09df-b59e-4b42-b0a3-7fa91a6a6fe4",
+    "name": "MODIGARI VENKATA SRAVANI",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  },
+  {
+    "id": "389b8b89-dc97-4ee5-9011-4f2232c5c515",
+    "name": "MAHESH BIRADHAR",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  },
+  {
+    "id": "6a38c893-c35f-4d9e-b1f4-e00593a680f0",
+    "name": "S ASHWITHA REDDY",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  },
+  {
+    "id": "77d1b8b7-ffa7-49e3-9e5e-b59954abb18c",
+    "name": "Y CHINVITHA REDDY",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  },
+  {
+    "id": "baeeca74-0a71-44e4-9c6d-fdb21fc82cf7",
+    "name": "Alekhya Sree",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  },
+  {
+    "id": "9f411150-115a-4b52-8710-6c5b3579acc6",
+    "name": "VEERALA SAI SREE DARSHANI",
+    "targetExam": "neet",
+    "batch": "SR BIPC"
+  }
+]

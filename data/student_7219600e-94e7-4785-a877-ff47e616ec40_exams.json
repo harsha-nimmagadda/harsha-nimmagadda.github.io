@@ -1,0 +1,617 @@
+[
+  {
+    "id": "exam-7926f4c6-7bb0-480c-a8fd-e92d47f2671b",
+    "name": "SR BiPC NEET WTN-18_(24-08-2026)",
+    "date": "24 Aug 2026",
+    "score": "387/720",
+    "total_score": 387,
+    "total_max": 720,
+    "percentage": 54,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "214/360",
+        "percentage": 67,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "53/180",
+        "percentage": 36,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "120/180",
+        "percentage": 71,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Haloalkanes – nomenclature, nature of C-X bond, physical and chemical properties, mechanism of substitution reactions",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 66,
+        "time": "1m 6s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "no_concept_knowledge"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Electromagnetic induction",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 40,
+        "time": "0m 40s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Light reaction — photosystems and electron transport",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 10,
+        "time": "0m 10s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "not_in_list"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Rate law and specific rate constant",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 3,
+        "time": "0m 3s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "no_concept_knowledge"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Endomembrane system — ER, Golgi complex, lysosomes, vacuoles",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 16,
+        "time": "0m 16s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "no_concept_knowledge"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Identification of primary, secondary and tertiary alcohols",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 8,
+        "time": "0m 8s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "no_concept_knowledge"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Cyclic and non-cyclic photophosphorylation",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 33,
+        "time": "0m 33s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Parturition and lactation",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 20,
+        "time": "0m 20s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-e992eba8-974a-4da8-90d7-3f72b4ac207b",
+    "name": "SR BiPC NCERT Test (AI PAPER)_(22-08-2026)",
+    "date": "22 Aug 2026",
+    "score": "160/320",
+    "total_score": 160,
+    "total_max": 320,
+    "percentage": 50,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "106/160",
+        "percentage": 73,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "39/80",
+        "percentage": 55,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "15/80",
+        "percentage": 25,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Eddy currents",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 11,
+        "time": "0m 11s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Eddy currents",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 13,
+        "time": "0m 13s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Light reaction — photosystems and electron transport",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 7,
+        "time": "0m 7s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Nomenclature, acidic nature",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 24,
+        "time": "0m 24s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Calvin cycle (C3 pathway)",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 7,
+        "time": "0m 7s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Cyclic and non-cyclic photophosphorylation",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 8,
+        "time": "0m 8s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Nomenclature, acidic nature",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 12,
+        "time": "0m 12s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Calvin cycle (C3 pathway)",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 5,
+        "time": "0m 5s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  },
+  {
+    "id": "exam-3fc4a1fc-7a4a-49dd-8528-1edbf74f7776",
+    "name": "Daily 5 — 20 Aug 2026",
+    "date": "20 Aug 2026",
+    "score": "16/20",
+    "total_score": 16,
+    "total_max": 20,
+    "percentage": 80,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "4/8",
+        "percentage": 50,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "8/8",
+        "percentage": 100,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "4/4",
+        "percentage": 100,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Liquid state – vapour pressure, viscosity and surface tension (qualitative ideas only)",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 28,
+        "time": "0m 28s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Alkynes – nomenclature, structure of triple bond, physical properties, methods of preparation, chemical reactions",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 62,
+        "time": "1m 2s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Acceleration due to gravity and its variation with altitude, depth and rotation",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 9,
+        "time": "0m 9s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "Assertion-Reason",
+        "topic": "Ozone layer depletion",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 21,
+        "time": "0m 21s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Processes of recombinant DNA technology",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 48,
+        "time": "0m 48s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "wrong_option_despite_solving"
+      }
+    ]
+  },
+  {
+    "id": "exam-6744f014-0677-4eba-9723-3fbdad4ddc23",
+    "name": "Error Revision — 18 Aug",
+    "date": "18 Aug 2026",
+    "score": "7/32",
+    "total_score": 7,
+    "total_max": 32,
+    "percentage": 22,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "2/12",
+        "percentage": 33,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "8/8",
+        "percentage": 100,
+        "color": "rose"
+      },
+      {
+        "name": "Mathematics",
+        "score": "-1/4",
+        "percentage": 0,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "-2/8",
+        "percentage": 0,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "Assertion-Reason",
+        "topic": "Description of families – Fabaceae, Solanaceae and Liliaceae",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 67,
+        "time": "1m 7s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "applied_wrong_concept"
+      },
+      {
+        "q_num": 2,
+        "type": "Assertion-Reason",
+        "topic": "EMF of a cell",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 9,
+        "time": "0m 9s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "Assertion-Reason",
+        "topic": "Industrial uses of lime and limestone",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 11,
+        "time": "0m 11s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Photosynthesis as a means of autotrophic nutrition",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 18,
+        "time": "0m 18s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "no_idea_of_concept"
+      },
+      {
+        "q_num": 5,
+        "type": "Assertion-Reason",
+        "topic": "Impulse",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 22,
+        "time": "0m 22s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "used_wrong_formula"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Operations on Matrices – Addition, Multiplication",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 15,
+        "time": "0m 15s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "no_concept_knowledge"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Transcription, genetic code, translation",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 21,
+        "time": "0m 21s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "Assertion-Reason",
+        "topic": "Elastic behaviour",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 34,
+        "time": "0m 34s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "applied_wrong_concept"
+      }
+    ]
+  },
+  {
+    "id": "exam-ed8068e9-dc2d-4e89-bf8a-3035b28c0ce2",
+    "name": "SR BiPC NEET WTN-17_(17-08-2026)",
+    "date": "17 Aug 2026",
+    "score": "331/720",
+    "total_score": 331,
+    "total_max": 720,
+    "percentage": 46,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "227/360",
+        "percentage": 70,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "25/180",
+        "percentage": 18,
+        "color": "amber"
+      },
+      {
+        "name": "Physics",
+        "score": "79/180",
+        "percentage": 49,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Half-life (only for zero and first order reactions)",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 1,
+        "time": "0m 1s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Gametogenesis — spermatogenesis and oogenesis",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 126,
+        "time": "2m 6s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Cardiac cycle, cardiac output and ECG",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 18,
+        "time": "0m 18s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Microscopic anatomy of testis and ovary",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 19,
+        "time": "0m 19s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Gametogenesis — spermatogenesis and oogenesis",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 42,
+        "time": "0m 42s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Male reproductive system",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 28,
+        "time": "0m 28s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Faraday's laws",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 44,
+        "time": "0m 44s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Electromagnetic induction",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 15,
+        "time": "0m 15s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  }
+]

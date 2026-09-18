@@ -1,0 +1,599 @@
+[
+  {
+    "id": "exam-5fc87e53-7748-4d44-9574-f897f4658817",
+    "name": "SR BIPC NCERT Test-19 (29-08-2026)",
+    "date": "29 Aug 2026",
+    "score": "140/320",
+    "total_score": 140,
+    "total_max": 320,
+    "percentage": 44,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "100/160",
+        "percentage": 70,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "35/80",
+        "percentage": 55,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "5/80",
+        "percentage": 25,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Birth control – need and methods, contraception and medical termination of pregnancy (MTP)",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 44,
+        "time": "0m 44s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "C3 and C4 pathways",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 33,
+        "time": "0m 33s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Preparation: reduction of nitro compounds, nitriles, amides (Hofmann's method), alkylation, Gabriel phthalimide synthesis",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 13,
+        "time": "0m 13s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Coupling Reactions and Azo Dyes",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 2,
+        "time": "0m 2s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Factors affecting photosynthesis",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Photorespiration",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 61,
+        "time": "1m 1s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Reaction with mineral acids — salt formation",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 44,
+        "time": "0m 44s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Physical properties and stability",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 12,
+        "time": "0m 12s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  },
+  {
+    "id": "exam-4610e6ca-1836-4063-bfd8-c2f17de5caaa",
+    "name": "DPP — 24 Aug 2026",
+    "date": "24 Aug 2026",
+    "score": "28/72",
+    "total_score": 28,
+    "total_max": 72,
+    "percentage": 39,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "8/12",
+        "percentage": 67,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "12/36",
+        "percentage": 33,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "8/24",
+        "percentage": 33,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Isothermal and adiabatic processes",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Discovery of electron, proton and neutron",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Preparation: hydration of alkenes, hydroboration-oxidation, reduction of carbonyl, Grignard reaction",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "General introduction, methods of qualitative and quantitative analysis",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Phylum Annelida",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Need for displacement current",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Torque on a magnetic dipole (bar magnet) in a uniform magnetic field",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "Assertion-Reason",
+        "topic": "Electromagnetic spectrum (radio waves, microwaves, infrared, visible, ultraviolet, X-rays, gamma rays)",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  },
+  {
+    "id": "exam-7926f4c6-7bb0-480c-a8fd-e92d47f2671b",
+    "name": "SR BiPC NEET WTN-18_(24-08-2026)",
+    "date": "24 Aug 2026",
+    "score": "405/720",
+    "total_score": 405,
+    "total_max": 720,
+    "percentage": 56,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "255/360",
+        "percentage": 77,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "70/180",
+        "percentage": 44,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "80/180",
+        "percentage": 53,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Fertilisation and implantation",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 6,
+        "time": "0m 6s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Force on a moving charge in uniform magnetic and electric fields",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 274,
+        "time": "4m 34s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Ecosystem — structure, function and components",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 18,
+        "time": "0m 18s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Nomenclature, acidic nature",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 7,
+        "time": "0m 7s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Gametogenesis — spermatogenesis and oogenesis",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Light reaction — photosystems and electron transport",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 6,
+        "time": "0m 6s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Nomenclature, acidic nature",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 6,
+        "time": "0m 6s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Nomenclature, acidic nature",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-d6398c4a-9fac-4f0d-941a-4e43eb23477f",
+    "name": "Daily 5 — 24 Aug 2026",
+    "date": "24 Aug 2026",
+    "score": "12/20",
+    "total_score": 12,
+    "total_max": 20,
+    "percentage": 60,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "8/8",
+        "percentage": 100,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "4/8",
+        "percentage": 50,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "0/4",
+        "percentage": 0,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "Assertion-Reason",
+        "topic": "Common ion effect (with illustrative examples)",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Electrolysis and laws of electrolysis (Faraday's laws)",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "no_concept_knowledge"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Tools of recombinant DNA technology – restriction enzymes, PCR, gel electrophoresis",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Projectile motion",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "no_idea_of_concept"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Basic concepts of immunology – vaccines",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-fda6e3a8-bf6d-4cd0-bbda-49ab3c3e7d87",
+    "name": "Mock Test — Custom",
+    "date": "22 Aug 2026",
+    "score": "25/80",
+    "total_score": 25,
+    "total_max": 80,
+    "percentage": 31,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "25/80",
+        "percentage": 45,
+        "color": "emerald"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Classes of Vertebrata – Cyclostomata, Chondrichthyes, Osteichthyes, Amphibia, Reptilia, Aves and Mammalia",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 6,
+        "time": "0m 6s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "no_concept_knowledge"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Deviations from Mendelism – incomplete dominance, co-dominance, multiple alleles and inheritance of blood groups",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 2,
+        "time": "0m 2s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Adolescence and drug and alcohol abuse",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 5,
+        "time": "0m 5s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Pollination – types, agencies and examples",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 2,
+        "time": "0m 2s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "no_concept_knowledge"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Parasites causing human diseases – malaria, filariasis, ascariasis, typhoid, pneumonia, common cold, amoebiasis, ring worm",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "no_concept_knowledge"
+      },
+      {
+        "q_num": 6,
+        "type": "Assertion-Reason",
+        "topic": "Sex linked inheritance – haemophilia, colour blindness",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 2,
+        "time": "0m 2s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "no_idea_of_concept"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Asexual reproduction – binary fission, sporulation, budding, gemmule, fragmentation, vegetative propagation",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 3,
+        "time": "0m 3s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "Assertion-Reason",
+        "topic": "Organ and organ system",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 2,
+        "time": "0m 2s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "no_concept_knowledge"
+      }
+    ]
+  }
+]

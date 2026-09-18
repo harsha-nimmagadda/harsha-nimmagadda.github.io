@@ -1,0 +1,587 @@
+[
+  {
+    "id": "exam-c9adeb4d-ca82-40cb-a1bc-1b7dbfcbfa96",
+    "name": "Error Revision — 30 Aug",
+    "date": "30 Aug 2026",
+    "score": "23/32",
+    "total_score": 23,
+    "total_max": 32,
+    "percentage": 72,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "0/4",
+        "percentage": 0,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "8/8",
+        "percentage": 100,
+        "color": "rose"
+      },
+      {
+        "name": "Mathematics",
+        "score": "8/8",
+        "percentage": 100,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "7/12",
+        "percentage": 67,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Reactions – Dehydration, Oxidation",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 8,
+        "time": "0m 8s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Mendelian inheritance",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 6,
+        "time": "0m 6s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Newton's Third Law – Action-Reaction",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 416,
+        "time": "6m 56s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "Numerical",
+        "topic": "Balancing of Redox Reactions – Ion Electron Method",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 7,
+        "time": "0m 7s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "Numerical",
+        "topic": "Properties of Definite Integrals",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 7,
+        "time": "0m 7s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "Numerical",
+        "topic": "Moment of Inertia",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 45,
+        "time": "0m 45s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Sum to n Terms of Special Series – Σn, Σn², Σn³",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 5,
+        "time": "0m 5s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "Numerical",
+        "topic": "Newton's Second Law – F = ma",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 9,
+        "time": "0m 9s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-5034a089-b9a5-46e5-926e-047a3ffcacef",
+    "name": "Daily 5 — 30 Aug 2026",
+    "date": "30 Aug 2026",
+    "score": "4/20",
+    "total_score": 4,
+    "total_max": 20,
+    "percentage": 20,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "0/8",
+        "percentage": 0,
+        "color": "amber"
+      },
+      {
+        "name": "Mathematics",
+        "score": "0/8",
+        "percentage": 0,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "4/4",
+        "percentage": 100,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "Numerical",
+        "topic": "Properties of Definite Integrals",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Newton's Second Law – F = ma",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "Numerical",
+        "topic": "Balancing of Redox Reactions – Ion Electron Method",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "no_concept_knowledge"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Reactions – Dehydration, Oxidation",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Sum to n Terms of Special Series – Σn, Σn², Σn³",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  },
+  {
+    "id": "exam-94a62f7c-24d1-42af-8a9e-4dd3c0bed702",
+    "name": "Error Revision — 29 Aug",
+    "date": "29 Aug 2026",
+    "score": "0/32",
+    "total_score": 0,
+    "total_max": 32,
+    "percentage": 0,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "0/8",
+        "percentage": 0,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "0/8",
+        "percentage": 0,
+        "color": "amber"
+      },
+      {
+        "name": "Mathematics",
+        "score": "0/8",
+        "percentage": 0,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "0/8",
+        "percentage": 0,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Newton's Third Law – Action-Reaction",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "Numerical",
+        "topic": "Aromatic Hydrocarbons – Benzene: Structure and Aromaticity",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 3,
+        "type": "Numerical",
+        "topic": "Random Experiment, Sample Space, Events",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "Numerical",
+        "topic": "Operations on Matrices – Addition, Multiplication",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "Numerical",
+        "topic": "Moment of Inertia",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Mendelian inheritance",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Mendelian inheritance",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "General trends in properties of first row transition metals – metallic character, ionisation enthalpy, oxidation states, ionic radii, colour, catalytic property, magnetic properties, interstitial compounds, alloy formation",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  },
+  {
+    "id": "exam-5729b474-64f0-416f-af15-16f57b7d2352",
+    "name": "Daily 5 — 29 Aug 2026",
+    "date": "29 Aug 2026",
+    "score": "12/20",
+    "total_score": 12,
+    "total_max": 20,
+    "percentage": 60,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "8/8",
+        "percentage": 100,
+        "color": "rose"
+      },
+      {
+        "name": "Mathematics",
+        "score": "4/4",
+        "percentage": 100,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "0/8",
+        "percentage": 0,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Bond Order and Magnetic Properties",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "Numerical",
+        "topic": "Moment of Inertia",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "no_concept_knowledge"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Diazonium Salts – Preparation and Uses",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Newton's Third Law – Action-Reaction",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "misread_question"
+      },
+      {
+        "q_num": 5,
+        "type": "Numerical",
+        "topic": "Relation between Roots and Coefficients",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-c586b9f9-d01f-4a92-b33b-9de1dc2d6447",
+    "name": "Mock Test — Jee Mains",
+    "date": "29 Aug 2026",
+    "score": "19/120",
+    "total_score": 19,
+    "total_max": 120,
+    "percentage": 16,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "3/44",
+        "percentage": 9,
+        "color": "amber"
+      },
+      {
+        "name": "Mathematics",
+        "score": "4/28",
+        "percentage": 14,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "12/48",
+        "percentage": 25,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Atomic Radii and Ionic Radii",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 14,
+        "time": "0m 14s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "Numerical",
+        "topic": "Limiting Reagent",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 15,
+        "time": "0m 15s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Integration by Parts",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 1,
+        "time": "0m 1s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "Numerical",
+        "topic": "Depression in Freezing Point",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 75,
+        "time": "1m 15s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Hydrogen Bonding – Inter and Intramolecular",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 1,
+        "time": "0m 1s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Transistor as Amplifier and Oscillator",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 2,
+        "time": "0m 2s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Relation between Roots and Coefficients",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 70,
+        "time": "1m 10s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Projectile Motion",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 6,
+        "time": "0m 6s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  }
+]

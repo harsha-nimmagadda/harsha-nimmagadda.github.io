@@ -1,0 +1,569 @@
+[
+  {
+    "id": "exam-5ea1a613-3706-4678-bc11-79daa88519c5",
+    "name": "JR & SR CLAT WEEKEND Test-04_ (16-08-2026)",
+    "date": "16 Aug 2026",
+    "score": "200/480",
+    "total_score": 200,
+    "total_max": 480,
+    "percentage": 42,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Current Affairs & GK",
+        "score": "24/120",
+        "percentage": 20,
+        "color": "amber"
+      },
+      {
+        "name": "Legal Reasoning",
+        "score": "76/120",
+        "percentage": 63,
+        "color": "emerald"
+      },
+      {
+        "name": "Logical Reasoning (BITSAT)",
+        "score": "68/120",
+        "percentage": 57,
+        "color": "emerald"
+      },
+      {
+        "name": "Quantitative Techniques",
+        "score": "32/120",
+        "percentage": 27,
+        "color": "amber"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "Passage",
+        "topic": "Major national and international sporting events",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 7,
+        "time": "0m 7s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "Passage",
+        "topic": "Defences in tort — consent, contributory negligence, act of God, etc.",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 198,
+        "time": "3m 18s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "Passage",
+        "topic": "Discount and marked price",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 3,
+        "time": "0m 3s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "Passage",
+        "topic": "Major national and international sporting events",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 13,
+        "time": "0m 13s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "Passage",
+        "topic": "General conditions of liability in tort",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 155,
+        "time": "2m 35s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 6,
+        "type": "Passage",
+        "topic": "Major national and international sporting events",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 128,
+        "time": "2m 8s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "Passage",
+        "topic": "Major national and international sporting events",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 6,
+        "time": "0m 6s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "Passage",
+        "topic": "Defences in tort — consent, contributory negligence, act of God, etc.",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 150,
+        "time": "2m 30s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-7ce14a69-5739-4714-9514-21fe8c55d9a4",
+    "name": "Daily 5 — 13 Aug 2026",
+    "date": "13 Aug 2026",
+    "score": "20/20",
+    "total_score": 20,
+    "total_max": 20,
+    "percentage": 100,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "English Language",
+        "score": "8/8",
+        "percentage": 100,
+        "color": "emerald"
+      },
+      {
+        "name": "Legal Reasoning",
+        "score": "12/12",
+        "percentage": 100,
+        "color": "emerald"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Meaning of words and phrases as used in the passage",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Capacity to contract",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Drawing inferences from the passage",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Capacity to contract",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Ab initio",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-85cae5c2-babb-461a-a021-93857b70d9a2",
+    "name": "JR & SR CLAT Weekly Test — 08 Aug 2026",
+    "date": "8 Aug 2026",
+    "score": "77/120",
+    "total_score": 77,
+    "total_max": 120,
+    "percentage": 64,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Current Affairs & GK",
+        "score": "13/120",
+        "percentage": 43,
+        "color": "blue"
+      },
+      {
+        "name": "Legal Reasoning",
+        "score": "29/120",
+        "percentage": 97,
+        "color": "emerald"
+      },
+      {
+        "name": "Logical Reasoning (BITSAT)",
+        "score": "25/120",
+        "percentage": 83,
+        "color": "emerald"
+      },
+      {
+        "name": "Quantitative Techniques",
+        "score": "10/120",
+        "percentage": 33,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Mixtures and alligation (basic)",
+        "status": "correct",
+        "marks": "1 marks",
+        "time_sec": 74,
+        "time": "1m 14s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Mixtures and alligation (basic)",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 110,
+        "time": "1m 50s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Contingent contracts",
+        "status": "correct",
+        "marks": "1 marks",
+        "time_sec": 118,
+        "time": "1m 58s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "International organisations and their activities (UN, WTO, IMF, World Bank, etc.)",
+        "status": "correct",
+        "marks": "1 marks",
+        "time_sec": 10,
+        "time": "0m 10s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Completing analogies based on given patterns",
+        "status": "correct",
+        "marks": "1 marks",
+        "time_sec": 17,
+        "time": "0m 17s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Problems on averages",
+        "status": "correct",
+        "marks": "1 marks",
+        "time_sec": 53,
+        "time": "0m 53s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Percentage change — increase and decrease",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Art, culture and heritage of India",
+        "status": "correct",
+        "marks": "1 marks",
+        "time_sec": 12,
+        "time": "0m 12s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-8a544cbe-abca-4ad1-827e-9d292328d7c6",
+    "name": "Daily 5 — 8 Aug 2026",
+    "date": "8 Aug 2026",
+    "score": "20/20",
+    "total_score": 20,
+    "total_max": 20,
+    "percentage": 100,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "English Language",
+        "score": "8/8",
+        "percentage": 100,
+        "color": "emerald"
+      },
+      {
+        "name": "Legal Reasoning",
+        "score": "12/12",
+        "percentage": 100,
+        "color": "emerald"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Ab initio",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Capacity to contract",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Capacity to contract",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Drawing inferences from the passage",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Drawing inferences from the passage",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-1c13fc2e-a112-4b6e-950b-b2ce431aede0",
+    "name": "Error Revision — 2 Aug",
+    "date": "2 Aug 2026",
+    "score": "35/40",
+    "total_score": 35,
+    "total_max": 40,
+    "percentage": 88,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Legal Reasoning",
+        "score": "12/12",
+        "percentage": 100,
+        "color": "emerald"
+      },
+      {
+        "name": "Logical Reasoning",
+        "score": "23/28",
+        "percentage": 86,
+        "color": "emerald"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Logical Reasoning",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 6,
+        "time": "0m 6s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Logical Reasoning",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 64,
+        "time": "1m 4s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Logical Reasoning",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 198,
+        "time": "3m 18s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Logical Reasoning",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 242,
+        "time": "4m 2s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Logical Reasoning",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 87,
+        "time": "1m 27s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Logical Reasoning",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 204,
+        "time": "3m 24s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Capacity to contract",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 3,
+        "time": "0m 3s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Ab initio",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 5,
+        "time": "0m 5s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  }
+]

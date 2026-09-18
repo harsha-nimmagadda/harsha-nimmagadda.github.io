@@ -1,0 +1,611 @@
+[
+  {
+    "id": "exam-29d39bbf-49d3-4877-8209-0d1a0b7d6e4b",
+    "name": "Error Revision — 30 Aug",
+    "date": "30 Aug 2026",
+    "score": "107/192",
+    "total_score": 107,
+    "total_max": 192,
+    "percentage": 56,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "47/64",
+        "percentage": 75,
+        "color": "rose"
+      },
+      {
+        "name": "Mathematics",
+        "score": "30/48",
+        "percentage": 67,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "30/80",
+        "percentage": 45,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Mole Concept and Molar Masses",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 9,
+        "time": "0m 9s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Laws of Chemical Combination",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 5,
+        "time": "0m 5s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Trigonometric Equations",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 5,
+        "time": "0m 5s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Elastic Behaviour and Stress-Strain Relationship",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 7,
+        "time": "0m 7s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Nucleophilic Substitution – SN1 and SN2 Mechanisms",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 44,
+        "time": "0m 44s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "Numerical",
+        "topic": "Trigonometric Ratios and Identities",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 5,
+        "time": "0m 5s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Markovnikov's Rule and Anti-Markovnikov's Rule",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Electric Dipole and Dipole in External Field",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 7,
+        "time": "0m 7s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-cf0e2090-88ab-454b-b1bd-185908932a37",
+    "name": "DPP — 30 Aug 2026",
+    "date": "30 Aug 2026",
+    "score": "36/72",
+    "total_score": 36,
+    "total_max": 72,
+    "percentage": 50,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "16/20",
+        "percentage": 80,
+        "color": "rose"
+      },
+      {
+        "name": "Mathematics",
+        "score": "4/8",
+        "percentage": 50,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "16/16",
+        "percentage": 100,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Oxidation Number and Concept of Oxidation-Reduction",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 28,
+        "time": "0m 28s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Acceleration due to Gravity",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 6,
+        "time": "0m 6s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Expression of Concentration – Molality, Molarity, Mole Fraction",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 5,
+        "time": "0m 5s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Position of Hydrogen in Periodic Table",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 24,
+        "time": "0m 24s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Aldol Condensation, Cannizzaro Reaction",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 13,
+        "time": "0m 13s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "L'Hôpital's Rule",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 3,
+        "time": "0m 3s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Gauss's Law and Applications",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 96,
+        "time": "1m 36s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Elastic Behaviour and Stress-Strain Relationship",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 3,
+        "time": "0m 3s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-9d862d22-50f3-4a1a-8905-b2274d6c2aa1",
+    "name": "Daily 5 — 30 Aug 2026",
+    "date": "30 Aug 2026",
+    "score": "8/20",
+    "total_score": 8,
+    "total_max": 20,
+    "percentage": 40,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "0/4",
+        "percentage": 0,
+        "color": "amber"
+      },
+      {
+        "name": "Mathematics",
+        "score": "0/8",
+        "percentage": 0,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "8/8",
+        "percentage": 100,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "Numerical",
+        "topic": "Properties of Definite Integrals",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 90,
+        "time": "1m 30s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "incomplete_solution"
+      },
+      {
+        "q_num": 2,
+        "type": "Numerical",
+        "topic": "Speed of Sound using Resonance Column",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 65,
+        "time": "1m 5s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "Numerical",
+        "topic": "Linear Differential Equations",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 68,
+        "time": "1m 8s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Einstein's Photoelectric Equation",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 48,
+        "time": "0m 48s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Nomenclature – IUPAC System",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 17,
+        "time": "0m 17s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "wrong_option_despite_solving"
+      }
+    ]
+  },
+  {
+    "id": "exam-3beaa58a-7303-4372-b399-7104df0eacd2",
+    "name": "Mock Test — Jee Mains",
+    "date": "29 Aug 2026",
+    "score": "109/360",
+    "total_score": 109,
+    "total_max": 360,
+    "percentage": 30,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "44/120",
+        "percentage": 40,
+        "color": "rose"
+      },
+      {
+        "name": "Mathematics",
+        "score": "34/120",
+        "percentage": 33,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "31/120",
+        "percentage": 30,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Alkenes – Structure, Preparation, Properties",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 22,
+        "time": "0m 22s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "Numerical",
+        "topic": "Force between Two Parallel Currents",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 256,
+        "time": "4m 16s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Radioactivity – Alpha, Beta, Gamma Decay",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 17,
+        "time": "0m 17s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Work Done by Constant and Variable Force",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 44,
+        "time": "0m 44s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Dimensional Analysis",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 93,
+        "time": "1m 33s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 6,
+        "type": "Numerical",
+        "topic": "Second Law and Spontaneity",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 13,
+        "time": "0m 13s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Classification and Nomenclature",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 56,
+        "time": "0m 56s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Real Gases and Van der Waals Equation",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 2,
+        "time": "0m 2s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  },
+  {
+    "id": "exam-ffcbb913-147c-45c2-9da5-8454f52bf553",
+    "name": "DPP — 29 Aug 2026",
+    "date": "29 Aug 2026",
+    "score": "44/72",
+    "total_score": 44,
+    "total_max": 72,
+    "percentage": 61,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "24/24",
+        "percentage": 100,
+        "color": "rose"
+      },
+      {
+        "name": "Mathematics",
+        "score": "8/12",
+        "percentage": 67,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "12/12",
+        "percentage": 100,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Magnetic Force on Moving Charge – Lorentz Force",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 3,
+        "time": "0m 3s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "Numerical",
+        "topic": "Buffer Solutions",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Composition and Inverse of Functions",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 10,
+        "time": "0m 10s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "Numerical",
+        "topic": "pH Scale",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 9,
+        "time": "0m 9s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "L'Hôpital's Rule",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 3,
+        "time": "0m 3s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Fission of Covalent Bond – Homolysis and Heterolysis",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 3,
+        "time": "0m 3s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Differentiation of Implicit Functions",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 11,
+        "time": "0m 11s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Inductive, Resonance, Hyperconjugation Effects",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 11,
+        "time": "0m 11s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  }
+]

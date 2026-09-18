@@ -1,0 +1,647 @@
+[
+  {
+    "id": "exam-19d0ee6b-b492-4252-8220-f8e15ae8943d",
+    "name": "JR MPC STAR MAINS WTM-02_29-08-2026",
+    "date": "29 Aug 2026",
+    "score": "71/300",
+    "total_score": 71,
+    "total_max": 300,
+    "percentage": 24,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "13/100",
+        "percentage": 24,
+        "color": "amber"
+      },
+      {
+        "name": "Mathematics",
+        "score": "28/100",
+        "percentage": 36,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "30/100",
+        "percentage": 36,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Elastic and Inelastic Collisions",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 8,
+        "time": "0m 8s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "Numerical",
+        "topic": "Expression of Concentration – Molality, Molarity, Mole Fraction",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 5,
+        "time": "0m 5s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Coefficient of Restitution",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 787,
+        "time": "13m 7s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Angle between Two Lines",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 14,
+        "time": "0m 14s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Elastic and Inelastic Collisions",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 31,
+        "time": "0m 31s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "Numerical",
+        "topic": "Coefficient of Restitution",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Elastic and Inelastic Collisions",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 10,
+        "time": "0m 10s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Impulse and Momentum",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 27,
+        "time": "0m 27s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-fdb3fa64-4178-4b1e-8d63-ed22a71b167a",
+    "name": "JR MPC STAR_ADV 2025 P1_WTA-01_24-08-2026",
+    "date": "24 Aug 2026",
+    "score": "74/180",
+    "total_score": 74,
+    "total_max": 180,
+    "percentage": 41,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "31/64",
+        "percentage": 56,
+        "color": "rose"
+      },
+      {
+        "name": "Mathematics",
+        "score": "26/64",
+        "percentage": 50,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "17/64",
+        "percentage": 38,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Newton's Second Law – F = ma",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 480,
+        "time": "8m 0s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Distance of a Point from a Line",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 281,
+        "time": "4m 41s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 3,
+        "type": "Numerical",
+        "topic": "Stoichiometry and Stoichiometric Calculations",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 280,
+        "time": "4m 40s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 4,
+        "type": "Numerical",
+        "topic": "Motion of Centre of Mass",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 127,
+        "time": "2m 7s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Balancing of Redox Reactions – Ion Electron Method",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 42,
+        "time": "0m 42s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 6,
+        "type": "Numerical",
+        "topic": "Potential Energy",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 161,
+        "time": "2m 41s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 7,
+        "type": "Numerical",
+        "topic": "Trigonometric Equations",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 455,
+        "time": "7m 35s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "Numerical",
+        "topic": "Centre of Mass",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 94,
+        "time": "1m 34s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      }
+    ]
+  },
+  {
+    "id": "exam-ee0020bb-6146-4077-a06c-bb3ae6010c23",
+    "name": "JR MPC STAR MAINS WTM-01_22-08-2026",
+    "date": "22 Aug 2026",
+    "score": "238/300",
+    "total_score": 238,
+    "total_max": 300,
+    "percentage": 79,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "85/100",
+        "percentage": 88,
+        "color": "rose"
+      },
+      {
+        "name": "Mathematics",
+        "score": "76/100",
+        "percentage": 80,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "77/100",
+        "percentage": 80,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Balancing of Redox Reactions – Ion Electron Method",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 188,
+        "time": "3m 8s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Impulse and Momentum",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 33,
+        "time": "0m 33s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Angle between Two Lines",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 125,
+        "time": "2m 5s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Distance of a Point from a Line",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 16,
+        "time": "0m 16s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Stoichiometry and Stoichiometric Calculations",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 16,
+        "time": "0m 16s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Motion of Centre of Mass",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 45,
+        "time": "0m 45s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Centre of Mass",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 100,
+        "time": "1m 40s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Oxidation Number and Concept of Oxidation-Reduction",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 47,
+        "time": "0m 47s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      }
+    ]
+  },
+  {
+    "id": "exam-d1a59c72-f564-4c78-bc25-802359a1a0b2",
+    "name": "JR MPC JEE ADV 2024 P-2_WTA-04_(17-08-2026)",
+    "date": "17 Aug 2026",
+    "score": "5/180",
+    "total_score": 5,
+    "total_max": 180,
+    "percentage": 3,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "2/68",
+        "percentage": 18,
+        "color": "amber"
+      },
+      {
+        "name": "Mathematics",
+        "score": "13/68",
+        "percentage": 35,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "-10/68",
+        "percentage": 0,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "Numerical",
+        "topic": "Conservation of Mechanical Energy",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 1213,
+        "time": "20m 13s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Multi",
+        "topic": "Various Forms – Point-Slope, Slope-Intercept, Two-Point, Intercept",
+        "status": "wrong",
+        "marks": "-2 marks",
+        "time_sec": 53,
+        "time": "0m 53s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 3,
+        "type": "Passage",
+        "topic": "Various Forms – Point-Slope, Slope-Intercept, Two-Point, Intercept",
+        "status": "correct",
+        "marks": "3 marks",
+        "time_sec": 42,
+        "time": "0m 42s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "Numerical",
+        "topic": "Cartesian Coordinate System",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 61,
+        "time": "1m 1s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 5,
+        "type": "Passage",
+        "topic": "Percentage Composition and Empirical Formula",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 8,
+        "time": "0m 8s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Multi",
+        "topic": "Limiting Reagent",
+        "status": "wrong",
+        "marks": "-2 marks",
+        "time_sec": 124,
+        "time": "2m 4s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Multi",
+        "topic": "Newton's Second Law – F = ma",
+        "status": "wrong",
+        "marks": "-2 marks",
+        "time_sec": 18,
+        "time": "0m 18s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Ionisation Enthalpy",
+        "status": "correct",
+        "marks": "3 marks",
+        "time_sec": 20,
+        "time": "0m 20s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-93f34568-a2f1-4d66-8a03-42e98901a1d9",
+    "name": "JR MPC JEE MAINS WTM-10_(14-08-2026)",
+    "date": "16 Aug 2026",
+    "score": "33/300",
+    "total_score": 33,
+    "total_max": 300,
+    "percentage": 11,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "0/100",
+        "percentage": 0,
+        "color": "amber"
+      },
+      {
+        "name": "Mathematics",
+        "score": "30/100",
+        "percentage": 44,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "3/100",
+        "percentage": 4,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Gravitational Potential Energy",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Various Forms – Point-Slope, Slope-Intercept, Two-Point, Intercept",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 45,
+        "time": "0m 45s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Cartesian Coordinate System",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 48,
+        "time": "0m 48s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Expression of Concentration – Molality, Molarity, Mole Fraction",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Static and Kinetic Friction",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 16,
+        "time": "0m 16s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Valence Bond Theory – Orbital Overlap",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Cartesian Coordinate System",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 12,
+        "time": "0m 12s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Potential Energy",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  }
+]

@@ -1,0 +1,284 @@
+{
+  "pacing_metrics": [
+    {
+      "subject": "Current Affairs & GK",
+      "accuracy": 27,
+      "avg_time_sec": 23,
+      "exam_count": 3
+    },
+    {
+      "subject": "Legal Reasoning",
+      "accuracy": 77,
+      "avg_time_sec": 93,
+      "exam_count": 6
+    },
+    {
+      "subject": "Logical Reasoning",
+      "accuracy": 90,
+      "avg_time_sec": 134,
+      "exam_count": 3
+    },
+    {
+      "subject": "Logical Reasoning (BITSAT)",
+      "accuracy": 57,
+      "avg_time_sec": 71,
+      "exam_count": 3
+    },
+    {
+      "subject": "Quantitative Techniques",
+      "accuracy": 23,
+      "avg_time_sec": 44,
+      "exam_count": 4
+    }
+  ],
+  "topic_recovery_history": [
+    {
+      "subject": "Quantitative Techniques",
+      "topic": "Partnership problems (basic)",
+      "early_acc": 0,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Quantitative Techniques",
+      "topic": "Discount and marked price",
+      "early_acc": 0,
+      "recent_acc": 67
+    },
+    {
+      "subject": "Logical Reasoning (BITSAT)",
+      "topic": "Completing analogies based on given patterns",
+      "early_acc": 40,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Legal Reasoning",
+      "topic": "Free consent — coercion, undue influence, fraud, misrepresentation, mistake",
+      "early_acc": 43,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Quantitative Techniques",
+      "topic": "Problems on averages",
+      "early_acc": 0,
+      "recent_acc": 50
+    },
+    {
+      "subject": "Logical Reasoning (BITSAT)",
+      "topic": "Classifying items based on logical categories",
+      "early_acc": 21,
+      "recent_acc": 68
+    }
+  ],
+  "heatmap_data": [
+    {
+      "subject": "Current Affairs & GK",
+      "chapters": [
+        {
+          "name": "Ancient Indian history and civilizations",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 0,
+          "hard_qs": 1
+        },
+        {
+          "name": "Art, culture and heritage of India",
+          "easy_acc": 67,
+          "easy_qs": 9,
+          "med_acc": 0,
+          "med_qs": 18,
+          "hard_acc": 23,
+          "hard_qs": 13
+        },
+        {
+          "name": "Awards and records in sports",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 20,
+          "hard_qs": 5
+        },
+        {
+          "name": "Indian literature and languages",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 2,
+          "hard_acc": 0,
+          "hard_qs": 1
+        }
+      ]
+    },
+    {
+      "subject": "English Language",
+      "chapters": [
+        {
+          "name": "Drawing inferences from the passage",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 4,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Identifying contextual usage of words",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 8,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Meaning of words and phrases as used in the passage",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Legal Reasoning",
+      "chapters": [
+        {
+          "name": "Ab initio",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 80,
+          "med_qs": 10,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Capacity to contract",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 50,
+          "med_qs": 4,
+          "hard_acc": 100,
+          "hard_qs": 3
+        },
+        {
+          "name": "Consideration and its types",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 50,
+          "med_qs": 4,
+          "hard_acc": 100,
+          "hard_qs": 4
+        },
+        {
+          "name": "Contingent contracts",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Logical Reasoning",
+      "chapters": [
+        {
+          "name": "General Module",
+          "easy_acc": 90,
+          "easy_qs": 10,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Logical Reasoning (BITSAT)",
+      "chapters": [
+        {
+          "name": "Applying principles to new situations",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 47,
+          "hard_qs": 15
+        },
+        {
+          "name": "Classifying items based on logical categories",
+          "easy_acc": 100,
+          "easy_qs": 1,
+          "med_acc": 29,
+          "med_qs": 21,
+          "hard_acc": 45,
+          "hard_qs": 11
+        },
+        {
+          "name": "Completing analogies based on given patterns",
+          "easy_acc": 100,
+          "easy_qs": 3,
+          "med_acc": 67,
+          "med_qs": 3,
+          "hard_acc": 50,
+          "hard_qs": 4
+        },
+        {
+          "name": "Pattern-based reasoning within passages",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 67,
+          "hard_qs": 15
+        }
+      ]
+    },
+    {
+      "subject": "Quantitative Techniques",
+      "chapters": [
+        {
+          "name": "Bar graphs — reading and interpreting data",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": 0,
+          "hard_qs": 1
+        },
+        {
+          "name": "Calculating percentage from graphs",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 0,
+          "hard_qs": 1
+        },
+        {
+          "name": "Calculating ratios and comparisons from data",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 50,
+          "hard_qs": 2
+        },
+        {
+          "name": "Cost price, selling price and profit/loss",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 0,
+          "hard_qs": 1
+        }
+      ]
+    }
+  ]
+}

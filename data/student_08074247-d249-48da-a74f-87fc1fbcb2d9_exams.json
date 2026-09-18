@@ -1,0 +1,593 @@
+[
+  {
+    "id": "exam-9fe1cff2-8562-4a20-887b-02b11dfae0cf",
+    "name": "DPP — 30 Aug 2026",
+    "date": "30 Aug 2026",
+    "score": "36/72",
+    "total_score": 36,
+    "total_max": 72,
+    "percentage": 50,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "8/20",
+        "percentage": 40,
+        "color": "emerald"
+      },
+      {
+        "name": "Botany",
+        "score": "0/4",
+        "percentage": 0,
+        "color": "amber"
+      },
+      {
+        "name": "Chemistry",
+        "score": "8/12",
+        "percentage": 67,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "12/28",
+        "percentage": 43,
+        "color": "blue"
+      },
+      {
+        "name": "Zoology",
+        "score": "8/8",
+        "percentage": 100,
+        "color": "emerald"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Kinetic energy and molecular speeds (elementary idea)",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 84,
+        "time": "1m 24s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Elastic and inelastic collisions in one and two dimensions",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 7,
+        "time": "0m 7s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Carbon resistors – colour code",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Combination of capacitors in series and in parallel",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 9,
+        "time": "0m 9s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Composition of blood — plasma and formed elements",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 20,
+        "time": "0m 20s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Combination of capacitors in series and in parallel",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 6,
+        "time": "0m 6s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Phylum Chordata",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 35,
+        "time": "0m 35s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Morphology, anatomy and functions of different systems (digestive, circulatory, respiratory, nervous and reproductive) of an insect – cockroach (brief account only)",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 8,
+        "time": "0m 8s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  },
+  {
+    "id": "exam-94292c73-c5e0-444c-8c8f-8f0091ca5212",
+    "name": "Daily 5 — 30 Aug 2026",
+    "date": "30 Aug 2026",
+    "score": "4/20",
+    "total_score": 4,
+    "total_max": 20,
+    "percentage": 20,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "0/8",
+        "percentage": 0,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "4/8",
+        "percentage": 50,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "0/4",
+        "percentage": 0,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Transcription, genetic code, translation",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "incomplete_solution"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Basic concepts of immunology – vaccines",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "misread_question"
+      },
+      {
+        "q_num": 3,
+        "type": "Assertion-Reason",
+        "topic": "Some important polymers – natural and synthetic like polythene, nylon, polyesters, bakelite, rubber",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 5,
+        "time": "0m 5s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "time_management"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Alcohols – nomenclature, methods of preparation, physical and chemical properties",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 9,
+        "time": "0m 9s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Drift velocity and mobility and their relation with electric current",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "no_concept_knowledge"
+      }
+    ]
+  },
+  {
+    "id": "exam-5fc87e53-7748-4d44-9574-f897f4658817",
+    "name": "SR BIPC NCERT Test-19 (29-08-2026)",
+    "date": "29 Aug 2026",
+    "score": "212/320",
+    "total_score": 212,
+    "total_max": 320,
+    "percentage": 66,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "140/160",
+        "percentage": 90,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "56/80",
+        "percentage": 75,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "16/80",
+        "percentage": 30,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Alkylation and acylation of amines",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 8,
+        "time": "0m 8s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Alternating currents – peak and RMS value of alternating current/voltage",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 21,
+        "time": "0m 21s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Photorespiration",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 61,
+        "time": "1m 1s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Birth control – need and methods, contraception and medical termination of pregnancy (MTP)",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 22,
+        "time": "0m 22s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Birth control – need and methods, contraception and medical termination of pregnancy (MTP)",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 13,
+        "time": "0m 13s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Factors affecting photosynthesis",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 15,
+        "time": "0m 15s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Infertility and assisted reproductive technologies – IVF, ZIFT, GIFT (elementary idea for general awareness)",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 17,
+        "time": "0m 17s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Physical properties — H-bonding, BP, basicity",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 10,
+        "time": "0m 10s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-b860ab0f-14c1-421d-bed1-7f180cfaa540",
+    "name": "Daily 5 — 26 Aug 2026",
+    "date": "26 Aug 2026",
+    "score": "8/20",
+    "total_score": 8,
+    "total_max": 20,
+    "percentage": 40,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "0/4",
+        "percentage": 0,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "0/8",
+        "percentage": 0,
+        "color": "amber"
+      },
+      {
+        "name": "Physics",
+        "score": "8/8",
+        "percentage": 100,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Cardiac cycle, cardiac output, ECG",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 9,
+        "time": "0m 9s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "no_concept_knowledge"
+      },
+      {
+        "q_num": 2,
+        "type": "Assertion-Reason",
+        "topic": "Electric field lines",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 2,
+        "time": "0m 2s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Redox reactions",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "no_concept_knowledge"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Force between two parallel current-carrying conductors – definition of ampere",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Specific and molar conductivity",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 12,
+        "time": "0m 12s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "incomplete_solution"
+      }
+    ]
+  },
+  {
+    "id": "exam-d8dd27f4-04ee-466f-8c5a-841e18230a89",
+    "name": "DPP — 25 Aug 2026",
+    "date": "25 Aug 2026",
+    "score": "36/72",
+    "total_score": 36,
+    "total_max": 72,
+    "percentage": 50,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "8/12",
+        "percentage": 67,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "16/28",
+        "percentage": 57,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "8/28",
+        "percentage": 29,
+        "color": "blue"
+      },
+      {
+        "name": "Zoology",
+        "score": "4/4",
+        "percentage": 100,
+        "color": "emerald"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Self and mutual inductance",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 3,
+        "time": "0m 3s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Need for displacement current",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Projectile motion",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 3,
+        "time": "0m 3s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Equilibrium of concurrent forces",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Force between two parallel current-carrying conductors – definition of ampere",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 2,
+        "time": "0m 2s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Kinetic energy and molecular speeds (elementary idea)",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Electrolysis and laws of electrolysis (Faraday's laws)",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Pteridophytes",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 2,
+        "time": "0m 2s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  }
+]

@@ -1,0 +1,240 @@
+[
+  {
+    "subject": "Current Affairs & GK",
+    "percentage": 22,
+    "color": "amber",
+    "subsections": [
+      {
+        "name": "Art, culture and heritage of India (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Major national and international sporting events (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Awards and records in sports (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Indian literature and languages (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "International organisations and their activities (UN, WTO, IMF, World Bank, etc.)",
+        "percentage": 50
+      },
+      {
+        "name": "Ancient Indian history and civilizations (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Major judicial decisions and landmark judgments (Critical)",
+        "percentage": 0
+      }
+    ]
+  },
+  {
+    "subject": "English Language",
+    "percentage": 100,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Identifying contextual usage of words",
+        "percentage": 100
+      },
+      {
+        "name": "Drawing inferences from the passage",
+        "percentage": 100
+      },
+      {
+        "name": "Meaning of words and phrases as used in the passage",
+        "percentage": 100
+      }
+    ]
+  },
+  {
+    "subject": "Legal Reasoning",
+    "percentage": 77,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Capacity to contract",
+        "percentage": 88
+      },
+      {
+        "name": "Defences in tort — consent, contributory negligence, act of God, etc.",
+        "percentage": 94
+      },
+      {
+        "name": "Offer and acceptance",
+        "percentage": 77
+      },
+      {
+        "name": "Free consent — coercion, undue influence, fraud, misrepresentation, mistake",
+        "percentage": 69
+      },
+      {
+        "name": "Consideration and its types",
+        "percentage": 82
+      },
+      {
+        "name": "Ab initio",
+        "percentage": 80
+      },
+      {
+        "name": "Void, voidable, valid and unenforceable contracts",
+        "percentage": 57
+      },
+      {
+        "name": "Essentials of a valid contract",
+        "percentage": 100
+      },
+      {
+        "name": "General conditions of liability in tort (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Damnum sine injuria and injuria sine damno",
+        "percentage": 67
+      },
+      {
+        "name": "Volenti non fit injuria (consent is a defence) (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Contingent contracts",
+        "percentage": 100
+      },
+      {
+        "name": "Remedies in tort — damages, injunction, restitution (Critical)",
+        "percentage": 0
+      }
+    ]
+  },
+  {
+    "subject": "Logical Reasoning",
+    "percentage": 90,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Core Fundamentals",
+        "percentage": 90
+      }
+    ]
+  },
+  {
+    "subject": "Logical Reasoning (BITSAT)",
+    "percentage": 57,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Classifying items based on logical categories",
+        "percentage": 45
+      },
+      {
+        "name": "Applying principles to new situations",
+        "percentage": 47
+      },
+      {
+        "name": "Pattern-based reasoning within passages",
+        "percentage": 67
+      },
+      {
+        "name": "Sequence and series patterns in context",
+        "percentage": 83
+      },
+      {
+        "name": "Completing analogies based on given patterns",
+        "percentage": 70
+      }
+    ]
+  },
+  {
+    "subject": "Quantitative Techniques",
+    "percentage": 20,
+    "color": "amber",
+    "subsections": [
+      {
+        "name": "Mixtures and alligation (basic) (Critical)",
+        "percentage": 3
+      },
+      {
+        "name": "Profit and loss percentage (Critical)",
+        "percentage": 11
+      },
+      {
+        "name": "Ratio and proportion — direct and inverse (High Leak)",
+        "percentage": 29
+      },
+      {
+        "name": "Discount and marked price (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Problems on averages (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Partnership problems (basic)",
+        "percentage": 50
+      },
+      {
+        "name": "Percentage — calculation and application",
+        "percentage": 50
+      },
+      {
+        "name": "Percentage change — increase and decrease (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Pie charts — reading and interpreting data",
+        "percentage": 67
+      },
+      {
+        "name": "Bar graphs — reading and interpreting data",
+        "percentage": 50
+      },
+      {
+        "name": "Tables — reading and interpreting data",
+        "percentage": 50
+      },
+      {
+        "name": "Calculating ratios and comparisons from data",
+        "percentage": 50
+      },
+      {
+        "name": "Calculating percentage from graphs (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Successive discounts (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Line graphs — reading and interpreting data",
+        "percentage": 100
+      },
+      {
+        "name": "Finding missing values in data sets",
+        "percentage": 100
+      },
+      {
+        "name": "Cost price, selling price and profit/loss (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Weighted average (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Core Fundamentals (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Questions on deriving information and applying basic mathematical operations (Critical)",
+        "percentage": 0
+      }
+    ]
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "subject": "Current Affairs & GK",
+    "percentage": 55,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Major national and international sporting events",
+        "percentage": 36
+      },
+      {
+        "name": "ICC Cricket events and outcomes",
+        "percentage": 70
+      },
+      {
+        "name": "Indian athletes and achievements",
+        "percentage": 63
+      },
+      {
+        "name": "Awards and records in sports",
+        "percentage": 50
+      },
+      {
+        "name": "Olympics, Commonwealth Games, Asian Games",
+        "percentage": 60
+      }
+    ]
+  },
+  {
+    "subject": "Logical Reasoning",
+    "percentage": 45,
+    "color": "blue",
+    "subsections": [
+      {
+        "name": "Displacement and Final Position",
+        "percentage": 39
+      },
+      {
+        "name": "Rotation-based Direction Problems",
+        "percentage": 46
+      },
+      {
+        "name": "Cardinal and Ordinal Directions",
+        "percentage": 56
+      }
+    ]
+  },
+  {
+    "subject": "Quantitative Techniques",
+    "percentage": 35,
+    "color": "blue",
+    "subsections": [
+      {
+        "name": "Simple Interest Formula and Applications (High Leak)",
+        "percentage": 35
+      }
+    ]
+  }
+]

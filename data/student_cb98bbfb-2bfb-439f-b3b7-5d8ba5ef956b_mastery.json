@@ -1,0 +1,2249 @@
+[
+  {
+    "subject": "Chemistry",
+    "percentage": 32,
+    "color": "rose",
+    "subsections": [
+      {
+        "name": "Isomerism – Structural and Stereoisomerism (High Leak)",
+        "percentage": 24
+      },
+      {
+        "name": "Inductive, Resonance, Hyperconjugation Effects (Critical)",
+        "percentage": 18
+      },
+      {
+        "name": "Law of Mass Action and Equilibrium Constants Kp and Kc (High Leak)",
+        "percentage": 35
+      },
+      {
+        "name": "Nomenclature – IUPAC System",
+        "percentage": 42
+      },
+      {
+        "name": "Nucleophilic Substitution – SN1 and SN2 Mechanisms (High Leak)",
+        "percentage": 31
+      },
+      {
+        "name": "Expression of Concentration – Molality, Molarity, Mole Fraction",
+        "percentage": 55
+      },
+      {
+        "name": "Oxidation Number and Concept of Oxidation-Reduction",
+        "percentage": 41
+      },
+      {
+        "name": "Bohr's Atomic Model (High Leak)",
+        "percentage": 26
+      },
+      {
+        "name": "Stoichiometry and Stoichiometric Calculations",
+        "percentage": 42
+      },
+      {
+        "name": "VSEPR Theory and Molecular Shapes",
+        "percentage": 40
+      },
+      {
+        "name": "Preparation and Properties of Alkanes",
+        "percentage": 41
+      },
+      {
+        "name": "Colloids – Lyophilic and Lyophobic (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Stereochemistry — R/S Configuration, E/Z Isomerism, Optical Activity & Enantiomers (High Leak)",
+        "percentage": 35
+      },
+      {
+        "name": "Abnormal Molar Masses (High Leak)",
+        "percentage": 34
+      },
+      {
+        "name": "Aldol Condensation, Cannizzaro Reaction (High Leak)",
+        "percentage": 32
+      },
+      {
+        "name": "Preparation and Properties of Alcohols (High Leak)",
+        "percentage": 32
+      },
+      {
+        "name": "Percentage Composition and Empirical Formula",
+        "percentage": 43
+      },
+      {
+        "name": "Methods of Purification and Quantitative Analysis (High Leak)",
+        "percentage": 32
+      },
+      {
+        "name": "Mole Concept and Molar Masses",
+        "percentage": 55
+      },
+      {
+        "name": "Nucleophiles, Electrophiles, Free Radicals (High Leak)",
+        "percentage": 32
+      },
+      {
+        "name": "Orbitals and Quantum Numbers",
+        "percentage": 36
+      },
+      {
+        "name": "First Law of Thermodynamics (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Group 15 – Nitrogen Family: Nitrogen, NH3, HNO3, Phosphorus, P4O10",
+        "percentage": 50
+      },
+      {
+        "name": "Dipole Moment (High Leak)",
+        "percentage": 35
+      },
+      {
+        "name": "Physical and Chemical Properties of Haloalkanes (High Leak)",
+        "percentage": 32
+      },
+      {
+        "name": "Nernst Equation (Critical)",
+        "percentage": 16
+      },
+      {
+        "name": "Hybridisation – sp, sp2, sp3, sp3d, sp3d2 (Critical)",
+        "percentage": 11
+      },
+      {
+        "name": "Preparation and Properties of Amines",
+        "percentage": 37
+      },
+      {
+        "name": "Acids, Bases – Arrhenius, Brønsted-Lowry, Lewis Concepts",
+        "percentage": 42
+      },
+      {
+        "name": "Alkanes – Classification, Nomenclature, Isomerism",
+        "percentage": 47
+      },
+      {
+        "name": "Bond Order and Magnetic Properties",
+        "percentage": 39
+      },
+      {
+        "name": "Kossel-Lewis Approach to Chemical Bonding (High Leak)",
+        "percentage": 28
+      },
+      {
+        "name": "Solubility Product Ksp and Common Ion Effect (High Leak)",
+        "percentage": 24
+      },
+      {
+        "name": "Alkenes – Structure, Preparation, Properties (High Leak)",
+        "percentage": 35
+      },
+      {
+        "name": "Enthalpies of Combustion, Formation, Neutralisation, Sublimation (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Half-Life Period",
+        "percentage": 47
+      },
+      {
+        "name": "Acidity of Carboxylic Acids (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Atomic Radii and Ionic Radii (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Aromatic Hydrocarbons – Benzene: Structure and Aromaticity (Critical)",
+        "percentage": 7
+      },
+      {
+        "name": "Electronegativity",
+        "percentage": 36
+      },
+      {
+        "name": "Reactions of Carboxylic Acids (High Leak)",
+        "percentage": 29
+      },
+      {
+        "name": "Reactions – Dehydration, Oxidation",
+        "percentage": 64
+      },
+      {
+        "name": "Equivalent Concept & Normality in Titrations (High Leak)",
+        "percentage": 29
+      },
+      {
+        "name": "Gaseous State – Gas Laws",
+        "percentage": 50
+      },
+      {
+        "name": "Ionisation Enthalpy (High Leak)",
+        "percentage": 29
+      },
+      {
+        "name": "Ionic Bond – Lattice Enthalpy",
+        "percentage": 36
+      },
+      {
+        "name": "Internal Energy and Enthalpy",
+        "percentage": 36
+      },
+      {
+        "name": "Diazonium Salts – Preparation and Uses",
+        "percentage": 54
+      },
+      {
+        "name": "Alkynes – Structure, Preparation, Properties (Critical)",
+        "percentage": 15
+      },
+      {
+        "name": "Preparation and Properties of Phenols (High Leak)",
+        "percentage": 23
+      },
+      {
+        "name": "Electrophilic Aromatic Substitution (Critical)",
+        "percentage": 15
+      },
+      {
+        "name": "Electrophilic Substitution in Phenol (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Basicity of Amines (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Ionisation of Weak Acids and Bases – Ka, Kb (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Faraday's Laws of Electrolysis (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Buffer Solutions (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Balancing of Redox Reactions – Ion Electron Method (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Important Compounds – KMnO4, K2Cr2O7 (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Electronic Configuration and Periodic Table",
+        "percentage": 50
+      },
+      {
+        "name": "Classification of Organic Compounds (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Preparation of Aldehydes and Ketones",
+        "percentage": 55
+      },
+      {
+        "name": "Physical and Chemical Properties of Aldehydes and Ketones (High Leak)",
+        "percentage": 27
+      },
+      {
+        "name": "pH Scale",
+        "percentage": 45
+      },
+      {
+        "name": "Oxidation and Reduction of Carbonyl Compounds (Critical)",
+        "percentage": 9
+      },
+      {
+        "name": "Bond Enthalpy and Lattice Energy (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Elevation in Boiling Point (Critical)",
+        "percentage": 9
+      },
+      {
+        "name": "Crystal Field Splitting and Magnetic Properties",
+        "percentage": 36
+      },
+      {
+        "name": "Dual Nature of Matter – de Broglie Relation (Critical)",
+        "percentage": 9
+      },
+      {
+        "name": "Fundamental Concepts in Organic Reaction Mechanism (High Leak)",
+        "percentage": 27
+      },
+      {
+        "name": "Group 18 – Noble Gases: Properties and Compounds of Xenon (Critical)",
+        "percentage": 9
+      },
+      {
+        "name": "Tetravalency of Carbon and Shapes of Organic Molecules (Critical)",
+        "percentage": 18
+      },
+      {
+        "name": "Optical Rotation and Chirality (Critical)",
+        "percentage": 10
+      },
+      {
+        "name": "Covalent Bond – Lewis Structures",
+        "percentage": 40
+      },
+      {
+        "name": "Modern Periodic Law and Long Form of Periodic Table",
+        "percentage": 40
+      },
+      {
+        "name": "Integrated Rate Equations – Zero and First Order (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Nucleophilic Addition Reactions",
+        "percentage": 60
+      },
+      {
+        "name": "System, Surroundings and Types of Systems",
+        "percentage": 50
+      },
+      {
+        "name": "Factors Affecting Equilibrium – Le Chatelier's Principle (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "General Properties of Transition Metals (d-block) (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Classification and Nomenclature",
+        "percentage": 44
+      },
+      {
+        "name": "Atomic and Molecular Masses",
+        "percentage": 56
+      },
+      {
+        "name": "Markovnikov's Rule and Anti-Markovnikov's Rule",
+        "percentage": 63
+      },
+      {
+        "name": "Kohlrausch's Law",
+        "percentage": 63
+      },
+      {
+        "name": "Conductance – Specific, Molar, Equivalent (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Classification, Nomenclature and Isomerism (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Quantum numbers — principal (n), azimuthal (l), magnetic (m_l), spin (m_s)",
+        "percentage": 57
+      },
+      {
+        "name": "Electronic Configuration of Elements",
+        "percentage": 57
+      },
+      {
+        "name": "Ionic Equilibrium in Solutions",
+        "percentage": 43
+      },
+      {
+        "name": "Electrolytic Cells and Electrolysis",
+        "percentage": 43
+      },
+      {
+        "name": "Rate Law and Rate Constant (Critical)",
+        "percentage": 14
+      },
+      {
+        "name": "Molecular Orbital Theory – LCAO (Critical)",
+        "percentage": 14
+      },
+      {
+        "name": "Nomenclature, Structure and Preparation of Carboxylic Acids (High Leak)",
+        "percentage": 29
+      },
+      {
+        "name": "Rearangement Reactions (Pinacol, Beckmann, Hofmann, Baeyer-Villiger) (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Electrochemical Series and Cell EMF",
+        "percentage": 67
+      },
+      {
+        "name": "Depression in Freezing Point (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Osmosis and Osmotic Pressure – Van't Hoff Factor (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Preparation and properties of K2Cr2O7 and KMnO4 (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Carbohydrates – Classification, Structure, Functions (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Laws of Chemical Combination",
+        "percentage": 40
+      },
+      {
+        "name": "Ligands, Coordination Number, IUPAC Nomenclature (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Hess's Law of Constant Heat Summation (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Vapour Pressure of Solutions – Raoult's Law (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Haloarenes – Properties and Nucleophilic Aromatic Substitution",
+        "percentage": 40
+      },
+      {
+        "name": "Electron Gain Enthalpy (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Preparation and Properties of Ethers (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Periodicity in Valence and Oxidation States (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Monosaccharides – Glucose and Fructose",
+        "percentage": 60
+      },
+      {
+        "name": "Entropy and Gibbs Free Energy",
+        "percentage": 50
+      },
+      {
+        "name": "Fission of Covalent Bond – Homolysis and Heterolysis (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Standard Electrode Potential",
+        "percentage": 50
+      },
+      {
+        "name": "Hydrogen Bonding – Inter and Intramolecular (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Equilibrium in Chemical Processes – Dynamic Nature (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Heisenberg's uncertainty principle: \\Delta x \\cdot \\Delta p \\geq h/4\\pi (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Solubility and Henry's Law (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Group 13 – Boron Family: Borax, Boron Hydrides, Aluminium (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Schrodinger Wave Equation & Radial/Angular Probability Distributions (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Group 14 – Carbon Family: Allotropes of Carbon, CO, CO2, Silicates (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Ideal Gas Equation (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Industrial Uses – Cement, Plaster of Paris",
+        "percentage": 100
+      },
+      {
+        "name": "Group 17 – Halogens: F, Cl, Br, I – Preparation and Properties (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Group 16 – Oxygen Family: Oxygen, Ozone, Sulphur, H2S, SO2, SO3, H2SO4 (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Limiting Reagent (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Long form of periodic table — periods and groups",
+        "percentage": 67
+      },
+      {
+        "name": "Environmental Effects – DDT, Freons (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Energy of electron in nth orbit: E_n = -13.6/n^2 eV (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "MO Theory (Molecular Orbital Theory) for diatomic molecules (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Order and Molecularity of a Reaction (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Proteins – Amino Acids and Peptide Bond (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Electronic configuration of elements up to Z=30 (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Electromagnetic spectrum — wavelength, frequency, wave number (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Rate of Chemical Reaction (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Disaccharides – Sucrose, Maltose, Lactose (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Core Fundamentals (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Real Gases and Van der Waals Equation (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Compounds of Sodium – NaOH, Na2CO3, NaHCO3, NaCl",
+        "percentage": 67
+      },
+      {
+        "name": "Resonance and Formal Charge (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Rules for Filling Orbitals – Aufbau, Hund, Pauli (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Second Law and Spontaneity (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Batteries – Primary, Secondary, Fuel Cells (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Anomalous Properties of Second Period Elements (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Amines – Nomenclature, Classification and Structure",
+        "percentage": 67
+      },
+      {
+        "name": "Synthetic Polymers – Polyethylene, Nylon, PVC, Teflon (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Discovery of Electron, Proton and Neutron (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Trends in Properties of d-block Elements (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "General introduction – importance and scope of chemistry",
+        "percentage": 50
+      },
+      {
+        "name": "Lanthanoid Contraction",
+        "percentage": 50
+      },
+      {
+        "name": "Catalysis – Homogeneous and Heterogeneous",
+        "percentage": 50
+      },
+      {
+        "name": "Anomalous Properties of Beryllium (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Spectral series: Lyman, Balmer, Paschen, Brackett, Pfund",
+        "percentage": 50
+      },
+      {
+        "name": "Quantum Mechanical Model of Atom (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Anomalous Properties of Lithium (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Radius of nth orbit: r_n = 0.529 n^2 Å",
+        "percentage": 50
+      },
+      {
+        "name": "Shapes of s, p, d Orbitals (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Lanthanoids – Electronic Configuration and Properties",
+        "percentage": 100
+      },
+      {
+        "name": "Heisenberg's Uncertainty Principle",
+        "percentage": 50
+      },
+      {
+        "name": "Valence Bond Theory – Orbital Overlap",
+        "percentage": 100
+      },
+      {
+        "name": "Organocopper, Organolithium & Advanced Organometallic Reactions (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Dalton's Law of Partial Pressures",
+        "percentage": 100
+      },
+      {
+        "name": "Cyanides and Isocyanides",
+        "percentage": 50
+      },
+      {
+        "name": "Nodes — radial and angular nodes",
+        "percentage": 100
+      },
+      {
+        "name": "Colligative Properties – Relative Lowering of VP",
+        "percentage": 50
+      },
+      {
+        "name": "Hydrolysis of Salts",
+        "percentage": 50
+      },
+      {
+        "name": "Refining – Distillation, Zone Refining, Electrolytic Refining (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Relationship between ΔG and Equilibrium Constant (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Thomson and Rutherford Atomic Models",
+        "percentage": 100
+      },
+      {
+        "name": "Equilibrium constant (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Uses and Industrial Importance (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Modern periodic law (Moseley)",
+        "percentage": 100
+      },
+      {
+        "name": "Extra stability of half-filled and completely filled orbitals (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Natural Polymers – Rubber, Cellulose, Protein (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Nature of C–X Bond (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Concept of oxidation and reduction",
+        "percentage": 100
+      },
+      {
+        "name": "(n+l) rule for filling orbitals (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Nomenclature and Structure of Carbonyl Group (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Electrochemical Cells – Galvanic Cells (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Coupling Reactions and Azo Dyes (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Discovery of proton — canal rays",
+        "percentage": 100
+      },
+      {
+        "name": "Dalton's Atomic Theory",
+        "percentage": 100
+      },
+      {
+        "name": "Alkanes – nomenclature, isomerism, conformations (ethane only), physical properties, chemical reactions",
+        "percentage": 100
+      },
+      {
+        "name": "Directive Influence in Monosubstituted Benzene (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "de Broglie's hypothesis: \\lambda = h/mv (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Alkynes – nomenclature, structure of triple bond, physical properties, methods of preparation, chemical reactions",
+        "percentage": 100
+      },
+      {
+        "name": "Ellingham Diagram (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Electronic configuration and general properties (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "General introduction, electronic configuration, occurrence, trends in physical and chemical properties, uses (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Bohr's model of hydrogen atom",
+        "percentage": 100
+      },
+      {
+        "name": "Actinides — electronic configuration, comparison with lanthanides",
+        "percentage": 100
+      },
+      {
+        "name": "Planck's quantum theory (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Postulates of Bohr's model (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Werner's Theory (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Ideal and Non-Ideal Solutions (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Hydrogen Peroxide – Preparation, Properties and Uses (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Velocity of electron in nth orbit (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Homolytic and heterolytic fission of a covalent bond",
+        "percentage": 100
+      },
+      {
+        "name": "Hydrogen Halides – HCl, HF, Interhalogen Compounds (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Temperature Dependence – Arrhenius Equation (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "General introduction, methods of qualitative and quantitative analysis (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Liquid State – Vapour Pressure, Surface Tension, Viscosity (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Matter and Its Nature (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Mechanism of dehydration",
+        "percentage": 100
+      }
+    ]
+  },
+  {
+    "subject": "English Language",
+    "percentage": 80,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Core Fundamentals",
+        "percentage": 80
+      }
+    ]
+  },
+  {
+    "subject": "Logical Reasoning",
+    "percentage": 0,
+    "color": "amber",
+    "subsections": [
+      {
+        "name": "Core Fundamentals (Critical)",
+        "percentage": 0
+      }
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "percentage": 30,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Trigonometric Ratios and Identities (Critical)",
+        "percentage": 19
+      },
+      {
+        "name": "Trigonometric Equations",
+        "percentage": 38
+      },
+      {
+        "name": "Maxima and Minima – First and Second Derivative Tests (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Tangents and Normals to Conics (High Leak)",
+        "percentage": 22
+      },
+      {
+        "name": "Circle – Standard Equation, General Equation",
+        "percentage": 38
+      },
+      {
+        "name": "Tangents and Normals (High Leak)",
+        "percentage": 24
+      },
+      {
+        "name": "Ellipse – Standard Form, Eccentricity (High Leak)",
+        "percentage": 26
+      },
+      {
+        "name": "Parabola – Standard Forms and Properties (High Leak)",
+        "percentage": 30
+      },
+      {
+        "name": "Slope and Equation of a Line (High Leak)",
+        "percentage": 24
+      },
+      {
+        "name": "Types of Functions – One-One, Onto, Bijective (High Leak)",
+        "percentage": 35
+      },
+      {
+        "name": "Relation between Roots and Coefficients",
+        "percentage": 39
+      },
+      {
+        "name": "Hyperbola – Standard Form, Eccentricity, Asymptotes (High Leak)",
+        "percentage": 30
+      },
+      {
+        "name": "Continuity and Discontinuity of Functions",
+        "percentage": 47
+      },
+      {
+        "name": "Cartesian Coordinate System",
+        "percentage": 55
+      },
+      {
+        "name": "Pair of Lines (High Leak)",
+        "percentage": 23
+      },
+      {
+        "name": "Consistency and Inconsistency of System of Linear Equations (Critical)",
+        "percentage": 13
+      },
+      {
+        "name": "Composition and Inverse of Functions (High Leak)",
+        "percentage": 30
+      },
+      {
+        "name": "Standard Limits",
+        "percentage": 57
+      },
+      {
+        "name": "Differentiability at a Point (High Leak)",
+        "percentage": 23
+      },
+      {
+        "name": "Operations on Matrices – Addition, Multiplication",
+        "percentage": 48
+      },
+      {
+        "name": "Tangent and Normal to a Circle (High Leak)",
+        "percentage": 24
+      },
+      {
+        "name": "Rate of Change of Quantities (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Transpose, Adjoint and Inverse of a Matrix",
+        "percentage": 46
+      },
+      {
+        "name": "Nature of Roots – Discriminant (High Leak)",
+        "percentage": 30
+      },
+      {
+        "name": "Concept of a Limit (Critical)",
+        "percentage": 4
+      },
+      {
+        "name": "Types of Relations – Reflexive, Symmetric, Transitive, Equivalence (High Leak)",
+        "percentage": 23
+      },
+      {
+        "name": "Various Forms – Point-Slope, Slope-Intercept, Two-Point, Intercept (High Leak)",
+        "percentage": 27
+      },
+      {
+        "name": "Distance of a Point from a Line",
+        "percentage": 36
+      },
+      {
+        "name": "Homogeneous Differential Equations (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Variable Separable Method (Critical)",
+        "percentage": 14
+      },
+      {
+        "name": "Linear Differential Equations (Critical)",
+        "percentage": 14
+      },
+      {
+        "name": "Evaluation of Determinants (High Leak)",
+        "percentage": 24
+      },
+      {
+        "name": "Dot Product of Vectors",
+        "percentage": 55
+      },
+      {
+        "name": "Increasing and Decreasing Functions (Critical)",
+        "percentage": 15
+      },
+      {
+        "name": "Locus Problems & Parametric Approach in Coordinate Geometry (Critical)",
+        "percentage": 11
+      },
+      {
+        "name": "Evaluation of Definite Integrals (Critical)",
+        "percentage": 16
+      },
+      {
+        "name": "Adjoint of a matrix",
+        "percentage": 67
+      },
+      {
+        "name": "Properties of Determinants (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Chain Rule",
+        "percentage": 50
+      },
+      {
+        "name": "Properties of Definite Integrals (High Leak)",
+        "percentage": 29
+      },
+      {
+        "name": "Simplification and Evaluation of Expressions (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Integration using Partial Fractions",
+        "percentage": 50
+      },
+      {
+        "name": "Properties of Triangles — Detailed (Circumcircle, Incircle, Excircles, Pedal Triangle) (Critical)",
+        "percentage": 13
+      },
+      {
+        "name": "Order and Degree of Differential Equations",
+        "percentage": 47
+      },
+      {
+        "name": "Area between Two Curves (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Matrix multiplication",
+        "percentage": 43
+      },
+      {
+        "name": "Modulus and Argument (High Leak)",
+        "percentage": 21
+      },
+      {
+        "name": "Formation of Differential Equations (High Leak)",
+        "percentage": 21
+      },
+      {
+        "name": "Inverse of 2x2 and 3x3 matrices (Critical)",
+        "percentage": 8
+      },
+      {
+        "name": "Union, Intersection, Difference and Complement of Sets (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "L'Hôpital's Rule (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Argand Plane and Polar Representation",
+        "percentage": 36
+      },
+      {
+        "name": "Complex Numbers – Algebraic Properties",
+        "percentage": 64
+      },
+      {
+        "name": "Determinant of 3x3 matrix (Sarrus rule / cofactor expansion)",
+        "percentage": 45
+      },
+      {
+        "name": "Functional Equations (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "General and Particular Solutions (High Leak)",
+        "percentage": 27
+      },
+      {
+        "name": "Area Under Curves — Advanced (Area between multiple curves, parametric curves) (Critical)",
+        "percentage": 10
+      },
+      {
+        "name": "Second Order Derivatives (High Leak)",
+        "percentage": 22
+      },
+      {
+        "name": "Properties of determinants",
+        "percentage": 78
+      },
+      {
+        "name": "Combinations – nCr Formula (High Leak)",
+        "percentage": 22
+      },
+      {
+        "name": "Properties of Inverse Trigonometric Functions (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "General and Middle Terms",
+        "percentage": 44
+      },
+      {
+        "name": "Symmetric and Skew-Symmetric Matrices",
+        "percentage": 50
+      },
+      {
+        "name": "Family of Lines (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Trigonometric Functions and Their Graphs (Critical)",
+        "percentage": 13
+      },
+      {
+        "name": "Applications – Projection, Area, Volume",
+        "percentage": 50
+      },
+      {
+        "name": "Definition, Domain and Range of Inverse Trigonometric Functions",
+        "percentage": 38
+      },
+      {
+        "name": "Differentiation of Implicit Functions",
+        "percentage": 43
+      },
+      {
+        "name": "Cofactors and Applications",
+        "percentage": 71
+      },
+      {
+        "name": "Logarithmic Differentiation (High Leak)",
+        "percentage": 29
+      },
+      {
+        "name": "AM, GM, HM and Their Relations (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Logarithm — Advanced Inequalities and Equations (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Area of Triangle using Determinants (High Leak)",
+        "percentage": 29
+      },
+      {
+        "name": "Cartesian Product of Sets",
+        "percentage": 43
+      },
+      {
+        "name": "Angle between Two Lines",
+        "percentage": 43
+      },
+      {
+        "name": "Chord of Contact",
+        "percentage": 57
+      },
+      {
+        "name": "Differentiation of Inverse Trigonometric Functions (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Sum to n Terms of Special Series – Σn, Σn², Σn³ (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Sum, Product, Quotient Rules of Differentiation (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Properties of inverse of a matrix (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Area under Simple Curves (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Derivatives of Standard Functions",
+        "percentage": 40
+      },
+      {
+        "name": "De Moivre's Theorem",
+        "percentage": 40
+      },
+      {
+        "name": "Chord of Contact and Polar (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Coaxial System of Circles",
+        "percentage": 60
+      },
+      {
+        "name": "Cube Roots of Unity",
+        "percentage": 40
+      },
+      {
+        "name": "Infinite Geometric Series",
+        "percentage": 40
+      },
+      {
+        "name": "Types of Matrices",
+        "percentage": 60
+      },
+      {
+        "name": "Vector Triple Product",
+        "percentage": 40
+      },
+      {
+        "name": "Position Vector of a Point",
+        "percentage": 40
+      },
+      {
+        "name": "Types of Vectors – Zero, Unit, Coinitial, Collinear (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Cross Product of Vectors",
+        "percentage": 50
+      },
+      {
+        "name": "Rolles's Theorem and Mean Value Theorems (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Equation of a Line in 3D – Cartesian and Vector Form (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Arithmetic Progression – nth Term and Sum",
+        "percentage": 50
+      },
+      {
+        "name": "Classical and Empirical Probability (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Binomial Theorem for Positive Integral Indices (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Distance between Two Points in 3D (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Geometric Progression – nth Term and Sum (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Parametric Differentiation (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Scalar Triple Product",
+        "percentage": 67
+      },
+      {
+        "name": "Quadratic Equations with Complex Roots (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Principal Value Branch (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Principle of Mathematical Induction",
+        "percentage": 50
+      },
+      {
+        "name": "Fundamental Theorem of Calculus (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Venn Diagrams (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Integration by Parts",
+        "percentage": 50
+      },
+      {
+        "name": "Integration of Trigonometric Functions (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Continuity & Differentiability — Advanced (Intermediate Value Theorem, Rolle's & LMVT proofs) (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Approximations using Differentials",
+        "percentage": 50
+      },
+      {
+        "name": "Binary Operations (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Conditional Probability and Multiplication Theorem (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Corner Point Method",
+        "percentage": 50
+      },
+      {
+        "name": "Contrapositive and Converse",
+        "percentage": 100
+      },
+      {
+        "name": "Normal Form of a Line (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Pascal's Triangle",
+        "percentage": 50
+      },
+      {
+        "name": "Permutations with Repetitions and Restrictions (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Signs of Trigonometric Functions (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Symmetric and Skew-symmetric matrices (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Types of matrices: row, column, square, diagonal, scalar, identity, null, symmetric, skew-symmetric, orthogonal",
+        "percentage": 50
+      },
+      {
+        "name": "Singular and non-singular matrices (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Random Variable and Probability Distribution (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Square Root of Complex Number (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Applications of Differential Equations – Growth and Decay (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Negation, Conjunction and Disjunction (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Multiplication of a Vector by a Scalar",
+        "percentage": 100
+      },
+      {
+        "name": "Binomial Theorem for Any Index",
+        "percentage": 100
+      },
+      {
+        "name": "Minors and Cofactors (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Mean, Median, Mode of Grouped and Ungrouped Data (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Core Fundamentals (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Integration as Inverse of Differentiation (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Trace of a matrix",
+        "percentage": 100
+      },
+      {
+        "name": "Axiomatic Approach to Probability",
+        "percentage": 100
+      },
+      {
+        "name": "Transpose of a matrix and properties",
+        "percentage": 100
+      },
+      {
+        "name": "Arithmetic-Geometric Progression (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Direction Cosines and Direction Ratios (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Harmonic Progression (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Graphs of Inverse Trigonometric Functions (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Definite Integral as Limit of Sum (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Coplanarity of Lines (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Addition and subtraction of matrices",
+        "percentage": 100
+      },
+      {
+        "name": "Addition of Vectors – Triangle and Parallelogram Law (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Degree and Radian Measure (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Cramer's Rule (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Variance and Standard Deviation (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Shortest Distance between Two Skew Lines (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Binomial Distribution – Mean and Variance (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Scalar multiplication",
+        "percentage": 100
+      }
+    ]
+  },
+  {
+    "subject": "Physics",
+    "percentage": 34,
+    "color": "blue",
+    "subsections": [
+      {
+        "name": "Newton's Second Law – F = ma (High Leak)",
+        "percentage": 32
+      },
+      {
+        "name": "Spring-Mass System (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Projectile Motion (High Leak)",
+        "percentage": 29
+      },
+      {
+        "name": "Motional EMF (High Leak)",
+        "percentage": 34
+      },
+      {
+        "name": "Magnetic Field due to Straight Wire, Circular Loop, Solenoid, Toroid (Critical)",
+        "percentage": 19
+      },
+      {
+        "name": "Graphical representation: position-time, velocity-time, acceleration-time graphs",
+        "percentage": 43
+      },
+      {
+        "name": "Buoyancy and Archimedes' Principle",
+        "percentage": 37
+      },
+      {
+        "name": "Static and Kinetic Friction",
+        "percentage": 39
+      },
+      {
+        "name": "Average and Instantaneous Velocity",
+        "percentage": 74
+      },
+      {
+        "name": "Impulse and Momentum (High Leak)",
+        "percentage": 31
+      },
+      {
+        "name": "Centripetal Force",
+        "percentage": 42
+      },
+      {
+        "name": "Bar Magnet and Magnetic Dipole (High Leak)",
+        "percentage": 24
+      },
+      {
+        "name": "Elastic and Inelastic Collisions (High Leak)",
+        "percentage": 32
+      },
+      {
+        "name": "Simple Harmonic Motion – Kinematics (High Leak)",
+        "percentage": 32
+      },
+      {
+        "name": "Electric Dipole and Dipole in External Field (High Leak)",
+        "percentage": 29
+      },
+      {
+        "name": "Moment of Inertia",
+        "percentage": 38
+      },
+      {
+        "name": "Calorimetry (High Leak)",
+        "percentage": 22
+      },
+      {
+        "name": "Centre of Mass",
+        "percentage": 39
+      },
+      {
+        "name": "Kinematic Equations for Constant Acceleration (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Faraday's Laws of Induction",
+        "percentage": 41
+      },
+      {
+        "name": "Capillary Rise (High Leak)",
+        "percentage": 24
+      },
+      {
+        "name": "Young's Modulus, Bulk Modulus, Shear Modulus",
+        "percentage": 55
+      },
+      {
+        "name": "Laws of Friction",
+        "percentage": 40
+      },
+      {
+        "name": "Combination of Capacitors",
+        "percentage": 45
+      },
+      {
+        "name": "First Law of Thermodynamics (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Thermal Expansion – Linear, Superficial, Volumetric",
+        "percentage": 40
+      },
+      {
+        "name": "Uniformly Accelerated Motion",
+        "percentage": 50
+      },
+      {
+        "name": "Scalars and Vectors",
+        "percentage": 37
+      },
+      {
+        "name": "Heat Transfer – Conduction, Convection, Radiation",
+        "percentage": 42
+      },
+      {
+        "name": "Relative Motion in Two Dimensions (High Leak)",
+        "percentage": 28
+      },
+      {
+        "name": "Gauss's Law and Applications",
+        "percentage": 39
+      },
+      {
+        "name": "Pressure and Pascal's Law (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Motion of Centre of Mass (High Leak)",
+        "percentage": 28
+      },
+      {
+        "name": "Relative Velocity (High Leak)",
+        "percentage": 22
+      },
+      {
+        "name": "Isothermal, Adiabatic, Isobaric and Isochoric Processes",
+        "percentage": 41
+      },
+      {
+        "name": "Composition and Size of Nucleus (High Leak)",
+        "percentage": 35
+      },
+      {
+        "name": "Meter Bridge and Potentiometer",
+        "percentage": 41
+      },
+      {
+        "name": "Uniform Circular Motion (Critical)",
+        "percentage": 13
+      },
+      {
+        "name": "Stefan's Law and Wien's Displacement Law (Critical)",
+        "percentage": 19
+      },
+      {
+        "name": "Magnetic Force on Moving Charge – Lorentz Force",
+        "percentage": 56
+      },
+      {
+        "name": "Bernoulli's Theorem",
+        "percentage": 38
+      },
+      {
+        "name": "Orbital Velocity of Satellites (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Beats (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Coulomb's Law (High Leak)",
+        "percentage": 27
+      },
+      {
+        "name": "Torque and Angular Momentum (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Kirchhoff's Laws",
+        "percentage": 40
+      },
+      {
+        "name": "Dynamics of Rotational Motion",
+        "percentage": 53
+      },
+      {
+        "name": "Capacitors and Capacitance (High Leak)",
+        "percentage": 21
+      },
+      {
+        "name": "Change of State – Latent Heat (High Leak)",
+        "percentage": 21
+      },
+      {
+        "name": "Transverse Nature of EM Waves",
+        "percentage": 36
+      },
+      {
+        "name": "Series and Parallel Combination of Resistors",
+        "percentage": 36
+      },
+      {
+        "name": "Rolling Motion",
+        "percentage": 36
+      },
+      {
+        "name": "Work Function and Threshold Frequency (High Leak)",
+        "percentage": 31
+      },
+      {
+        "name": "Elastic Behaviour and Stress-Strain Relationship (High Leak)",
+        "percentage": 31
+      },
+      {
+        "name": "Einstein's Photoelectric Equation",
+        "percentage": 54
+      },
+      {
+        "name": "EMF, Internal Resistance and Terminal Voltage",
+        "percentage": 46
+      },
+      {
+        "name": "Vector Addition and Subtraction (Critical)",
+        "percentage": 15
+      },
+      {
+        "name": "Kinematics of Rotational Motion",
+        "percentage": 42
+      },
+      {
+        "name": "Surface Tension and Surface Energy",
+        "percentage": 42
+      },
+      {
+        "name": "Uniform and Non-Uniform Motion",
+        "percentage": 50
+      },
+      {
+        "name": "Motion in a Vertical Circle (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Mass Defect and Binding Energy",
+        "percentage": 58
+      },
+      {
+        "name": "Equilibrium of Rigid Bodies (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Electrical Resistivity and Conductivity",
+        "percentage": 50
+      },
+      {
+        "name": "Simple Pendulum (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Variation of g with Altitude, Depth and Latitude (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Motion of Charged Particle in Magnetic Field",
+        "percentage": 36
+      },
+      {
+        "name": "Photoelectric Effect (High Leak)",
+        "percentage": 27
+      },
+      {
+        "name": "Conservation of Angular Momentum (Critical)",
+        "percentage": 18
+      },
+      {
+        "name": "Work-Energy Theorem (Critical)",
+        "percentage": 9
+      },
+      {
+        "name": "Kepler's Laws of Planetary Motion (High Leak)",
+        "percentage": 27
+      },
+      {
+        "name": "Energy Stored in a Capacitor (High Leak)",
+        "percentage": 30
+      },
+      {
+        "name": "Work Done by Constant and Variable Force (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "RMS, Mean and Most Probable Speed (High Leak)",
+        "percentage": 30
+      },
+      {
+        "name": "Energy in SHM (Critical)",
+        "percentage": 10
+      },
+      {
+        "name": "Coefficient of Restitution (High Leak)",
+        "percentage": 30
+      },
+      {
+        "name": "Conservation of Mechanical Energy (Critical)",
+        "percentage": 10
+      },
+      {
+        "name": "Equation of State for Perfect Gas (Critical)",
+        "percentage": 11
+      },
+      {
+        "name": "Calorimetry & Heat Transfer (Conduction, Convection, Radiation — detailed) (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Bohr Model of Hydrogen Atom",
+        "percentage": 44
+      },
+      {
+        "name": "Degrees of Freedom and Law of Equipartition (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Potential due to Point Charge, Dipole, System of Charges (Critical)",
+        "percentage": 14
+      },
+      {
+        "name": "Free Body Diagrams (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Galvanometer, Ammeter and Voltmeter (Critical)",
+        "percentage": 14
+      },
+      {
+        "name": "Electric Current and Drift Velocity (High Leak)",
+        "percentage": 29
+      },
+      {
+        "name": "Electric Potential and Potential Energy (Critical)",
+        "percentage": 14
+      },
+      {
+        "name": "Specific Heat Capacity",
+        "percentage": 43
+      },
+      {
+        "name": "Screw Gauge – Least Count, Measurement",
+        "percentage": 43
+      },
+      {
+        "name": "Parallel Plate Capacitor with Dielectric (High Leak)",
+        "percentage": 29
+      },
+      {
+        "name": "Power",
+        "percentage": 57
+      },
+      {
+        "name": "Carnot Engine and Efficiency (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Force between Two Parallel Currents (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Acceleration due to Gravity (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Electric Field due to Various Charge Distributions (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Dielectrics and Polarisation",
+        "percentage": 50
+      },
+      {
+        "name": "Surface Tension — Excess Pressure in Bubbles/Drops, Capillary Rise Derivation (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Theorems of Parallel and Perpendicular Axes (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Resistance of a Wire using Metre Bridge (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Propagation of Electromagnetic Waves (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Newton's Law of Cooling (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Position, Path Length and Displacement",
+        "percentage": 67
+      },
+      {
+        "name": "Electric Power and Energy",
+        "percentage": 50
+      },
+      {
+        "name": "Energy Levels and Spectral Series (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Properties of EM Waves",
+        "percentage": 40
+      },
+      {
+        "name": "Pressure and Kinetic Energy",
+        "percentage": 40
+      },
+      {
+        "name": "Escape Velocity (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Nuclear Chemistry — Radioactive Decay Series, Binding Energy, Q-value (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Elastic Potential Energy",
+        "percentage": 40
+      },
+      {
+        "name": "Electromagnetic Spectrum",
+        "percentage": 60
+      },
+      {
+        "name": "Logic Gates – AND, OR, NOT, NAND, NOR (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Resolution of Vectors",
+        "percentage": 40
+      },
+      {
+        "name": "Speed of EM Waves (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Conductors and Insulators in Electric Field",
+        "percentage": 60
+      },
+      {
+        "name": "Newton's First Law – Inertia (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Radioactive Decay Law and Half-Life (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Potential Energy",
+        "percentage": 40
+      },
+      {
+        "name": "Gravitational Potential Energy (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Terminal Velocity",
+        "percentage": 75
+      },
+      {
+        "name": "Physical Quantities and SI Units",
+        "percentage": 50
+      },
+      {
+        "name": "Viscosity and Stokes' Law (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Ohm's Law Verification",
+        "percentage": 50
+      },
+      {
+        "name": "Area under v-t graph = displacement",
+        "percentage": 50
+      },
+      {
+        "name": "Newton's Third Law – Action-Reaction (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Young's Double Slit Experiment",
+        "percentage": 50
+      },
+      {
+        "name": "Rutherford's Nuclear Model",
+        "percentage": 50
+      },
+      {
+        "name": "Equations of motion: $v = u + at$, $s = ut + \\frac{1}{2}at^2$, $v^2 = u^2 + 2as$ (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Particle Nature of Light – Photon (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Electric Flux (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Derivatives of standard functions (power, trigonometric, exponential, logarithmic)",
+        "percentage": 100
+      },
+      {
+        "name": "de Broglie Wavelength",
+        "percentage": 67
+      },
+      {
+        "name": "Electric Field and Field Lines (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Earth's Magnetism – Horizontal Component, Declination, Dip",
+        "percentage": 67
+      },
+      {
+        "name": "Diffraction – Single Slit Diffraction (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Equipotential Surfaces (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Errors in Measurement (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Hysteresis and Permanent Magnets (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Nuclear Fission and Fusion (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Ohm's Law and Resistance",
+        "percentage": 67
+      },
+      {
+        "name": "p-n Junction Diode – Forward and Reverse Bias",
+        "percentage": 67
+      },
+      {
+        "name": "Power of a Lens and Combination of Lenses (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Refrigerators and Heat Pumps (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Self-Inductance and Mutual Inductance (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Significant Figures",
+        "percentage": 67
+      },
+      {
+        "name": "Snell's Law and Total Internal Reflection (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Streamline Flow and Turbulent Flow",
+        "percentage": 67
+      },
+      {
+        "name": "Temperature and Heat (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Temperature Dependence of Resistance (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Hooke's Law (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Kinetic Energy",
+        "percentage": 50
+      },
+      {
+        "name": "Rolling Friction (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Speed of Sound using Resonance Column",
+        "percentage": 50
+      },
+      {
+        "name": "Geostationary Satellites (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Standing Waves and Normal Modes",
+        "percentage": 50
+      },
+      {
+        "name": "Intrinsic and Extrinsic Semiconductors",
+        "percentage": 50
+      },
+      {
+        "name": "Magnetisation and Magnetic Intensity",
+        "percentage": 50
+      },
+      {
+        "name": "Equation of state of a perfect gas (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Universal Law of Gravitation",
+        "percentage": 50
+      },
+      {
+        "name": "Force Law for SHM",
+        "percentage": 100
+      },
+      {
+        "name": "Definite integrals and their evaluation",
+        "percentage": 100
+      },
+      {
+        "name": "Determining Refractive Index of Glass Slab",
+        "percentage": 50
+      },
+      {
+        "name": "LC Oscillations (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Wave Motion and Speed of a Wave (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Polarisation by Reflection – Brewster's Law",
+        "percentage": 50
+      },
+      {
+        "name": "Modulation – Amplitude and Frequency Modulation",
+        "percentage": 100
+      },
+      {
+        "name": "Simple Pendulum – Time Period",
+        "percentage": 50
+      },
+      {
+        "name": "Reflection at Curved Surfaces – Mirrors",
+        "percentage": 50
+      },
+      {
+        "name": "Dia-, Para- and Ferromagnetic Substances",
+        "percentage": 50
+      },
+      {
+        "name": "Refraction through a Prism",
+        "percentage": 50
+      },
+      {
+        "name": "Nuclear Force",
+        "percentage": 100
+      },
+      {
+        "name": "Transverse and Longitudinal Waves",
+        "percentage": 100
+      },
+      {
+        "name": "Conservative and Non-Conservative Forces",
+        "percentage": 100
+      },
+      {
+        "name": "Core Fundamentals (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Acceleration — average and instantaneous (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Differentiation as a rate of change (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Eddy Currents",
+        "percentage": 100
+      },
+      {
+        "name": "Dimensional Formulae and Equations",
+        "percentage": 100
+      },
+      {
+        "name": "Vernier Callipers – Least Count, Measurement",
+        "percentage": 100
+      },
+      {
+        "name": "Displacement Relation for Progressive Wave (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Nuclear Reactor (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Radioactivity – Alpha, Beta, Gamma Decay (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Refraction at Plane and Curved Surfaces (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Wheatstone Bridge",
+        "percentage": 100
+      },
+      {
+        "name": "Newton's law of cooling and Stefan's law (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Mean Free Path",
+        "percentage": 100
+      },
+      {
+        "name": "Maxima and minima using derivatives (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Kinetic Theory Assumptions (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Dimensional Analysis (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Series LCR Circuit and Resonance",
+        "percentage": 100
+      },
+      {
+        "name": "Integration as the area under a curve",
+        "percentage": 100
+      },
+      {
+        "name": "Indefinite integrals of standard functions (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Speed and velocity — average and instantaneous",
+        "percentage": 100
+      },
+      {
+        "name": "Gravitational Potential (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Fringe Width and Conditions for Bright and Dark Fringes (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Free, Damped and Forced Oscillations (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Energy Stored in an Inductor (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Young's Modulus by Searle's Method",
+        "percentage": 100
+      },
+      {
+        "name": "Banking of Roads",
+        "percentage": 100
+      },
+      {
+        "name": "Biot-Savart Law (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Thermal Equilibrium and Zeroth Law",
+        "percentage": 100
+      },
+      {
+        "name": "Ampere's Circuital Law",
+        "percentage": 100
+      },
+      {
+        "name": "Thin Lens Formula and Lens Maker's Equation (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Concept of pressure (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Transformers",
+        "percentage": 100
+      }
+    ]
+  }
+]

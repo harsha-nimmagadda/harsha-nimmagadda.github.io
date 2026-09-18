@@ -1,0 +1,267 @@
+{
+  "pacing_metrics": [
+    {
+      "subject": "Biology",
+      "accuracy": 49,
+      "avg_time_sec": 63,
+      "exam_count": 14
+    },
+    {
+      "subject": "Chemistry",
+      "accuracy": 26,
+      "avg_time_sec": 51,
+      "exam_count": 11
+    },
+    {
+      "subject": "Physics",
+      "accuracy": 19,
+      "avg_time_sec": 87,
+      "exam_count": 11
+    }
+  ],
+  "topic_recovery_history": [
+    {
+      "subject": "Biology",
+      "topic": "Flower – parts and their modifications",
+      "early_acc": 0,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Biology",
+      "topic": "Population attributes – growth, birth and death rate, age distribution",
+      "early_acc": 0,
+      "recent_acc": 67
+    },
+    {
+      "subject": "Botany",
+      "topic": "Factors affecting enzyme activity",
+      "early_acc": 33,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Biology",
+      "topic": "Disorders of muscular and skeletal system – myasthenia gravis, tetany, muscular dystrophy, arthritis, osteoporosis, gout",
+      "early_acc": 40,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Biology",
+      "topic": "Hypo- and hyperactivity and related disorders – dwarfism, acromegaly, cretinism, goitre, exophthalmic goitre, diabetes, Addison's disease",
+      "early_acc": 50,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Biology",
+      "topic": "Photochemical and biosynthetic phases of photosynthesis",
+      "early_acc": 0,
+      "recent_acc": 50
+    }
+  ],
+  "heatmap_data": [
+    {
+      "subject": "Biology",
+      "chapters": [
+        {
+          "name": "Anatomy and functions of different parts of flowering plants – meristematic and permanent tissues",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 33,
+          "med_qs": 3,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Anatomy of dicot and monocot root, stem and leaf",
+          "easy_acc": 0,
+          "easy_qs": 1,
+          "med_acc": 0,
+          "med_qs": 6,
+          "hard_acc": 67,
+          "hard_qs": 6
+        },
+        {
+          "name": "Animal tissues – epithelial, connective, muscular and nervous tissues",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Application of biotechnology in health and agriculture",
+          "easy_acc": 0,
+          "easy_qs": 2,
+          "med_acc": 100,
+          "med_qs": 2,
+          "hard_acc": 27,
+          "hard_qs": 11
+        }
+      ]
+    },
+    {
+      "subject": "Botany",
+      "chapters": [
+        {
+          "name": "Algae — chlorophyceae, phaeophyceae, rhodophyceae",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 64,
+          "med_qs": 14,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Anatomy of dicot and monocot leaf",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 33,
+          "med_qs": 24,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Anatomy of dicot and monocot root",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 21,
+          "med_qs": 14,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Anatomy of dicot and monocot stem",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 19,
+          "med_qs": 31,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "chapters": [
+        {
+          "name": "Acidic character of alkynes",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 2,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Activation energy",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 50,
+          "med_qs": 2,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Adsorption – physisorption and chemisorption",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 2,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Alcohols – nomenclature, methods of preparation, physical and chemical properties",
+          "easy_acc": 0,
+          "easy_qs": 1,
+          "med_acc": 20,
+          "med_qs": 5,
+          "hard_acc": 4,
+          "hard_qs": 25
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "chapters": [
+        {
+          "name": "Acceleration due to gravity and its variation with altitude, depth and rotation",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 19,
+          "med_qs": 21,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Addition and subtraction of vectors – graphical method",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 25,
+          "med_qs": 4,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Ampere's law and its applications to infinitely long straight wire",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": 0,
+          "hard_qs": 5
+        },
+        {
+          "name": "Angular momentum",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 33,
+          "med_qs": 6,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Zoology",
+      "chapters": [
+        {
+          "name": "Absorption and assimilation",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Adrenal gland",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 2,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Alimentary canal and digestive glands",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Animal breeding",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "pacing_metrics": [
+    {
+      "subject": "Chemistry",
+      "accuracy": 64,
+      "avg_time_sec": 108,
+      "exam_count": 14
+    },
+    {
+      "subject": "English Proficiency",
+      "accuracy": 50,
+      "avg_time_sec": 174,
+      "exam_count": 1
+    },
+    {
+      "subject": "Logical Reasoning (BITSAT)",
+      "accuracy": 80,
+      "avg_time_sec": 120,
+      "exam_count": 1
+    },
+    {
+      "subject": "Mathematics",
+      "accuracy": 56,
+      "avg_time_sec": 198,
+      "exam_count": 14
+    },
+    {
+      "subject": "Physics",
+      "accuracy": 52,
+      "avg_time_sec": 135,
+      "exam_count": 15
+    }
+  ],
+  "topic_recovery_history": [
+    {
+      "subject": "Physics",
+      "topic": "Uniformly Accelerated Motion",
+      "early_acc": 20,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Chemistry",
+      "topic": "Percentage Composition and Empirical Formula",
+      "early_acc": 0,
+      "recent_acc": 60
+    },
+    {
+      "subject": "Physics",
+      "topic": "Kinematic Equations for Constant Acceleration",
+      "early_acc": 0,
+      "recent_acc": 57
+    },
+    {
+      "subject": "Chemistry",
+      "topic": "Discovery of Electron, Proton and Neutron",
+      "early_acc": 0,
+      "recent_acc": 50
+    },
+    {
+      "subject": "Mathematics",
+      "topic": "Slope and Equation of a Line",
+      "early_acc": 50,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Chemistry",
+      "topic": "Balancing of Redox Reactions – Ion Electron Method",
+      "early_acc": 50,
+      "recent_acc": 100
+    }
+  ],
+  "heatmap_data": [
+    {
+      "subject": "Chemistry",
+      "chapters": [
+        {
+          "name": "Achievements and limitations of Mendeleev's periodic table",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Alcohols",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Anomalous Properties of Beryllium",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 100,
+          "hard_qs": 1
+        },
+        {
+          "name": "Anomalous Properties of Lithium",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "English Proficiency",
+      "chapters": [
+        {
+          "name": "Active & Passive Voice",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 0,
+          "hard_qs": 1
+        },
+        {
+          "name": "Idioms & Phrases",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Inference & Implication",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 0,
+          "hard_qs": 1
+        },
+        {
+          "name": "Modifiers (Misplaced & Dangling)",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 100,
+          "hard_qs": 1
+        }
+      ]
+    },
+    {
+      "subject": "Logical Reasoning (BITSAT)",
+      "chapters": [
+        {
+          "name": "Alphanumeric Series",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 100,
+          "hard_qs": 1
+        },
+        {
+          "name": "Coding in a Fictitious Language",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 100,
+          "hard_qs": 1
+        },
+        {
+          "name": "Cubes & Dice",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 100,
+          "hard_qs": 1
+        },
+        {
+          "name": "Direction Sense Test",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 100,
+          "hard_qs": 1
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "chapters": [
+        {
+          "name": "Adjoint of a matrix",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 2,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Angle between Two Lines",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 33,
+          "med_qs": 12,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Applications of compound angle formulae",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Applications of De Moivre's theorem",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 50,
+          "med_qs": 2,
+          "hard_acc": 0,
+          "hard_qs": 1
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "chapters": [
+        {
+          "name": "Acceleration — average and instantaneous",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Acceleration due to Gravity",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Angle for maximum range (45°) and complementary angles",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 50,
+          "med_qs": 2,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Average and Instantaneous Velocity",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 37,
+          "med_qs": 19,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    }
+  ]
+}

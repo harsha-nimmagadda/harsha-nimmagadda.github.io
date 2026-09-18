@@ -1,0 +1,143 @@
+{
+  "pacing_metrics": [
+    {
+      "subject": "Current Affairs & GK",
+      "accuracy": 55,
+      "avg_time_sec": 16,
+      "exam_count": 1
+    },
+    {
+      "subject": "Logical Reasoning",
+      "accuracy": 45,
+      "avg_time_sec": 95,
+      "exam_count": 1
+    },
+    {
+      "subject": "Quantitative Techniques",
+      "accuracy": 35,
+      "avg_time_sec": 27,
+      "exam_count": 1
+    }
+  ],
+  "topic_recovery_history": [
+    {
+      "subject": "Current Affairs & GK",
+      "topic": "Olympics, Commonwealth Games, Asian Games",
+      "early_acc": 33,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Current Affairs & GK",
+      "topic": "Major national and international sporting events",
+      "early_acc": 17,
+      "recent_acc": 60
+    },
+    {
+      "subject": "Logical Reasoning",
+      "topic": "Displacement and Final Position",
+      "early_acc": 22,
+      "recent_acc": 56
+    },
+    {
+      "subject": "Current Affairs & GK",
+      "topic": "Indian athletes and achievements",
+      "early_acc": 50,
+      "recent_acc": 75
+    },
+    {
+      "subject": "Logical Reasoning",
+      "topic": "Rotation-based Direction Problems",
+      "early_acc": 43,
+      "recent_acc": 50
+    }
+  ],
+  "heatmap_data": [
+    {
+      "subject": "Current Affairs & GK",
+      "chapters": [
+        {
+          "name": "Awards and records in sports",
+          "easy_acc": 100,
+          "easy_qs": 1,
+          "med_acc": 67,
+          "med_qs": 3,
+          "hard_acc": 0,
+          "hard_qs": 2
+        },
+        {
+          "name": "ICC Cricket events and outcomes",
+          "easy_acc": 50,
+          "easy_qs": 2,
+          "med_acc": 67,
+          "med_qs": 6,
+          "hard_acc": 100,
+          "hard_qs": 2
+        },
+        {
+          "name": "Indian athletes and achievements",
+          "easy_acc": 100,
+          "easy_qs": 1,
+          "med_acc": 25,
+          "med_qs": 4,
+          "hard_acc": 100,
+          "hard_qs": 3
+        },
+        {
+          "name": "Major national and international sporting events",
+          "easy_acc": 50,
+          "easy_qs": 2,
+          "med_acc": 17,
+          "med_qs": 6,
+          "hard_acc": 67,
+          "hard_qs": 3
+        }
+      ]
+    },
+    {
+      "subject": "Logical Reasoning",
+      "chapters": [
+        {
+          "name": "Cardinal and Ordinal Directions",
+          "easy_acc": 100,
+          "easy_qs": 2,
+          "med_acc": 60,
+          "med_qs": 5,
+          "hard_acc": 0,
+          "hard_qs": 2
+        },
+        {
+          "name": "Displacement and Final Position",
+          "easy_acc": 33,
+          "easy_qs": 3,
+          "med_acc": 33,
+          "med_qs": 9,
+          "hard_acc": 50,
+          "hard_qs": 6
+        },
+        {
+          "name": "Rotation-based Direction Problems",
+          "easy_acc": 67,
+          "easy_qs": 3,
+          "med_acc": 50,
+          "med_qs": 6,
+          "hard_acc": 25,
+          "hard_qs": 4
+        }
+      ]
+    },
+    {
+      "subject": "Quantitative Techniques",
+      "chapters": [
+        {
+          "name": "Simple Interest Formula and Applications",
+          "easy_acc": 38,
+          "easy_qs": 8,
+          "med_acc": 36,
+          "med_qs": 22,
+          "hard_acc": 30,
+          "hard_qs": 10
+        }
+      ]
+    }
+  ]
+}

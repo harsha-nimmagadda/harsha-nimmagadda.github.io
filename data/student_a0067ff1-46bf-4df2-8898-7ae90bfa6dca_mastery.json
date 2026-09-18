@@ -1,0 +1,965 @@
+[
+  {
+    "subject": "Chemistry",
+    "percentage": 56,
+    "color": "rose",
+    "subsections": [
+      {
+        "name": "Bohr's Atomic Model (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Stoichiometry and Stoichiometric Calculations",
+        "percentage": 53
+      },
+      {
+        "name": "Mole Concept and Molar Masses (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Hybridisation – sp, sp2, sp3, sp3d, sp3d2",
+        "percentage": 93
+      },
+      {
+        "name": "Expression of Concentration – Molality, Molarity, Mole Fraction (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "First Law of Thermodynamics (High Leak)",
+        "percentage": 23
+      },
+      {
+        "name": "Orbitals and Quantum Numbers",
+        "percentage": 50
+      },
+      {
+        "name": "Percentage Composition and Empirical Formula (High Leak)",
+        "percentage": 27
+      },
+      {
+        "name": "VSEPR Theory and Molecular Shapes",
+        "percentage": 55
+      },
+      {
+        "name": "Oxidation Number and Concept of Oxidation-Reduction",
+        "percentage": 55
+      },
+      {
+        "name": "Ionic Bond – Lattice Enthalpy",
+        "percentage": 82
+      },
+      {
+        "name": "Kossel-Lewis Approach to Chemical Bonding",
+        "percentage": 40
+      },
+      {
+        "name": "Modern Periodic Law and Long Form of Periodic Table",
+        "percentage": 80
+      },
+      {
+        "name": "Molecular Orbital Theory – LCAO",
+        "percentage": 56
+      },
+      {
+        "name": "Ionisation Enthalpy",
+        "percentage": 78
+      },
+      {
+        "name": "Dual Nature of Matter – de Broglie Relation",
+        "percentage": 50
+      },
+      {
+        "name": "Resonance and Formal Charge",
+        "percentage": 63
+      },
+      {
+        "name": "Electronic Configuration and Periodic Table",
+        "percentage": 50
+      },
+      {
+        "name": "Equivalent Concept & Normality in Titrations",
+        "percentage": 43
+      },
+      {
+        "name": "Valence Bond Theory – Orbital Overlap",
+        "percentage": 50
+      },
+      {
+        "name": "Discovery of Electron, Proton and Neutron (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Atomic Radii and Ionic Radii",
+        "percentage": 83
+      },
+      {
+        "name": "Bond Order and Magnetic Properties (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Ionic radius — cation and anion sizes",
+        "percentage": 100
+      },
+      {
+        "name": "Heisenberg's Uncertainty Principle",
+        "percentage": 60
+      },
+      {
+        "name": "Covalent Bond – Lewis Structures",
+        "percentage": 60
+      },
+      {
+        "name": "Dipole Moment",
+        "percentage": 60
+      },
+      {
+        "name": "Limiting Reagent (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Ionisation enthalpy (first, second, successive) — trends",
+        "percentage": 60
+      },
+      {
+        "name": "Balancing of Redox Reactions – Ion Electron Method",
+        "percentage": 75
+      },
+      {
+        "name": "Quantum Mechanical Model of Atom",
+        "percentage": 50
+      },
+      {
+        "name": "Rules for Filling Orbitals – Aufbau, Hund, Pauli",
+        "percentage": 50
+      },
+      {
+        "name": "Electronic Configuration of Elements",
+        "percentage": 100
+      },
+      {
+        "name": "Long form of periodic table — periods and groups",
+        "percentage": 100
+      },
+      {
+        "name": "Hydrogen Bonding – Inter and Intramolecular",
+        "percentage": 50
+      },
+      {
+        "name": "Matter and Its Nature",
+        "percentage": 75
+      },
+      {
+        "name": "Bond Enthalpy and Lattice Energy",
+        "percentage": 67
+      },
+      {
+        "name": "Electronic configuration: (n-1)d^{1-10}ns^{0-2}",
+        "percentage": 67
+      },
+      {
+        "name": "Electronegativity",
+        "percentage": 100
+      },
+      {
+        "name": "Electron Gain Enthalpy",
+        "percentage": 67
+      },
+      {
+        "name": "Schrodinger Wave Equation & Radial/Angular Probability Distributions (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Internal Energy and Enthalpy",
+        "percentage": 50
+      },
+      {
+        "name": "Representative, transition and inner transition elements",
+        "percentage": 100
+      },
+      {
+        "name": "Quantum numbers — principal (n), azimuthal (l), magnetic (m_l), spin (m_s)",
+        "percentage": 100
+      },
+      {
+        "name": "General Properties of Transition Metals (d-block) (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Photoelectric effect — Einstein's explanation",
+        "percentage": 50
+      },
+      {
+        "name": "Periodicity in Valence and Oxidation States",
+        "percentage": 100
+      },
+      {
+        "name": "Extra stability of half-filled and completely filled orbitals",
+        "percentage": 100
+      },
+      {
+        "name": "Atomic radius — covalent, van der Waals, metallic",
+        "percentage": 100
+      },
+      {
+        "name": "Atomic and Molecular Masses",
+        "percentage": 50
+      },
+      {
+        "name": "Lanthanide contraction — cause and consequences",
+        "percentage": 50
+      },
+      {
+        "name": "Rydberg formula: \\bar{\\nu} = R_H(1/n_1^2 - 1/n_2^2)",
+        "percentage": 100
+      },
+      {
+        "name": "Important Compounds – KMnO4, K2Cr2O7",
+        "percentage": 100
+      },
+      {
+        "name": "Alcohols",
+        "percentage": 100
+      },
+      {
+        "name": "Hydrides – Ionic, Covalent, Metallic",
+        "percentage": 100
+      },
+      {
+        "name": "Ionic Equilibrium in Solutions",
+        "percentage": 100
+      },
+      {
+        "name": "Heisenberg's uncertainty principle: \\Delta x \\cdot \\Delta p \\geq h/4\\pi",
+        "percentage": 100
+      },
+      {
+        "name": "Group 16 – Oxygen Family: Oxygen, Ozone, Sulphur, H2S, SO2, SO3, H2SO4 (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Group 15 – Nitrogen Family: Nitrogen, NH3, HNO3, Phosphorus, P4O10",
+        "percentage": 100
+      },
+      {
+        "name": "IUPAC nomenclature rules",
+        "percentage": 100
+      },
+      {
+        "name": "Gaseous State – Gas Laws",
+        "percentage": 100
+      },
+      {
+        "name": "Achievements and limitations of Mendeleev's periodic table",
+        "percentage": 100
+      },
+      {
+        "name": "Lanthanides — electronic configuration, oxidation state (+3)",
+        "percentage": 100
+      },
+      {
+        "name": "Lanthanoid Contraction",
+        "percentage": 100
+      },
+      {
+        "name": "Lanthanoids – Electronic Configuration and Properties",
+        "percentage": 100
+      },
+      {
+        "name": "Laws of Chemical Combination",
+        "percentage": 100
+      },
+      {
+        "name": "Factors affecting S_N1 and S_N2 — substrate, nucleophile, solvent",
+        "percentage": 100
+      },
+      {
+        "name": "Electronic configuration of elements up to Z=30",
+        "percentage": 100
+      },
+      {
+        "name": "Döbereiner's triads",
+        "percentage": 100
+      },
+      {
+        "name": "Mendeleev's periodic law and table",
+        "percentage": 100
+      },
+      {
+        "name": "de Broglie's hypothesis: \\lambda = h/mv",
+        "percentage": 100
+      },
+      {
+        "name": "Modern periodic law (Moseley)",
+        "percentage": 100
+      },
+      {
+        "name": "Bohr's model of hydrogen atom (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Anomalous Properties of Lithium (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "MO Theory (Molecular Orbital Theory) for diatomic molecules",
+        "percentage": 100
+      },
+      {
+        "name": "Octet rule and its exceptions (incomplete octet, expanded octet, odd electron)",
+        "percentage": 100
+      },
+      {
+        "name": "Anomalous Properties of Beryllium",
+        "percentage": 100
+      },
+      {
+        "name": "Hydrogen Peroxide – Preparation, Properties and Uses",
+        "percentage": 100
+      },
+      {
+        "name": "Oxidation of aldehydes: Tollens' test, Fehling's solution, Benedict's solution",
+        "percentage": 100
+      },
+      {
+        "name": "Second Law and Spontaneity (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Shapes of s, p, d Orbitals (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Spectral series: Lyman, Balmer, Paschen, Brackett, Pfund",
+        "percentage": 100
+      },
+      {
+        "name": "System, Surroundings and Types of Systems",
+        "percentage": 100
+      },
+      {
+        "name": "Trends in Properties of d-block Elements",
+        "percentage": 100
+      },
+      {
+        "name": "Valence and oxidation states",
+        "percentage": 100
+      }
+    ]
+  },
+  {
+    "subject": "English Proficiency",
+    "percentage": 45,
+    "color": "blue",
+    "subsections": [
+      {
+        "name": "Para Jumbles (Sentence Rearrangement) (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Word Analogies (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Idioms & Phrases",
+        "percentage": 100
+      },
+      {
+        "name": "Inference & Implication (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Modifiers (Misplaced & Dangling)",
+        "percentage": 100
+      },
+      {
+        "name": "Active & Passive Voice (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "One Word Substitution",
+        "percentage": 100
+      },
+      {
+        "name": "Parallelism & Redundancy",
+        "percentage": 100
+      },
+      {
+        "name": "Subject-Verb Agreement",
+        "percentage": 100
+      },
+      {
+        "name": "Synonyms & Antonyms (Critical)",
+        "percentage": 0
+      }
+    ]
+  },
+  {
+    "subject": "Logical Reasoning (BITSAT)",
+    "percentage": 81,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Letter Series",
+        "percentage": 50
+      },
+      {
+        "name": "Pattern Perception",
+        "percentage": 100
+      },
+      {
+        "name": "Pattern Recognition in Series",
+        "percentage": 100
+      },
+      {
+        "name": "Ranking & Order (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Rule Detection in Figures",
+        "percentage": 100
+      },
+      {
+        "name": "Statements & Arguments",
+        "percentage": 100
+      },
+      {
+        "name": "Statements & Conclusions",
+        "percentage": 100
+      },
+      {
+        "name": "Syllogisms (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Word Analogy",
+        "percentage": 100
+      },
+      {
+        "name": "Alphanumeric Series",
+        "percentage": 100
+      },
+      {
+        "name": "Coding in a Fictitious Language",
+        "percentage": 100
+      },
+      {
+        "name": "Cubes & Dice",
+        "percentage": 100
+      },
+      {
+        "name": "Direction Sense Test",
+        "percentage": 100
+      },
+      {
+        "name": "Family Tree & Relationships",
+        "percentage": 100
+      },
+      {
+        "name": "Figure Formation & Analysis",
+        "percentage": 100
+      },
+      {
+        "name": "Figure Matrix",
+        "percentage": 100
+      },
+      {
+        "name": "Mirror & Water Images (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Number Series",
+        "percentage": 100
+      },
+      {
+        "name": "Odd One Out (Classification)",
+        "percentage": 100
+      },
+      {
+        "name": "Paper Cutting & Punching",
+        "percentage": 100
+      }
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "percentage": 50,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Trigonometric Ratios and Identities",
+        "percentage": 50
+      },
+      {
+        "name": "Various Forms – Point-Slope, Slope-Intercept, Two-Point, Intercept",
+        "percentage": 46
+      },
+      {
+        "name": "Trigonometric Equations",
+        "percentage": 60
+      },
+      {
+        "name": "Cartesian Coordinate System",
+        "percentage": 57
+      },
+      {
+        "name": "Transpose, Adjoint and Inverse of a Matrix",
+        "percentage": 40
+      },
+      {
+        "name": "Distance of a Point from a Line",
+        "percentage": 58
+      },
+      {
+        "name": "Properties of Determinants (Critical)",
+        "percentage": 12
+      },
+      {
+        "name": "Trigonometric identities: \\(\\sin^2\\theta+\\cos^2\\theta=1\\), etc.",
+        "percentage": 87
+      },
+      {
+        "name": "Consistency and Inconsistency of System of Linear Equations",
+        "percentage": 36
+      },
+      {
+        "name": "Ratios of \\(-\\theta\\), \\(90°\\pm\\theta\\), \\(180°\\pm\\theta\\), \\(270°\\pm\\theta\\), \\(360°\\pm\\theta\\)",
+        "percentage": 64
+      },
+      {
+        "name": "Trigonometric Functions and Their Graphs",
+        "percentage": 85
+      },
+      {
+        "name": "Evaluation of Determinants",
+        "percentage": 50
+      },
+      {
+        "name": "Angle between Two Lines (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Operations on Matrices – Addition, Multiplication",
+        "percentage": 67
+      },
+      {
+        "name": "Types of Matrices",
+        "percentage": 50
+      },
+      {
+        "name": "Slope and Equation of a Line",
+        "percentage": 75
+      },
+      {
+        "name": "Symmetric and Skew-symmetric matrices",
+        "percentage": 50
+      },
+      {
+        "name": "Family of Lines",
+        "percentage": 50
+      },
+      {
+        "name": "Applications of De Moivre's theorem (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Locus Problems & Parametric Approach in Coordinate Geometry",
+        "percentage": 67
+      },
+      {
+        "name": "Matrix multiplication",
+        "percentage": 67
+      },
+      {
+        "name": "Circle – Standard Equation, General Equation (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Determinant of 3x3 matrix (Sarrus rule / cofactor expansion)",
+        "percentage": 67
+      },
+      {
+        "name": "Consistency and inconsistency of system of equations",
+        "percentage": 100
+      },
+      {
+        "name": "Pair of Lines (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Relation between Roots and Coefficients (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Signs of trigonometric ratios in different quadrants (ASTC rule)",
+        "percentage": 50
+      },
+      {
+        "name": "Infinite Geometric Series (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Equations of the form \\(a\\cos\\theta + b\\sin\\theta = c\\)",
+        "percentage": 100
+      },
+      {
+        "name": "Ellipse – Standard Form, Eccentricity (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Cramer's Rule",
+        "percentage": 50
+      },
+      {
+        "name": "Binomial Theorem for Positive Integral Indices (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Normal Form of a Line",
+        "percentage": 100
+      },
+      {
+        "name": "Adjoint of a matrix",
+        "percentage": 100
+      },
+      {
+        "name": "Properties of determinants",
+        "percentage": 100
+      },
+      {
+        "name": "Symmetric and Skew-Symmetric Matrices (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Equations reducible to quadratic in trig ratios",
+        "percentage": 100
+      },
+      {
+        "name": "Order and Degree of Differential Equations (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Variable Separable Method (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Pair of tangents from external point (SS1 = T^2) (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Parabola – Standard Forms and Properties (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Permutations – nPr Formula (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Principle of Mathematical Induction (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Maxima and Minima – First and Second Derivative Tests (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Properties of inverse of a matrix",
+        "percentage": 100
+      },
+      {
+        "name": "Properties of modulus and argument",
+        "percentage": 100
+      },
+      {
+        "name": "Equation of Plane – Different Forms (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Relation between roots and coefficients (Vieta's formulae)",
+        "percentage": 100
+      },
+      {
+        "name": "Geometric Progression – nth Term and Sum (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Applications – Projection, Area, Volume (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Statement and proof of Binomial theorem",
+        "percentage": 100
+      },
+      {
+        "name": "Sum to n Terms of Special Series – Σn, Σn², Σn³ (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Core Fundamentals (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Tangents and Normals (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Triple angle formulae: \\(\\sin 3A\\), \\(\\cos 3A\\), \\(\\tan 3A\\) (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Combinations – nCr Formula (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Area of Triangle using Determinants",
+        "percentage": 100
+      },
+      {
+        "name": "Singular and non-singular matrices",
+        "percentage": 100
+      },
+      {
+        "name": "Homogeneous and non-homogeneous equations",
+        "percentage": 100
+      },
+      {
+        "name": "Homogeneous Differential Equations (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Applications of compound angle formulae",
+        "percentage": 100
+      },
+      {
+        "name": "Integration as Inverse of Differentiation (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Area between Two Curves (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Definitions of Hyperbolic Functions",
+        "percentage": 100
+      },
+      {
+        "name": "Determinant of 2x2 matrix (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Cross Product of Vectors (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Number of common tangents based on position of circles",
+        "percentage": 100
+      }
+    ]
+  },
+  {
+    "subject": "Physics",
+    "percentage": 45,
+    "color": "blue",
+    "subsections": [
+      {
+        "name": "Newton's Second Law – F = ma",
+        "percentage": 51
+      },
+      {
+        "name": "Projectile Motion",
+        "percentage": 56
+      },
+      {
+        "name": "Relative Motion in Two Dimensions",
+        "percentage": 52
+      },
+      {
+        "name": "Free Body Diagrams",
+        "percentage": 55
+      },
+      {
+        "name": "Average and Instantaneous Velocity",
+        "percentage": 37
+      },
+      {
+        "name": "Scalars and Vectors (High Leak)",
+        "percentage": 28
+      },
+      {
+        "name": "Motion of Centre of Mass",
+        "percentage": 53
+      },
+      {
+        "name": "Vector Addition and Subtraction (Critical)",
+        "percentage": 19
+      },
+      {
+        "name": "Kinematic Equations for Constant Acceleration (High Leak)",
+        "percentage": 27
+      },
+      {
+        "name": "Centre of Mass",
+        "percentage": 71
+      },
+      {
+        "name": "Impulse and Momentum",
+        "percentage": 50
+      },
+      {
+        "name": "Laws of Friction",
+        "percentage": 64
+      },
+      {
+        "name": "Work Done by Constant and Variable Force",
+        "percentage": 36
+      },
+      {
+        "name": "Elastic and Inelastic Collisions",
+        "percentage": 60
+      },
+      {
+        "name": "Uniform and Non-Uniform Motion (High Leak)",
+        "percentage": 22
+      },
+      {
+        "name": "Time of flight, maximum height, horizontal range",
+        "percentage": 67
+      },
+      {
+        "name": "Power (Critical)",
+        "percentage": 11
+      },
+      {
+        "name": "Static and Kinetic Friction",
+        "percentage": 50
+      },
+      {
+        "name": "Uniformly Accelerated Motion",
+        "percentage": 50
+      },
+      {
+        "name": "Coefficient of Restitution (Critical)",
+        "percentage": 13
+      },
+      {
+        "name": "Conservation of Mechanical Energy (Critical)",
+        "percentage": 13
+      },
+      {
+        "name": "Projectile motion — horizontal and vertical components",
+        "percentage": 57
+      },
+      {
+        "name": "Work-Energy Theorem (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Relative Velocity (Critical)",
+        "percentage": 14
+      },
+      {
+        "name": "Hooke's Law",
+        "percentage": 43
+      },
+      {
+        "name": "Elastic Potential Energy (Critical)",
+        "percentage": 14
+      },
+      {
+        "name": "Speed and velocity — average and instantaneous",
+        "percentage": 67
+      },
+      {
+        "name": "River-boat problem",
+        "percentage": 50
+      },
+      {
+        "name": "Newton's Third Law – Action-Reaction",
+        "percentage": 100
+      },
+      {
+        "name": "Potential Energy (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Spring-Mass System",
+        "percentage": 100
+      },
+      {
+        "name": "Reaction time and relative motion in 1D",
+        "percentage": 75
+      },
+      {
+        "name": "Resolution of Vectors (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Projectile on an inclined plane (introductory)",
+        "percentage": 100
+      },
+      {
+        "name": "Newton's First Law – Inertia (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Kinetic Energy",
+        "percentage": 50
+      },
+      {
+        "name": "Freely falling body — equations of motion with $g$",
+        "percentage": 100
+      },
+      {
+        "name": "Uniform Circular Motion (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Angle for maximum range (45°) and complementary angles",
+        "percentage": 50
+      },
+      {
+        "name": "Position, Path Length and Displacement",
+        "percentage": 50
+      },
+      {
+        "name": "Acceleration due to Gravity",
+        "percentage": 100
+      },
+      {
+        "name": "Biot-Savart law: $d\\vec{B} = \\frac{\\mu_0}{4\\pi}\\frac{Id\\vec{l}\\times\\hat{r}}{r^2}$",
+        "percentage": 100
+      },
+      {
+        "name": "Dot product (scalar product) and its properties",
+        "percentage": 100
+      },
+      {
+        "name": "Conservative and Non-Conservative Forces (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Acceleration — average and instantaneous",
+        "percentage": 100
+      },
+      {
+        "name": "Work",
+        "percentage": 100
+      },
+      {
+        "name": "Range equation: $R = \\frac{u^2\\sin 2\\theta}{g}$ (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Centripetal acceleration: $a_c = \\frac{v^2}{r} = \\omega^2 r$ (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Impulse and impulsive force: $J = F \\cdot \\Delta t = \\Delta p$",
+        "percentage": 100
+      },
+      {
+        "name": "Gravitational Potential Energy (Critical)",
+        "percentage": 0
+      }
+    ]
+  }
+]

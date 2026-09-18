@@ -1,0 +1,736 @@
+[
+  {
+    "id": "exam-2e04db96-a269-49e7-9217-9d29c6aac29a",
+    "name": "SR MPC STAR MAINS_WTM-21_29-08-2026",
+    "date": "29 Aug 2026",
+    "score": "115/300",
+    "total_score": 115,
+    "total_max": 300,
+    "percentage": 38,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "18/100",
+        "percentage": 28,
+        "color": "amber"
+      },
+      {
+        "name": "Mathematics",
+        "score": "41/100",
+        "percentage": 48,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "56/100",
+        "percentage": 60,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "mcq_single",
+        "type_label": "MCQ (Single)",
+        "topic": "Capacitors and Capacitance",
+        "status": "wrong",
+        "marks": "0 marks",
+        "marks_num": 0,
+        "max_marks": 4,
+        "time_sec": 10,
+        "time": "0m 10s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess",
+        "student_ans": "Unattempted (Skipped in 10s)",
+        "correct_ans": "Option A: V decreases by K, U decreases by K",
+        "explanation": "Charge Q is constant when battery is disconnected. C' = KC => V' = V/K, U' = U/K."
+      },
+      {
+        "q_num": 2,
+        "type": "mcq_multiple",
+        "type_label": "MCQ (Multiple)",
+        "topic": "Diazonium Salts – Preparation and Coupling",
+        "status": "wrong",
+        "is_partial": true,
+        "partial_ratio": "2/4",
+        "marks": "+2.0 marks",
+        "marks_num": 2,
+        "max_marks": 4,
+        "time_sec": 134,
+        "time": "2m 14s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Partial Marks (Treated as Wrong)",
+        "student_ans": "Options [A, B] selected",
+        "correct_ans": "Options [A, B, C, D] (All 4 options correct)",
+        "explanation": "Awarded +2.0/4.0 marks for selecting options A & B, but treated as WRONG because missing options C & D leaked 2 marks."
+      },
+      {
+        "q_num": 3,
+        "type": "mcq_multiple",
+        "type_label": "MCQ (Multiple)",
+        "topic": "Chemical Kinetics – Multi-Step Rate Laws",
+        "status": "correct",
+        "is_partial": false,
+        "marks": "+4.0 marks",
+        "marks_num": 4,
+        "max_marks": 4,
+        "time_sec": 195,
+        "time": "3m 15s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Clean Solve",
+        "student_ans": "Options [B, C] selected",
+        "correct_ans": "Options [B, C]",
+        "explanation": "Both correct options identified with zero negative marks. Steady-state approximation applied correctly."
+      },
+      {
+        "q_num": 4,
+        "type": "numerical",
+        "type_label": "Numerical",
+        "topic": "Argand Plane and Polar Representation",
+        "status": "wrong",
+        "marks": "-1.0 marks",
+        "marks_num": -1,
+        "max_marks": 4,
+        "time_sec": 547,
+        "time": "9m 7s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Calculation Error",
+        "student_ans": "9.00",
+        "correct_ans": "7.00 (Allowed range: 7.00 - 7.00)",
+        "explanation": "Triangle inequality: |z| <= |z - (4-3i)| + |4-3i| = 2 + 5 = 7. Student added diameter instead of radius."
+      },
+      {
+        "q_num": 5,
+        "type": "matrix_match",
+        "type_label": "Matrix Match",
+        "topic": "Coordination Compounds & Isomerism",
+        "status": "wrong",
+        "marks": "-1.0 marks",
+        "marks_num": -1,
+        "max_marks": 4,
+        "time_sec": 222,
+        "time": "3m 42s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Calculation Error",
+        "student_ans": "P→1, Q→3, R→2, S→4",
+        "correct_ans": "P→2, Q→1, R→4, S→3",
+        "explanation": "Misidentified ionization isomerism in [Co(NH3)5Cl]SO4 with hydrate isomerism, causing match permutation error."
+      },
+      {
+        "q_num": 6,
+        "type": "paragraph",
+        "type_label": "Paragraph",
+        "topic": "Thermodynamics – Carnot Cycle Efficiency",
+        "status": "correct",
+        "marks": "+3.0 marks",
+        "marks_num": 3,
+        "max_marks": 3,
+        "time_sec": 128,
+        "time": "2m 8s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve",
+        "passage_context": "Passage 1: An ideal monoatomic gas operates in a reversible Carnot cycle between 600 K and 300 K...",
+        "student_ans": "Option B: 450 J",
+        "correct_ans": "Option B: 450 J",
+        "explanation": "Carnot efficiency eta = 1 - T2/T1 = 0.5. W = eta * Q1 = 0.5 * 900 J = 450 J."
+      },
+      {
+        "q_num": 7,
+        "type": "passage_based",
+        "type_label": "Passage Based",
+        "topic": "Organic Mechanisms – SN1 vs SN2 Inversion",
+        "status": "correct",
+        "marks": "+3.0 marks",
+        "marks_num": 3,
+        "max_marks": 3,
+        "time_sec": 105,
+        "time": "1m 45s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve",
+        "passage_context": "Case Study: Walden inversion in chiral 2-bromobutane under polar aprotic DMF solvent...",
+        "student_ans": "Option C: 100% Inversion (Walden Inversion)",
+        "correct_ans": "Option C: 100% Inversion (Walden Inversion)",
+        "explanation": "Polar aprotic solvent DMF strongly favors bimolecular nucleophilic substitution SN2 with backside attack."
+      },
+      {
+        "q_num": 8,
+        "type": "assertion_reason",
+        "type_label": "Assertion Reason",
+        "topic": "Amines & Diazonium Stability",
+        "status": "wrong",
+        "marks": "-1.0 marks",
+        "marks_num": -1,
+        "max_marks": 4,
+        "time_sec": 72,
+        "time": "1m 12s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error",
+        "student_ans": "Option B (Both true, but R is not the correct explanation of A)",
+        "correct_ans": "Option A (Both true, and R is the correct explanation of A)",
+        "explanation": "Aliphatic diazonium salts readily decompose because N2 gas has high triple-bond energy (945 kJ/mol), making it an excellent leaving group."
+      },
+      {
+        "q_num": 9,
+        "type": "true_false",
+        "type_label": "True / False",
+        "topic": "Second Law of Thermodynamics (Entropy Principle)",
+        "status": "correct",
+        "marks": "+2.0 marks",
+        "marks_num": 2,
+        "max_marks": 2,
+        "time_sec": 24,
+        "time": "0m 24s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve",
+        "student_ans": "True",
+        "correct_ans": "True",
+        "explanation": "Clausius theorem: Delta S universe > 0 for all spontaneous irreversible natural processes."
+      },
+      {
+        "q_num": 10,
+        "type": "short_answer",
+        "type_label": "Short Answer",
+        "topic": "Amines – Hoffmann Bromamide Degradation",
+        "status": "wrong",
+        "marks": "-1.0 marks",
+        "marks_num": -1,
+        "max_marks": 4,
+        "time_sec": 48,
+        "time": "0m 48s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error",
+        "student_ans": "\"Carbene\"",
+        "correct_ans": "\"Acyl Nitrene\" (or \"Alkyl Isocyanate\")",
+        "explanation": "Bromination of primary amide followed by base forms N-bromoamide, which loses HBr to yield Acyl Nitrene, rearranging to Isocyanate."
+      }
+    ]
+  },
+  {
+    "id": "exam-ecf230ca-33c0-4780-bf93-cb6935b148ce",
+    "name": "SR STAR ADV_WTA-19_(2020_P2)_24-08-2026",
+    "date": "24 Aug 2026",
+    "score": "20/198",
+    "total_score": 20,
+    "total_max": 198,
+    "percentage": 10,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "6/72",
+        "percentage": 22,
+        "color": "amber"
+      },
+      {
+        "name": "Mathematics",
+        "score": "12/72",
+        "percentage": 17,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "2/72",
+        "percentage": 11,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Multi",
+        "topic": "Diazonium Salts – Preparation and Uses",
+        "status": "partial",
+        "marks": "1 marks",
+        "time_sec": 156,
+        "time": "2m 36s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Multi",
+        "topic": "Group 13 – Boron Family: Borax, Boron Hydrides, Aluminium",
+        "status": "wrong",
+        "marks": "-2 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Multi",
+        "topic": "Motional EMF",
+        "status": "wrong",
+        "marks": "-2 marks",
+        "time_sec": 122,
+        "time": "2m 2s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 4,
+        "type": "Numerical",
+        "topic": "Motional EMF",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 23,
+        "time": "0m 23s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "Numerical",
+        "topic": "Rearangement Reactions (Pinacol, Beckmann, Hofmann, Baeyer-Villiger)",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 22,
+        "time": "0m 22s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 6,
+        "type": "Numerical",
+        "topic": "Faraday's Laws of Induction",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 448,
+        "time": "7m 28s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Multi",
+        "topic": "Ellipse – Standard Form, Eccentricity",
+        "status": "partial",
+        "marks": "2 marks",
+        "time_sec": 499,
+        "time": "8m 19s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 8,
+        "type": "Numerical",
+        "topic": "Faraday's Laws of Induction",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 210,
+        "time": "3m 30s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Calculation Error"
+      }
+    ]
+  },
+  {
+    "id": "exam-133e2981-3798-4afd-8b38-8b6825f25f32",
+    "name": "SR MPC STAR MAINS_WTM-20_22-08-2026",
+    "date": "22 Aug 2026",
+    "score": "119/300",
+    "total_score": 119,
+    "total_max": 300,
+    "percentage": 40,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "21/100",
+        "percentage": 32,
+        "color": "rose"
+      },
+      {
+        "name": "Mathematics",
+        "score": "52/100",
+        "percentage": 56,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "46/100",
+        "percentage": 52,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Preparation and Properties of Amines",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 287,
+        "time": "4m 47s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Ellipse – Standard Form, Eccentricity",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 21,
+        "time": "0m 21s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Reactions – Dehydration, Oxidation",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 111,
+        "time": "1m 51s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Modulus and Argument",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 29,
+        "time": "0m 29s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Cyanides and Isocyanides",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 90,
+        "time": "1m 30s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 6,
+        "type": "Numerical",
+        "topic": "Inductive, Resonance, Hyperconjugation Effects",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 53,
+        "time": "0m 53s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Magnetic Force on Moving Charge – Lorentz Force",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 89,
+        "time": "1m 29s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Ellipse – Standard Form, Eccentricity",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 35,
+        "time": "0m 35s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      }
+    ]
+  },
+  {
+    "id": "exam-93991c3b-98b2-4a5a-a336-3d8dfb4a06c4",
+    "name": "SR STAR ADV_WTA-18_(2020_P1)_17-08-2026",
+    "date": "17 Aug 2026",
+    "score": "64/198",
+    "total_score": 64,
+    "total_max": 198,
+    "percentage": 32,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "25/72",
+        "percentage": 44,
+        "color": "rose"
+      },
+      {
+        "name": "Mathematics",
+        "score": "19/72",
+        "percentage": 39,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "20/72",
+        "percentage": 33,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Multi",
+        "topic": "Acidity of Carboxylic Acids",
+        "status": "partial",
+        "marks": "1 marks",
+        "time_sec": 41,
+        "time": "0m 41s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Multi",
+        "topic": "Bar Magnet and Magnetic Dipole",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 168,
+        "time": "2m 48s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Chord of Contact",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 534,
+        "time": "8m 54s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 4,
+        "type": "Numerical",
+        "topic": "Reactions of Carboxylic Acids",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "1m 0s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Bar Magnet and Magnetic Dipole",
+        "status": "correct",
+        "marks": "3 marks",
+        "time_sec": 29,
+        "time": "0m 29s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Hyperbola – Standard Form, Eccentricity, Asymptotes",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 506,
+        "time": "8m 26s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Multi",
+        "topic": "Bar Magnet and Magnetic Dipole",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 212,
+        "time": "3m 32s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "Numerical",
+        "topic": "Tangents and Normals to Conics",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 13,
+        "time": "0m 13s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  },
+  {
+    "id": "exam-515ed04d-1f84-46ee-8875-47fc25571d22",
+    "name": "SR MPC STAR MAINS_WTM-19_16-08-2026",
+    "date": "16 Aug 2026",
+    "score": "115/300",
+    "total_score": 115,
+    "total_max": 300,
+    "percentage": 38,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "35/100",
+        "percentage": 44,
+        "color": "rose"
+      },
+      {
+        "name": "Mathematics",
+        "score": "44/100",
+        "percentage": 48,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "36/100",
+        "percentage": 44,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Hyperbola – Standard Form, Eccentricity, Asymptotes",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 284,
+        "time": "4m 44s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "Numerical",
+        "topic": "Acidity of Carboxylic Acids",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Hysteresis and Permanent Magnets",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 44,
+        "time": "0m 44s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Bar Magnet and Magnetic Dipole",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 118,
+        "time": "1m 58s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Hyperbola – Standard Form, Eccentricity, Asymptotes",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 190,
+        "time": "3m 10s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "Numerical",
+        "topic": "Reactions – Dehydration, Oxidation",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 10,
+        "time": "0m 10s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Bar Magnet and Magnetic Dipole",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 52,
+        "time": "0m 52s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "Numerical",
+        "topic": "Hyperbola – Standard Form, Eccentricity, Asymptotes",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 55,
+        "time": "0m 55s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      }
+    ]
+  }
+]

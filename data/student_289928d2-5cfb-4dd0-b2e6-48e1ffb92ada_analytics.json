@@ -1,0 +1,233 @@
+{
+  "pacing_metrics": [
+    {
+      "subject": "Biology",
+      "accuracy": 0,
+      "avg_time_sec": 6,
+      "exam_count": 1
+    },
+    {
+      "subject": "Chemistry",
+      "accuracy": 45,
+      "avg_time_sec": 110,
+      "exam_count": 35
+    },
+    {
+      "subject": "Mathematics",
+      "accuracy": 34,
+      "avg_time_sec": 166,
+      "exam_count": 33
+    },
+    {
+      "subject": "Physics",
+      "accuracy": 33,
+      "avg_time_sec": 124,
+      "exam_count": 38
+    }
+  ],
+  "topic_recovery_history": [
+    {
+      "subject": "Chemistry",
+      "topic": "Bond Order and Magnetic Properties",
+      "early_acc": 0,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Physics",
+      "topic": "Acceleration due to Gravity",
+      "early_acc": 25,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Physics",
+      "topic": "Laws of Friction",
+      "early_acc": 20,
+      "recent_acc": 90
+    },
+    {
+      "subject": "Physics",
+      "topic": "Change of State – Latent Heat",
+      "early_acc": 33,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Chemistry",
+      "topic": "Half-Life Period",
+      "early_acc": 33,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Physics",
+      "topic": "Displacement Relation for Progressive Wave",
+      "early_acc": 33,
+      "recent_acc": 100
+    }
+  ],
+  "heatmap_data": [
+    {
+      "subject": "Biology",
+      "chapters": [
+        {
+          "name": "Mendelian inheritance",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 5,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "chapters": [
+        {
+          "name": "Abnormal Molar Masses",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Acidic character of alkynes",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 2,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Acidity of Carboxylic Acids",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 14,
+          "med_qs": 14,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Acids, Bases – Arrhenius, Brønsted-Lowry, Lewis Concepts",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 71,
+          "med_qs": 17,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "English Language",
+      "chapters": [
+        {
+          "name": "General Module",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 10,
+          "med_qs": 10,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Logical Reasoning",
+      "chapters": [
+        {
+          "name": "General Module",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 25,
+          "med_qs": 20,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "chapters": [
+        {
+          "name": "Addition and subtraction of matrices",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Adjoint of a matrix",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 67,
+          "med_qs": 18,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "AM, GM, HM and Their Relations",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 50,
+          "med_qs": 6,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Angle between a Line and a Plane, between Two Planes",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "chapters": [
+        {
+          "name": "Acceleration — average and instantaneous",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Acceleration due to Gravity",
+          "easy_acc": 67,
+          "easy_qs": 3,
+          "med_acc": 33,
+          "med_qs": 3,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Alpha-particle scattering experiment",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Ampere's Circuital Law",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    }
+  ]
+}

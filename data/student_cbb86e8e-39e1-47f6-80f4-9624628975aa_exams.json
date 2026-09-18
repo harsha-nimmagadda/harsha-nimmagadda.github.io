@@ -1,0 +1,653 @@
+[
+  {
+    "id": "exam-dd1b6a36-5e37-418b-ba8f-acd9d4e8655f",
+    "name": "JR & SR IPMAT WEEKEND Test (29-08-2026)",
+    "date": "29 Aug 2026",
+    "score": "165/480",
+    "total_score": 165,
+    "total_max": 480,
+    "percentage": 34,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Current Affairs & GK",
+        "score": "60/160",
+        "percentage": 50,
+        "color": "emerald"
+      },
+      {
+        "name": "Logical Reasoning",
+        "score": "75/160",
+        "percentage": 58,
+        "color": "emerald"
+      },
+      {
+        "name": "Quantitative Techniques",
+        "score": "30/160",
+        "percentage": 35,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Major national and international sporting events",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 7,
+        "time": "0m 7s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Rotation-based Direction Problems",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 20,
+        "time": "0m 20s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Displacement and Final Position",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 78,
+        "time": "1m 18s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Major national and international sporting events",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 13,
+        "time": "0m 13s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "ICC Cricket events and outcomes",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 5,
+        "time": "0m 5s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Olympics, Commonwealth Games, Asian Games",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 15,
+        "time": "0m 15s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Simple Interest Formula and Applications",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 1,
+        "time": "0m 1s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Simple Interest Formula and Applications",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 7,
+        "time": "0m 7s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  },
+  {
+    "id": "exam-c165e895-1da8-4d2a-aaa5-99fe4b879f9a",
+    "name": "JR & SR IPMAT_Weeked Test (22-08-2026): Directions | Simple Interest | Sports",
+    "date": "22 Aug 2026",
+    "score": "75/480",
+    "total_score": 75,
+    "total_max": 480,
+    "percentage": 16,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Current Affairs & GK",
+        "score": "40/160",
+        "percentage": 40,
+        "color": "blue"
+      },
+      {
+        "name": "Logical Reasoning (BITSAT)",
+        "score": "50/160",
+        "percentage": 45,
+        "color": "blue"
+      },
+      {
+        "name": "Quantitative Techniques",
+        "score": "-15/160",
+        "percentage": 13,
+        "color": "amber"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Cardinal and Ordinal Directions",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 22,
+        "time": "0m 22s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Major national and international sporting events",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 15,
+        "time": "0m 15s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Indian athletes and achievements",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 8,
+        "time": "0m 8s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Simple Interest Formula and Applications",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 9,
+        "time": "0m 9s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Major national and international sporting events",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 23,
+        "time": "0m 23s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Simple Interest Formula and Applications",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 10,
+        "time": "0m 10s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Olympics, Commonwealth Games, Asian Games",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 14,
+        "time": "0m 14s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Major national and international sporting events",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 31,
+        "time": "0m 31s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      }
+    ]
+  },
+  {
+    "id": "exam-5ea1a613-3706-4678-bc11-79daa88519c5",
+    "name": "JR & SR CLAT WEEKEND Test-04_ (16-08-2026)",
+    "date": "18 Aug 2026",
+    "score": "0/480",
+    "total_score": 0,
+    "total_max": 480,
+    "percentage": 0,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Current Affairs & GK",
+        "score": "0/120",
+        "percentage": 0,
+        "color": "amber"
+      },
+      {
+        "name": "Legal Reasoning",
+        "score": "0/120",
+        "percentage": 0,
+        "color": "amber"
+      },
+      {
+        "name": "Logical Reasoning (BITSAT)",
+        "score": "0/120",
+        "percentage": 0,
+        "color": "amber"
+      },
+      {
+        "name": "Quantitative Techniques",
+        "score": "0/120",
+        "percentage": 0,
+        "color": "amber"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "Passage",
+        "topic": "Pattern-based reasoning within passages",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "Passage",
+        "topic": "Major national and international sporting events",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 3,
+        "type": "Passage",
+        "topic": "Awards and records in sports",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "Passage",
+        "topic": "Profit and loss percentage",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "Passage",
+        "topic": "Major national and international sporting events",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 6,
+        "type": "Passage",
+        "topic": "Major national and international sporting events",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "Passage",
+        "topic": "Defences in tort — consent, contributory negligence, act of God, etc.",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 8,
+        "type": "Passage",
+        "topic": "Major national and international sporting events",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  },
+  {
+    "id": "exam-755b3079-afa3-40be-92fe-c06cb03a8bfa",
+    "name": "JR & SR IPMAT — WT-04_(16-08-2026)",
+    "date": "16 Aug 2026",
+    "score": "190/480",
+    "total_score": 190,
+    "total_max": 480,
+    "percentage": 40,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Current Affairs & GK",
+        "score": "150/160",
+        "percentage": 95,
+        "color": "emerald"
+      },
+      {
+        "name": "Logical Reasoning (BITSAT)",
+        "score": "40/160",
+        "percentage": 40,
+        "color": "blue"
+      },
+      {
+        "name": "Quantitative Techniques",
+        "score": "32/160",
+        "percentage": 20,
+        "color": "amber"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Coded Arithmetic Operations",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 1,
+        "time": "0m 1s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Awards and records in sports",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 15,
+        "time": "0m 15s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Profit and Loss Percentage",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 2,
+        "time": "0m 2s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Number Coding",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 1,
+        "time": "0m 1s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Awards and records in sports",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 19,
+        "time": "0m 19s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Applications of Percentage in Profit/Loss",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 1,
+        "time": "0m 1s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Awards and records in sports",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 41,
+        "time": "0m 41s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Cost Price, Selling Price, Marked Price",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 1,
+        "time": "0m 1s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-4f84c531-af97-472f-aee8-9fbc4127025f",
+    "name": "JR & SR IPMAT EXAM (08-08-2026)",
+    "date": "8 Aug 2026",
+    "score": "275/480",
+    "total_score": 275,
+    "total_max": 480,
+    "percentage": 57,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Current Affairs & GK",
+        "score": "100/160",
+        "percentage": 70,
+        "color": "emerald"
+      },
+      {
+        "name": "Logical Reasoning (BITSAT)",
+        "score": "130/160",
+        "percentage": 85,
+        "color": "emerald"
+      },
+      {
+        "name": "Quantitative Techniques",
+        "score": "45/160",
+        "percentage": 43,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Ratio and its Properties",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 70,
+        "time": "1m 10s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Completing the Figure Series",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 28,
+        "time": "0m 28s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Change in Average",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 1,
+        "time": "0m 1s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Successive Percentage Change",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 2,
+        "time": "0m 2s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Figure Matrix Problems",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 20,
+        "time": "0m 20s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Proportion: Direct and Inverse",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 142,
+        "time": "2m 22s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "cannot_derive_formula"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Art, culture and heritage of India",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 23,
+        "time": "0m 23s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Art, culture and heritage of India",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 5,
+        "time": "0m 5s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  }
+]

@@ -1,0 +1,397 @@
+[
+  {
+    "subject": "Current Affairs & GK",
+    "percentage": 50,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Major national and international sporting events",
+        "percentage": 45
+      },
+      {
+        "name": "Art, culture and heritage of India",
+        "percentage": 43
+      },
+      {
+        "name": "Awards and records in sports",
+        "percentage": 52
+      },
+      {
+        "name": "ICC Cricket events and outcomes",
+        "percentage": 69
+      },
+      {
+        "name": "Olympics, Commonwealth Games, Asian Games",
+        "percentage": 40
+      },
+      {
+        "name": "Indian athletes and achievements",
+        "percentage": 58
+      },
+      {
+        "name": "Modern Indian history and freedom struggle",
+        "percentage": 55
+      },
+      {
+        "name": "Constitution of India — basics",
+        "percentage": 78
+      },
+      {
+        "name": "Major political developments in India",
+        "percentage": 71
+      },
+      {
+        "name": "Indian literature and languages",
+        "percentage": 57
+      },
+      {
+        "name": "International organisations and their activities (UN, WTO, IMF, World Bank, etc.)",
+        "percentage": 100
+      },
+      {
+        "name": "Government schemes, policies and programmes (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Foreign policy of India",
+        "percentage": 50
+      },
+      {
+        "name": "Ancient Indian history and civilizations",
+        "percentage": 100
+      },
+      {
+        "name": "Geopolitical events and conflicts (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Major rivers, mountains and geographical features",
+        "percentage": 100
+      },
+      {
+        "name": "National summits and conferences (Critical)",
+        "percentage": 0
+      }
+    ]
+  },
+  {
+    "subject": "Legal Reasoning",
+    "percentage": 0,
+    "color": "amber",
+    "subsections": [
+      {
+        "name": "Defences in tort — consent, contributory negligence, act of God, etc. (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "General conditions of liability in tort (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Damnum sine injuria and injuria sine damno (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Volenti non fit injuria (consent is a defence) (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Remedies in tort — damages, injunction, restitution (Critical)",
+        "percentage": 0
+      }
+    ]
+  },
+  {
+    "subject": "Logical Reasoning",
+    "percentage": 59,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Word Analogy",
+        "percentage": 63
+      },
+      {
+        "name": "Displacement and Final Position",
+        "percentage": 50
+      },
+      {
+        "name": "Rotation-based Direction Problems",
+        "percentage": 69
+      },
+      {
+        "name": "Number Analogy",
+        "percentage": 50
+      },
+      {
+        "name": "Cardinal and Ordinal Directions",
+        "percentage": 56
+      },
+      {
+        "name": "Letter Analogy",
+        "percentage": 57
+      },
+      {
+        "name": "Mixed Analogy",
+        "percentage": 75
+      }
+    ]
+  },
+  {
+    "subject": "Logical Reasoning (BITSAT)",
+    "percentage": 42,
+    "color": "blue",
+    "subsections": [
+      {
+        "name": "Displacement and Final Position",
+        "percentage": 38
+      },
+      {
+        "name": "Odd Figure Out",
+        "percentage": 44
+      },
+      {
+        "name": "Applying principles to new situations (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Pattern-based reasoning within passages (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Number-based Classification",
+        "percentage": 43
+      },
+      {
+        "name": "Word-based Classification",
+        "percentage": 42
+      },
+      {
+        "name": "Letter-based Classification",
+        "percentage": 45
+      },
+      {
+        "name": "Letter Coding",
+        "percentage": 60
+      },
+      {
+        "name": "Rotation-based Direction Problems",
+        "percentage": 40
+      },
+      {
+        "name": "Cardinal and Ordinal Directions",
+        "percentage": 67
+      },
+      {
+        "name": "Number Series: Missing Number",
+        "percentage": 71
+      },
+      {
+        "name": "Substitution Coding",
+        "percentage": 50
+      },
+      {
+        "name": "Symbol-based Coding (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Coded Arithmetic Operations (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Number Coding",
+        "percentage": 50
+      },
+      {
+        "name": "Word Analogy",
+        "percentage": 100
+      },
+      {
+        "name": "Number Analogy",
+        "percentage": 50
+      },
+      {
+        "name": "Reverse Coding",
+        "percentage": 67
+      },
+      {
+        "name": "Letter Series",
+        "percentage": 100
+      },
+      {
+        "name": "Machine Input-Output: Shifting and Rearrangement (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Coded Blood Relations",
+        "percentage": 67
+      },
+      {
+        "name": "Letter Analogy",
+        "percentage": 100
+      },
+      {
+        "name": "Completing the Figure Series",
+        "percentage": 100
+      },
+      {
+        "name": "Figure Matrix Problems",
+        "percentage": 50
+      },
+      {
+        "name": "Mixed Analogy",
+        "percentage": 100
+      },
+      {
+        "name": "Alphanumeric Series",
+        "percentage": 100
+      },
+      {
+        "name": "Wrong Number in Series",
+        "percentage": 100
+      }
+    ]
+  },
+  {
+    "subject": "Quantitative Techniques",
+    "percentage": 21,
+    "color": "amber",
+    "subsections": [
+      {
+        "name": "Simple Interest Formula and Applications (High Leak)",
+        "percentage": 24
+      },
+      {
+        "name": "Successive Percentage Change (Critical)",
+        "percentage": 11
+      },
+      {
+        "name": "Mixing of Two or More Solutions (High Leak)",
+        "percentage": 31
+      },
+      {
+        "name": "Alligation Rule (High Leak)",
+        "percentage": 27
+      },
+      {
+        "name": "Replacement of Mixtures (High Leak)",
+        "percentage": 31
+      },
+      {
+        "name": "Basic Percentage Calculations (Critical)",
+        "percentage": 18
+      },
+      {
+        "name": "Discount and Successive Discounts (Critical)",
+        "percentage": 18
+      },
+      {
+        "name": "Percentage Change (High Leak)",
+        "percentage": 30
+      },
+      {
+        "name": "Profit and loss percentage (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Profit and Loss Percentage (Critical)",
+        "percentage": 11
+      },
+      {
+        "name": "Population Growth and Depreciation (High Leak)",
+        "percentage": 22
+      },
+      {
+        "name": "Weighted Average (Critical)",
+        "percentage": 13
+      },
+      {
+        "name": "Cost Price, Selling Price, Marked Price",
+        "percentage": 38
+      },
+      {
+        "name": "Discount and marked price (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Applications of Percentage in Profit/Loss (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Ratio and its Properties",
+        "percentage": 60
+      },
+      {
+        "name": "Change in Average (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Dishonest Dealings and False Weights (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Partnership problems (basic) (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Proportion: Direct and Inverse (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Arithmetic Mean (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Partnership-based Profit Sharing (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Calculating ratios and comparisons from data (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Pie charts — reading and interpreting data (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Finding missing values in data sets (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Calculating percentage from graphs (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Compound Interest Formula and Applications (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Questions on deriving information and applying basic mathematical operations (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Partnership",
+        "percentage": 100
+      },
+      {
+        "name": "Bar graphs — reading and interpreting data (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Average Speed (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Successive discounts (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Mixtures and alligation (basic) (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Cost price, selling price and profit/loss (Critical)",
+        "percentage": 0
+      }
+    ]
+  }
+]

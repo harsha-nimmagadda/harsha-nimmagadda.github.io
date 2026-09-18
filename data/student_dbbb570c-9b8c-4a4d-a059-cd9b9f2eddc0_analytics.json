@@ -1,0 +1,260 @@
+{
+  "pacing_metrics": [
+    {
+      "subject": "Biology",
+      "accuracy": 30,
+      "avg_time_sec": 52,
+      "exam_count": 2
+    },
+    {
+      "subject": "Chemistry",
+      "accuracy": 44,
+      "avg_time_sec": 93,
+      "exam_count": 66
+    },
+    {
+      "subject": "Mathematics",
+      "accuracy": 47,
+      "avg_time_sec": 171,
+      "exam_count": 57
+    },
+    {
+      "subject": "Physics",
+      "accuracy": 48,
+      "avg_time_sec": 105,
+      "exam_count": 59
+    }
+  ],
+  "topic_recovery_history": [
+    {
+      "subject": "Physics",
+      "topic": "Radioactivity – Alpha, Beta, Gamma Decay",
+      "early_acc": 0,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Chemistry",
+      "topic": "Electrolytic Cells and Electrolysis",
+      "early_acc": 0,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Chemistry",
+      "topic": "Electrochemical Series and Cell EMF",
+      "early_acc": 0,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Mathematics",
+      "topic": "Square Root of Complex Number",
+      "early_acc": 0,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Chemistry",
+      "topic": "Conductance – Specific, Molar, Equivalent",
+      "early_acc": 20,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Chemistry",
+      "topic": "Kohlrausch's Law",
+      "early_acc": 0,
+      "recent_acc": 75
+    }
+  ],
+  "heatmap_data": [
+    {
+      "subject": "Biology",
+      "chapters": [
+        {
+          "name": "Biodiversity",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Bryophytes",
+          "easy_acc": 0,
+          "easy_qs": 1,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Cell cycle",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 100,
+          "hard_qs": 1
+        },
+        {
+          "name": "Chromosome theory of inheritance",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "chapters": [
+        {
+          "name": "Abnormal Molar Masses",
+          "easy_acc": 100,
+          "easy_qs": 3,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Acidic character of alkynes",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 50,
+          "med_qs": 2,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Acidity of Carboxylic Acids",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 19,
+          "med_qs": 16,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Acids, Bases – Arrhenius, Brønsted-Lowry, Lewis Concepts",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 35,
+          "med_qs": 17,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "English Language",
+      "chapters": [
+        {
+          "name": "General Module",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 60,
+          "med_qs": 10,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Logical Reasoning",
+      "chapters": [
+        {
+          "name": "General Module",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 65,
+          "med_qs": 20,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "chapters": [
+        {
+          "name": "Addition and subtraction of matrices",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Adjoint of a matrix",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 67,
+          "med_qs": 18,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "AM, GM, HM and Their Relations",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 71,
+          "med_qs": 7,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Angle between a Line and a Plane, between Two Planes",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "chapters": [
+        {
+          "name": "Acceleration — average and instantaneous",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Acceleration due to Gravity",
+          "easy_acc": 100,
+          "easy_qs": 5,
+          "med_acc": 33,
+          "med_qs": 6,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Ampere's Circuital Law",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Area under v-t graph = displacement",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 4,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    }
+  ]
+}

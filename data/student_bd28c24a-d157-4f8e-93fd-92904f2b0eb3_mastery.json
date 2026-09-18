@@ -1,0 +1,305 @@
+[
+  {
+    "subject": "Current Affairs & GK",
+    "percentage": 57,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Art, culture and heritage of India",
+        "percentage": 41
+      },
+      {
+        "name": "Major national and international sporting events",
+        "percentage": 59
+      },
+      {
+        "name": "Awards and records in sports",
+        "percentage": 75
+      },
+      {
+        "name": "ICC Cricket events and outcomes",
+        "percentage": 100
+      },
+      {
+        "name": "Indian athletes and achievements",
+        "percentage": 88
+      },
+      {
+        "name": "Olympics, Commonwealth Games, Asian Games",
+        "percentage": 80
+      },
+      {
+        "name": "Indian literature and languages (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "International organisations and their activities (UN, WTO, IMF, World Bank, etc.)",
+        "percentage": 67
+      },
+      {
+        "name": "Major political developments in India",
+        "percentage": 67
+      },
+      {
+        "name": "Basic concepts in physics, chemistry and biology (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Ancient Indian history and civilizations",
+        "percentage": 100
+      },
+      {
+        "name": "Major rivers, mountains and geographical features (Critical)",
+        "percentage": 0
+      }
+    ]
+  },
+  {
+    "subject": "Legal Reasoning",
+    "percentage": 27,
+    "color": "amber",
+    "subsections": [
+      {
+        "name": "Capacity to contract (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Consideration and its types (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Free consent — coercion, undue influence, fraud, misrepresentation, mistake",
+        "percentage": 50
+      },
+      {
+        "name": "Offer and acceptance (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Void, voidable, valid and unenforceable contracts (High Leak)",
+        "percentage": 33
+      }
+    ]
+  },
+  {
+    "subject": "Logical Reasoning",
+    "percentage": 29,
+    "color": "amber",
+    "subsections": [
+      {
+        "name": "Displacement and Final Position (Critical)",
+        "percentage": 16
+      },
+      {
+        "name": "Rotation-based Direction Problems",
+        "percentage": 46
+      },
+      {
+        "name": "Cardinal and Ordinal Directions (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Aristotelian Logic: All, Some, No Statements (Critical)",
+        "percentage": 0
+      }
+    ]
+  },
+  {
+    "subject": "Logical Reasoning (BITSAT)",
+    "percentage": 65,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Classifying items based on logical categories (High Leak)",
+        "percentage": 27
+      },
+      {
+        "name": "Letter Coding",
+        "percentage": 80
+      },
+      {
+        "name": "Number Series: Missing Number",
+        "percentage": 57
+      },
+      {
+        "name": "Symbol-based Coding",
+        "percentage": 67
+      },
+      {
+        "name": "Substitution Coding",
+        "percentage": 100
+      },
+      {
+        "name": "Coded Arithmetic Operations",
+        "percentage": 60
+      },
+      {
+        "name": "Word Analogy",
+        "percentage": 100
+      },
+      {
+        "name": "Word-based Classification",
+        "percentage": 100
+      },
+      {
+        "name": "Number Analogy",
+        "percentage": 75
+      },
+      {
+        "name": "Number-based Classification",
+        "percentage": 75
+      },
+      {
+        "name": "Number Coding",
+        "percentage": 75
+      },
+      {
+        "name": "Coded Blood Relations",
+        "percentage": 100
+      },
+      {
+        "name": "Letter-based Classification",
+        "percentage": 100
+      },
+      {
+        "name": "Letter Series",
+        "percentage": 100
+      },
+      {
+        "name": "Machine Input-Output: Shifting and Rearrangement",
+        "percentage": 67
+      },
+      {
+        "name": "Reverse Coding",
+        "percentage": 67
+      },
+      {
+        "name": "Figure Matrix Problems",
+        "percentage": 50
+      },
+      {
+        "name": "Completing the Figure Series",
+        "percentage": 100
+      },
+      {
+        "name": "Letter Analogy",
+        "percentage": 100
+      },
+      {
+        "name": "Odd Figure Out",
+        "percentage": 50
+      },
+      {
+        "name": "Wrong Number in Series",
+        "percentage": 100
+      },
+      {
+        "name": "Mixed Analogy",
+        "percentage": 100
+      },
+      {
+        "name": "Alphanumeric Series",
+        "percentage": 100
+      }
+    ]
+  },
+  {
+    "subject": "Quantitative Techniques",
+    "percentage": 27,
+    "color": "amber",
+    "subsections": [
+      {
+        "name": "Simple Interest Formula and Applications (Critical)",
+        "percentage": 15
+      },
+      {
+        "name": "Mixtures and alligation (basic) (High Leak)",
+        "percentage": 23
+      },
+      {
+        "name": "Discount and Successive Discounts",
+        "percentage": 60
+      },
+      {
+        "name": "Profit and Loss Percentage (High Leak)",
+        "percentage": 22
+      },
+      {
+        "name": "Cost Price, Selling Price, Marked Price",
+        "percentage": 38
+      },
+      {
+        "name": "Applications of Percentage in Profit/Loss (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Ratio and its Properties",
+        "percentage": 40
+      },
+      {
+        "name": "Mixing of Two or More Solutions (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Alligation Rule",
+        "percentage": 75
+      },
+      {
+        "name": "Basic Percentage Calculations (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Change in Average",
+        "percentage": 50
+      },
+      {
+        "name": "Dishonest Dealings and False Weights (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Proportion: Direct and Inverse (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Arithmetic Mean",
+        "percentage": 67
+      },
+      {
+        "name": "Successive Percentage Change (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Partnership-based Profit Sharing (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Percentage Change (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Weighted Average (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Replacement of Mixtures",
+        "percentage": 50
+      },
+      {
+        "name": "Word Problems on Linear Equations (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Average Speed (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Partnership",
+        "percentage": 100
+      },
+      {
+        "name": "Population Growth and Depreciation",
+        "percentage": 100
+      }
+    ]
+  }
+]

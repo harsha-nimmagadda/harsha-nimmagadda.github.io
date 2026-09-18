@@ -1,0 +1,239 @@
+{
+  "pacing_metrics": [
+    {
+      "subject": "Chemistry",
+      "accuracy": 41,
+      "avg_time_sec": 45,
+      "exam_count": 114
+    },
+    {
+      "subject": "Logical Reasoning",
+      "accuracy": 0,
+      "avg_time_sec": 20,
+      "exam_count": 1
+    },
+    {
+      "subject": "Mathematics",
+      "accuracy": 47,
+      "avg_time_sec": 109,
+      "exam_count": 106
+    },
+    {
+      "subject": "Physics",
+      "accuracy": 46,
+      "avg_time_sec": 85,
+      "exam_count": 139
+    },
+    {
+      "subject": "Quantitative Techniques",
+      "accuracy": 0,
+      "avg_time_sec": 4,
+      "exam_count": 1
+    }
+  ],
+  "topic_recovery_history": [
+    {
+      "subject": "Physics",
+      "topic": "Electric Field due to Various Charge Distributions",
+      "early_acc": 0,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Mathematics",
+      "topic": "Integration by Parts",
+      "early_acc": 0,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Chemistry",
+      "topic": "Batteries – Primary, Secondary, Fuel Cells",
+      "early_acc": 0,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Physics",
+      "topic": "Power",
+      "early_acc": 0,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Physics",
+      "topic": "Wheatstone Bridge",
+      "early_acc": 25,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Physics",
+      "topic": "Change of State – Latent Heat",
+      "early_acc": 25,
+      "recent_acc": 100
+    }
+  ],
+  "heatmap_data": [
+    {
+      "subject": "Biology",
+      "chapters": [
+        {
+          "name": "Mendelian inheritance",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "chapters": [
+        {
+          "name": "Abnormal Molar Masses",
+          "easy_acc": 80,
+          "easy_qs": 5,
+          "med_acc": 0,
+          "med_qs": 2,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Abnormal molar mass – van't Hoff factor",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 0,
+          "hard_qs": 1
+        },
+        {
+          "name": "Acidity of Carboxylic Acids",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Acid rain",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 0,
+          "hard_qs": 1
+        }
+      ]
+    },
+    {
+      "subject": "Logical Reasoning",
+      "chapters": [
+        {
+          "name": "General Module",
+          "easy_acc": 0,
+          "easy_qs": 1,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "chapters": [
+        {
+          "name": "Addition and subtraction of matrices",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Adjoint of a matrix",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 67,
+          "med_qs": 18,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "AM, GM, HM and Their Relations",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 71,
+          "med_qs": 7,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Angle between Two Lines",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 43,
+          "med_qs": 7,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "chapters": [
+        {
+          "name": "Acceleration — average and instantaneous",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Acceleration due to Gravity",
+          "easy_acc": 83,
+          "easy_qs": 12,
+          "med_acc": 30,
+          "med_qs": 10,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "AC Circuit with R, L, C",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "AC Voltage and RMS Values",
+          "easy_acc": 0,
+          "easy_qs": 2,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Quantitative Techniques",
+      "chapters": [
+        {
+          "name": "General Module",
+          "easy_acc": 0,
+          "easy_qs": 1,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    }
+  ]
+}
