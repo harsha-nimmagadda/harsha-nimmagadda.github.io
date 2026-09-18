@@ -1,0 +1,40 @@
+{
+  "insights": [
+    {
+      "id": "ins-01",
+      "type": "velocity",
+      "severity": "positive",
+      "title": "Strong Velocity in Chemistry Across Madhapur",
+      "message": "SR MPC cohort gained +9.2% overall accuracy in Organic Mechanisms over the past 4 weeks.",
+      "metricValue": "+9.2% Lift",
+      "actionableStep": "Roll out advanced multi-concept problem sheet #14 to sustain momentum."
+    },
+    {
+      "id": "ins-02",
+      "type": "topic_hotspot",
+      "severity": "critical",
+      "title": "Critical Score Leak: Rotational Equilibrium",
+      "message": "14 out of 22 students in SR MPC failed question #14 (Torque balance) due to rotational axis reference errors.",
+      "metricValue": "-14 Marks Avg Leak",
+      "actionableStep": "Faculty briefing recommended: spend 20 minutes covering hinge force vector diagrams."
+    },
+    {
+      "id": "ins-03",
+      "type": "attendance_leak",
+      "severity": "warning",
+      "title": "Attendance Anomaly Pre-Exam (Shamirpet)",
+      "message": "6 students in NEET 2026 had consecutive absences on Friday sessions right before Grand Test #19.",
+      "metricValue": "6 Students At-Risk",
+      "actionableStep": "Trigger SMS notification to parents and schedule counseling check-in."
+    },
+    {
+      "id": "ins-04",
+      "type": "velocity",
+      "severity": "info",
+      "title": "Math Time Allocation Shift",
+      "message": "Average time spent per math problem dropped from 3m 42s to 2m 50s without loss in accuracy.",
+      "metricValue": "-52s / Question",
+      "actionableStep": "Pacing optimization targets met for JEE Mains Section A."
+    }
+  ]
+}

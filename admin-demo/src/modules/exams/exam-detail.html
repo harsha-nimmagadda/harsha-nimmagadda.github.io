@@ -1,0 +1,618 @@
+      <!-- ===================================================================== -->
+      <!-- SECTION 3B: /analytics/exam/[id] (Clinical 3-Tab Exam Command Center) -->
+      <!-- ===================================================================== -->
+      <div id="section-exam-detail" class="section-view max-w-7xl mx-auto space-y-6 hidden fade-in">
+        
+        <!-- Header & Action Bar -->
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 rounded-3xl border border-border bg-white p-5 shadow-xs">
+          <div class="flex items-center gap-3">
+            <button onclick="switchView('exams')" class="flex h-10 w-10 items-center justify-center rounded-2xl border border-border bg-slate-50 transition-colors hover:bg-primary/10 hover:text-primary text-gray-700" title="Back to Exams Roster">
+              <i class="ph-bold ph-arrow-left text-lg"></i>
+            </button>
+            <div>
+              <div class="flex items-center gap-2">
+                <h1 class="text-2xl font-bold tracking-tight text-gray-900" id="exam-detail-title">Mock Test — Jee Mains</h1>
+                <span class="px-2.5 py-0.5 rounded-full text-xs font-bold uppercase tracking-wider bg-purple-100 text-purple-800" id="exam-detail-purpose">JEE Mains</span>
+                <span class="rounded-full bg-emerald-50 border border-emerald-200 px-2 py-0.5 text-[11px] font-semibold text-emerald-700">Results Released</span>
+              </div>
+              <p class="mt-0.5 text-xs text-muted" id="exam-detail-meta">Scheduled: Mar 12, 2026 · 672 Submissions · Assigned: SR MPC (Madhapur, Shamirpet, Suchitra)</p>
+            </div>
+          </div>
+
+          <!-- Immediate Actions & Cohort Filters -->
+          <div class="flex flex-wrap items-center gap-2">
+            <!-- Absentee WhatsApp Quick Action -->
+            <button onclick="openExamAbsenteeWhatsApp()" class="inline-flex items-center gap-1.5 rounded-xl bg-emerald-600 px-3.5 py-2 text-xs font-semibold text-white shadow-xs hover:bg-emerald-700 transition-all" title="Notify parents of absent students via WhatsApp">
+              <i class="ph-bold ph-whatsapp-logo text-base"></i>
+              <span>WhatsApp Absentees</span>
+            </button>
+
+            <!-- Export Full Results -->
+            <button onclick="alert('Exporting Full Results (Excel)...')" class="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl border border-border bg-surface text-gray-700 text-xs font-medium hover:bg-slate-50 transition-colors shadow-xs">
+              <i class="ph-duotone ph-download-simple text-sm"></i>
+              <span>Export Merit List</span>
+            </button>
+
+            <!-- Discrimination / Item Quality Analysis -->
+            <button onclick="openBatchDiscrimination('b-srmpc-madhapur', currentActiveExamId)" class="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl border border-purple-200 bg-purple-50 text-purple-700 text-xs font-semibold hover:bg-purple-100 transition-colors shadow-xs" title="Item Quality & Discrimination Analysis">
+              <i class="ph-duotone ph-chart-scatter text-sm"></i>
+              <span>Item Quality</span>
+            </button>
+
+            <!-- Filters -->
+            <div class="flex items-center gap-1.5 border-l border-border pl-2">
+              <select id="exam-detail-branch-filter" onchange="onExamDetailFilterChange()" class="max-w-[140px] truncate rounded-xl border border-border bg-slate-50 px-2.5 py-1.5 text-xs font-medium text-gray-700 outline-none focus:border-primary">
+                <option value="">All Branches</option>
+              </select>
+              <select id="exam-detail-batch-filter" onchange="onExamDetailFilterChange()" class="max-w-[140px] truncate rounded-xl border border-border bg-slate-50 px-2.5 py-1.5 text-xs font-medium text-gray-700 outline-none focus:border-primary">
+                <option value="">All Batches</option>
+              </select>
+              <select id="exam-detail-section-filter" onchange="onExamDetailFilterChange()" class="max-w-[120px] truncate rounded-xl border border-border bg-slate-50 px-2.5 py-1.5 text-xs font-medium text-gray-700 outline-none focus:border-primary">
+                <option value="">All Sections</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Top Key Paper Performance Metrics (Dictionary-Free Indian Context) -->
+        <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
+          <!-- Metric 1: Turnout / Appeared -->
+          <div class="rounded-2xl border border-indigo-200 bg-indigo-50/40 p-4">
+            <div class="flex items-center justify-between">
+              <span class="text-[11px] font-semibold uppercase tracking-wider text-indigo-700">Exam Turnout</span>
+              <i class="ph-duotone ph-users text-lg text-indigo-600"></i>
+            </div>
+            <p class="mt-1 font-mono text-xl font-extrabold text-indigo-950" id="exam-kpi-appeared">672 / 708</p>
+            <p class="mt-0.5 text-[11px] text-indigo-600 font-medium">94.9% Participation</p>
+          </div>
+
+          <!-- Metric 2: Class Average Score -->
+          <div class="rounded-2xl border border-border bg-white p-4 shadow-xs">
+            <div class="flex items-center justify-between">
+              <span class="text-[11px] font-semibold uppercase tracking-wider text-slate-500">Class Average</span>
+              <i class="ph-duotone ph-chart-bar text-lg text-blue-600"></i>
+            </div>
+            <p class="mt-1 font-mono text-xl font-bold text-blue-600" id="exam-kpi-avg-score">164.2</p>
+            <p class="mt-0.5 text-[11px] text-muted">out of 300 (54.7% accuracy)</p>
+          </div>
+
+          <!-- Metric 3: Top Scorer -->
+          <div class="rounded-2xl border border-emerald-200 bg-emerald-50/40 p-4">
+            <div class="flex items-center justify-between">
+              <span class="text-[11px] font-semibold uppercase tracking-wider text-emerald-700">Topper Score</span>
+              <i class="ph-duotone ph-trophy text-lg text-emerald-600"></i>
+            </div>
+            <p class="mt-1 font-mono text-xl font-extrabold text-emerald-900" id="exam-kpi-top-score">284</p>
+            <p class="mt-0.5 text-[11px] text-emerald-700 font-medium">Bhagam Khyathi (SR MPC)</p>
+          </div>
+
+          <!-- Metric 4: Score Range / Spread (Replaces Cryptic Std Dev) -->
+          <div class="rounded-2xl border border-border bg-white p-4 shadow-xs">
+            <div class="flex items-center justify-between">
+              <span class="text-[11px] font-semibold uppercase tracking-wider text-slate-500">Score Spread</span>
+              <i class="ph-duotone ph-arrows-out-line-horizontal text-lg text-purple-600"></i>
+            </div>
+            <p class="mt-1 font-mono text-xl font-bold text-gray-900" id="exam-kpi-spread">42 – 284</p>
+            <p class="mt-0.5 text-[11px] text-muted">Lowest: <span class="font-bold text-rose-600" id="exam-kpi-lowest-score">42</span> Marks</p>
+            <span class="hidden" id="exam-kpi-std-dev">28.4</span>
+          </div>
+
+          <!-- Metric 5: Cutoff Clearance Rate -->
+          <div class="rounded-2xl border border-border bg-white p-4 shadow-xs col-span-2 sm:col-span-1">
+            <div class="flex items-center justify-between">
+              <span class="text-[11px] font-semibold uppercase tracking-wider text-slate-500">Cutoff Clearance</span>
+              <i class="ph-duotone ph-check-circle text-lg text-emerald-600"></i>
+            </div>
+            <p class="mt-1 font-mono text-xl font-bold text-emerald-600" id="exam-kpi-pass-rate">88.5%</p>
+            <p class="mt-0.5 text-[11px] text-muted">&ge; 120 Marks Cutoff · <span id="exam-kpi-avg-time">158m</span> avg time</p>
+          </div>
+        </div>
+
+        <!-- 3-Tab Navigation Bar -->
+        <div class="flex border-b border-border bg-white rounded-2xl p-1.5 shadow-xs" id="exam-tabs-nav">
+          <button type="button" onclick="switchExamTab('results')" id="exam-tab-btn-results" class="exam-tab-btn flex-1 flex items-center justify-center gap-2 rounded-xl py-2.5 px-4 text-xs font-bold transition-all bg-indigo-600 text-white shadow-xs">
+            <i class="ph-bold ph-trophy text-sm"></i>
+            <span>🏆 Results Leaderboard &amp; Batches</span>
+          </button>
+          <button type="button" onclick="switchExamTab('forensic')" id="exam-tab-btn-forensic" class="exam-tab-btn flex-1 flex items-center justify-center gap-2 rounded-xl py-2.5 px-4 text-xs font-medium text-muted transition-all hover:text-foreground hover:bg-slate-50">
+            <i class="ph-bold ph-lightbulb text-sm"></i>
+            <span>🎯 Paper Forensic &amp; Killer Questions</span>
+          </button>
+          <button type="button" onclick="switchExamTab('interventions')" id="exam-tab-btn-interventions" class="exam-tab-btn flex-1 flex items-center justify-center gap-2 rounded-xl py-2.5 px-4 text-xs font-medium text-muted transition-all hover:text-foreground hover:bg-slate-50">
+            <i class="ph-bold ph-warning-circle text-sm"></i>
+            <span>🚨 Student Interventions &amp; Risk Traps</span>
+          </button>
+        </div>
+
+        <!-- ===================================================================== -->
+        <!-- TAB 1: RESULTS LEADERBOARD & BATCHES (DEFAULT ACTIVE VIEW) -->
+        <!-- ===================================================================== -->
+        <div id="exam-tab-results-panel" class="exam-tab-panel space-y-6">
+
+          <!-- Score Distribution + Subject Accuracy -->
+          <div class="grid gap-6 lg:grid-cols-2">
+            <!-- Score Distribution Histogram -->
+            <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+              <div class="flex items-center justify-between mb-1">
+                <h3 class="text-base font-semibold text-gray-900">Score Distribution (Marks Brackets)</h3>
+                <span class="rounded-full bg-blue-50 border border-blue-200 px-2 py-0.5 text-[10px] font-bold text-blue-700">672 Submissions</span>
+              </div>
+              <p class="text-xs text-muted mb-4">Number of students in each score bracket (0 to 300 marks)</p>
+              <div class="h-64 relative">
+                <canvas id="examDistributionChart"></canvas>
+              </div>
+            </div>
+
+            <!-- Subject Accuracy Horizontal Bar Chart -->
+            <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs flex flex-col">
+              <div class="flex items-center justify-between mb-1">
+                <h3 class="text-base font-semibold text-gray-900">Subject Accuracy Benchmark</h3>
+                <span class="text-[11px] text-muted">Benchmark: <strong class="text-gray-800">70% Target</strong></span>
+              </div>
+              <p class="text-xs text-muted mb-4">Overall cohort accuracy across Physics, Chemistry, and Mathematics</p>
+              <div class="h-64 relative flex-1">
+                <canvas id="examSubjectAccuracyChart"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <!-- Results Table — Full Ranked Leaderboard -->
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+            <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
+              <div class="flex items-center gap-3">
+                <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-amber-100 text-amber-700">
+                  <i class="ph-duotone ph-trophy text-xl"></i>
+                </div>
+                <div>
+                  <h2 class="text-base font-semibold text-gray-900">Ranked Results Leaderboard</h2>
+                  <p class="text-xs text-muted" id="exam-results-meta">672 ranked students · 12 flagged for review</p>
+                </div>
+              </div>
+              
+              <div class="flex flex-wrap items-center gap-2">
+                <div class="relative w-56">
+                  <i class="ph-bold ph-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-muted text-xs"></i>
+                  <input type="text" id="exam-scorers-search" oninput="onExamScorersSearch(this.value)" placeholder="Search students…" class="h-8 w-full rounded-lg border border-border bg-surface pl-8 pr-3 text-xs outline-none focus:border-primary">
+                </div>
+                <button type="button" id="exam-scorers-flagged-btn" onclick="toggleExamScorersFlagged()" class="flex h-8 items-center gap-1.5 rounded-lg border border-border px-3 text-xs font-medium text-muted hover:bg-primary/5 transition-colors">
+                  <i class="ph-fill ph-flag text-danger text-xs"></i> Flagged only <span class="font-mono text-danger font-bold" id="exam-scorers-flagged-count">3</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="overflow-x-auto">
+              <table class="w-full text-left text-sm">
+                <thead>
+                  <tr class="border-b border-border text-xs font-semibold uppercase tracking-wider text-muted">
+                    <th class="cursor-pointer pb-3 pr-4 hover:text-foreground" onclick="sortExamScorers('name')">Student</th>
+                    <th class="cursor-pointer pb-3 pr-4 hover:text-foreground" onclick="sortExamScorers('rank')">Rank</th>
+                    <th class="cursor-pointer pb-3 pr-4 text-right hover:text-foreground" onclick="sortExamScorers('score')">Total Score</th>
+                    <th class="cursor-pointer pb-3 pr-4 text-right hover:text-foreground" onclick="sortExamScorers('phy')">Physics</th>
+                    <th class="cursor-pointer pb-3 pr-4 text-right hover:text-foreground" onclick="sortExamScorers('chem')">Chemistry</th>
+                    <th class="cursor-pointer pb-3 pr-4 text-right hover:text-foreground" onclick="sortExamScorers('math')">Mathematics</th>
+                    <th class="pb-3 text-right">Student Dossier</th>
+                  </tr>
+                </thead>
+                <tbody id="exam-scorers-table-body" class="divide-y divide-border"></tbody>
+              </table>
+            </div>
+
+            <!-- Pagination Footer -->
+            <div class="mt-4 flex items-center justify-between border-t border-border pt-4">
+              <p class="text-xs text-muted" id="exam-scorers-page-info">Showing 1 - 10 of 672</p>
+              <div class="flex items-center gap-2">
+                <button id="exam-scorers-prev-btn" onclick="changeExamScorersPage(-1)" class="flex h-8 items-center gap-1 rounded-lg border border-border px-3 text-xs font-medium text-muted hover:bg-primary/5 disabled:opacity-40 disabled:cursor-not-allowed">
+                  Prev
+                </button>
+                <span class="text-xs font-medium text-gray-700 min-w-[64px] text-center" id="exam-scorers-page-indicator">Page 1 / 68</span>
+                <button id="exam-scorers-next-btn" onclick="changeExamScorersPage(1)" class="flex h-8 items-center gap-1 rounded-lg border border-border px-3 text-xs font-medium text-muted hover:bg-primary/5 disabled:opacity-40 disabled:cursor-not-allowed">
+                  Next
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Subject-wise Mini-Leaderboards -->
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+            <div class="flex items-center gap-3 mb-4">
+              <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-primary/10">
+                <i class="ph-duotone ph-chart-bar text-xl text-primary"></i>
+              </div>
+              <div>
+                <h2 class="text-base font-semibold text-gray-900">Subject-wise Top Performers</h2>
+                <p class="text-xs text-muted">Highest accuracy scorers in Physics, Chemistry, and Mathematics</p>
+              </div>
+            </div>
+            <div class="grid gap-4 md:grid-cols-3" id="exam-subject-rankings-grid"></div>
+          </div>
+
+          <!-- Section & Branch Rankings Row -->
+          <div class="grid gap-6 lg:grid-cols-2">
+            <!-- Section Rankings -->
+            <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+              <div class="flex items-center gap-3 mb-4">
+                <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-amber-100 text-amber-700">
+                  <i class="ph-duotone ph-users text-xl"></i>
+                </div>
+                <div>
+                  <h2 class="text-base font-semibold text-gray-900">Section-wise Performance</h2>
+                  <p class="text-xs text-muted">Average score and qualification rate across sections</p>
+                </div>
+              </div>
+              <div class="space-y-4" id="exam-section-rankings-container"></div>
+            </div>
+
+            <!-- Branch Rankings -->
+            <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+              <div class="flex items-center gap-3 mb-4">
+                <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-primary/10">
+                  <i class="ph-duotone ph-buildings text-xl text-primary"></i>
+                </div>
+                <div>
+                  <h2 class="text-base font-semibold text-gray-900">Campus & Branch Standings</h2>
+                  <p class="text-xs text-muted">Comparative performance across institutional campuses</p>
+                </div>
+              </div>
+              <div class="space-y-4" id="exam-branch-rankings-container"></div>
+            </div>
+          </div>
+
+          <!-- Absent Students List for THIS exam -->
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+            <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
+              <div class="flex items-center gap-3">
+                <div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-rose-50 text-rose-600">
+                  <i class="ph-duotone ph-user-minus text-xl"></i>
+                </div>
+                <div>
+                  <h2 class="text-base font-semibold text-gray-900">Absent Students</h2>
+                  <p class="text-xs text-muted" id="exam-absent-meta">5 students did not submit this exam</p>
+                </div>
+              </div>
+              <button onclick="openExamAbsenteeWhatsApp()" class="inline-flex items-center gap-1.5 rounded-xl border border-emerald-300 bg-emerald-50 px-3 py-1.5 text-xs font-semibold text-emerald-700 hover:bg-emerald-100 transition-colors">
+                <i class="ph-bold ph-whatsapp-logo text-sm"></i>
+                <span>Alert Absent Parents</span>
+              </button>
+            </div>
+            <ul class="divide-y divide-border" id="exam-absent-list"></ul>
+          </div>
+
+        </div>
+
+        <!-- ===================================================================== -->
+        <!-- TAB 2: PAPER FORENSIC & KILLER QUESTIONS (FACULTY REVIEW) -->
+        <!-- ===================================================================== -->
+        <div id="exam-tab-forensic-panel" class="exam-tab-panel space-y-6 hidden">
+
+          <!-- Killer questions & Most skipped banner -->
+          <div class="rounded-2xl border border-border bg-surface p-5 shadow-xs">
+            <div class="flex items-center justify-between cursor-pointer" onclick="toggleExamInsights()">
+              <div class="flex items-center gap-3">
+                <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-rose-100 text-rose-700">
+                  <i class="ph-duotone ph-warning-octagon text-xl"></i>
+                </div>
+                <div>
+                  <h3 class="text-sm font-semibold text-gray-900">Critical Paper Gaps for Classroom Solving</h3>
+                  <p class="text-xs text-muted">Killer questions (&lt;30% accuracy) and high skip-rate topics (&ge;20% skipped)</p>
+                </div>
+              </div>
+              <i id="exam-insights-caret" class="ph-bold ph-caret-down text-muted transition-transform"></i>
+            </div>
+            <div id="exam-insights-content" class="mt-4 pt-4 border-t border-border grid gap-4 md:grid-cols-2">
+              <div class="p-4 bg-rose-50/70 border border-rose-200 rounded-2xl">
+                <div class="flex items-center gap-2 text-xs font-bold text-rose-800 mb-2">
+                  <i class="ph-bold ph-x-circle text-base"></i> "Killer Questions" (Nobody got these right, &lt;30% Accuracy)
+                </div>
+                <p class="text-[11px] text-rose-700 mb-3">Click any question below to inspect full stem and explanation:</p>
+                <div class="flex flex-wrap gap-2" id="exam-killer-questions"></div>
+              </div>
+              <div class="p-4 bg-slate-50 border border-border rounded-2xl">
+                <div class="flex items-center gap-2 text-xs font-bold text-slate-800 mb-2">
+                  <i class="ph-bold ph-minus-circle text-base"></i> Most Skipped Questions (&ge;20% Left Blank)
+                </div>
+                <p class="text-[11px] text-muted mb-3">Topics students hesitated to attempt under exam pressure:</p>
+                <div class="flex flex-wrap gap-2" id="exam-skipped-questions"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Subject Attempt Breakdown (Right / Wrong / Skipped) -->
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+            <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
+              <div class="flex items-center gap-3">
+                <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-primary/10">
+                  <i class="ph-duotone ph-chart-bar-horizontal text-xl text-primary"></i>
+                </div>
+                <div>
+                  <h2 class="text-base font-semibold text-gray-900">Subject Attempt Breakdown</h2>
+                  <p class="text-xs text-muted">Cohort attempts split into Correct / Incorrect / Skipped for each subject</p>
+                </div>
+              </div>
+
+              <div class="flex items-center gap-3 text-xs font-medium">
+                <span class="flex items-center gap-1.5"><span class="h-2.5 w-2.5 rounded-sm bg-emerald-500"></span>Correct</span>
+                <span class="flex items-center gap-1.5"><span class="h-2.5 w-2.5 rounded-sm bg-rose-500"></span>Wrong (Negative)</span>
+                <span class="flex items-center gap-1.5"><span class="h-2.5 w-2.5 rounded-sm bg-slate-400"></span>Skipped (Unattempted)</span>
+              </div>
+            </div>
+
+            <div class="space-y-3.5" id="exam-subject-rwl-bars"></div>
+          </div>
+
+          <!-- Topic & Chapter Breakdown Table (sortable) -->
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+            <div class="flex items-center justify-between mb-2">
+              <div>
+                <h2 class="text-base font-semibold text-gray-900">Topic &amp; Chapter Breakdown</h2>
+                <p class="text-xs text-muted">Click column headers to sort by lowest accuracy or longest dwell time</p>
+              </div>
+              <span class="rounded-full bg-slate-100 px-2.5 py-0.5 text-xs font-semibold text-gray-700">Full Syllabus Map</span>
+            </div>
+            <div class="overflow-x-auto mt-3">
+              <table class="w-full text-left text-sm">
+                <thead>
+                  <tr class="border-b border-border text-xs font-semibold uppercase tracking-wider text-muted">
+                    <th class="cursor-pointer pb-3 pr-4 hover:text-foreground" onclick="sortExamTopics('topic')">Chapter / Topic</th>
+                    <th class="cursor-pointer pb-3 pr-4 hover:text-foreground" onclick="sortExamTopics('subject')">Subject</th>
+                    <th class="cursor-pointer pb-3 pr-4 text-right hover:text-foreground" onclick="sortExamTopics('questions')">Questions</th>
+                    <th class="cursor-pointer pb-3 pr-4 text-right hover:text-foreground" onclick="sortExamTopics('accuracy')">Accuracy</th>
+                    <th class="cursor-pointer pb-3 text-right hover:text-foreground" onclick="sortExamTopics('avgSeconds')">Avg Time</th>
+                  </tr>
+                </thead>
+                <tbody id="exam-topic-breakdown-body" class="divide-y divide-border"></tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Per-Question Analysis Palette -->
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs" id="question-analysis">
+            <div class="flex flex-wrap items-center justify-between gap-3 mb-5">
+              <div class="flex items-center gap-3">
+                <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-primary/10">
+                  <i class="ph-duotone ph-question text-xl text-primary"></i>
+                </div>
+                <div>
+                  <h2 class="text-base font-semibold text-gray-900">Per-Question Forensic Autopsy</h2>
+                  <p class="text-xs text-muted" id="exam-qa-meta-desc">Select any question number to inspect full stem, options, accuracy, and student mistake patterns</p>
+                </div>
+              </div>
+
+              <!-- View toggle: Palette | Question by Question | Subject | Section -->
+              <div class="flex items-center gap-1 rounded-xl border border-border bg-surface p-1 text-xs font-medium">
+                <button onclick="setExamQaView('palette')" id="exam-qaview-palette-btn" class="rounded-lg px-3 py-1.5 bg-primary/10 text-primary font-semibold transition-colors">Palette</button>
+                <button onclick="setExamQaView('table')" id="exam-qaview-table-btn" class="rounded-lg px-3 py-1.5 text-muted hover:text-foreground transition-colors">Question by Question</button>
+                <button onclick="setExamQaView('subject')" id="exam-qaview-subject-btn" class="rounded-lg px-3 py-1.5 text-muted hover:text-foreground transition-colors">Subject Rollup</button>
+                <button onclick="setExamQaView('section')" id="exam-qaview-section-btn" class="rounded-lg px-3 py-1.5 text-muted hover:text-foreground transition-colors">Section Rollup</button>
+              </div>
+            </div>
+
+            <!-- View 1: Palette + Detail Panel -->
+            <div id="exam-qa-palette-container" class="grid gap-6 lg:grid-cols-[280px_1fr]">
+              <!-- Left: Question Palette -->
+              <div class="rounded-xl border border-border bg-slate-50/70 p-4 lg:sticky lg:top-4 lg:self-start">
+                <h3 class="mb-3 text-xs font-semibold uppercase tracking-wider text-muted">Question Palette (75)</h3>
+                <div class="grid grid-cols-7 place-items-center gap-y-2" id="exam-question-palette-grid"></div>
+                
+                <div class="mt-4 space-y-1.5 text-[10px] text-muted pt-3 border-t border-border">
+                  <div class="flex items-center gap-1.5">
+                    <span class="h-2.5 w-2.5 rounded-full bg-emerald-500"></span>
+                    <span>&ge; 70% correct</span>
+                  </div>
+                  <div class="flex items-center gap-1.5">
+                    <span class="h-2.5 w-2.5 rounded-full bg-amber-500"></span>
+                    <span>40 &ndash; 70%</span>
+                  </div>
+                  <div class="flex items-center gap-1.5">
+                    <span class="h-2.5 w-2.5 rounded-full bg-rose-500"></span>
+                    <span>&lt; 40%</span>
+                  </div>
+                  <div class="flex items-center gap-1.5">
+                    <span class="h-2.5 w-2.5 rounded-full bg-primary ring-2 ring-primary/40"></span>
+                    <span>Selected</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Right: Detail Panel -->
+              <div class="min-w-0 space-y-4" id="exam-question-detail-panel"></div>
+            </div>
+
+            <!-- View 2: Question by Question Sortable Table -->
+            <div id="exam-qa-table-container" class="hidden overflow-x-auto">
+              <table class="w-full text-left text-xs">
+                <thead class="border-b border-border bg-slate-50 font-semibold uppercase text-muted">
+                  <tr>
+                    <th class="py-2.5 px-3">#</th>
+                    <th class="py-2.5 px-3">Stem</th>
+                    <th class="py-2.5 px-3">Subject</th>
+                    <th class="py-2.5 px-3">Topic</th>
+                    <th class="py-2.5 px-3">Difficulty</th>
+                    <th class="py-2.5 px-3 text-center">Right</th>
+                    <th class="py-2.5 px-3 text-center">Wrong</th>
+                    <th class="py-2.5 px-3 text-center">Left</th>
+                    <th class="py-2.5 px-3 text-center">Accuracy</th>
+                    <th class="py-2.5 px-3 text-center">DI</th>
+                    <th class="py-2.5 px-3 text-right">Avg Time</th>
+                  </tr>
+                </thead>
+                <tbody id="exam-qa-table-tbody" class="divide-y divide-border"></tbody>
+              </table>
+            </div>
+
+            <!-- View 3: Subject / Section Rollup -->
+            <div id="exam-qa-rollup-container" class="hidden overflow-x-auto">
+              <table class="w-full text-left text-xs">
+                <thead class="border-b border-border bg-slate-50 font-semibold uppercase text-muted">
+                  <tr>
+                    <th class="py-2.5 px-3" id="exam-rollup-group-header">Subject</th>
+                    <th class="py-2.5 px-3 text-center">Questions</th>
+                    <th class="py-2.5 px-3 text-center">Appeared</th>
+                    <th class="py-2.5 px-3 text-center">Right %</th>
+                    <th class="py-2.5 px-3 text-center">Wrong %</th>
+                    <th class="py-2.5 px-3 text-center">Left %</th>
+                    <th class="py-2.5 px-3 text-center">Accuracy</th>
+                    <th class="py-2.5 px-3 text-right">Avg Pace</th>
+                  </tr>
+                </thead>
+                <tbody id="exam-qa-rollup-tbody" class="divide-y divide-border"></tbody>
+              </table>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ===================================================================== -->
+        <!-- TAB 3: STUDENT INTERVENTIONS & RISK TRAPS -->
+        <!-- ===================================================================== -->
+        <div id="exam-tab-interventions-panel" class="exam-tab-panel space-y-6 hidden">
+
+          <!-- Students at risk on this exam -->
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs" id="exam-at-risk-section">
+            <div class="flex flex-wrap items-start justify-between gap-3 mb-4">
+              <div class="flex items-start gap-3">
+                <div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-rose-100 text-rose-600">
+                  <i class="ph-duotone ph-warning text-xl"></i>
+                </div>
+                <div>
+                  <h2 class="text-base font-semibold text-gray-900">Students Below Cutoff &amp; At Risk</h2>
+                  <p class="mt-0.5 text-xs text-muted">38 of 672 submitters scored below 60% · bucketed by absolute score on this paper</p>
+                </div>
+              </div>
+
+              <!-- Severity Filter Pills -->
+              <div class="flex items-center gap-1.5">
+                <button onclick="setExamAtRiskSeverity('all')" class="exam-risk-filter-btn px-2.5 py-1 text-xs font-semibold rounded-lg bg-primary/10 text-primary" data-severity="all">All (38)</button>
+                <button onclick="setExamAtRiskSeverity('critical')" class="exam-risk-filter-btn px-2.5 py-1 text-xs font-medium rounded-lg text-rose-700 hover:bg-rose-50" data-severity="critical">Critical &lt;40% (4)</button>
+                <button onclick="setExamAtRiskSeverity('warning')" class="exam-risk-filter-btn px-2.5 py-1 text-xs font-medium rounded-lg text-amber-700 hover:bg-amber-50" data-severity="warning">Warning 40-50% (12)</button>
+                <button onclick="setExamAtRiskSeverity('low')" class="exam-risk-filter-btn px-2.5 py-1 text-xs font-medium rounded-lg text-yellow-700 hover:bg-yellow-50" data-severity="low">Low 50-60% (22)</button>
+              </div>
+            </div>
+
+            <!-- Severity split bar -->
+            <div class="mb-4">
+              <div class="flex h-2.5 w-full overflow-hidden rounded-full bg-slate-100">
+                <div class="bg-rose-500" style="width: 10.5%" title="Critical: 4 (10.5%)"></div>
+                <div class="bg-amber-500" style="width: 31.6%" title="Warning: 12 (31.6%)"></div>
+                <div class="bg-yellow-400" style="width: 57.9%" title="Low: 22 (57.9%)"></div>
+              </div>
+            </div>
+
+            <!-- At-Risk Student Cards Grid -->
+            <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4" id="exam-at-risk-grid"></div>
+          </div>
+
+          <!-- Mixed Performance -->
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+            <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
+              <div class="flex items-center gap-3">
+                <div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-primary/10">
+                  <i class="ph-duotone ph-scales text-xl text-primary"></i>
+                </div>
+                <div>
+                  <h2 class="text-base font-semibold text-gray-900">Mixed Performance Traps</h2>
+                  <p class="mt-0.5 text-xs text-muted">Students excelling in one subject but lagging behind in another</p>
+                </div>
+              </div>
+
+              <!-- Subject Filters -->
+              <div class="flex flex-wrap items-center gap-2">
+                <div class="flex items-center gap-1.5 text-xs text-muted font-medium">
+                  <span>Strong in:</span>
+                  <select id="exam-mixed-strong" onchange="filterExamMixedPerformance()" class="rounded-lg border border-border bg-surface px-2.5 py-1 text-xs font-medium text-gray-700 outline-none focus:border-primary">
+                    <option value="all">Any Subject</option>
+                    <option value="Physics">Physics</option>
+                    <option value="Chemistry">Chemistry</option>
+                    <option value="Mathematics">Mathematics</option>
+                  </select>
+                </div>
+                <div class="flex items-center gap-1.5 text-xs text-muted font-medium">
+                  <span>Weak in:</span>
+                  <select id="exam-mixed-weak" onchange="filterExamMixedPerformance()" class="rounded-lg border border-border bg-surface px-2.5 py-1 text-xs font-medium text-gray-700 outline-none focus:border-primary">
+                    <option value="all">Any Subject</option>
+                    <option value="Physics">Physics</option>
+                    <option value="Chemistry">Chemistry</option>
+                    <option value="Mathematics">Mathematics</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3" id="exam-mixed-grid"></div>
+          </div>
+
+          <!-- Exam Hall Discipline & Focus Telemetry (Behavioral Signals) -->
+          <div class="rounded-2xl border border-border bg-surface p-5 shadow-xs" id="exam-behavioral-signals-panel">
+            <div class="mb-3 flex items-center justify-between">
+              <div>
+                <h2 class="text-sm font-semibold text-gray-900">Exam Hall Discipline &amp; Focus Telemetry</h2>
+                <p class="text-[11px] text-muted" id="exam-signals-meta">Averaged across 672 submissions</p>
+              </div>
+            </div>
+            <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+              <div class="rounded-xl border border-border bg-slate-50/70 p-4">
+                <p class="text-[10px] uppercase tracking-wider text-muted font-medium">Avg Tab Switches</p>
+                <p class="mt-1 font-mono text-lg font-bold text-gray-900" id="exam-signals-tabswitches">1.8</p>
+                <p class="text-[10px] text-muted">per student</p>
+              </div>
+              <div class="rounded-xl border border-border bg-slate-50/70 p-4">
+                <p class="text-[10px] uppercase tracking-wider text-muted font-medium">Avg Revisits</p>
+                <p class="mt-1 font-mono text-lg font-bold text-gray-900" id="exam-signals-revisits">6.4</p>
+                <p class="text-[10px] text-muted">question opens per student</p>
+              </div>
+              <div class="rounded-xl border border-border bg-slate-50/70 p-4">
+                <p class="text-[10px] uppercase tracking-wider text-muted font-medium">Flagged &ge; 1 Q</p>
+                <p class="mt-1 font-mono text-lg font-bold text-gray-900" id="exam-signals-flagged">28.5%</p>
+                <p class="text-[10px] text-muted">of students</p>
+              </div>
+              <div class="rounded-xl border border-border bg-slate-50/70 p-4">
+                <p class="text-[10px] uppercase tracking-wider text-muted font-medium">2nd-guessed &rarr; wrong</p>
+                <p class="mt-1 font-mono text-lg font-bold text-gray-900" id="exam-signals-secondguess">12.3%</p>
+                <p class="text-[10px] text-muted">negative mark penalty</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ===================================================================== -->
+        <!-- WHATSAPP ABSENTEE PARENT MODAL -->
+        <!-- ===================================================================== -->
+        <div id="exam-absentee-whatsapp-modal" class="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/50 backdrop-blur-xs hidden p-4">
+          <div class="w-full max-w-lg rounded-3xl bg-white p-6 shadow-2xl space-y-4">
+            <div class="flex items-center justify-between border-b border-border pb-3">
+              <div class="flex items-center gap-2 text-emerald-700">
+                <i class="ph-bold ph-whatsapp-logo text-2xl"></i>
+                <h3 class="text-base font-bold text-gray-900">Notify Absentee Parents</h3>
+              </div>
+              <button onclick="closeExamAbsenteeWhatsAppModal()" class="rounded-xl p-1.5 text-gray-400 hover:bg-slate-100 hover:text-gray-700">
+                <i class="ph-bold ph-x text-base"></i>
+              </button>
+            </div>
+
+            <p class="text-xs text-muted">
+              Auto-composed official attendance alert to parents of students who did not submit this exam:
+            </p>
+
+            <div class="rounded-2xl border border-emerald-200 bg-emerald-50/40 p-4 font-mono text-xs text-gray-800 leading-relaxed whitespace-pre-wrap select-all" id="exam-absentee-message-body">
+              <!-- Dynamically populated by openExamAbsenteeWhatsApp() -->
+            </div>
+
+            <div class="flex items-center justify-between pt-2">
+              <button type="button" onclick="copyExamAbsenteeMessage()" id="exam-absentee-copy-btn" class="inline-flex items-center gap-1.5 rounded-xl border border-border bg-white px-3.5 py-2 text-xs font-medium text-gray-700 hover:bg-slate-50 transition-colors">
+                <i class="ph-bold ph-copy text-sm"></i>
+                <span id="exam-absentee-copy-text">Copy Text</span>
+              </button>
+              <div class="flex items-center gap-2">
+                <button type="button" onclick="closeExamAbsenteeWhatsAppModal()" class="rounded-xl px-3.5 py-2 text-xs font-medium text-gray-600 hover:bg-slate-100">
+                  Cancel
+                </button>
+                <button type="button" onclick="sendExamAbsenteeWhatsAppDirect()" class="inline-flex items-center gap-1.5 rounded-xl bg-emerald-600 px-4 py-2 text-xs font-bold text-white shadow-xs hover:bg-emerald-700 transition-all">
+                  <i class="ph-bold ph-paper-plane-tilt text-sm"></i>
+                  <span>Open WhatsApp</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>

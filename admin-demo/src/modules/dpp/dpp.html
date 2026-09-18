@@ -1,0 +1,285 @@
+
+      <!-- ===================================================================== -->
+      <!-- SECTION 6: /analytics/dpp (Practice Adherence) -->
+      <!-- ===================================================================== -->
+      <div id="section-dpp" class="section-view max-w-7xl mx-auto space-y-6 hidden fade-in">
+        
+        <button onclick="switchView('overview')" class="inline-flex items-center gap-1.5 text-sm text-muted hover:text-primary transition-colors">
+          <i class="ph-bold ph-arrow-left"></i> Back to Overview
+        </button>
+
+        <header class="flex items-center gap-3">
+          <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-amber-100 text-amber-600">
+            <i class="ph-duotone ph-lightning text-2xl"></i>
+          </div>
+          <div>
+            <h1 class="text-2xl font-bold tracking-tight text-gray-900" id="dpp-header-title">Daily Practice adherence</h1>
+            <p class="mt-1 text-sm text-muted">
+              Who is keeping up the habit. Students generate their own sets, so this measures adherence, not marks.
+            </p>
+          </div>
+        </header>
+
+        <!-- Practice Type Chips (DPP, Daily 5, Mock, Error Revision, etc.) -->
+        <div class="flex flex-wrap items-center gap-2" id="dpp-type-chips">
+          <button type="button" onclick="setDppType('dpp')" class="rounded-full border px-3 py-1.5 text-xs font-semibold transition border-primary bg-primary/10 text-primary" id="dpp-type-btn-dpp">DPP</button>
+          <button type="button" onclick="setDppType('daily5')" class="rounded-full border border-border px-3 py-1.5 text-xs font-semibold text-muted hover:text-foreground transition" id="dpp-type-btn-daily5">Daily 5</button>
+          <button type="button" onclick="setDppType('mock')" class="rounded-full border border-border px-3 py-1.5 text-xs font-semibold text-muted hover:text-foreground transition" id="dpp-type-btn-mock">Mock Test</button>
+          <button type="button" onclick="setDppType('error_revision')" class="rounded-full border border-border px-3 py-1.5 text-xs font-semibold text-muted hover:text-foreground transition" id="dpp-type-btn-error_revision">Error Revision</button>
+          <button type="button" onclick="setDppType('weekly_clash')" class="rounded-full border border-border px-3 py-1.5 text-xs font-semibold text-muted hover:text-foreground transition" id="dpp-type-btn-weekly_clash">Weekly Clash</button>
+          <button type="button" onclick="setDppType('custom')" class="rounded-full border border-border px-3 py-1.5 text-xs font-semibold text-muted hover:text-foreground transition" id="dpp-type-btn-custom">Custom Practice</button>
+          <button type="button" onclick="setDppType('peer')" class="rounded-full border border-border px-3 py-1.5 text-xs font-semibold text-muted hover:text-foreground transition" id="dpp-type-btn-peer">Peer Challenge</button>
+          <button type="button" onclick="setDppType('all')" class="rounded-full border border-border px-3 py-1.5 text-xs font-semibold text-muted hover:text-foreground transition" id="dpp-type-btn-all">All Practice</button>
+        </div>
+
+        <!-- Filter bar: Window presets + Calendar Picker + Branch + Batch + Section -->
+        <div class="flex flex-wrap items-center gap-3">
+          <div class="inline-flex items-center rounded-xl border border-border bg-slate-50/80 p-0.5">
+            <button type="button" onclick="setDppWindow('7d')" class="rounded-lg px-3 py-1.5 text-xs font-semibold tabular-nums border-primary bg-primary/10 text-primary" id="dpp-win-7d">7d</button>
+            <button type="button" onclick="setDppWindow('14d')" class="rounded-lg px-3 py-1.5 text-xs font-semibold tabular-nums text-muted hover:text-foreground" id="dpp-win-14d">14d</button>
+            <button type="button" onclick="setDppWindow('30d')" class="rounded-lg px-3 py-1.5 text-xs font-semibold tabular-nums text-muted hover:text-foreground" id="dpp-win-30d">30d</button>
+          </div>
+
+          <!-- DateRangeFilter Calendar Picker matching @brilliance/ui -->
+          <div class="relative" id="dpp-calendar-container">
+            <button type="button" id="dpp-calendar-trigger" onclick="toggleDppCalendar()" class="inline-flex items-center gap-2 rounded-xl border border-border bg-surface px-3 py-2 text-xs font-medium text-slate-700 hover:border-primary/40 focus:border-primary transition-colors cursor-pointer shadow-2xs">
+              <i class="ph ph-calendar-blank text-base text-muted"></i>
+              <span id="dpp-date-range-label" class="font-semibold text-gray-900">13 Feb 2026 → 12 Mar 2026</span>
+              <i class="ph ph-caret-down text-xs text-muted"></i>
+            </button>
+
+            <!-- Calendar Popover (GCal-style two-pane picker) -->
+            <div id="dpp-calendar-popover" class="hidden absolute left-0 top-full mt-2 z-50 rounded-2xl border border-border bg-surface p-4 shadow-xl w-[520px] max-w-[95vw]">
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <!-- Left Rail: Presets -->
+                <div class="border-b md:border-b-0 md:border-r border-border pb-3 md:pb-0 md:pr-3 space-y-1">
+                  <p class="text-[11px] font-bold uppercase tracking-wider text-muted mb-2">Preset Windows</p>
+                  <button type="button" onclick="selectDppCalendarPreset('7d', 7)" id="dpp-cal-preset-7d" class="w-full text-left rounded-lg px-2.5 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-100 transition-colors">Last 7 days</button>
+                  <button type="button" onclick="selectDppCalendarPreset('14d', 14)" id="dpp-cal-preset-14d" class="w-full text-left rounded-lg px-2.5 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-100 transition-colors">Last 14 days</button>
+                  <button type="button" onclick="selectDppCalendarPreset('30d', 30)" id="dpp-cal-preset-30d" class="w-full text-left rounded-lg px-2.5 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-100 transition-colors">Last 30 days</button>
+                  <button type="button" onclick="selectDppCalendarPreset('90d', 90)" id="dpp-cal-preset-90d" class="w-full text-left rounded-lg px-2.5 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-100 transition-colors">Last 90 days</button>
+                </div>
+
+                <!-- Right Pane: Month Calendar Grid -->
+                <div class="md:col-span-2 space-y-3">
+                  <div class="flex items-center justify-between">
+                    <button type="button" onclick="shiftDppCalendarMonth(-1)" class="h-7 w-7 rounded-lg border border-border flex items-center justify-center text-slate-600 hover:bg-slate-100">
+                      <i class="ph-bold ph-caret-left text-xs"></i>
+                    </button>
+                    <span id="dpp-cal-month-label" class="text-xs font-bold text-gray-900">March 2026</span>
+                    <button type="button" onclick="shiftDppCalendarMonth(1)" class="h-7 w-7 rounded-lg border border-border flex items-center justify-center text-slate-600 hover:bg-slate-100">
+                      <i class="ph-bold ph-caret-right text-xs"></i>
+                    </button>
+                  </div>
+
+                  <!-- Weekdays Header -->
+                  <div class="grid grid-cols-7 text-center text-[10px] font-bold text-muted">
+                    <span>S</span><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span>
+                  </div>
+
+                  <!-- Calendar Days Grid -->
+                  <div class="grid grid-cols-7 gap-y-1 text-center text-xs" id="dpp-cal-days-grid"></div>
+
+                  <!-- Footer Summary & Actions -->
+                  <div class="pt-3 border-t border-border flex items-center justify-between gap-2">
+                    <div>
+                      <p class="text-[10px] font-semibold text-gray-900 truncate" id="dpp-cal-summary-text">13 Feb 2026 → 12 Mar 2026</p>
+                      <p class="text-[9px] text-muted">Up to 90 days span</p>
+                    </div>
+                    <div class="flex items-center gap-1.5">
+                      <button type="button" onclick="closeDppCalendar()" class="rounded-lg px-2.5 py-1 text-xs text-muted hover:text-gray-900">Cancel</button>
+                      <button type="button" onclick="applyDppCustomRange()" class="rounded-lg bg-primary text-white px-3 py-1 text-xs font-semibold hover:bg-primary/90 transition-colors shadow-2xs">Apply</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative">
+            <select id="dpp-branch-filter" onchange="onDppBranchChange(this.value)" class="appearance-none rounded-xl border border-border bg-surface px-4 py-2 pr-9 text-xs font-medium text-slate-700 outline-none hover:border-primary focus:border-primary cursor-pointer">
+              <option value="">All branches</option>
+              <option value="b-madhapur">Madhapur</option>
+              <option value="b-shamirpet">Shamirpet</option>
+              <option value="b-suchitra">Suchitra</option>
+              <option value="b-kokapet">Kokapet</option>
+              <option value="b-ecil">ECIL</option>
+              <option value="b-arithri">Arithri Girls Campus</option>
+              <option value="b-wmp">West Marredpally</option>
+              <option value="b-lbnagar">LB Nagar</option>
+              <option value="b-bachupally">Bachupally</option>
+            </select>
+            <i class="ph ph-caret-down absolute right-3 top-1/2 -translate-y-1/2 text-muted text-xs pointer-events-none"></i>
+          </div>
+
+          <div class="relative">
+            <select id="dpp-batch-filter" onchange="onDppBatchChange(this.value)" class="appearance-none rounded-xl border border-border bg-surface px-4 py-2 pr-9 text-xs font-medium text-slate-700 outline-none hover:border-primary focus:border-primary cursor-pointer">
+              <option value="">All batches</option>
+              <option value="b-srmpc-madhapur">SR MPC (Madhapur)</option>
+              <option value="b-srbipc-madhapur">SR BIPC (Madhapur)</option>
+              <option value="b-srmpc-shamirpet">SR MPC (Shamirpet)</option>
+              <option value="b-jrmpc-shamirpet">JR MPC (Shamirpet)</option>
+              <option value="b-srmpc-suchitra">SR MPC (Suchitra)</option>
+              <option value="b-jrbipc-kokapet">JR BIPC (Kokapet)</option>
+              <option value="b-srmpc-ecil">SR MPC (ECIL)</option>
+              <option value="b-srmpc-arithri">SR MPC CBSE (Arithri)</option>
+              <option value="b-srmpc-wmp">SR MPC (West Marredpally)</option>
+              <option value="b-jrmpc-lbnagar">JR MPC (LB Nagar)</option>
+              <option value="b-srmpc-bachupally">SR MPC (Bachupally)</option>
+            </select>
+            <i class="ph ph-caret-down absolute right-3 top-1/2 -translate-y-1/2 text-muted text-xs pointer-events-none"></i>
+          </div>
+
+          <div class="relative">
+            <select id="dpp-section-filter" onchange="onDppSectionChange(this.value)" class="appearance-none rounded-xl border border-border bg-surface px-4 py-2 pr-9 text-xs font-medium text-slate-700 outline-none hover:border-primary focus:border-primary cursor-pointer">
+              <option value="">All sections</option>
+              <option value="Section A">Section A</option>
+              <option value="Section B">Section B</option>
+              <option value="Section C">Section C</option>
+            </select>
+            <i class="ph ph-caret-down absolute right-3 top-1/2 -translate-y-1/2 text-muted text-xs pointer-events-none"></i>
+          </div>
+
+          <div class="ml-auto text-xs text-muted font-medium" id="dpp-date-range-label">
+            5 Mar 2026 → 12 Mar 2026
+          </div>
+        </div>
+
+        <!-- KPI Band (4 Cards matching dpp/page.tsx:704-743) -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4" id="dpp-kpi-band">
+          <div class="rounded-xl border border-border bg-surface p-4 shadow-xs">
+            <div class="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wide text-muted">
+              <i class="ph-duotone ph-users text-primary text-sm"></i>
+              <span>Students</span>
+            </div>
+            <div class="mt-2 font-mono text-2xl font-bold text-gray-900 tabular-nums" id="dpp-kpi-students">4,765</div>
+            <p class="mt-1 text-[11px] text-muted" id="dpp-kpi-students-sub">3,240 practised at least once</p>
+          </div>
+
+          <div class="rounded-xl border border-border bg-surface p-4 shadow-xs">
+            <div class="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wide text-muted">
+              <i class="ph-duotone ph-target text-primary text-sm"></i>
+              <span>Adherence</span>
+            </div>
+            <div class="mt-2 font-mono text-2xl font-bold text-success tabular-nums" id="dpp-kpi-adherence">74%</div>
+            <p class="mt-1 text-[11px] text-muted" id="dpp-kpi-adherence-sub">24,780 of 33,355 student-days</p>
+          </div>
+
+          <div class="rounded-xl border border-border bg-surface p-4 shadow-xs">
+            <div class="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wide text-muted">
+              <i class="ph-duotone ph-check-circle text-success text-sm"></i>
+              <span>Avg accuracy</span>
+            </div>
+            <div class="mt-2 font-mono text-2xl font-bold text-gray-900 tabular-nums" id="dpp-kpi-accuracy">78%</div>
+            <p class="mt-1 text-[11px] text-muted" id="dpp-kpi-accuracy-sub">on submitted sets</p>
+          </div>
+
+          <div class="rounded-xl border border-border bg-surface p-4 shadow-xs">
+            <div class="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wide text-muted">
+              <i class="ph-duotone ph-fire text-amber-500 text-sm"></i>
+              <span>On a streak</span>
+            </div>
+            <div class="mt-2 font-mono text-2xl font-bold text-amber-600 tabular-nums" id="dpp-kpi-streak">1,845</div>
+            <p class="mt-1 text-[11px] text-muted" id="dpp-kpi-streak-sub">practised today or yesterday</p>
+          </div>
+        </div>
+
+        <!-- Tabs + Toolbar -->
+        <div>
+          <!-- Tab Navigation -->
+          <nav class="flex items-center gap-1 border-b border-border">
+            <button type="button" onclick="setDppTab('batches')" id="dpp-tab-batches-btn" class="relative inline-flex items-center gap-1.5 px-4 py-2.5 text-sm font-semibold text-primary border-b-2 border-primary">
+              By batch
+              <span class="rounded px-1.5 py-0.5 text-[11px] font-semibold tabular-nums bg-primary/10 text-primary" id="dpp-badge-batches-count">11</span>
+            </button>
+            <button type="button" onclick="setDppTab('students')" id="dpp-tab-students-btn" class="relative inline-flex items-center gap-1.5 px-4 py-2.5 text-sm font-medium text-muted hover:text-foreground">
+              By student
+              <span class="rounded px-1.5 py-0.5 text-[11px] font-semibold tabular-nums bg-slate-100 text-muted" id="dpp-badge-students-count">26</span>
+            </button>
+          </nav>
+
+          <!-- Toolbar (Facets / Search / Sort) -->
+          <div class="mt-3 flex flex-wrap items-center gap-2">
+            <!-- Batch Tab Hint -->
+            <span class="text-xs text-muted" id="dpp-batches-toolbar-hint">Select a batch to see its students</span>
+
+            <!-- Student Facets (hidden on batch tab) -->
+            <div class="hidden flex-wrap items-center gap-1.5" id="dpp-student-facets">
+              <button type="button" onclick="setDppFacet('all')" class="rounded-full border px-2.5 py-1 text-[11px] font-semibold border-primary bg-primary/10 text-primary" id="dpp-facet-all">All <span id="dpp-facet-count-all">26</span></button>
+              <button type="button" onclick="setDppFacet('at_risk')" class="rounded-full border border-border px-2.5 py-1 text-[11px] font-medium text-muted hover:text-foreground" id="dpp-facet-at_risk">At risk <span id="dpp-facet-count-at_risk">6</span></button>
+              <button type="button" onclick="setDppFacet('never')" class="rounded-full border border-border px-2.5 py-1 text-[11px] font-medium text-muted hover:text-foreground" id="dpp-facet-never">Never practised <span id="dpp-facet-count-never">4</span></button>
+              <button type="button" onclick="setDppFacet('on_streak')" class="rounded-full border border-border px-2.5 py-1 text-[11px] font-medium text-muted hover:text-foreground" id="dpp-facet-on_streak">On a streak <span id="dpp-facet-count-on_streak">15</span></button>
+            </div>
+
+            <!-- Search Box -->
+            <div class="relative ml-auto">
+              <i class="ph ph-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-muted text-xs pointer-events-none"></i>
+              <input type="text" id="dpp-search-input" oninput="onDppSearch(this.value)" placeholder="Search batches…" class="w-64 rounded-xl border border-border bg-surface py-2 pl-8 pr-8 text-xs text-foreground focus:border-primary focus:outline-none">
+              <button type="button" id="dpp-clear-search" onclick="clearDppSearch()" class="hidden absolute right-2.5 top-1/2 -translate-y-1/2 text-muted hover:text-foreground">
+                <i class="ph-bold ph-x text-xs"></i>
+              </button>
+            </div>
+
+            <!-- Sort Dropdown -->
+            <select id="dpp-sort-select" onchange="onDppSortChange(this.value)" class="appearance-none rounded-xl border border-border bg-surface px-4 py-2 pr-9 text-xs font-medium text-slate-700 outline-none hover:border-primary focus:border-primary cursor-pointer">
+              <!-- Dynamically populated for Batches vs Students -->
+            </select>
+          </div>
+        </div>
+
+        <!-- Table Container -->
+        <div class="overflow-hidden rounded-2xl border border-border bg-surface shadow-xs">
+          <!-- Batches Table -->
+          <div class="overflow-x-auto" id="dpp-batches-table-container">
+            <table class="w-full text-sm">
+              <thead>
+                <tr class="border-b border-border text-left text-xs uppercase tracking-wide text-muted bg-slate-50/60 font-semibold">
+                  <th class="px-5 py-2.5">Batch</th>
+                  <th class="px-5 py-2.5 text-right">Students</th>
+                  <th class="px-5 py-2.5 text-right">Adherence</th>
+                  <th class="px-5 py-2.5 text-right">Avg accuracy</th>
+                  <th class="px-5 py-2.5 text-right">On streak</th>
+                </tr>
+              </thead>
+              <tbody id="dpp-batch-tbody" class="divide-y divide-border/60">
+                <!-- Rendered dynamically -->
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Students Table -->
+          <div class="overflow-x-auto hidden" id="dpp-students-table-container">
+            <table class="w-full text-sm">
+              <thead>
+                <tr class="border-b border-border text-left text-xs uppercase tracking-wide text-muted bg-slate-50/60 font-semibold">
+                  <th class="px-5 py-2.5">Student</th>
+                  <th class="px-5 py-2.5">Batch</th>
+                  <th class="px-5 py-2.5 text-right">Days done</th>
+                  <th class="px-5 py-2.5 text-right">Adherence</th>
+                  <th class="px-5 py-2.5 text-right">Avg accuracy</th>
+                  <th class="px-5 py-2.5 text-right">Streak</th>
+                  <th class="px-5 py-2.5 text-right">Last</th>
+                </tr>
+              </thead>
+              <tbody id="dpp-students-tbody" class="divide-y divide-border/60">
+                <!-- Rendered dynamically -->
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Table Pagination -->
+          <div class="flex items-center justify-between border-t border-border px-5 py-3 text-xs text-muted" id="dpp-pagination-bar">
+            <span id="dpp-pagination-info">1–11 of 11</span>
+            <div class="flex items-center gap-1">
+              <button type="button" id="dpp-prev-btn" onclick="changeDppPage(-1)" class="rounded-lg border border-border p-1.5 text-muted hover:text-foreground disabled:opacity-40" disabled>
+                <i class="ph-bold ph-caret-left text-xs"></i>
+              </button>
+              <span class="px-2 text-xs tabular-nums text-muted" id="dpp-page-counter">1 / 1</span>
+              <button type="button" id="dpp-next-btn" onclick="changeDppPage(1)" class="rounded-lg border border-border p-1.5 text-muted hover:text-foreground disabled:opacity-40" disabled>
+                <i class="ph-bold ph-caret-right text-xs"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>

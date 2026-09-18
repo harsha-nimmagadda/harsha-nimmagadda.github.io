@@ -1,0 +1,105 @@
+{
+  "milestones": [
+    "Month 1",
+    "Month 3",
+    "Month 6",
+    "Month 9",
+    "Month 12",
+    "Final Mock"
+  ],
+  "cohorts": [
+    {
+      "cohortId": "c-jee-2026",
+      "name": "JEE 2026 Cohort",
+      "academicYear": "2025-26",
+      "targetExam": "JEE Mains",
+      "studentCount": 1420,
+      "scores": [
+        54.2,
+        58.6,
+        62.4,
+        66.8,
+        71.2,
+        74.5
+      ],
+      "mastery": [
+        46,
+        52,
+        60,
+        68,
+        74,
+        78
+      ],
+      "attendance": [
+        92,
+        90,
+        88,
+        87,
+        86,
+        88
+      ]
+    },
+    {
+      "cohortId": "c-jee-2027",
+      "name": "JEE 2027 Cohort",
+      "academicYear": "2026-27",
+      "targetExam": "JEE Mains",
+      "studentCount": 1580,
+      "scores": [
+        51.8,
+        55.4,
+        59.8,
+        63.5,
+        67.8,
+        70.9
+      ],
+      "mastery": [
+        42,
+        48,
+        55,
+        63,
+        69,
+        73
+      ],
+      "attendance": [
+        94,
+        91,
+        89,
+        87,
+        85,
+        87
+      ]
+    },
+    {
+      "cohortId": "c-neet-2026",
+      "name": "NEET 2026 Cohort",
+      "academicYear": "2025-26",
+      "targetExam": "NEET",
+      "studentCount": 980,
+      "scores": [
+        58,
+        61.5,
+        65.2,
+        69.8,
+        73.4,
+        77
+      ],
+      "mastery": [
+        50,
+        56,
+        64,
+        71,
+        77,
+        82
+      ],
+      "attendance": [
+        93,
+        91,
+        89,
+        88,
+        88,
+        90
+      ]
+    }
+  ]
+}

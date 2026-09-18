@@ -1,0 +1,88 @@
+{
+  "trends": [
+    {
+      "month": "Apr 2025",
+      "avgScore": 48.5,
+      "avgPercentile": 49,
+      "examsCount": 4,
+      "attendanceRate": 92
+    },
+    {
+      "month": "May 2025",
+      "avgScore": 49.2,
+      "avgPercentile": 50.1,
+      "examsCount": 4,
+      "attendanceRate": 91.5
+    },
+    {
+      "month": "Jun 2025",
+      "avgScore": 50.4,
+      "avgPercentile": 51,
+      "examsCount": 5,
+      "attendanceRate": 90.2
+    },
+    {
+      "month": "Jul 2025",
+      "avgScore": 51.1,
+      "avgPercentile": 51.8,
+      "examsCount": 6,
+      "attendanceRate": 89.4
+    },
+    {
+      "month": "Aug 2025",
+      "avgScore": 52,
+      "avgPercentile": 52.5,
+      "examsCount": 6,
+      "attendanceRate": 88.9
+    },
+    {
+      "month": "Sep 2025",
+      "avgScore": 52.8,
+      "avgPercentile": 53.2,
+      "examsCount": 7,
+      "attendanceRate": 89.1
+    },
+    {
+      "month": "Oct 2025",
+      "avgScore": 53.4,
+      "avgPercentile": 53.9,
+      "examsCount": 6,
+      "attendanceRate": 87.8
+    },
+    {
+      "month": "Nov 2025",
+      "avgScore": 54.1,
+      "avgPercentile": 54.5,
+      "examsCount": 8,
+      "attendanceRate": 88.2
+    },
+    {
+      "month": "Dec 2025",
+      "avgScore": 54.6,
+      "avgPercentile": 55,
+      "examsCount": 8,
+      "attendanceRate": 87.4
+    },
+    {
+      "month": "Jan 2026",
+      "avgScore": 55.2,
+      "avgPercentile": 55.7,
+      "examsCount": 9,
+      "attendanceRate": 88.5
+    },
+    {
+      "month": "Feb 2026",
+      "avgScore": 56,
+      "avgPercentile": 56.4,
+      "examsCount": 9,
+      "attendanceRate": 89
+    },
+    {
+      "month": "Mar 2026",
+      "avgScore": 56.8,
+      "avgPercentile": 57.2,
+      "examsCount": 8,
+      "attendanceRate": 89.6
+    }
+  ]
+}

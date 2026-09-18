@@ -1,0 +1,672 @@
+      <!-- ===================================================================== -->
+      <!-- SECTION: Full Student Analytics Detail Page -->
+      <!-- Clinical 3-Tab Academic Hub for 11th & 12th Indian Coaching Faculty -->
+      <!-- ===================================================================== -->
+      <div id="section-student-detail" class="section-view max-w-7xl mx-auto space-y-6 hidden fade-in">
+        
+        <!-- Header & Immediate Action Bar -->
+        <div class="flex flex-wrap items-center justify-between gap-4 rounded-3xl border border-border bg-white p-5 shadow-xs">
+          <div class="flex items-center gap-4">
+            <button onclick="switchView('students')" class="flex h-10 w-10 items-center justify-center rounded-2xl border border-border bg-slate-50 transition-colors hover:bg-primary/10 hover:text-primary" title="Back to Students Roster">
+              <i class="ph-bold ph-arrow-left text-lg text-gray-700"></i>
+            </button>
+            <div class="flex items-center gap-3">
+              <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-indigo-600 text-white font-bold text-lg shadow-sm" id="student-detail-avatar">
+                BK
+              </div>
+              <div>
+                <div class="flex items-center gap-2">
+                  <h1 class="text-2xl font-bold tracking-tight text-gray-900" id="student-detail-name">Bhagam Khyathi</h1>
+                  <span class="rounded-full bg-indigo-100 px-2.5 py-0.5 text-xs font-bold text-indigo-700" id="student-detail-exam">JEE Mains</span>
+                  <span class="rounded-full bg-emerald-50 border border-emerald-200 px-2 py-0.5 text-[11px] font-semibold text-emerald-700" id="student-detail-status-pill">Active Enrolled</span>
+                </div>
+                <p class="mt-0.5 text-xs text-muted" id="student-detail-meta">
+                  Roll: <span class="font-mono font-semibold text-gray-700" id="student-detail-roll">225144</span> · Batch: <span class="font-semibold text-gray-800" id="student-detail-batch-name">SR MPC</span> · Campus: <span class="font-medium text-gray-700" id="student-detail-branch-name">Madhapur</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Action Buttons: WhatsApp Parent & Time Range -->
+          <div class="flex flex-wrap items-center gap-2">
+            <!-- WhatsApp Parent Quick Action -->
+            <button type="button" onclick="openStudentWhatsApp()" class="inline-flex items-center gap-1.5 rounded-xl bg-emerald-600 px-3.5 py-2 text-xs font-semibold text-white shadow-xs transition-all hover:bg-emerald-700 hover:shadow-sm" title="Send academic performance update to parents via WhatsApp">
+              <i class="ph-bold ph-whatsapp-logo text-base"></i>
+              <span>WhatsApp Parent</span>
+            </button>
+
+            <!-- PTM Notes Action -->
+            <button type="button" onclick="openStudentPtmNotes()" class="inline-flex items-center gap-1.5 rounded-xl border border-indigo-200 bg-indigo-50/60 px-3 py-2 text-xs font-semibold text-indigo-700 transition-colors hover:bg-indigo-100" title="Log counseling observations & PTM discussion points">
+              <i class="ph-bold ph-chat-circle-text text-sm"></i>
+              <span>Counseling Log</span>
+            </button>
+
+            <!-- Time range filter pills -->
+            <div class="flex items-center gap-1 rounded-xl border border-border bg-slate-50 p-1 text-xs font-medium">
+              <button onclick="setStudentTimeRange('all')" id="student-range-all" class="student-range-btn rounded-lg px-2.5 py-1 transition-colors bg-white font-semibold text-primary shadow-xs">All</button>
+              <button onclick="setStudentTimeRange('7d')" id="student-range-7d" class="student-range-btn rounded-lg px-2.5 py-1 transition-colors text-muted hover:bg-primary/5 hover:text-foreground">7d</button>
+              <button onclick="setStudentTimeRange('30d')" id="student-range-30d" class="student-range-btn rounded-lg px-2.5 py-1 transition-colors text-muted hover:bg-primary/5 hover:text-foreground">30d</button>
+              <button onclick="setStudentTimeRange('90d')" id="student-range-90d" class="student-range-btn rounded-lg px-2.5 py-1 transition-colors text-muted hover:bg-primary/5 hover:text-foreground">90d</button>
+              <button onclick="setStudentTimeRange('year')" id="student-range-year" class="student-range-btn rounded-lg px-2.5 py-1 transition-colors text-muted hover:bg-primary/5 hover:text-foreground">Year</button>
+            </div>
+
+            <!-- Refresh button -->
+            <button type="button" onclick="refreshStudentAnalytics()" id="student-refresh-btn" class="inline-flex items-center gap-1 rounded-xl border border-border bg-surface px-3 py-2 text-xs font-medium text-foreground shadow-xs transition-colors hover:bg-primary/5" title="Recompute analytics">
+              <i class="ph-bold ph-arrows-clockwise text-sm" id="student-refresh-icon"></i>
+              <span id="student-refresh-text" class="hidden sm:inline">Refresh</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Top High-Yield Key Metrics Strip (Faculty & Parent Friendly, No Jargon) -->
+        <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
+          <!-- Metric 1: Batch Standing -->
+          <div class="rounded-2xl border border-indigo-200 bg-indigo-50/40 p-4">
+            <div class="flex items-center justify-between">
+              <span class="text-[11px] font-semibold uppercase tracking-wider text-indigo-700">Batch Standing</span>
+              <i class="ph-duotone ph-trophy text-lg text-indigo-600"></i>
+            </div>
+            <p class="mt-1 font-mono text-xl font-extrabold text-indigo-950" id="banner-batch-rank">1st / 78</p>
+            <p class="mt-0.5 text-[11px] text-indigo-600 font-medium">Percentile: <span class="font-bold" id="banner-batch-pct">98th</span></p>
+            <span class="hidden" id="card-batch-rank">#1</span>
+          </div>
+
+          <!-- Metric 2: Mock Test Average -->
+          <div class="rounded-2xl border border-border bg-white p-4 shadow-xs">
+            <div class="flex items-center justify-between">
+              <span class="text-[11px] font-semibold uppercase tracking-wider text-slate-500">Mock Score Avg</span>
+              <i class="ph-duotone ph-chart-line-up text-lg text-primary"></i>
+            </div>
+            <p class="mt-1 font-mono text-xl font-bold text-gray-900" id="banner-avg-score">87%</p>
+            <p class="mt-0.5 text-[11px] text-muted">Across <span class="font-semibold text-gray-700" id="card-total-exams">26</span> Total Mocks</p>
+            <span class="hidden" id="card-avg-score">87.3%</span>
+          </div>
+
+          <!-- Metric 3: Peak Performance -->
+          <div class="rounded-2xl border border-emerald-200 bg-emerald-50/40 p-4">
+            <div class="flex items-center justify-between">
+              <span class="text-[11px] font-semibold uppercase tracking-wider text-emerald-700">Highest Score</span>
+              <i class="ph-duotone ph-medal text-lg text-emerald-600"></i>
+            </div>
+            <p class="mt-1 font-mono text-xl font-extrabold text-emerald-900" id="banner-highest-score">96%</p>
+            <p class="mt-0.5 text-[11px] text-emerald-700 font-medium">Peak Mock Achievement</p>
+          </div>
+
+          <!-- Metric 4: Syllabus & Exam Readiness (Replaces Cryptic ERI) -->
+          <div class="rounded-2xl border border-border bg-white p-4 shadow-xs">
+            <div class="flex items-center justify-between">
+              <span class="text-[11px] font-semibold uppercase tracking-wider text-slate-500">Syllabus Readiness</span>
+              <i class="ph-duotone ph-check-circle text-lg text-emerald-600"></i>
+            </div>
+            <div class="mt-1 flex items-baseline gap-1.5">
+              <p class="font-mono text-xl font-bold text-gray-900"><span id="eri-score">88</span>%</p>
+              <span class="rounded-md bg-emerald-50 px-1.5 py-0.5 text-[10px] font-bold text-emerald-700" id="eri-level">JEE Adv Ready</span>
+            </div>
+            <p class="mt-0.5 text-[11px] text-muted"><span id="eri-mastered-cells">118</span> of <span id="eri-active-cells">142</span> topics strong</p>
+            <span class="hidden" id="eri-weak-cells">24</span>
+            <span class="hidden" id="eri-weekly-delta">+2.4</span>
+          </div>
+
+          <!-- Metric 5: Score Stability & Attendance -->
+          <div class="rounded-2xl border border-border bg-white p-4 shadow-xs col-span-2 sm:col-span-1">
+            <div class="flex items-center justify-between">
+              <span class="text-[11px] font-semibold uppercase tracking-wider text-slate-500">Score Stability</span>
+              <i class="ph-duotone ph-shield-check text-lg text-purple-600"></i>
+            </div>
+            <p class="mt-1 font-mono text-xl font-bold text-purple-900"><span id="card-consistency">92</span>%</p>
+            <p class="mt-0.5 text-[11px] text-muted">96% Class Attendance</p>
+          </div>
+        </div>
+
+        <!-- 3-Tab Navigation Bar -->
+        <div class="flex border-b border-border bg-white rounded-2xl p-1.5 shadow-xs" id="student-tabs-nav">
+          <button type="button" onclick="switchStudentTab('diagnostic')" id="student-tab-btn-diagnostic" class="student-tab-btn flex-1 flex items-center justify-center gap-2 rounded-xl py-2.5 px-4 text-xs font-bold transition-all bg-indigo-600 text-white shadow-xs">
+            <i class="ph-bold ph-crosshair text-sm"></i>
+            <span>🎯 Academic Diagnostics & Gaps</span>
+          </button>
+          <button type="button" onclick="switchStudentTab('exams')" id="student-tab-btn-exams" class="student-tab-btn flex-1 flex items-center justify-center gap-2 rounded-xl py-2.5 px-4 text-xs font-medium text-muted transition-all hover:text-foreground hover:bg-slate-50">
+            <i class="ph-bold ph-exam text-sm"></i>
+            <span>📝 Mock Exam History & Practice</span>
+          </button>
+          <button type="button" onclick="switchStudentTab('deepdives')" id="student-tab-btn-deepdives" class="student-tab-btn flex-1 flex items-center justify-center gap-2 rounded-xl py-2.5 px-4 text-xs font-medium text-muted transition-all hover:text-foreground hover:bg-slate-50">
+            <i class="ph-bold ph-squares-four text-sm"></i>
+            <span>📊 Advanced Analytical Tools</span>
+          </button>
+        </div>
+
+        <!-- ===================================================================== -->
+        <!-- TAB 1: ACADEMIC DIAGNOSTICS & GAPS (DEFAULT ACTIVE VIEW) -->
+        <!-- ===================================================================== -->
+        <div id="student-tab-diagnostic-panel" class="student-tab-panel space-y-6">
+
+          <!-- Subject Performance Quick Cards (P / C / M or P / C / B) -->
+          <div class="grid gap-4 sm:grid-cols-3" id="student-subject-cards-container">
+            <div class="rounded-2xl border border-blue-200 bg-gradient-to-br from-blue-50/70 to-white p-4 shadow-xs">
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-bold text-blue-900" id="subj-card-title-1">Mathematics</span>
+                <span class="rounded-full bg-emerald-100 px-2 py-0.5 text-[10px] font-bold text-emerald-800">Strong · 92% Acc</span>
+              </div>
+              <div class="mt-3 flex items-baseline justify-between">
+                <p class="font-mono text-2xl font-black text-blue-950" id="subj-card-score-1">88 / 100</p>
+                <span class="text-xs text-blue-700 font-semibold">380 Qs Done</span>
+              </div>
+              <div class="mt-2 text-[11px] text-blue-800">Consistent topper in Calculus & Coordinate Geometry.</div>
+            </div>
+
+            <div class="rounded-2xl border border-amber-200 bg-gradient-to-br from-amber-50/70 to-white p-4 shadow-xs">
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-bold text-amber-900" id="subj-card-title-2">Physics</span>
+                <span class="rounded-full bg-amber-100 px-2 py-0.5 text-[10px] font-bold text-amber-800">Moderate · 74% Acc</span>
+              </div>
+              <div class="mt-3 flex items-baseline justify-between">
+                <p class="font-mono text-2xl font-black text-amber-950" id="subj-card-score-2">74 / 100</p>
+                <span class="text-xs text-amber-700 font-semibold">375 Qs Done</span>
+              </div>
+              <div class="mt-2 text-[11px] text-amber-800">Needs numerical drill practice in Rotational Dynamics.</div>
+            </div>
+
+            <div class="rounded-2xl border border-emerald-200 bg-gradient-to-br from-emerald-50/70 to-white p-4 shadow-xs">
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-bold text-emerald-900" id="subj-card-title-3">Chemistry</span>
+                <span class="rounded-full bg-emerald-100 px-2 py-0.5 text-[10px] font-bold text-emerald-800">Strong · 88% Acc</span>
+              </div>
+              <div class="mt-3 flex items-baseline justify-between">
+                <p class="font-mono text-2xl font-black text-emerald-950" id="subj-card-score-3">86 / 100</p>
+                <span class="text-xs text-emerald-700 font-semibold">370 Qs Done</span>
+              </div>
+              <div class="mt-2 text-[11px] text-emerald-800">Excellent Organic reaction recall; minor errors in Ionic.</div>
+            </div>
+          </div>
+
+          <!-- Score Trajectory + Subject Accuracy Charts Row -->
+          <div class="grid gap-6 lg:grid-cols-2">
+            <!-- Score Timeline Trend Curve -->
+            <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+              <div class="flex items-center justify-between">
+                <div>
+                  <h2 class="text-base font-semibold text-gray-900">Mock Score Trajectory</h2>
+                  <p class="text-xs text-muted" id="student-trajectory-subtitle">Score trend across last 10 mock tests vs 75% qualifying cutoff</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  <span class="inline-flex items-center gap-1.5 rounded-full bg-indigo-50 border border-indigo-200 px-2.5 py-0.5 text-[10px] font-bold text-indigo-700">
+                    <span class="h-1.5 w-1.5 rounded-full bg-indigo-600"></span> Student Trend
+                  </span>
+                  <span class="inline-flex items-center gap-1.5 rounded-full bg-amber-50 border border-amber-200 px-2.5 py-0.5 text-[10px] font-bold text-amber-700">
+                    <span class="h-1.5 w-1.5 rounded-full bg-amber-500"></span> 75% Cutoff
+                  </span>
+                </div>
+              </div>
+              <div class="mt-4 h-64 relative">
+                <canvas id="studentTrajectoryChart"></canvas>
+              </div>
+            </div>
+
+            <!-- Subject Accuracy -->
+            <div class="flex flex-col rounded-2xl border border-border bg-surface p-6 shadow-xs">
+              <div class="flex items-center justify-between">
+                <div>
+                  <h2 class="text-base font-semibold text-gray-900">Subject-wise Accuracy</h2>
+                  <p class="text-xs text-muted">Correct ÷ attempted per subject. Bars colored by mastery tier.</p>
+                </div>
+                <span class="text-[11px] text-muted">Benchmark: <strong class="text-gray-800">80% Target</strong></span>
+              </div>
+              <div class="mt-4 flex-1 h-64 relative">
+                <canvas id="studentSubjectBarChart"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <!-- Topic Skill Radar + Cumulative Subject Mastery Row -->
+          <div class="grid gap-6 lg:grid-cols-2">
+            <!-- Chapter Strength Meter (Replaces Complex Radar Chart) -->
+            <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs flex flex-col justify-between">
+              <div class="flex items-center justify-between border-b border-border pb-3">
+                <div>
+                  <h2 class="text-base font-semibold text-gray-900">Chapter Strength Meter</h2>
+                  <p class="text-xs text-muted">Ranked chapter mastery across 8 tested core topics</p>
+                </div>
+                <span class="rounded-full bg-indigo-50 border border-indigo-200 px-2.5 py-0.5 text-[10px] font-bold text-indigo-700">8 Core Topics</span>
+              </div>
+              <div class="mt-4 space-y-2.5 max-h-72 overflow-y-auto pr-1" id="student-chapter-strength-list">
+                <!-- Dynamically populated by renderStudentSkillRadarChart -->
+              </div>
+              <canvas id="studentSkillRadarChart" class="hidden"></canvas>
+            </div>
+
+            <!-- Cumulative Subject Mastery -->
+            <div class="flex flex-col rounded-2xl border border-border bg-surface p-6 shadow-xs">
+              <div class="flex items-center justify-between">
+                <div>
+                  <h2 class="text-base font-semibold text-gray-900">Cumulative Subject Mastery</h2>
+                  <p class="text-xs text-muted">Overall syllabus topic mastery aggregated by subject</p>
+                </div>
+                <span class="rounded-full bg-emerald-50 px-2 py-0.5 text-[10px] font-bold text-emerald-700">Syllabus Paced</span>
+              </div>
+              <div class="mt-4 flex-1 h-72 relative">
+                <canvas id="studentCumMasteryChart"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <!-- Weak Areas Breakdown (Hierarchical Chapter Errors) -->
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+            <div class="mb-4 flex flex-wrap items-baseline justify-between gap-2 border-b border-border pb-3">
+              <div>
+                <h3 class="text-base font-semibold text-gray-900 flex items-center gap-2">
+                  <i class="ph-duotone ph-warning text-amber-500"></i>
+                  Weak Areas & Chapter Gaps
+                </h3>
+                <p class="text-xs text-muted" id="weak-areas-meta">42 total errors · 11 unresolved</p>
+              </div>
+              <span class="text-xs text-muted">Prioritized by frequency of errors in recent tests</span>
+            </div>
+            <div class="space-y-4" id="student-weak-areas-list"></div>
+          </div>
+
+          <!-- Recurring Wrong List (RWL) -->
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+            <div class="mb-4 flex flex-wrap items-baseline justify-between gap-2 border-b border-border pb-3">
+              <div>
+                <h3 class="text-base font-semibold text-gray-900 flex items-center gap-2">
+                  <i class="ph-duotone ph-arrows-clockwise text-rose-500"></i>
+                  Repeat Mistake Tracker (RWL)
+                </h3>
+                <p class="text-xs text-muted" id="rwl-meta">Questions failed more than once across tests</p>
+              </div>
+              <span class="rounded-full bg-rose-50 border border-rose-200 px-2.5 py-0.5 text-[11px] font-bold text-rose-700">Immediate Revision Priority</span>
+            </div>
+            <div class="space-y-3" id="student-rwl-list"></div>
+          </div>
+
+          <!-- Mistake Rectification & Category Mix Overview -->
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+            <div class="mb-4 flex items-baseline justify-between border-b border-border pb-3">
+              <div>
+                <h3 class="text-base font-semibold text-gray-900">Mistake Rectification Overview</h3>
+                <p class="text-xs text-muted">Error portfolio · rectification rate · mistake category breakdown</p>
+              </div>
+              <p class="text-xs text-muted">Top subject leak: <span class="font-bold text-rose-700" id="error-top-subject">Physics</span></p>
+            </div>
+            
+            <!-- 4 Stat Tiles -->
+            <div class="mb-5 grid grid-cols-2 gap-3 sm:grid-cols-4">
+              <div class="rounded-xl border border-rose-200/60 bg-rose-50 px-3.5 py-3">
+                <p class="text-[10px] font-bold uppercase tracking-wider text-rose-700">Total Mistakes</p>
+                <p class="mt-0.5 font-mono text-2xl font-black text-rose-800" id="err-total-mistakes">42</p>
+              </div>
+              <div class="rounded-xl border border-amber-200/60 bg-amber-50 px-3.5 py-3">
+                <p class="text-[10px] font-bold uppercase tracking-wider text-amber-700">Still Unresolved</p>
+                <p class="mt-0.5 font-mono text-2xl font-black text-amber-800" id="err-unresolved">11</p>
+              </div>
+              <div class="rounded-xl border border-emerald-200/60 bg-emerald-50 px-3.5 py-3">
+                <p class="text-[10px] font-bold uppercase tracking-wider text-emerald-700">Rectification Rate</p>
+                <p class="mt-0.5 font-mono text-2xl font-black text-emerald-800" id="err-closure-rate">74%</p>
+              </div>
+              <div class="rounded-xl border border-blue-200/60 bg-blue-50 px-3.5 py-3">
+                <p class="text-[10px] font-bold uppercase tracking-wider text-blue-700">Avg Error Repeat</p>
+                <p class="mt-0.5 font-mono text-2xl font-black text-blue-800" id="err-avg-repeat">×2.1</p>
+              </div>
+            </div>
+
+            <!-- Side-by-side charts -->
+            <div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
+              <div class="rounded-xl border border-border bg-slate-50/50 p-4">
+                <p class="text-xs font-semibold text-gray-900 mb-0.5">Mistake Category Mix</p>
+                <p class="mb-3 text-[11px] text-muted">Why marks are lost (Calculation slips, concept traps, time rush)</p>
+                <div class="h-56 relative">
+                  <canvas id="studentErrorDonutChart"></canvas>
+                </div>
+              </div>
+              <div class="rounded-xl border border-border bg-slate-50/50 p-4">
+                <p class="text-xs font-semibold text-gray-900 mb-0.5">Error Rectification by Subject</p>
+                <p class="mb-3 text-[11px] text-muted">Resolved vs unresolved mistakes per subject</p>
+                <div class="h-56 relative">
+                  <canvas id="studentSubjectClosureChart"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ===================================================================== -->
+        <!-- TAB 2: MOCK EXAM HISTORY & PRACTICE -->
+        <!-- ===================================================================== -->
+        <div id="student-tab-exams-panel" class="student-tab-panel space-y-6 hidden">
+          
+          <!-- High / Low Score Extremes Banner -->
+          <div class="grid gap-4 sm:grid-cols-2">
+            <div class="rounded-2xl border border-emerald-200 bg-emerald-50/50 p-5 shadow-xs">
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-bold uppercase tracking-wider text-emerald-800">Highest Mock Score</span>
+                <i class="ph-duotone ph-arrow-up-right text-xl text-emerald-600"></i>
+              </div>
+              <p class="mt-2 font-mono text-3xl font-black text-emerald-950" id="stat-highest-score">96%</p>
+              <p class="text-xs text-emerald-700 mt-1">Achieved in JEE Mains Full Mock 10</p>
+            </div>
+            <div class="rounded-2xl border border-rose-200 bg-rose-50/50 p-5 shadow-xs">
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-bold uppercase tracking-wider text-rose-800">Lowest Mock Score</span>
+                <i class="ph-duotone ph-arrow-down-right text-xl text-rose-600"></i>
+              </div>
+              <p class="mt-2 font-mono text-3xl font-black text-rose-950" id="stat-lowest-score">74%</p>
+              <p class="text-xs text-rose-700 mt-1">Initial baseline in early diagnostic mock</p>
+            </div>
+          </div>
+
+          <!-- Exams Table -->
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+            <div class="flex flex-wrap items-start justify-between gap-3 mb-4">
+              <div>
+                <h2 class="flex items-center gap-2 text-base font-semibold text-gray-900">
+                  <i class="ph-duotone ph-exam text-primary"></i>
+                  Mock Exam Performance History
+                </h2>
+                <p class="mt-0.5 text-xs text-muted" id="student-exams-count-meta">
+                  10 exams in all time · click a row to open its full test analysis
+                </p>
+              </div>
+            </div>
+            <div class="overflow-x-auto">
+              <table class="w-full text-left text-sm">
+                <thead>
+                  <tr class="border-b border-border text-[11px] font-semibold uppercase tracking-wider text-muted">
+                    <th class="pb-3 pr-4">Exam Title</th>
+                    <th class="pb-3 pr-4">Date</th>
+                    <th class="pb-3 pr-4 text-right">Score</th>
+                    <th class="pb-3 pr-4 text-right">Percentile</th>
+                    <th class="pb-3 w-8"></th>
+                  </tr>
+                </thead>
+                <tbody id="student-exams-table-body"></tbody>
+              </table>
+            </div>
+            <!-- Pagination -->
+            <div class="mt-4 flex items-center justify-between border-t border-border pt-4" id="student-exams-pagination">
+              <p class="text-xs text-muted" id="student-exams-page-info">Showing 1 - 10 of 10</p>
+              <div class="flex items-center gap-2">
+                <button type="button" onclick="changeStudentExamsPage(-1)" id="student-exams-prev" class="flex h-8 items-center gap-1 rounded-lg border border-border px-3 text-xs font-medium text-muted transition-colors hover:bg-primary/5 disabled:opacity-40 disabled:cursor-not-allowed">
+                  Prev
+                </button>
+                <span class="min-w-[64px] text-center text-xs font-medium text-gray-700" id="student-exams-page-cur">Page 1 / 1</span>
+                <button type="button" onclick="changeStudentExamsPage(1)" id="student-exams-next" class="flex h-8 items-center gap-1 rounded-lg border border-border px-3 text-xs font-medium text-muted transition-colors hover:bg-primary/5 disabled:opacity-40 disabled:cursor-not-allowed">
+                  Next
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Assignments & Daily Practice (DPPs) -->
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+            <div class="flex items-center justify-between mb-2">
+              <div class="flex items-center gap-2">
+                <i class="ph-duotone ph-clipboard-text text-primary text-lg"></i>
+                <h2 class="text-base font-semibold text-gray-900">Daily Practice Papers (DPP) & Homework</h2>
+              </div>
+              <div class="flex items-center gap-2">
+                <button type="button" onclick="navigateToStudentDeepDive('practice')" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-orange-200 bg-orange-50 text-orange-700 text-xs font-semibold hover:bg-orange-100 transition-colors shadow-xs" title="Open Practice Engine Analytics">
+                  <i class="ph-bold ph-fire text-sm text-orange-600"></i>
+                  <span>Practice Analytics</span>
+                </button>
+                <span class="rounded-full bg-emerald-50 border border-emerald-200 px-2.5 py-0.5 text-[11px] font-bold text-emerald-700">86% On-Time Adherence</span>
+              </div>
+            </div>
+            <p class="text-xs text-muted mb-4">DPPs, chapter tests, and self-practice sheets assigned to student</p>
+            <div class="space-y-4">
+              <div class="grid grid-cols-3 gap-3">
+                <div class="rounded-xl border border-border/50 bg-slate-50 p-3 text-center">
+                  <p class="font-mono text-xl font-bold text-primary" id="assign-stat-total">7</p>
+                  <p class="text-[10px] text-muted">Total Assigned</p>
+                </div>
+                <div class="rounded-xl border border-border/50 bg-slate-50 p-3 text-center">
+                  <p class="font-mono text-xl font-bold text-success" id="assign-stat-completed">6</p>
+                  <p class="text-[10px] text-muted">Completed</p>
+                </div>
+                <div class="rounded-xl border border-border/50 bg-slate-50 p-3 text-center">
+                  <p class="font-mono text-xl font-bold text-success" id="assign-stat-rate">86%</p>
+                  <p class="text-[10px] text-muted">Completion Rate</p>
+                </div>
+              </div>
+              <div class="space-y-1.5" id="student-assignment-list"></div>
+            </div>
+          </div>
+
+          <!-- Exam Forensic Autopsy: High-Yield Exam Breakdown -->
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+            <div class="flex flex-wrap items-center justify-between gap-3 border-b border-border pb-4">
+              <div>
+                <h3 class="text-base font-bold text-gray-900 flex items-center gap-2">
+                  <i class="ph-duotone ph-stethoscope text-indigo-600"></i>
+                  Latest Exam Forensic Autopsy: JEE Mains Mock Drill
+                </h3>
+                <p class="text-xs text-muted">62 Correct | 8 Wrong | 5 Unattempted | Total Score: 242 / 300</p>
+              </div>
+              <span class="bg-rose-50 text-rose-700 border border-rose-200 px-3 py-1 rounded-full text-xs font-bold">
+                -14 Marks Lost to Fixable Leaks
+              </span>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-5">
+              <div class="p-4 bg-rose-50/50 rounded-2xl border border-rose-200">
+                <div class="flex items-center justify-between">
+                  <span class="text-xs font-bold text-rose-900">Time Trap Slip</span>
+                  <span class="text-xs font-mono font-bold text-rose-600">-8 Marks</span>
+                </div>
+                <p class="text-xs text-slate-600 mt-2">Spent &gt;3.5 mins each on Q42 &amp; Q45 (Definite Integration) and still submitted incorrect options.</p>
+                <div class="mt-3 text-[11px] font-semibold text-rose-800 bg-rose-100/60 p-2 rounded-lg">
+                  Fix: Apply hard 90-second stop rule on integration problems.
+                </div>
+              </div>
+
+              <div class="p-4 bg-amber-50/50 rounded-2xl border border-amber-200">
+                <div class="flex items-center justify-between">
+                  <span class="text-xs font-bold text-amber-900">Calculation Rush</span>
+                  <span class="text-xs font-mono font-bold text-amber-600">-4 Marks</span>
+                </div>
+                <p class="text-xs text-slate-600 mt-2">Sign error in Q18 (Electrostatic potential) within first 30 seconds of starting physics section.</p>
+                <div class="mt-3 text-[11px] font-semibold text-amber-800 bg-amber-100/60 p-2 rounded-lg">
+                  Fix: Write full vector direction before evaluating scalar magnitude.
+                </div>
+              </div>
+
+              <div class="p-4 bg-purple-50/50 rounded-2xl border border-purple-200">
+                <div class="flex items-center justify-between">
+                  <span class="text-xs font-bold text-purple-900">Low-Confidence Guess</span>
+                  <span class="text-xs font-mono font-bold text-purple-600">-2 Marks</span>
+                </div>
+                <p class="text-xs text-slate-600 mt-2">Negative mark in Inorganic coordination isomerism with only 12s dwell time.</p>
+                <div class="mt-3 text-[11px] font-semibold text-purple-800 bg-purple-100/60 p-2 rounded-lg">
+                  Fix: Do not guess when dwell time is under 20 seconds.
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ===================================================================== -->
+        <!-- TAB 3: ADVANCED ANALYTICAL TOOLS & DEEP DIVES (GATED BEHIND CLICK) -->
+        <!-- ===================================================================== -->
+        <div id="student-tab-deepdives-panel" class="student-tab-panel space-y-6 hidden">
+          
+          <!-- Predictive & Target Forecasting Group -->
+          <div>
+            <h2 class="text-xs font-bold uppercase tracking-wider text-muted mb-3 flex items-center gap-1.5">
+              <i class="ph-bold ph-trend-up text-primary"></i>
+              Predictive & Target Forecasting Tools
+            </h2>
+            <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+              <div onclick="navigateToStudentDeepDive('rank-predictor')" class="group flex items-start gap-3 rounded-2xl border border-border bg-white p-4 transition-all hover:-translate-y-0.5 hover:shadow-md hover:border-amber-300 cursor-pointer">
+                <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-amber-50 text-amber-600 group-hover:bg-amber-100 transition-colors">
+                  <i class="ph-duotone ph-trophy text-2xl"></i>
+                </div>
+                <div class="min-w-0 flex-1">
+                  <p class="text-sm font-bold text-foreground group-hover:text-amber-700">Rank & College Predictor</p>
+                  <p class="mt-0.5 truncate text-xs text-muted">Predicted AIR & Top College Cutoffs</p>
+                </div>
+                <i class="ph-bold ph-caret-right text-xs text-muted opacity-0 group-hover:opacity-100 transition-opacity mt-1"></i>
+              </div>
+
+              <div onclick="navigateToStudentDeepDive('predictive-path')" class="group flex items-start gap-3 rounded-2xl border border-border bg-white p-4 transition-all hover:-translate-y-0.5 hover:shadow-md hover:border-blue-300 cursor-pointer">
+                <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-blue-600 group-hover:bg-blue-100 transition-colors">
+                  <i class="ph-duotone ph-chart-line-up text-2xl"></i>
+                </div>
+                <div class="min-w-0 flex-1">
+                  <p class="text-sm font-bold text-foreground group-hover:text-blue-700">Predictive Score Trajectory</p>
+                  <p class="mt-0.5 truncate text-xs text-muted">Target milestones & forecast score</p>
+                </div>
+                <i class="ph-bold ph-caret-right text-xs text-muted opacity-0 group-hover:opacity-100 transition-opacity mt-1"></i>
+              </div>
+
+              <div onclick="navigateToStudentDeepDive('heatmap')" class="group flex items-start gap-3 rounded-2xl border border-border bg-white p-4 transition-all hover:-translate-y-0.5 hover:shadow-md hover:border-violet-300 cursor-pointer">
+                <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-violet-50 text-violet-600 group-hover:bg-violet-100 transition-colors">
+                  <i class="ph-duotone ph-squares-four text-2xl"></i>
+                </div>
+                <div class="min-w-0 flex-1">
+                  <p class="text-sm font-bold text-foreground group-hover:text-violet-700">Chapter Knowledge Heatmap</p>
+                  <p class="mt-0.5 truncate text-xs text-muted">Topic × Difficulty mastery matrix</p>
+                </div>
+                <i class="ph-bold ph-caret-right text-xs text-muted opacity-0 group-hover:opacity-100 transition-opacity mt-1"></i>
+              </div>
+
+              <div onclick="navigateToStudentDeepDive('eri')" class="group flex items-start gap-3 rounded-2xl border border-border bg-white p-4 transition-all hover:-translate-y-0.5 hover:shadow-md hover:border-emerald-300 cursor-pointer">
+                <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-emerald-50 text-emerald-600 group-hover:bg-emerald-100 transition-colors">
+                  <i class="ph-duotone ph-check-circle text-2xl"></i>
+                </div>
+                <div class="min-w-0 flex-1">
+                  <p class="text-sm font-bold text-foreground group-hover:text-emerald-700">Syllabus Coverage Breakdown</p>
+                  <p class="mt-0.5 truncate text-xs text-muted">Tested topics & mastery rate</p>
+                </div>
+                <i class="ph-bold ph-caret-right text-xs text-muted opacity-0 group-hover:opacity-100 transition-opacity mt-1"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- Behavioral & Operational Tools Group -->
+          <div>
+            <h2 class="text-xs font-bold uppercase tracking-wider text-muted mb-3 flex items-center gap-1.5">
+              <i class="ph-bold ph-timer text-indigo-600"></i>
+              Speed, Attendance & Strategy Tools
+            </h2>
+            <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+              <div onclick="navigateToStudentDeepDive('time-vs-performance')" class="group flex items-start gap-3 rounded-2xl border border-border bg-white p-4 transition-all hover:-translate-y-0.5 hover:shadow-md hover:border-indigo-300 cursor-pointer">
+                <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600 group-hover:bg-indigo-100 transition-colors">
+                  <i class="ph-duotone ph-timer text-2xl"></i>
+                </div>
+                <div class="min-w-0 flex-1">
+                  <p class="text-sm font-bold text-foreground group-hover:text-indigo-700">Speed vs Accuracy Scatter</p>
+                  <p class="mt-0.5 truncate text-xs text-muted">Dwell time on correct vs wrong answers</p>
+                </div>
+                <i class="ph-bold ph-caret-right text-xs text-muted opacity-0 group-hover:opacity-100 transition-opacity mt-1"></i>
+              </div>
+
+              <div onclick="navigateToStudentDeepDive('attendance-impact')" class="group flex items-start gap-3 rounded-2xl border border-border bg-white p-4 transition-all hover:-translate-y-0.5 hover:shadow-md hover:border-pink-300 cursor-pointer">
+                <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-pink-50 text-pink-600 group-hover:bg-pink-100 transition-colors">
+                  <i class="ph-duotone ph-users text-2xl"></i>
+                </div>
+                <div class="min-w-0 flex-1">
+                  <p class="text-sm font-bold text-foreground group-hover:text-pink-700">Class Attendance Impact</p>
+                  <p class="mt-0.5 truncate text-xs text-muted">Attendance correlation with marks</p>
+                </div>
+                <i class="ph-bold ph-caret-right text-xs text-muted opacity-0 group-hover:opacity-100 transition-opacity mt-1"></i>
+              </div>
+
+              <div onclick="navigateToStudentDeepDive('success-gap')" class="group flex items-start gap-3 rounded-2xl border border-border bg-white p-4 transition-all hover:-translate-y-0.5 hover:shadow-md hover:border-teal-300 cursor-pointer">
+                <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-teal-50 text-teal-600 group-hover:bg-teal-100 transition-colors">
+                  <i class="ph-duotone ph-scales text-2xl"></i>
+                </div>
+                <div class="min-w-0 flex-1">
+                  <p class="text-sm font-bold text-foreground group-hover:text-teal-700">Success Gap vs Toppers</p>
+                  <p class="mt-0.5 truncate text-xs text-muted">Metric differences vs batch topper</p>
+                </div>
+                <i class="ph-bold ph-caret-right text-xs text-muted opacity-0 group-hover:opacity-100 transition-opacity mt-1"></i>
+              </div>
+
+              <div onclick="navigateToStudentDeepDive('weakness-improvement')" class="group flex items-start gap-3 rounded-2xl border border-border bg-white p-4 transition-all hover:-translate-y-0.5 hover:shadow-md hover:border-emerald-300 cursor-pointer">
+                <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-emerald-50 text-emerald-600 group-hover:bg-emerald-100 transition-colors">
+                  <i class="ph-duotone ph-arrows-clockwise text-2xl"></i>
+                </div>
+                <div class="min-w-0 flex-1">
+                  <p class="text-sm font-bold text-foreground group-hover:text-emerald-700">Weakness Recovery Log</p>
+                  <p class="mt-0.5 truncate text-xs text-muted">30-day before vs after accuracy deltas</p>
+                </div>
+                <i class="ph-bold ph-caret-right text-xs text-muted opacity-0 group-hover:opacity-100 transition-opacity mt-1"></i>
+              </div>
+
+              <div onclick="navigateToStudentDeepDive('practice')" class="group flex items-start gap-3 rounded-2xl border border-border bg-white p-4 transition-all hover:-translate-y-0.5 hover:shadow-md hover:border-orange-300 cursor-pointer sm:col-span-2 lg:col-span-4">
+                <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-orange-50 text-orange-600 group-hover:bg-orange-100 transition-colors">
+                  <i class="ph-duotone ph-fire text-2xl"></i>
+                </div>
+                <div class="min-w-0 flex-1">
+                  <div class="flex items-center gap-2">
+                    <p class="text-sm font-bold text-foreground group-hover:text-orange-700">Practice Engine &amp; Drills</p>
+                    <span class="rounded-full bg-orange-100 px-2 py-0.5 text-[10px] font-bold text-orange-800">DPP Cadence · Volume by Type · Error Cycles</span>
+                  </div>
+                  <p class="mt-0.5 text-xs text-muted">Comprehensive self-practice activity log, DPP streak, mock frequency, and error remediation cycles</p>
+                </div>
+                <i class="ph-bold ph-caret-right text-xs text-muted opacity-0 group-hover:opacity-100 transition-opacity mt-1"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- Error Patterns Comprehensive Chart -->
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+            <div class="flex items-center justify-between">
+              <div>
+                <h2 class="text-base font-semibold text-gray-900">Taxonomy of Test Errors</h2>
+                <p class="text-xs text-muted">Distribution of mistake types across all submitted exams</p>
+              </div>
+              <div class="flex items-center gap-1.5" id="student-error-trend-badge">
+                <i class="ph-bold ph-trend-down text-success text-sm"></i>
+                <span class="text-xs font-semibold text-success">Improving</span>
+              </div>
+            </div>
+            <div class="mt-4 h-72 relative">
+              <canvas id="studentErrorPatternChart"></canvas>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ===================================================================== -->
+        <!-- WHATSAPP PARENT PREVIEW MODAL -->
+        <!-- ===================================================================== -->
+        <div id="student-whatsapp-modal" class="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/50 backdrop-blur-xs hidden p-4">
+          <div class="w-full max-w-lg rounded-3xl bg-white p-6 shadow-2xl space-y-4">
+            <div class="flex items-center justify-between border-b border-border pb-3">
+              <div class="flex items-center gap-2 text-emerald-700">
+                <i class="ph-bold ph-whatsapp-logo text-2xl"></i>
+                <h3 class="text-base font-bold text-gray-900">Send Academic Update to Parent</h3>
+              </div>
+              <button onclick="closeStudentWhatsAppModal()" class="rounded-xl p-1.5 text-gray-400 hover:bg-slate-100 hover:text-gray-700">
+                <i class="ph-bold ph-x text-base"></i>
+              </button>
+            </div>
+
+            <p class="text-xs text-muted">
+              Auto-composed performance summary ready to send to parents via WhatsApp:
+            </p>
+
+            <div class="rounded-2xl border border-emerald-200 bg-emerald-50/40 p-4 font-mono text-xs text-gray-800 leading-relaxed whitespace-pre-wrap select-all" id="whatsapp-message-body">
+              <!-- Dynamically populated by openStudentWhatsApp() -->
+            </div>
+
+            <div class="flex items-center justify-between pt-2">
+              <button type="button" onclick="copyWhatsAppMessage()" id="whatsapp-copy-btn" class="inline-flex items-center gap-1.5 rounded-xl border border-border bg-white px-3.5 py-2 text-xs font-medium text-gray-700 hover:bg-slate-50 transition-colors">
+                <i class="ph-bold ph-copy text-sm"></i>
+                <span id="whatsapp-copy-text">Copy Text</span>
+              </button>
+              <div class="flex items-center gap-2">
+                <button type="button" onclick="closeStudentWhatsAppModal()" class="rounded-xl px-3.5 py-2 text-xs font-medium text-gray-600 hover:bg-slate-100">
+                  Cancel
+                </button>
+                <button type="button" onclick="sendWhatsAppDirect()" class="inline-flex items-center gap-1.5 rounded-xl bg-emerald-600 px-4 py-2 text-xs font-bold text-white shadow-xs hover:bg-emerald-700 transition-all">
+                  <i class="ph-bold ph-paper-plane-tilt text-sm"></i>
+                  <span>Open WhatsApp</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>

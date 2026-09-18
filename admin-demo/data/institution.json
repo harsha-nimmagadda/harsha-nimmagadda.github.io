@@ -1,0 +1,499 @@
+{
+  "institutionName": "Excellencia",
+  "totalStudents": 4765,
+  "totalExams": 36920,
+  "avgPercentile": 54.2,
+  "activeBatches": 76,
+  "feeCollectionRate": 96.4,
+  "studentRetention": 98.2,
+  "activeDailyUsers": 88.5,
+  "atRiskStudents": [
+    {
+      "studentId": "s-risk-1",
+      "name": "Kiran Varma",
+      "rollNo": "225188",
+      "batch": "SR MPC",
+      "branch": "Madhapur",
+      "percentile": 24.5,
+      "scores": [
+        82,
+        76,
+        84
+      ],
+      "daysSinceLogin": 4,
+      "severity": "critical"
+    },
+    {
+      "studentId": "s-risk-2",
+      "name": "Siddharth Rao",
+      "rollNo": "225192",
+      "batch": "SR MPC",
+      "branch": "Madhapur",
+      "percentile": 34.2,
+      "scores": [
+        102,
+        98,
+        105
+      ],
+      "daysSinceLogin": 2,
+      "severity": "warning"
+    },
+    {
+      "studentId": "s-risk-3",
+      "name": "Meera Nair",
+      "rollNo": "225195",
+      "batch": "SR MPC",
+      "branch": "Madhapur",
+      "percentile": 38,
+      "scores": [
+        115,
+        110,
+        118
+      ],
+      "daysSinceLogin": 1,
+      "severity": "warning"
+    },
+    {
+      "studentId": "s-risk-4",
+      "name": "NAYANI MANO VAISITA",
+      "rollNo": "126173",
+      "batch": "JR MPC",
+      "branch": "Shamirpet",
+      "percentile": 26.8,
+      "scores": [
+        74,
+        80,
+        78
+      ],
+      "daysSinceLogin": 5,
+      "severity": "critical"
+    },
+    {
+      "studentId": "s-risk-5",
+      "name": "POOSKURU SRIHAAN RAO",
+      "rollNo": "126335",
+      "batch": "JR MPC",
+      "branch": "Shamirpet",
+      "percentile": 32.4,
+      "scores": [
+        95,
+        90,
+        92
+      ],
+      "daysSinceLogin": 3,
+      "severity": "warning"
+    },
+    {
+      "studentId": "s-risk-6",
+      "name": "H SRINIKA",
+      "rollNo": "626038",
+      "batch": "JR MPC",
+      "branch": "LB Nagar",
+      "percentile": 28.5,
+      "scores": [
+        80,
+        85,
+        82
+      ],
+      "daysSinceLogin": 4,
+      "severity": "warning"
+    },
+    {
+      "studentId": "s-risk-7",
+      "name": "PERI SHANMUKI",
+      "rollNo": "325067",
+      "batch": "SR MPC",
+      "branch": "Suchitra",
+      "percentile": 31,
+      "scores": [
+        90,
+        88,
+        94
+      ],
+      "daysSinceLogin": 2,
+      "severity": "warning"
+    },
+    {
+      "studentId": "s-risk-8",
+      "name": "DESU VEDA HASINI",
+      "rollNo": "106097",
+      "batch": "JR MPC",
+      "branch": "Bachupally",
+      "percentile": 35.6,
+      "scores": [
+        104,
+        98,
+        102
+      ],
+      "daysSinceLogin": 1,
+      "severity": "warning"
+    },
+    {
+      "studentId": "s-risk-9",
+      "name": "KASIPAKA RACHEAL PRINCY",
+      "rollNo": "926114",
+      "batch": "JR BIPC",
+      "branch": "West Marredpally",
+      "percentile": 29.8,
+      "scores": [
+        320,
+        310,
+        335
+      ],
+      "daysSinceLogin": 3,
+      "severity": "warning"
+    },
+    {
+      "studentId": "s-risk-10",
+      "name": "SAHASRA ANNAMANENI",
+      "rollNo": "126636",
+      "batch": "JR MEC CBSE",
+      "branch": "Shamirpet",
+      "percentile": 22,
+      "scores": [
+        65,
+        70,
+        68
+      ],
+      "daysSinceLogin": 6,
+      "severity": "critical"
+    },
+    {
+      "studentId": "s-risk-11",
+      "name": "CHINTHAKINDI SUHARSH PATEL",
+      "rollNo": "125126",
+      "batch": "SR MPC",
+      "branch": "Shamirpet",
+      "percentile": 33.2,
+      "scores": [
+        98,
+        92,
+        96
+      ],
+      "daysSinceLogin": 2,
+      "severity": "warning"
+    },
+    {
+      "studentId": "s-risk-12",
+      "name": "NAGANULU SRILAXMI",
+      "rollNo": "825178",
+      "batch": "SR MPC",
+      "branch": "Arithri Girls Campus",
+      "percentile": 36.4,
+      "scores": [
+        108,
+        102,
+        110
+      ],
+      "daysSinceLogin": 1,
+      "severity": "warning"
+    },
+    {
+      "studentId": "s-risk-13",
+      "name": "SATVIK REDDY CHINTHALA",
+      "rollNo": "125717",
+      "batch": "SR MPC CBSE",
+      "branch": "Shamirpet",
+      "percentile": 27.5,
+      "scores": [
+        85,
+        80,
+        84
+      ],
+      "daysSinceLogin": 4,
+      "severity": "warning"
+    },
+    {
+      "studentId": "s-risk-14",
+      "name": "KODAKANDLA SATHWIK REDDY",
+      "rollNo": "125359",
+      "batch": "SR MPC",
+      "branch": "Shamirpet",
+      "percentile": 37,
+      "scores": [
+        112,
+        108,
+        114
+      ],
+      "daysSinceLogin": 2,
+      "severity": "warning"
+    }
+  ],
+  "branches": [
+    {
+      "branchId": "b-shamirpet",
+      "name": "Shamirpet",
+      "percentile": 58.4,
+      "students": 1176,
+      "exams": 28,
+      "code": "SHAMIRPET-HYD"
+    },
+    {
+      "branchId": "b-suchitra",
+      "name": "Suchitra",
+      "percentile": 55.2,
+      "students": 598,
+      "exams": 24,
+      "code": "SUCHITRA-HYD"
+    },
+    {
+      "branchId": "b-kokapet",
+      "name": "Kokapet",
+      "percentile": 56.8,
+      "students": 579,
+      "exams": 25,
+      "code": "KOKAPET-HYD"
+    },
+    {
+      "branchId": "b-miyapur",
+      "name": "Miyapur",
+      "percentile": 53.9,
+      "students": 506,
+      "exams": 22,
+      "code": "MIYAPUR-HYD"
+    },
+    {
+      "branchId": "b-arithri",
+      "name": "Arithri Girls Campus",
+      "percentile": 57.1,
+      "students": 424,
+      "exams": 23,
+      "code": "ARITHRI-GC-HYD"
+    },
+    {
+      "branchId": "b-ecil",
+      "name": "ECIL",
+      "percentile": 52.6,
+      "students": 334,
+      "exams": 20,
+      "code": "ECIL-HYD"
+    },
+    {
+      "branchId": "b-wmp",
+      "name": "West Marredpally",
+      "percentile": 54.5,
+      "students": 328,
+      "exams": 21,
+      "code": "WMP-HYD"
+    },
+    {
+      "branchId": "b-madhapur",
+      "name": "Madhapur",
+      "percentile": 59.3,
+      "students": 271,
+      "exams": 26,
+      "code": "MADHAPUR-HYD"
+    },
+    {
+      "branchId": "b-lbnagar",
+      "name": "LB Nagar",
+      "percentile": 51.7,
+      "students": 262,
+      "exams": 19,
+      "code": "LBNAGAR-HYD"
+    },
+    {
+      "branchId": "b-bachupally",
+      "name": "Bachupally",
+      "percentile": 53.1,
+      "students": 242,
+      "exams": 20,
+      "code": "BACHUPALLY-HYD"
+    }
+  ],
+  "topBatches": [
+    {
+      "rank": 1,
+      "batchId": "b-srmpc-madhapur",
+      "name": "SR MPC",
+      "branch": "Madhapur",
+      "avgPercentile": 68.4,
+      "students": 78,
+      "targetExam": "JEE Mains"
+    },
+    {
+      "rank": 2,
+      "batchId": "b-srmpc-shamirpet",
+      "name": "SR MPC",
+      "branch": "Shamirpet",
+      "avgPercentile": 64.2,
+      "students": 408,
+      "targetExam": "JEE Mains"
+    },
+    {
+      "rank": 3,
+      "batchId": "b-srbipc-madhapur",
+      "name": "SR BIPC",
+      "branch": "Madhapur",
+      "avgPercentile": 62.8,
+      "students": 64,
+      "targetExam": "NEET"
+    },
+    {
+      "rank": 4,
+      "batchId": "b-jrmpc-shamirpet",
+      "name": "JR MPC",
+      "branch": "Shamirpet",
+      "avgPercentile": 59.5,
+      "students": 365,
+      "targetExam": "JEE Mains"
+    },
+    {
+      "rank": 5,
+      "batchId": "b-srmpc-suchitra",
+      "name": "SR MPC",
+      "branch": "Suchitra",
+      "avgPercentile": 57.1,
+      "students": 222,
+      "targetExam": "JEE Mains"
+    },
+    {
+      "rank": 6,
+      "batchId": "b-jrbipc-kokapet",
+      "name": "JR BIPC",
+      "branch": "Kokapet",
+      "avgPercentile": 55.4,
+      "students": 140,
+      "targetExam": "NEET"
+    }
+  ],
+  "topPerformers": [
+    {
+      "rank": 1,
+      "studentId": "s-101",
+      "name": "Bhagam Khyathi",
+      "rollNo": "225144",
+      "batch": "SR MPC",
+      "branch": "Madhapur",
+      "avgPercentile": 98.4,
+      "avgScore": 262,
+      "targetExam": "JEE Mains"
+    },
+    {
+      "rank": 2,
+      "studentId": "s-102",
+      "name": "JAY RAJ VAISHNAV",
+      "rollNo": "225167",
+      "batch": "SR MPC",
+      "branch": "Madhapur",
+      "avgPercentile": 96.2,
+      "avgScore": 248,
+      "targetExam": "JEE Mains"
+    },
+    {
+      "rank": 3,
+      "studentId": "s-103",
+      "name": "VISHWANATH AKSHAY KUMAR",
+      "rollNo": "125029",
+      "batch": "SR MPC",
+      "branch": "Shamirpet",
+      "avgPercentile": 95.1,
+      "avgScore": 242,
+      "targetExam": "JEE Mains"
+    },
+    {
+      "rank": 4,
+      "studentId": "s-104",
+      "name": "Gowtham Reddy",
+      "rollNo": "225008",
+      "batch": "SR MPC",
+      "branch": "Madhapur",
+      "avgPercentile": 93.8,
+      "avgScore": 235,
+      "targetExam": "JEE Mains"
+    },
+    {
+      "rank": 5,
+      "studentId": "s-105",
+      "name": "R PRANAV",
+      "rollNo": "425117",
+      "batch": "SR MPC",
+      "branch": "ECIL",
+      "avgPercentile": 92.5,
+      "avgScore": 229,
+      "targetExam": "JEE Mains"
+    },
+    {
+      "rank": 6,
+      "studentId": "s-106",
+      "name": "INDUR SAANVI",
+      "rollNo": "825323",
+      "batch": "SR MPC CBSE",
+      "branch": "Arithri Girls Campus",
+      "avgPercentile": 91,
+      "avgScore": 221,
+      "targetExam": "JEE Mains"
+    },
+    {
+      "rank": 7,
+      "studentId": "s-107",
+      "name": "Anwita Salike",
+      "rollNo": "225005",
+      "batch": "SR BIPC",
+      "branch": "Madhapur",
+      "avgPercentile": 94.7,
+      "avgScore": 658,
+      "targetExam": "NEET"
+    },
+    {
+      "rank": 8,
+      "studentId": "s-108",
+      "name": "BALATRIVIKRAM DHANUSH",
+      "rollNo": "225121",
+      "batch": "SR BIPC",
+      "branch": "Madhapur",
+      "avgPercentile": 92.3,
+      "avgScore": 641,
+      "targetExam": "NEET"
+    }
+  ],
+  "attendanceSummary": {
+    "overallRate": 88.5,
+    "present": 4217,
+    "absent": 381,
+    "late": 167,
+    "totalStudents": 4765,
+    "byBranch": [
+      {
+        "branch": "Madhapur",
+        "rate": 91.4
+      },
+      {
+        "branch": "Arithri Girls Campus",
+        "rate": 89.8
+      },
+      {
+        "branch": "Shamirpet",
+        "rate": 89.2
+      },
+      {
+        "branch": "Kokapet",
+        "rate": 88.6
+      },
+      {
+        "branch": "ECIL",
+        "rate": 88
+      },
+      {
+        "branch": "Suchitra",
+        "rate": 87.8
+      },
+      {
+        "branch": "West Marredpally",
+        "rate": 87.5
+      },
+      {
+        "branch": "LB Nagar",
+        "rate": 87.1
+      },
+      {
+        "branch": "Miyapur",
+        "rate": 86.9
+      },
+      {
+        "branch": "Bachupally",
+        "rate": 86.2
+      }
+    ]
+  }
+}

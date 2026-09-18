@@ -1,0 +1,156 @@
+      <!-- ===================================================================== -->
+      <!-- SECTION 3C: /analytics/student/[id]/test-analysis/[examId] -->
+      <!-- Exact replica of apps/dashboard/src/app/analytics/student/[id]/test-analysis/[examId]/page-client.tsx -->
+      <!-- ===================================================================== -->
+      <div id="section-student-test-analysis" class="section-view max-w-7xl mx-auto space-y-6 hidden fade-in">
+        
+        <!-- Header -->
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div class="flex items-center gap-3">
+            <button onclick="switchView('exam-detail')" class="flex h-9 w-9 items-center justify-center rounded-xl border border-border transition-colors hover:bg-primary/5 text-muted hover:text-slate-900" title="Back to Exam Detail">
+              <i class="ph-bold ph-arrow-left text-base"></i>
+            </button>
+            <div>
+              <div class="flex items-center gap-2">
+                <h1 class="text-2xl font-bold tracking-tight text-gray-900" id="test-analysis-student-name">Bhagam Khyathi</h1>
+                <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-primary/10 text-primary" id="test-analysis-roll">Roll: 225101</span>
+              </div>
+              <p class="mt-0.5 text-xs text-muted" id="test-analysis-exam-meta">Mock Test — JEE Mains · SR MPC (Madhapur)</p>
+            </div>
+          </div>
+
+          <!-- Actions: Open Student Dossier & Answer Behavior -->
+          <div class="ml-auto flex flex-wrap items-center gap-2">
+            <button onclick="openStudentAnswerBehavior(currentStudentId, currentActiveExamId)" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-purple-200 bg-purple-50 text-purple-700 text-xs font-semibold hover:bg-purple-100 transition-colors shadow-xs">
+              <i class="ph-duotone ph-arrows-left-right"></i> Answer Behavior & Telemetry
+            </button>
+            <button onclick="openStudentModal(currentStudentId)" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-border bg-surface text-gray-700 text-xs font-semibold hover:bg-slate-50 transition-colors shadow-xs">
+              <i class="ph-duotone ph-user"></i> Full Student Dossier
+            </button>
+          </div>
+        </div>
+
+        <!-- 5 KPI Cards -->
+        <div class="grid grid-cols-2 gap-3 sm:grid-cols-5">
+          <div class="rounded-2xl border border-border bg-surface p-4 shadow-xs">
+            <div class="flex items-center gap-2 text-primary text-xs font-semibold mb-1">
+              <i class="ph-duotone ph-target"></i> Score
+            </div>
+            <p class="text-xl font-bold font-mono text-gray-900" id="ta-kpi-score">284 / 300</p>
+            <p class="text-[10px] text-muted font-medium" id="ta-kpi-pct">94.7% score</p>
+          </div>
+          <div class="rounded-2xl border border-border bg-surface p-4 shadow-xs">
+            <div class="flex items-center gap-2 text-emerald-600 text-xs font-semibold mb-1">
+              <i class="ph-duotone ph-chart-bar"></i> Percentile
+            </div>
+            <p class="text-xl font-bold font-mono text-emerald-600" id="ta-kpi-percentile">99.8%ile</p>
+            <p class="text-[10px] text-muted">Across all cohorts</p>
+          </div>
+          <div class="rounded-2xl border border-border bg-surface p-4 shadow-xs">
+            <div class="flex items-center gap-2 text-amber-600 text-xs font-semibold mb-1">
+              <i class="ph-duotone ph-trophy"></i> Rank
+            </div>
+            <p class="text-xl font-bold font-mono text-amber-600" id="ta-kpi-rank">#1</p>
+            <p class="text-[10px] text-muted" id="ta-kpi-cohort">out of 672 students</p>
+          </div>
+          <div class="rounded-2xl border border-border bg-surface p-4 shadow-xs">
+            <div class="flex items-center gap-2 text-blue-600 text-xs font-semibold mb-1">
+              <i class="ph-duotone ph-check-circle"></i> Accuracy
+            </div>
+            <p class="text-xl font-bold font-mono text-blue-600" id="ta-kpi-accuracy">95.8%</p>
+            <p class="text-[10px] text-muted">71 of 74 attempted</p>
+          </div>
+          <div class="rounded-2xl border border-border bg-surface p-4 shadow-xs">
+            <div class="flex items-center gap-2 text-purple-600 text-xs font-semibold mb-1">
+              <i class="ph-duotone ph-timer"></i> Time Taken
+            </div>
+            <p class="text-xl font-bold font-mono text-gray-900" id="ta-kpi-time">162m</p>
+            <p class="text-[10px] text-muted">180m allotted</p>
+          </div>
+        </div>
+
+        <!-- Telemetry Signals Strip -->
+        <div class="rounded-2xl border border-border bg-surface p-4 shadow-xs flex flex-wrap items-center justify-between gap-3 text-xs">
+          <div class="flex items-center gap-2 text-muted">
+            <i class="ph-duotone ph-broadcast text-primary text-base"></i>
+            <span class="font-medium text-gray-900">Session Engagement:</span>
+          </div>
+          <div class="flex flex-wrap items-center gap-4 text-xs font-mono">
+            <span>Tab switches: <strong class="text-gray-900" id="ta-tel-tabs">1</strong></span>
+            <span>Revisits: <strong class="text-gray-900" id="ta-tel-revisits">4</strong></span>
+            <span>Flagged: <strong class="text-gray-900" id="ta-tel-flagged">2</strong></span>
+            <span>Answer changes: <strong class="text-gray-900" id="ta-tel-changes">1</strong></span>
+            <span>2nd-guess to wrong: <strong class="text-emerald-600 font-bold" id="ta-tel-2ndguess">0</strong></span>
+            <span>Avg time / Q: <strong class="text-gray-900" id="ta-tel-avgtime">129s</strong></span>
+          </div>
+        </div>
+
+        <!-- Subject Breakdown Cards -->
+        <div class="grid gap-4 md:grid-cols-3" id="ta-subject-cards"></div>
+
+        <!-- Topic Mastery Table -->
+        <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+          <h2 class="text-base font-semibold text-gray-900 mb-1">Topic Breakdown</h2>
+          <p class="text-xs text-muted mb-4">Granular performance for this student</p>
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-xs">
+              <thead class="border-b border-border bg-slate-50 font-semibold uppercase text-muted">
+                <tr>
+                  <th class="py-2.5 px-3">Topic</th>
+                  <th class="py-2.5 px-3 text-center">Questions</th>
+                  <th class="py-2.5 px-3 text-center">Correct</th>
+                  <th class="py-2.5 px-3 text-right">Accuracy</th>
+                </tr>
+              </thead>
+              <tbody id="ta-topic-table-body" class="divide-y divide-border"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Question Results Section with Palette -->
+        <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+          <div class="flex flex-wrap items-center justify-between gap-3 mb-5">
+            <div>
+              <h2 class="text-base font-semibold text-gray-900">Question Results</h2>
+              <p class="text-xs text-muted">Per-question response analysis with timings vs class average</p>
+            </div>
+
+            <!-- Status Filter Pills -->
+            <div class="flex items-center gap-1.5" id="ta-filter-pills">
+              <button onclick="filterStudentQuestions('all')" class="ta-q-filter-btn px-2.5 py-1 text-xs font-semibold rounded-lg bg-primary/10 text-primary" data-filter="all">All</button>
+              <button onclick="filterStudentQuestions('wrong')" class="ta-q-filter-btn px-2.5 py-1 text-xs font-medium rounded-lg text-rose-700 hover:bg-rose-50" data-filter="wrong">Wrong</button>
+              <button onclick="filterStudentQuestions('skipped')" class="ta-q-filter-btn px-2.5 py-1 text-xs font-medium rounded-lg text-slate-700 hover:bg-slate-100" data-filter="skipped">Skipped</button>
+              <button onclick="filterStudentQuestions('correct')" class="ta-q-filter-btn px-2.5 py-1 text-xs font-medium rounded-lg text-emerald-700 hover:bg-emerald-50" data-filter="correct">Correct</button>
+            </div>
+          </div>
+
+          <!-- Question Palette + Detail Panel -->
+          <div class="grid gap-6 lg:grid-cols-[280px_1fr]">
+            <!-- Palette Grid -->
+            <div class="rounded-xl border border-border bg-slate-50/70 p-4 lg:sticky lg:top-4 lg:self-start">
+              <h3 class="mb-3 text-xs font-semibold uppercase tracking-wider text-muted">Question Palette (75)</h3>
+              <div class="grid grid-cols-7 place-items-center gap-y-2" id="ta-palette-grid"></div>
+
+              <div class="mt-4 space-y-1.5 text-[10px] text-muted pt-3 border-t border-border">
+                <div class="flex items-center gap-1.5">
+                  <span class="h-2.5 w-2.5 rounded-full bg-emerald-500"></span>
+                  <span>Correct</span>
+                </div>
+                <div class="flex items-center gap-1.5">
+                  <span class="h-2.5 w-2.5 rounded-full bg-rose-500"></span>
+                  <span>Wrong</span>
+                </div>
+                <div class="flex items-center gap-1.5">
+                  <span class="h-2.5 w-2.5 rounded-full bg-slate-400"></span>
+                  <span>Skipped</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Detail Panel -->
+            <div class="min-w-0 space-y-4" id="ta-question-detail-panel"></div>
+          </div>
+        </div>
+
+      </div>
+

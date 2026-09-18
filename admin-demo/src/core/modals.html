@@ -1,0 +1,745 @@
+  <!-- ===================================================================== -->
+  <!-- MODAL 1: Student Dossier Detail Modal -->
+  <!-- ===================================================================== -->
+  <div id="student-modal" class="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-xs flex items-center justify-center p-4 hidden">
+    <div class="bg-surface border border-border rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto shadow-2xl">
+      <!-- Header -->
+      <div class="p-6 border-b border-border flex items-center justify-between sticky top-0 bg-surface z-10">
+        <div class="flex items-center gap-3">
+          <div class="h-11 w-11 rounded-full bg-gradient-to-br from-primary to-purple-600 text-white font-bold flex items-center justify-center text-sm shadow-xs" id="modal-student-avatar">
+            BK
+          </div>
+          <div>
+            <div class="flex items-center gap-2 mb-0.5">
+              <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-primary/10 text-primary uppercase tracking-wide">Student Dossier</span>
+              <span class="text-xs text-muted" id="modal-student-batch-tag">SR MPC · Section A</span>
+            </div>
+            <h2 class="text-lg font-bold text-slate-900" id="modal-student-name">Bhagam Khyathi</h2>
+            <p class="text-xs text-muted" id="modal-student-meta">Roll: 225144 · SR MPC · Madhapur Campus</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-3">
+          <button onclick="openFullStudentAnalytics()" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-primary text-white text-xs font-semibold hover:bg-primary/90 transition-colors shadow-xs">
+            <span>Open Full Analytics Page</span> <i class="ph-bold ph-arrow-right text-xs"></i>
+          </button>
+          <button onclick="closeStudentModal()" class="h-8 w-8 rounded-lg border border-border flex items-center justify-center text-muted hover:text-slate-900 hover:bg-slate-100">
+            <i class="ph-bold ph-x"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="p-6 space-y-5">
+        <!-- Developer Directive Banner: Role-Based View Adaptation -->
+        <div class="p-3.5 rounded-xl border border-indigo-200 bg-indigo-50/70 flex items-start gap-3">
+          <div class="h-8 w-8 rounded-lg bg-indigo-100 flex items-center justify-center shrink-0 text-indigo-700">
+            <i class="ph-fill ph-user-gear text-lg"></i>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-indigo-200 text-indigo-800 uppercase tracking-wide">Developer Directive</span>
+              <h4 class="text-xs font-bold text-indigo-950">Role-Based Student Intelligence (Faculty vs Mentorship)</h4>
+            </div>
+            <p class="text-xs text-indigo-900 mt-1 leading-relaxed">
+              Show the appropriate section expanded by default based on user level:
+              <strong>Subject Teachers & Mentors</strong> see <em>View 1 (Daily Academic Diagnostic & Chapter Leaks)</em> expanded for remedial drills and test feedback.
+              <strong>Principals, Deans & Academic Counselors</strong> see <em>View 2 (Rank Trajectory & PTM Counseling)</em> expanded for parent meetings and long-term target rank forecasting. Both lists can be toggled open/closed independently.
+            </p>
+          </div>
+        </div>
+
+        <!-- ================================================================= -->
+        <!-- COLLAPSIBLE LIST 1: Daily Academic Diagnostic (Faculty / Mentor View) -->
+        <!-- ================================================================= -->
+        <div class="rounded-xl border border-border bg-white overflow-hidden shadow-2xs transition-all" id="student-card-view1">
+          <button type="button" onclick="toggleStudentView1()" class="w-full p-4 flex items-center justify-between text-left hover:bg-slate-50/80 transition-colors">
+            <div class="flex items-center gap-3">
+              <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-emerald-100 text-emerald-700 font-bold text-base shrink-0">
+                <i class="ph-duotone ph-exam"></i>
+              </div>
+              <div>
+                <div class="flex items-center gap-2">
+                  <h3 class="text-sm font-bold text-slate-900">View 1: Daily Academic Diagnostic</h3>
+                  <span class="px-2 py-0.5 rounded-full text-[10px] font-semibold bg-emerald-100 text-emerald-800">Subject Faculty & Mentor</span>
+                </div>
+                <p class="text-xs text-muted">Test scores, subject breakdown, detected marks leaks, and practice adherence</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-md" id="stu-view1-status-pill">Expanded</span>
+              <i class="ph-bold ph-caret-up text-xs text-muted transition-transform" id="stu-view1-caret"></i>
+            </div>
+          </button>
+
+          <!-- Content container -->
+          <div class="p-4 pt-2 border-t border-border/70 space-y-5" id="student-view1-content">
+            <!-- Student Vital Cards -->
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+              <div class="p-3 bg-slate-50/70 rounded-xl border border-border">
+                <p class="text-[11px] font-medium text-muted">Latest Test Marks</p>
+                <div class="text-xl font-bold font-mono text-slate-900 mt-1" id="dos-score">262 / 300</div>
+                <p class="text-[10px] text-success font-medium mt-0.5" id="dos-pct">98.4%ile</p>
+              </div>
+
+              <div class="p-3 bg-slate-50/70 rounded-xl border border-border">
+                <p class="text-[11px] font-medium text-muted">Campus Standing</p>
+                <div class="text-xl font-bold font-mono text-primary mt-1" id="dos-rank">#1 / 271</div>
+                <p class="text-[10px] text-muted font-medium mt-0.5">Section Rank: #1</p>
+              </div>
+
+              <div class="p-3 bg-slate-50/70 rounded-xl border border-border">
+                <p class="text-[11px] font-medium text-muted">Daily Practice (DPP)</p>
+                <div class="text-xl font-bold font-mono text-amber-700 mt-1" id="dos-streak">19 Days</div>
+                <p class="text-[10px] text-muted font-medium mt-0.5">94% submission rate</p>
+              </div>
+
+              <div class="p-3 bg-slate-50/70 rounded-xl border border-border">
+                <p class="text-[11px] font-medium text-muted">Class Attendance</p>
+                <div class="text-xl font-bold font-mono text-emerald-700 mt-1" id="dos-attendance">96.5%</div>
+                <p class="text-[10px] text-muted font-medium mt-0.5">Consistent attendance</p>
+              </div>
+            </div>
+
+            <!-- Subject Proficiency & Diagnostics -->
+            <div>
+              <div class="flex items-center justify-between mb-2.5">
+                <h4 class="text-xs font-bold uppercase tracking-wider text-muted">Subject Performance & Accuracy</h4>
+                <span class="text-[11px] text-muted">Physics, Chemistry, Mathematics</span>
+              </div>
+              <!-- Preserves #dos-subjects element ID for test & script compatibility -->
+              <div class="space-y-2.5" id="dos-subjects"></div>
+            </div>
+
+            <!-- Weak Topics / Detected Marks Leaks -->
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <div class="flex items-center gap-1.5 text-danger font-bold text-xs uppercase tracking-wide">
+                  <i class="ph-bold ph-warning-circle text-sm"></i>
+                  <span>Detected Marks Leaks & Topic Hotspots</span>
+                </div>
+                <span class="text-[11px] text-muted">Negative marks & missed questions in recent tests</span>
+              </div>
+              <!-- Preserves #dos-leaks element ID for test & script compatibility -->
+              <div class="space-y-2" id="dos-leaks"></div>
+            </div>
+
+            <!-- Direct Action Shortcuts -->
+            <div class="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-border/60">
+              <span class="text-[11px] text-muted">Quick student deep dives:</span>
+              <div class="flex items-center gap-2">
+                <button type="button" onclick="closeStudentModal(); switchView('student-test-analysis')" class="px-3 py-1.5 rounded-lg border border-border bg-slate-50 text-xs font-semibold text-slate-800 hover:bg-slate-100 transition-colors">
+                  <i class="ph-bold ph-file-text mr-1 text-primary"></i> Test Analysis
+                </button>
+                <button type="button" onclick="closeStudentModal(); switchView('student-practice')" class="px-3 py-1.5 rounded-lg border border-border bg-slate-50 text-xs font-semibold text-slate-800 hover:bg-slate-100 transition-colors">
+                  <i class="ph-bold ph-calendar-check mr-1 text-emerald-600"></i> Practice & DPP
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================================================================= -->
+        <!-- COLLAPSIBLE LIST 2: Target Rank Trajectory & Counseling (Principal / PTM View) -->
+        <!-- ================================================================= -->
+        <div class="rounded-xl border border-border bg-white overflow-hidden shadow-2xs transition-all" id="student-card-view2">
+          <button type="button" onclick="toggleStudentView2()" class="w-full p-4 flex items-center justify-between text-left hover:bg-slate-50/80 transition-colors">
+            <div class="flex items-center gap-3">
+              <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-blue-100 text-blue-700 font-bold text-base shrink-0">
+                <i class="ph-duotone ph-trend-up"></i>
+              </div>
+              <div>
+                <div class="flex items-center gap-2">
+                  <h3 class="text-sm font-bold text-slate-900">View 2: Target Rank Trajectory & Counseling</h3>
+                  <span class="px-2 py-0.5 rounded-full text-[10px] font-semibold bg-blue-100 text-blue-800">Principal, Dean & PTM</span>
+                </div>
+                <p class="text-xs text-muted">Target exam readiness, projected All-India Rank, and parent counseling summary</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-semibold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-md" id="stu-view2-status-pill">Collapsed</span>
+              <i class="ph-bold ph-caret-down text-xs text-muted transition-transform" id="stu-view2-caret"></i>
+            </div>
+          </button>
+
+          <!-- Content container -->
+          <div class="p-4 pt-2 border-t border-border/70 space-y-5 hidden" id="student-view2-content">
+            <!-- Rank & Qualification Profile -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+              <div class="p-3 rounded-xl bg-slate-50/70 border border-border">
+                <p class="text-[11px] font-medium text-muted">Target Exam</p>
+                <p class="font-mono text-base font-bold text-slate-900 mt-1" id="stu-target-exam">JEE Mains 2026</p>
+                <p class="text-[10px] text-muted mt-0.5">IIT / NIT Target Aspirant</p>
+              </div>
+
+              <div class="p-3 rounded-xl bg-slate-50/70 border border-border">
+                <p class="text-[11px] font-medium text-muted">Projected All-India Rank (AIR)</p>
+                <p class="font-mono text-base font-bold text-emerald-600 mt-1" id="stu-projected-air">Top 1,200 – 1,800 AIR</p>
+                <p class="text-[10px] text-muted mt-0.5">Based on last 5 mock tests</p>
+              </div>
+
+              <div class="p-3 rounded-xl bg-slate-50/70 border border-border">
+                <p class="text-[11px] font-medium text-muted">Cutoff Safety Probability</p>
+                <p class="font-mono text-base font-bold text-primary mt-1" id="stu-cutoff-prob">99.2% (Safe Zone)</p>
+                <p class="text-[10px] text-muted mt-0.5">Confirmed qualification likelihood</p>
+              </div>
+            </div>
+
+            <!-- Peer Comparison vs Section Average -->
+            <div class="p-4 rounded-xl bg-slate-50/50 border border-border">
+              <h4 class="text-xs font-bold uppercase tracking-wider text-slate-900 mb-2.5">Performance vs Batch Average Benchmark</h4>
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
+                <div class="p-2.5 bg-white rounded-lg border border-border">
+                  <span class="text-muted text-[11px] block">Student Marks</span>
+                  <span class="font-mono text-base font-bold text-slate-900" id="stu-bench-student">262 / 300</span>
+                </div>
+                <div class="p-2.5 bg-white rounded-lg border border-border">
+                  <span class="text-muted text-[11px] block">Section A Median</span>
+                  <span class="font-mono text-base font-bold text-slate-700" id="stu-bench-batch">168 / 300</span>
+                </div>
+                <div class="p-2.5 bg-white rounded-lg border border-border">
+                  <span class="text-muted text-[11px] block">Net Advantage</span>
+                  <span class="font-mono text-base font-bold text-success" id="stu-bench-diff">+94 marks ahead</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Parent-Teacher Meeting (PTM) Counseling Notes -->
+            <div class="p-4 rounded-xl bg-white border border-border">
+              <div class="flex items-center gap-2 mb-2">
+                <i class="ph-duotone ph-chat-teardrop-text text-base text-primary"></i>
+                <h4 class="text-xs font-bold uppercase tracking-wider text-slate-900">Parent-Teacher Meeting (PTM) Counseling Points</h4>
+              </div>
+              <ul class="space-y-1.5 text-xs text-slate-700 list-disc list-inside leading-relaxed" id="stu-counseling-notes">
+                <li>Demonstrates top-tier conceptual clarity in Chemistry (Physical & Organic) with 92% accuracy.</li>
+                <li>Practice adherence is excellent (19-day active streak), ensuring regular question problem-solving.</li>
+                <li><strong>Recommendation for parents:</strong> Encourage extra revision in Physics Rotational Dynamics to eliminate negative marking and push score past 280+.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer CTA -->
+        <div id="dos-footer-cta" class="pt-3 border-t border-border flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <span class="text-xs text-muted">Looking for complete student deep dives, ERI score & time analysis?</span>
+          <button onclick="openFullStudentAnalytics()" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-primary text-white text-xs font-semibold hover:bg-primary/90 transition-all shadow-xs self-start sm:self-auto">
+            <span>Open Full Analytics Page</span> <i class="ph-bold ph-arrow-right text-xs"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- MODAL 2: Batch Hub & Sections Analytics Modal -->
+  <!-- ===================================================================== -->
+  <div id="batch-modal" class="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-xs flex items-center justify-center p-4 hidden">
+    <div class="bg-surface border border-border rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto shadow-2xl">
+      <!-- Header -->
+      <div class="p-6 border-b border-border flex items-center justify-between sticky top-0 bg-surface z-10">
+        <div>
+          <div class="flex items-center gap-2 mb-1">
+            <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-primary/10 text-primary uppercase tracking-wide">Batch Academic Hub</span>
+            <span class="text-xs text-muted" id="modal-batch-tag">Academic Year 2025-26</span>
+          </div>
+          <h2 class="text-lg font-bold text-slate-900" id="modal-batch-title">Batch Hub — SR MPC (Madhapur)</h2>
+          <p class="text-xs text-muted" id="modal-batch-meta">78 Students · Target: JEE Mains 2026 · Branch: Madhapur</p>
+        </div>
+        <div class="flex items-center gap-3">
+          <button onclick="openFullBatchAnalytics()" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-primary text-white text-xs font-semibold hover:bg-primary/90 transition-colors shadow-xs">
+            <span>Open Full Analytics Page</span> <i class="ph-bold ph-arrow-right text-xs"></i>
+          </button>
+          <button onclick="closeBatchModal()" class="h-8 w-8 rounded-lg border border-border flex items-center justify-center text-muted hover:text-slate-900 hover:bg-slate-100">
+            <i class="ph-bold ph-x"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="p-6 space-y-5">
+        <!-- Developer Directive Banner: Role-Based View Adaptation -->
+        <div class="p-3.5 rounded-xl border border-indigo-200 bg-indigo-50/70 flex items-start gap-3">
+          <div class="h-8 w-8 rounded-lg bg-indigo-100 flex items-center justify-center shrink-0 text-indigo-700">
+            <i class="ph-fill ph-user-gear text-lg"></i>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-indigo-200 text-indigo-800 uppercase tracking-wide">Developer Directive</span>
+              <h4 class="text-xs font-bold text-indigo-950">Role-Based Adaptive View (Faculty vs Management)</h4>
+            </div>
+            <p class="text-xs text-indigo-900 mt-1 leading-relaxed">
+              Show the appropriate section expanded by default based on the authenticated user's role:
+              <strong>Class Teachers & Faculty</strong> should default to <em>View 1 (Daily Academic Review)</em> expanded for immediate student follow-ups.
+              <strong>Principals, HODs, and Campus Directors</strong> should default to <em>View 2 (Section Benchmark & Competition)</em> expanded for cross-batch oversight. Both lists can be toggled open/closed independently.
+            </p>
+          </div>
+        </div>
+
+        <!-- ================================================================= -->
+        <!-- COLLAPSIBLE LIST 1: Daily Academic Review (Faculty / Teacher View) -->
+        <!-- ================================================================= -->
+        <div class="rounded-xl border border-border bg-white overflow-hidden shadow-2xs transition-all" id="batch-card-view1">
+          <button type="button" onclick="toggleBatchView1()" class="w-full p-4 flex items-center justify-between text-left hover:bg-slate-50/80 transition-colors">
+            <div class="flex items-center gap-3">
+              <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-emerald-100 text-emerald-700 font-bold text-base shrink-0">
+                <i class="ph-duotone ph-chalkboard-teacher"></i>
+              </div>
+              <div>
+                <div class="flex items-center gap-2">
+                  <h3 class="text-sm font-bold text-slate-900">View 1: Daily Academic Review</h3>
+                  <span class="px-2 py-0.5 rounded-full text-[10px] font-semibold bg-emerald-100 text-emerald-800">Faculty & Class Teacher</span>
+                </div>
+                <p class="text-xs text-muted">Class averages, cutoff qualification rate, subject strengths, and students needing help</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-md" id="view1-status-pill">Expanded</span>
+              <i class="ph-bold ph-caret-up text-xs text-muted transition-transform" id="view1-caret"></i>
+            </div>
+          </button>
+
+          <!-- Content container -->
+          <div class="p-4 pt-2 border-t border-border/70 space-y-5" id="batch-view1-content">
+            <!-- Top Key Metrics -->
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+              <div class="p-3 rounded-xl bg-slate-50/70 border border-border">
+                <p class="text-[11px] font-medium text-muted">Class Average</p>
+                <div class="flex items-baseline gap-1 mt-1">
+                  <span class="font-mono text-lg font-bold text-slate-900" id="batch-kpi-avg">168</span>
+                  <span class="text-xs text-muted">/ 300</span>
+                </div>
+                <p class="text-[10px] text-success font-medium mt-0.5 flex items-center gap-0.5">
+                  <i class="ph-bold ph-trend-up"></i> <span id="batch-kpi-pct">84.2%ile avg</span>
+                </p>
+              </div>
+
+              <div class="p-3 rounded-xl bg-slate-50/70 border border-border">
+                <p class="text-[11px] font-medium text-muted">Cutoff Qualification</p>
+                <div class="flex items-baseline gap-1 mt-1">
+                  <span class="font-mono text-lg font-bold text-primary" id="batch-kpi-qual-count">48</span>
+                  <span class="text-xs text-muted">/ <span id="batch-kpi-total">64</span></span>
+                </div>
+                <p class="text-[10px] text-muted font-medium mt-0.5">
+                  <span class="font-bold text-slate-700" id="batch-kpi-qual-rate">75%</span> clearing cutoff
+                </p>
+              </div>
+
+              <div class="p-3 rounded-xl bg-slate-50/70 border border-border">
+                <p class="text-[11px] font-medium text-muted">Attendance Rate</p>
+                <div class="flex items-baseline gap-1 mt-1">
+                  <span class="font-mono text-lg font-bold text-slate-900" id="batch-kpi-att">92.4%</span>
+                </div>
+                <p class="text-[10px] text-muted font-medium mt-0.5">Last 30 days record</p>
+              </div>
+
+              <div class="p-3 rounded-xl bg-slate-50/70 border border-border">
+                <p class="text-[11px] font-medium text-muted">Daily Practice (DPP)</p>
+                <div class="flex items-baseline gap-1 mt-1">
+                  <span class="font-mono text-lg font-bold text-slate-900" id="batch-kpi-dpp">81.6%</span>
+                </div>
+                <p class="text-[10px] text-amber-700 font-medium mt-0.5">Homework submission</p>
+              </div>
+            </div>
+
+            <!-- Subject Performance Cards (Physics, Chemistry, Maths/Bio) -->
+            <div>
+              <div class="flex items-center justify-between mb-2.5">
+                <h4 class="text-xs font-bold uppercase tracking-wider text-muted">Subject Performance & Diagnostic</h4>
+                <span class="text-[11px] text-muted">Average marks & focus guidance</span>
+              </div>
+              <!-- Preserves #batch-boxplot element ID for backward compatibility -->
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-3" id="batch-boxplot"></div>
+            </div>
+
+            <!-- Action Queues: Students Needing Attention & Top Rankers -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <!-- Students Needing Attention (At-Risk) -->
+              <div class="p-3.5 rounded-xl bg-rose-50/50 border border-rose-200">
+                <div class="flex items-center justify-between mb-2.5">
+                  <div class="flex items-center gap-1.5 text-danger font-bold text-xs uppercase tracking-wide">
+                    <i class="ph-bold ph-warning-circle text-sm"></i>
+                    <span>Students Needing Support</span>
+                  </div>
+                  <span class="px-2 py-0.5 rounded-full bg-rose-100 text-rose-800 text-[10px] font-bold" id="batch-atrisk-count">3 Flagged</span>
+                </div>
+                <!-- Preserves #batch-atrisk-list element ID for backward compatibility -->
+                <div class="space-y-2" id="batch-atrisk-list"></div>
+              </div>
+
+              <!-- Top Rankers in this Section -->
+              <div class="p-3.5 rounded-xl bg-slate-50/60 border border-border">
+                <div class="flex items-center justify-between mb-2.5">
+                  <div class="flex items-center gap-1.5 text-slate-900 font-bold text-xs uppercase tracking-wide">
+                    <i class="ph-fill ph-crown text-amber-500 text-sm"></i>
+                    <span>Top Rankers in Section</span>
+                  </div>
+                  <span class="text-[11px] text-muted font-medium">Recent Weekend Test</span>
+                </div>
+                <div class="space-y-2" id="batch-top-rankers-list"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================================================================= -->
+        <!-- COLLAPSIBLE LIST 2: Section Benchmark & Competition View (Principal / HOD View) -->
+        <!-- ================================================================= -->
+        <div class="rounded-xl border border-border bg-white overflow-hidden shadow-2xs transition-all" id="batch-card-view2">
+          <button type="button" onclick="toggleBatchView2()" class="w-full p-4 flex items-center justify-between text-left hover:bg-slate-50/80 transition-colors">
+            <div class="flex items-center gap-3">
+              <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-blue-100 text-blue-700 font-bold text-base shrink-0">
+                <i class="ph-duotone ph-chart-line-up"></i>
+              </div>
+              <div>
+                <div class="flex items-center gap-2">
+                  <h3 class="text-sm font-bold text-slate-900">View 2: Section Benchmark & Competition</h3>
+                  <span class="px-2 py-0.5 rounded-full text-[10px] font-semibold bg-blue-100 text-blue-800">Principal, HOD & Branch Head</span>
+                </div>
+                <p class="text-xs text-muted">Section rankings, marks bracket distribution, and inter-section performance matrix</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-semibold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-md" id="view2-status-pill">Collapsed</span>
+              <i class="ph-bold ph-caret-down text-xs text-muted transition-transform" id="view2-caret"></i>
+            </div>
+          </button>
+
+          <!-- Content container -->
+          <div class="p-4 pt-2 border-t border-border/70 space-y-5 hidden" id="batch-view2-content">
+            <!-- Section Standing Row -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+              <div class="p-3 rounded-xl bg-slate-50/70 border border-border">
+                <p class="text-[11px] font-medium text-muted">Campus Standing</p>
+                <p class="font-mono text-base font-bold text-slate-900 mt-1" id="batch-sec-standing">Rank #1 of 6 Sections</p>
+                <p class="text-[10px] text-muted mt-0.5">Madhapur Campus Leader</p>
+              </div>
+
+              <div class="p-3 rounded-xl bg-slate-50/70 border border-border">
+                <p class="text-[11px] font-medium text-muted">Inter-Campus Percentile</p>
+                <p class="font-mono text-base font-bold text-success mt-1" id="batch-sec-campus-pct">Top 8%</p>
+                <p class="text-[10px] text-muted mt-0.5">Across all 8 institution branches</p>
+              </div>
+
+              <div class="p-3 rounded-xl bg-slate-50/70 border border-border">
+                <p class="text-[11px] font-medium text-muted">Target Syllabus Velocity</p>
+                <p class="font-mono text-base font-bold text-primary mt-1" id="batch-sec-pace">On Track (+3 Days)</p>
+                <p class="text-[10px] text-muted mt-0.5">Coverage for JEE Mains Ph-1</p>
+              </div>
+            </div>
+
+            <!-- Marks Bracket Distribution -->
+            <div class="p-4 rounded-xl bg-slate-50/50 border border-border">
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+                <div>
+                  <h4 class="text-xs font-bold uppercase tracking-wider text-slate-900">Score Range & Marks Bracket Distribution</h4>
+                  <p class="text-[11px] text-muted">Student count in each performance bracket (Out of 300 marks)</p>
+                </div>
+                <div class="flex flex-wrap items-center gap-2.5 text-[10px] font-medium">
+                  <span class="inline-flex items-center gap-1 text-slate-700"><span class="h-2 w-2 rounded-full bg-emerald-500"></span> >200 (Top)</span>
+                  <span class="inline-flex items-center gap-1 text-slate-700"><span class="h-2 w-2 rounded-full bg-blue-500"></span> 140-200 (Safe)</span>
+                  <span class="inline-flex items-center gap-1 text-slate-700"><span class="h-2 w-2 rounded-full bg-amber-500"></span> 100-140 (Borderline)</span>
+                  <span class="inline-flex items-center gap-1 text-slate-700"><span class="h-2 w-2 rounded-full bg-rose-500"></span> <100 (Support)</span>
+                </div>
+              </div>
+              <!-- Preserves canvas #bellCurveChart for Chart.js rendering -->
+              <div class="h-44 relative">
+                <canvas id="bellCurveChart"></canvas>
+              </div>
+            </div>
+
+            <!-- Inter-Section Comparison Table -->
+            <div class="rounded-xl border border-border bg-white overflow-hidden">
+              <div class="p-3 border-b border-border bg-slate-50/50 flex items-center justify-between">
+                <h4 class="text-xs font-bold uppercase tracking-wider text-slate-900">Inter-Section Benchmark Matrix (SR MPC)</h4>
+                <span class="text-[11px] text-muted">Comparative view across sections</span>
+              </div>
+              <div class="overflow-x-auto">
+                <table class="w-full text-left text-xs">
+                  <thead>
+                    <tr class="border-b border-border bg-slate-50/80 text-muted font-semibold uppercase tracking-wider text-[10px]">
+                      <th class="py-2.5 px-3">Section</th>
+                      <th class="py-2.5 px-3">Enrolled</th>
+                      <th class="py-2.5 px-3">Class Avg</th>
+                      <th class="py-2.5 px-3">Physics</th>
+                      <th class="py-2.5 px-3">Chemistry</th>
+                      <th class="py-2.5 px-3">Maths</th>
+                      <th class="py-2.5 px-3">Cutoff Qual.</th>
+                      <th class="py-2.5 px-3">DPP Adherence</th>
+                    </tr>
+                  </thead>
+                  <tbody class="divide-y divide-border/60" id="batch-section-matrix-tbody"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- MODAL 3: Ask Analytics AI Modal -->
+  <!-- ===================================================================== -->
+  <div id="ask-modal" class="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-xs flex items-center justify-center p-4 hidden">
+    <div class="bg-surface border border-border rounded-2xl max-w-2xl w-full p-6 shadow-2xl">
+      <div class="flex items-center justify-between pb-4 border-b border-border">
+        <div class="flex items-center gap-2">
+          <div class="h-8 w-8 rounded-lg bg-primary/10 text-primary flex items-center justify-center">
+            <i class="ph-duotone ph-sparkle text-lg"></i>
+          </div>
+          <h3 class="font-bold text-slate-900 text-base">Ask Analytics AI</h3>
+        </div>
+        <button onclick="closeAskAnalyticsModal()" class="h-8 w-8 rounded-lg border border-border flex items-center justify-center text-muted hover:text-slate-900">
+          <i class="ph-bold ph-x"></i>
+        </button>
+      </div>
+
+      <!-- Developer Directive Banner -->
+      <div class="mt-4 p-3.5 rounded-xl border border-amber-300 bg-amber-50 flex items-start gap-3">
+        <div class="h-8 w-8 rounded-lg bg-amber-100 flex items-center justify-center shrink-0 text-amber-700">
+          <i class="ph-fill ph-warning-circle text-lg"></i>
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-200 text-amber-800 uppercase tracking-wide">Developer Directive</span>
+            <h4 class="text-xs font-bold text-amber-950">Preserve Existing Functionality</h4>
+          </div>
+          <p class="text-xs text-amber-900 mt-1 leading-relaxed">
+            Maintain existing Ask Analytics AI capabilities and endpoints. Preserve query presets, context-aware student/batch lookup, and connection to <code class="bg-amber-100 px-1 py-0.5 rounded text-amber-900 font-mono">/api/v1/analytics/ask</code> without breaking existing functionality.
+          </p>
+        </div>
+      </div>
+
+      <div class="py-4 space-y-4">
+        <div>
+          <p class="text-xs font-medium text-muted mb-2">Suggested queries:</p>
+          <div class="flex flex-wrap gap-2" id="ask-presets"></div>
+        </div>
+
+        <div class="relative">
+          <input type="text" id="ask-input" placeholder="Ask anything about student performance, batch trajectories, or branch comparisons..." class="w-full rounded-xl border border-border p-3 pr-10 text-sm outline-none focus:border-primary">
+          <button onclick="submitAskQuery()" class="absolute right-2.5 top-1/2 -translate-y-1/2 text-primary font-bold">
+            <i class="ph-bold ph-paper-plane-right text-lg"></i>
+          </button>
+        </div>
+
+        <div id="ask-answer-container" class="hidden p-4 rounded-xl bg-blue-50/70 border border-blue-200">
+          <div class="text-xs font-bold text-primary mb-1">Answer:</div>
+          <p class="text-sm text-slate-800 leading-relaxed" id="ask-answer-text"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- MODAL 4: Exam Hub Analytics Modal -->
+  <!-- ===================================================================== -->
+  <div id="exam-modal" class="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-xs flex items-center justify-center p-4 hidden">
+    <div class="bg-surface border border-border rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto shadow-2xl">
+      <div class="p-6 border-b border-border flex items-center justify-between sticky top-0 bg-surface z-10">
+        <div>
+          <h2 class="text-lg font-bold text-slate-900" id="modal-exam-title">Exam Hub — Mock Test (JEE Mains)</h2>
+          <p class="text-xs text-muted" id="modal-exam-meta">672 Submissions · Scheduled: Mar 12, 2026 · Purpose: JEE Mains</p>
+        </div>
+        <div class="flex items-center gap-3">
+          <button onclick="openFullExamAnalytics()" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-primary text-white text-xs font-semibold hover:bg-primary/90 transition-colors shadow-xs">
+            <span>Open Full Analytics Page</span> <i class="ph-bold ph-arrow-right text-xs"></i>
+          </button>
+          <button onclick="closeExamModal()" class="h-8 w-8 rounded-lg border border-border flex items-center justify-center text-muted hover:text-slate-900 hover:bg-slate-100">
+            <i class="ph-bold ph-x"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="p-6 space-y-6">
+        <!-- 4 Quick KPI Summary Cards -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          <div class="p-3 bg-slate-50 border border-border rounded-xl text-center">
+            <p class="text-[10px] uppercase font-bold text-muted">Submissions</p>
+            <p class="text-xl font-mono font-bold text-gray-900 mt-0.5" id="modal-exam-appeared">672 / 708</p>
+            <p class="text-[10px] text-success">94.9% rate</p>
+          </div>
+          <div class="p-3 bg-slate-50 border border-border rounded-xl text-center">
+            <p class="text-[10px] uppercase font-bold text-muted">Average Score</p>
+            <p class="text-xl font-mono font-bold text-primary mt-0.5" id="modal-exam-avg-score">164.2</p>
+            <p class="text-[10px] text-muted">out of 300</p>
+          </div>
+          <div class="p-3 bg-slate-50 border border-border rounded-xl text-center">
+            <p class="text-[10px] uppercase font-bold text-muted">Highest Score</p>
+            <p class="text-xl font-mono font-bold text-emerald-600 mt-0.5" id="modal-exam-top-score">284</p>
+            <p class="text-[10px] text-muted">Titan Tier</p>
+          </div>
+          <div class="p-3 bg-slate-50 border border-border rounded-xl text-center">
+            <p class="text-[10px] uppercase font-bold text-muted">Pass Rate</p>
+            <p class="text-xl font-mono font-bold text-emerald-600 mt-0.5" id="modal-exam-pass-rate">88.5%</p>
+            <p class="text-[10px] text-muted">&ge; 40% cutoff</p>
+          </div>
+        </div>
+
+        <!-- Mini Score distribution chart -->
+        <div>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-muted mb-2">Score Distribution Preview</h4>
+          <div class="h-44 relative">
+            <canvas id="modalExamDistChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Top 3 Scorers Preview -->
+        <div>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-muted mb-2">Top Performers in this Exam</h4>
+          <div class="space-y-2" id="modal-exam-top-scorers"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- MODAL 5: Overview DateRange Picker Modal with Developer Warning -->
+  <!-- ===================================================================== -->
+  <div id="overview-datepicker-modal" class="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-xs flex items-center justify-center p-4 hidden">
+    <div class="bg-surface border border-border rounded-2xl max-w-xl w-full p-6 shadow-2xl space-y-4">
+      <div class="flex items-center justify-between pb-3 border-b border-border">
+        <div class="flex items-center gap-2.5">
+          <div class="h-9 w-9 rounded-xl bg-primary/10 text-primary flex items-center justify-center">
+            <i class="ph-duotone ph-calendar text-xl"></i>
+          </div>
+          <div>
+            <h3 class="font-bold text-slate-900 text-sm">Select Analytics Date Range</h3>
+            <p class="text-xs text-muted">Overview institution temporal filter</p>
+          </div>
+        </div>
+        <button onclick="closeOverviewDateRangeModal()" class="h-8 w-8 rounded-lg border border-border flex items-center justify-center text-muted hover:text-slate-900 hover:bg-slate-100">
+          <i class="ph-bold ph-x"></i>
+        </button>
+      </div>
+
+      <!-- Developer Directive Alert -->
+      <div class="p-3.5 rounded-xl border border-amber-300 bg-amber-50 flex items-start gap-3">
+        <div class="h-8 w-8 rounded-lg bg-amber-100 flex items-center justify-center shrink-0 text-amber-700">
+          <i class="ph-fill ph-warning-circle text-lg"></i>
+        </div>
+        <div class="flex-1">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-200 text-amber-800 uppercase tracking-wide">Developer Directive</span>
+            <h4 class="text-xs font-bold text-amber-950">Preserve Existing Functionality</h4>
+          </div>
+          <p class="text-xs text-amber-900 mt-1 leading-relaxed">
+            Maintain existing date filtering logic across all KPI metric aggregations, trend series, and cohort comparisons. Ensure backward compatibility with existing temporal query parameters (<code class="bg-amber-100 px-1 py-0.5 rounded text-amber-900 font-mono">startDate</code>, <code class="bg-amber-100 px-1 py-0.5 rounded text-amber-900 font-mono">endDate</code>, <code class="bg-amber-100 px-1 py-0.5 rounded text-amber-900 font-mono">range</code>) without altering analytical definitions.
+          </p>
+        </div>
+      </div>
+
+      <!-- Quick Presets -->
+      <div>
+        <p class="text-xs font-semibold text-gray-700 mb-2">Preset Ranges</p>
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-2">
+          <button type="button" onclick="setOverviewDateRange('Last 7 days')" class="overview-date-preset-btn text-left px-3 py-2 rounded-xl text-xs font-medium border border-border hover:border-primary hover:bg-primary/5 transition-colors">
+            Last 7 days
+          </button>
+          <button type="button" onclick="setOverviewDateRange('Last 30 days')" class="overview-date-preset-btn text-left px-3 py-2 rounded-xl text-xs font-semibold bg-primary text-white border border-primary transition-colors">
+            Last 30 days
+          </button>
+          <button type="button" onclick="setOverviewDateRange('Last 90 days')" class="overview-date-preset-btn text-left px-3 py-2 rounded-xl text-xs font-medium border border-border hover:border-primary hover:bg-primary/5 transition-colors">
+            Last 90 days
+          </button>
+          <button type="button" onclick="setOverviewDateRange('This Academic Year')" class="overview-date-preset-btn text-left px-3 py-2 rounded-xl text-xs font-medium border border-border hover:border-primary hover:bg-primary/5 transition-colors">
+            This Academic Year
+          </button>
+          <button type="button" onclick="setOverviewDateRange('All Time')" class="overview-date-preset-btn text-left px-3 py-2 rounded-xl text-xs font-medium border border-border hover:border-primary hover:bg-primary/5 transition-colors">
+            All Time
+          </button>
+          <button type="button" onclick="setOverviewDateRange('Custom Range')" class="overview-date-preset-btn text-left px-3 py-2 rounded-xl text-xs font-medium border border-border hover:border-primary hover:bg-primary/5 transition-colors">
+            Custom Range...
+          </button>
+        </div>
+      </div>
+
+      <!-- Date Inputs Preview -->
+      <div class="grid grid-cols-2 gap-3 p-3 bg-slate-50 border border-border rounded-xl">
+        <div>
+          <label class="block text-[11px] font-semibold text-muted uppercase">From</label>
+          <input type="text" readonly value="Feb 15, 2026" class="mt-1 w-full text-xs font-mono font-medium bg-white border border-border rounded-lg px-2.5 py-1.5 text-slate-800">
+        </div>
+        <div>
+          <label class="block text-[11px] font-semibold text-muted uppercase">To</label>
+          <input type="text" readonly value="Mar 17, 2026" class="mt-1 w-full text-xs font-mono font-medium bg-white border border-border rounded-lg px-2.5 py-1.5 text-slate-800">
+        </div>
+      </div>
+
+      <!-- Footer Buttons -->
+      <div class="flex items-center justify-end gap-2 pt-2 border-t border-border">
+        <button onclick="closeOverviewDateRangeModal()" class="px-4 py-2 rounded-xl border border-border text-xs font-medium text-slate-700 hover:bg-slate-100 transition-colors">
+          Cancel
+        </button>
+        <button onclick="closeOverviewDateRangeModal()" class="px-4 py-2 rounded-xl bg-primary text-white text-xs font-semibold hover:bg-primary/90 transition-colors shadow-xs">
+          Apply Filter
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- MODAL 6: Assignment Integration Developer Modal -->
+  <!-- ===================================================================== -->
+  <div id="assignment-developer-modal" class="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-xs flex items-center justify-center p-4 hidden">
+    <div class="bg-surface border border-border rounded-2xl max-w-lg w-full p-6 shadow-2xl space-y-4">
+      <div class="flex items-center justify-between pb-3 border-b border-border">
+        <div class="flex items-center gap-2.5">
+          <div class="h-9 w-9 rounded-xl bg-blue-50 text-primary flex items-center justify-center">
+            <i class="ph-duotone ph-clipboard-text text-xl"></i>
+          </div>
+          <div>
+            <h3 class="font-bold text-slate-900 text-sm" id="assignment-modal-title">Assignment Details</h3>
+            <p class="text-xs text-muted" id="assignment-modal-subtitle">Practice Adherence Drilldown</p>
+          </div>
+        </div>
+        <button onclick="closeAssignmentDeveloperModal()" class="h-8 w-8 rounded-lg border border-border flex items-center justify-center text-muted hover:text-slate-900 hover:bg-slate-100">
+          <i class="ph-bold ph-x"></i>
+        </button>
+      </div>
+
+      <!-- Developer Directive Alert -->
+      <div class="p-3.5 rounded-xl border border-amber-300 bg-amber-50 flex items-start gap-3">
+        <div class="h-8 w-8 rounded-lg bg-amber-100 flex items-center justify-center shrink-0 text-amber-700">
+          <i class="ph-fill ph-code text-lg"></i>
+        </div>
+        <div class="flex-1">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-200 text-amber-800 uppercase tracking-wide">Developer Directive</span>
+            <h4 class="text-xs font-bold text-amber-950">Link to Existing Assignment</h4>
+          </div>
+          <p class="text-xs text-amber-900 mt-1 leading-relaxed">
+            Link this item to the existing assignment in the primary assignments section (<a href="#dpp" onclick="closeAssignmentDeveloperModal(); switchView('dpp');" class="font-bold underline text-amber-950 hover:text-primary">Practice Adherence / DPP</a> or <a href="#exams" onclick="closeAssignmentDeveloperModal(); switchView('exams');" class="font-bold underline text-amber-950 hover:text-primary">Exams Hub</a>). Preserve connectivity to existing assignment submission records, questions telemetry, and remedy workflows.
+          </p>
+        </div>
+      </div>
+
+      <!-- Item Meta Preview -->
+      <div class="p-4 rounded-xl bg-slate-50 border border-border space-y-2 text-xs">
+        <div class="flex justify-between">
+          <span class="text-muted">Item Title:</span>
+          <span class="font-medium text-slate-900 text-right max-w-[260px] truncate" id="assignment-modal-meta-title">—</span>
+        </div>
+        <div class="flex justify-between">
+          <span class="text-muted">Type:</span>
+          <span class="font-medium text-slate-900" id="assignment-modal-meta-type">—</span>
+        </div>
+        <div class="flex justify-between">
+          <span class="text-muted">Status:</span>
+          <span class="font-medium text-slate-900" id="assignment-modal-meta-status">—</span>
+        </div>
+        <div class="flex justify-between" id="assignment-modal-meta-score-row">
+          <span class="text-muted">Score / Performance:</span>
+          <span class="font-mono font-bold text-success" id="assignment-modal-meta-score">—</span>
+        </div>
+      </div>
+
+      <!-- Actions -->
+      <div class="flex items-center justify-end gap-2 pt-2 border-t border-border">
+        <button onclick="closeAssignmentDeveloperModal()" class="px-4 py-2 rounded-xl border border-border text-xs font-medium text-slate-700 hover:bg-slate-100 transition-colors">
+          Close
+        </button>
+        <button onclick="closeAssignmentDeveloperModal(); switchView('dpp');" class="px-4 py-2 rounded-xl bg-primary text-white text-xs font-semibold hover:bg-primary/90 transition-colors shadow-xs">
+          Open Practice Adherence &rarr;
+        </button>
+      </div>
+    </div>
+  </div>
+

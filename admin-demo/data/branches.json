@@ -1,0 +1,162 @@
+[
+  {
+    "id": "b-shamirpet",
+    "name": "Shamirpet",
+    "code": "SHAMIRPET-HYD",
+    "location": "Shamirpet, Hyderabad",
+    "studentCount": 1176,
+    "facultyCount": 28,
+    "batchCount": 12,
+    "avgScore": 58.4,
+    "status": "active",
+    "activeBatches": [
+      "SR MPC",
+      "JR MPC",
+      "SR BIPC",
+      "JR MEC CBSE"
+    ]
+  },
+  {
+    "id": "b-suchitra",
+    "name": "Suchitra",
+    "code": "SUCHITRA-HYD",
+    "location": "Suchitra Junction, Hyderabad",
+    "studentCount": 598,
+    "facultyCount": 18,
+    "batchCount": 7,
+    "avgScore": 55.2,
+    "status": "active",
+    "activeBatches": [
+      "SR MPC",
+      "JR MPC",
+      "SR BIPC"
+    ]
+  },
+  {
+    "id": "b-kokapet",
+    "name": "Kokapet",
+    "code": "KOKAPET-HYD",
+    "location": "Kokapet, Hyderabad",
+    "studentCount": 579,
+    "facultyCount": 16,
+    "batchCount": 9,
+    "avgScore": 56.8,
+    "status": "active",
+    "activeBatches": [
+      "SR MPC",
+      "JR BIPC",
+      "JR ACE"
+    ]
+  },
+  {
+    "id": "b-miyapur",
+    "name": "Miyapur",
+    "code": "MIYAPUR-HYD",
+    "location": "Miyapur, Hyderabad",
+    "studentCount": 506,
+    "facultyCount": 15,
+    "batchCount": 7,
+    "avgScore": 53.9,
+    "status": "active",
+    "activeBatches": [
+      "SR MPC",
+      "JR MPC",
+      "JR CEC"
+    ]
+  },
+  {
+    "id": "b-arithri",
+    "name": "Arithri Girls Campus",
+    "code": "ARITHRI-GC-HYD",
+    "location": "Arithri, Hyderabad",
+    "studentCount": 424,
+    "facultyCount": 14,
+    "batchCount": 10,
+    "avgScore": 57.1,
+    "status": "active",
+    "activeBatches": [
+      "SR MPC",
+      "SR MPC CBSE",
+      "JR MPC"
+    ]
+  },
+  {
+    "id": "b-ecil",
+    "name": "ECIL",
+    "code": "ECIL-HYD",
+    "location": "ECIL, Hyderabad",
+    "studentCount": 334,
+    "facultyCount": 12,
+    "batchCount": 7,
+    "avgScore": 52.6,
+    "status": "active",
+    "activeBatches": [
+      "SR MPC",
+      "JR MPC"
+    ]
+  },
+  {
+    "id": "b-wmp",
+    "name": "West Marredpally",
+    "code": "WMP-HYD",
+    "location": "Secunderabad",
+    "studentCount": 328,
+    "facultyCount": 12,
+    "batchCount": 7,
+    "avgScore": 54.5,
+    "status": "active",
+    "activeBatches": [
+      "SR MPC",
+      "JR BIPC",
+      "JR ACE"
+    ]
+  },
+  {
+    "id": "b-madhapur",
+    "name": "Madhapur",
+    "code": "MADHAPUR-HYD",
+    "location": "Hi-Tech City, Madhapur, Hyderabad",
+    "studentCount": 271,
+    "facultyCount": 11,
+    "batchCount": 4,
+    "avgScore": 59.3,
+    "status": "active",
+    "activeBatches": [
+      "SR MPC",
+      "JR MPC",
+      "SR BIPC",
+      "JR BIPC"
+    ]
+  },
+  {
+    "id": "b-lbnagar",
+    "name": "LB Nagar",
+    "code": "LBNAGAR-HYD",
+    "location": "LB Nagar, Hyderabad",
+    "studentCount": 262,
+    "facultyCount": 10,
+    "batchCount": 3,
+    "avgScore": 51.7,
+    "status": "active",
+    "activeBatches": [
+      "SR MPC",
+      "JR MPC",
+      "JR BIPC"
+    ]
+  },
+  {
+    "id": "b-bachupally",
+    "name": "Bachupally",
+    "code": "BACHUPALLY-HYD",
+    "location": "Bachupally, Hyderabad",
+    "studentCount": 242,
+    "facultyCount": 10,
+    "batchCount": 4,
+    "avgScore": 53.1,
+    "status": "active",
+    "activeBatches": [
+      "SR MPC",
+      "JR MPC"
+    ]
+  }
+]

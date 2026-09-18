@@ -1,0 +1,148 @@
+{
+  "studentId": "s-101",
+  "name": "Bhagam Khyathi",
+  "rollNo": "225144",
+  "batch": "SR MPC",
+  "branch": "Madhapur",
+  "targetExam": "JEE Mains",
+  "avatarUrl": null,
+  "kpis": {
+    "rankInBatch": 1,
+    "batchSize": 78,
+    "rankInCampus": 1,
+    "campusSize": 271,
+    "currentPercentile": 98.4,
+    "percentileDelta": "+1.6",
+    "avgScore": 262,
+    "totalPossible": 300,
+    "attendancePct": 98,
+    "dppStreak": 19,
+    "dppCompletionRate": 96.5
+  },
+  "scoreHistory": [
+    {
+      "exam": "Mock 1",
+      "score": 232,
+      "percentile": 94.2,
+      "date": "2025-11-10"
+    },
+    {
+      "exam": "Mock 2",
+      "score": 240,
+      "percentile": 95.8,
+      "date": "2025-11-24"
+    },
+    {
+      "exam": "Unit Test 4",
+      "score": 248,
+      "percentile": 96.5,
+      "date": "2025-12-08"
+    },
+    {
+      "exam": "Mock 3",
+      "score": 254,
+      "percentile": 97.4,
+      "date": "2025-12-22"
+    },
+    {
+      "exam": "Revision Test",
+      "score": 258,
+      "percentile": 97.9,
+      "date": "2026-01-12"
+    },
+    {
+      "exam": "Grand Mock 1",
+      "score": 265,
+      "percentile": 98.6,
+      "date": "2026-02-02"
+    },
+    {
+      "exam": "Grand Mock 2",
+      "score": 262,
+      "percentile": 98.4,
+      "date": "2026-02-23"
+    }
+  ],
+  "subjectBreakdown": [
+    {
+      "subject": "Mathematics",
+      "score": 92,
+      "total": 100,
+      "pct": 92,
+      "stateAvg": 58.4,
+      "status": "Mastered"
+    },
+    {
+      "subject": "Physics",
+      "score": 86,
+      "total": 100,
+      "pct": 86,
+      "stateAvg": 54.2,
+      "status": "Proficient"
+    },
+    {
+      "subject": "Chemistry",
+      "score": 84,
+      "total": 100,
+      "pct": 84,
+      "stateAvg": 56.1,
+      "status": "Proficient"
+    }
+  ],
+  "bloomsTaxonomy": [
+    {
+      "level": "Remembering",
+      "masteryPct": 96,
+      "stateAvgPct": 78
+    },
+    {
+      "level": "Understanding",
+      "masteryPct": 92,
+      "stateAvgPct": 69
+    },
+    {
+      "level": "Applying",
+      "masteryPct": 88,
+      "stateAvgPct": 54
+    },
+    {
+      "level": "Analyzing",
+      "masteryPct": 82,
+      "stateAvgPct": 46
+    },
+    {
+      "level": "Evaluating",
+      "masteryPct": 79,
+      "stateAvgPct": 38
+    }
+  ],
+  "weakTopics": [
+    {
+      "chapter": "Physics",
+      "topic": "Rotational Dynamics — Rolling on Inclined Plane",
+      "errorRate": 38,
+      "marksLost": 8
+    },
+    {
+      "chapter": "Chemistry",
+      "topic": "Ionic Equilibrium — Buffer Capacity",
+      "errorRate": 32,
+      "marksLost": 6
+    }
+  ],
+  "strengths": [
+    "Differential Calculus & Integral Applications (100% accuracy in last 3 mocks)",
+    "Modern Physics & Photoelectric Effect (zero errors across 18 questions)",
+    "Chemical Thermodynamics & Energetics (95% accuracy)"
+  ],
+  "behavioralAlerts": [
+    {
+      "type": "positive",
+      "message": "Practicing 45 mins daily on DPP. 19-day streak unbroken."
+    },
+    {
+      "type": "tip",
+      "message": "Time spent on Physics numericals is 2.4 min/Q vs target 1.8 min/Q. Recommend speed drills."
+    }
+  ]
+}

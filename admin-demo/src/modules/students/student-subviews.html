@@ -1,0 +1,785 @@
+      <!-- ===================================================================== -->
+      <!-- DEEP-DIVE 1: Exam Readiness Index (ERI) -->
+      <!-- Exact replica of backend-source/apps/dashboard/src/app/analytics/student/[id]/eri/page-client.tsx -->
+      <!-- ===================================================================== -->
+      <div id="section-student-eri" class="section-view max-w-5xl mx-auto space-y-6 hidden fade-in">
+        <button onclick="navigateToStudentDeepDive('detail')" class="inline-flex items-center gap-1.5 text-sm text-muted hover:text-foreground font-medium transition-colors">
+          <i class="ph-bold ph-arrow-left"></i> Back to Student Analytics
+        </button>
+        <header>
+          <p class="text-xs font-semibold uppercase tracking-wider text-blue-600">Readiness</p>
+          <h1 class="mt-1 text-2xl font-bold tracking-tight text-gray-900">Exam Readiness Index (ERI)</h1>
+          <p class="mt-0.5 text-sm text-muted">Subtopic × question-type × difficulty mastery, weighted by exam relevance.</p>
+        </header>
+
+        <!-- Hero score card -->
+        <div class="rounded-2xl border border-border bg-white p-6 shadow-xs">
+          <div class="flex flex-col sm:flex-row sm:items-center gap-6">
+            <div class="flex shrink-0 h-24 w-24 items-center justify-center rounded-2xl bg-emerald-50 text-emerald-600">
+              <div class="text-center">
+                <p class="text-3xl font-extrabold font-mono" id="eri-page-score">88</p>
+                <p class="text-[10px] font-semibold" id="eri-page-level">Titan</p>
+              </div>
+            </div>
+            <div class="flex-1 grid grid-cols-3 gap-3">
+              <div class="rounded-xl border border-border p-3">
+                <p class="text-xl font-bold font-mono text-gray-900" id="eri-page-active">142</p>
+                <p class="text-[10px] text-muted">Active Cells</p>
+              </div>
+              <div class="rounded-xl border border-border p-3">
+                <p class="text-xl font-bold font-mono text-emerald-600" id="eri-page-mastered">118</p>
+                <p class="text-[10px] text-muted">Mastered Cells</p>
+              </div>
+              <div class="rounded-xl border border-border p-3">
+                <p class="text-xl font-bold font-mono text-gray-700" id="eri-page-total">160</p>
+                <p class="text-[10px] text-muted">Total Cells</p>
+              </div>
+            </div>
+            <div class="flex sm:flex-col gap-2 sm:border-l sm:border-border sm:pl-4">
+              <div class="rounded-lg border border-border px-3 py-1.5 text-center">
+                <p class="text-[10px] text-muted">7d Change</p>
+                <p class="text-sm font-bold font-mono text-emerald-600" id="eri-page-7d">+2.4</p>
+              </div>
+              <div class="rounded-lg border border-border px-3 py-1.5 text-center">
+                <p class="text-[10px] text-muted">30d Change</p>
+                <p class="text-sm font-bold font-mono text-emerald-600" id="eri-page-30d">+6.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Velocity Chart -->
+        <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+          <h2 class="text-base font-semibold text-gray-900 mb-1">ERI Trajectory (last 30d)</h2>
+          <p class="text-xs text-muted mb-4">Daily cumulative syllabus progression and mastery growth</p>
+          <div class="h-60 relative">
+            <canvas id="eriVelocityChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Subject Breakdown -->
+        <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+          <h2 class="text-base font-semibold text-gray-900 mb-1">Subject Readiness Breakdown</h2>
+          <p class="text-xs text-muted mb-4">Mastery progression by individual discipline</p>
+          <div class="grid gap-3 sm:grid-cols-3" id="eri-subject-cards"></div>
+        </div>
+
+        <!-- Recommended Action Items -->
+        <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+          <h2 class="text-base font-semibold text-gray-900 mb-1">High-Impact Next Steps</h2>
+          <p class="text-xs text-muted mb-4">Targeted interventions derived directly from current cell gaps</p>
+          <div class="space-y-3" id="eri-action-items"></div>
+        </div>
+
+        <!-- Top Weak Cells Table -->
+        <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+          <h2 class="text-base font-semibold text-gray-900 mb-1">Critical Weak Cells</h2>
+          <p class="text-xs text-muted mb-4">Topics with persistent error clustering</p>
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-sm">
+              <thead>
+                <tr class="border-b border-border text-[11px] font-semibold uppercase tracking-wider text-muted">
+                  <th class="pb-3 pr-4">Topic</th>
+                  <th class="pb-3 pr-4">Subject & Format</th>
+                  <th class="pb-3 pr-4 text-center">Difficulty</th>
+                  <th class="pb-3 pr-4 text-right">Accuracy</th>
+                  <th class="pb-3 text-right">Status</th>
+                </tr>
+              </thead>
+              <tbody id="eri-weak-cells-body"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===================================================================== -->
+      <!-- DEEP-DIVE 2: Knowledge Heatmap -->
+      <!-- Exact replica of backend-source/apps/dashboard/src/app/analytics/student/[id]/heatmap/page-client.tsx -->
+      <!-- ===================================================================== -->
+      <div id="section-student-heatmap" class="section-view max-w-5xl mx-auto space-y-6 hidden fade-in">
+        <button onclick="navigateToStudentDeepDive('detail')" class="inline-flex items-center gap-1.5 text-sm text-muted hover:text-foreground font-medium transition-colors">
+          <i class="ph-bold ph-arrow-left"></i> Back to Student Analytics
+        </button>
+        <header class="flex flex-wrap items-center justify-between gap-4">
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-wider text-violet-600">Knowledge Grid</p>
+            <h1 class="mt-1 text-2xl font-bold tracking-tight text-gray-900">Mastery Heatmap</h1>
+            <p class="mt-0.5 text-sm text-muted">Topic × difficulty mastery matrix across active subjects.</p>
+          </div>
+          <!-- Subject Filters -->
+          <div class="flex items-center gap-1 rounded-xl border border-border bg-surface p-1 text-xs font-medium">
+            <button onclick="filterHeatmapSubject('all')" id="hm-filter-all" class="hm-filter-btn rounded-lg px-3 py-1 bg-primary/10 text-primary">All</button>
+            <button onclick="filterHeatmapSubject('math')" id="hm-filter-math" class="hm-filter-btn rounded-lg px-3 py-1 text-muted hover:text-foreground">Mathematics</button>
+            <button onclick="filterHeatmapSubject('physics')" id="hm-filter-physics" class="hm-filter-btn rounded-lg px-3 py-1 text-muted hover:text-foreground">Physics</button>
+            <button onclick="filterHeatmapSubject('chem')" id="hm-filter-chem" class="hm-filter-btn rounded-lg px-3 py-1 text-muted hover:text-foreground">Chemistry</button>
+          </div>
+        </header>
+
+        <!-- Legend -->
+        <div class="flex flex-wrap items-center gap-4 text-xs text-muted border-b border-border pb-3">
+          <span class="font-medium text-gray-700">Mastery States:</span>
+          <span class="inline-flex items-center gap-1.5"><span class="h-3 w-3 rounded-sm bg-emerald-500"></span> Mastered (&ge;85%)</span>
+          <span class="inline-flex items-center gap-1.5"><span class="h-3 w-3 rounded-sm bg-blue-500"></span> Reinforced (70-84%)</span>
+          <span class="inline-flex items-center gap-1.5"><span class="h-3 w-3 rounded-sm bg-amber-500"></span> Developing (50-69%)</span>
+          <span class="inline-flex items-center gap-1.5"><span class="h-3 w-3 rounded-sm bg-rose-500"></span> Weak (&lt;50%)</span>
+        </div>
+
+        <div class="space-y-6" id="heatmap-subject-sections"></div>
+      </div>
+
+      <!-- ===================================================================== -->
+      <!-- DEEP-DIVE 3: Predictive Path -->
+      <!-- Exact replica of backend-source/apps/dashboard/src/app/analytics/student/[id]/predictive-path/page-client.tsx -->
+      <!-- ===================================================================== -->
+      <div id="section-student-predictive-path" class="section-view max-w-5xl mx-auto space-y-6 hidden fade-in">
+        <button onclick="navigateToStudentDeepDive('detail')" class="inline-flex items-center gap-1.5 text-sm text-muted hover:text-foreground font-medium transition-colors">
+          <i class="ph-bold ph-arrow-left"></i> Back to Student Analytics
+        </button>
+        <header>
+          <p class="text-xs font-semibold uppercase tracking-wider text-blue-600">Forecast</p>
+          <h1 class="mt-1 text-2xl font-bold tracking-tight text-gray-900">Predictive Path</h1>
+          <p class="mt-0.5 text-sm text-muted">Projected performance for upcoming JEE Mains sessions based on score velocity.</p>
+        </header>
+
+        <!-- Forecast KPIs -->
+        <div class="grid gap-4 sm:grid-cols-4">
+          <div class="rounded-2xl border border-border bg-surface p-5 text-center shadow-xs">
+            <p class="text-xs text-muted">Projected Score</p>
+            <p class="mt-1 font-mono text-2xl font-bold text-primary" id="pred-score">278 / 300</p>
+            <p class="text-[10px] text-emerald-600 font-semibold mt-0.5">92.6% Expected</p>
+          </div>
+          <div class="rounded-2xl border border-border bg-surface p-5 text-center shadow-xs">
+            <p class="text-xs text-muted">Score Range</p>
+            <p class="mt-1 font-mono text-2xl font-bold text-gray-900" id="pred-range">270 – 286</p>
+            <p class="text-[10px] text-muted mt-0.5">&plusmn;8 pts 95% CI</p>
+          </div>
+          <div class="rounded-2xl border border-border bg-surface p-5 text-center shadow-xs">
+            <p class="text-xs text-muted">Expected Percentile</p>
+            <p class="mt-1 font-mono text-2xl font-bold text-indigo-600" id="pred-pct">99.1%ile</p>
+            <p class="text-[10px] text-indigo-500 mt-0.5">Top 1% bracket</p>
+          </div>
+          <div class="rounded-2xl border border-border bg-surface p-5 text-center shadow-xs">
+            <p class="text-xs text-muted">Model Confidence</p>
+            <p class="mt-1 font-mono text-2xl font-bold text-emerald-600">89%</p>
+            <p class="text-[10px] text-muted mt-0.5">High Stability</p>
+          </div>
+        </div>
+
+        <!-- Trajectory Chart -->
+        <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+          <div class="flex items-center justify-between mb-4">
+            <div>
+              <h2 class="text-base font-semibold text-gray-900">Score Progression & Session Forecast</h2>
+              <p class="text-xs text-muted">Historical exam attempts vs forward regression model</p>
+            </div>
+            <div class="flex items-center gap-3 text-xs">
+              <span class="inline-flex items-center gap-1"><span class="h-2.5 w-2.5 rounded-full bg-blue-600"></span> Actual</span>
+              <span class="inline-flex items-center gap-1"><span class="h-2.5 w-2.5 rounded-full bg-indigo-500 border border-dashed border-indigo-700"></span> Projected</span>
+            </div>
+          </div>
+          <div class="h-72 relative">
+            <canvas id="predictivePathChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Drivers -->
+        <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+          <h2 class="text-base font-semibold text-gray-900 mb-1">Key Forecast Drivers</h2>
+          <p class="text-xs text-muted mb-4">Factors exerting the strongest upward and downward pressure</p>
+          <div class="space-y-3" id="predictive-drivers-list"></div>
+        </div>
+      </div>
+
+      <!-- ===================================================================== -->
+      <!-- DEEP-DIVE 4: Rank Predictor -->
+      <!-- Exact replica of backend-source/apps/dashboard/src/app/analytics/student/[id]/rank-predictor/page-client.tsx -->
+      <!-- ===================================================================== -->
+      <div id="section-student-rank-predictor" class="section-view max-w-5xl mx-auto space-y-6 hidden fade-in">
+        <button onclick="navigateToStudentDeepDive('detail')" class="inline-flex items-center gap-1.5 text-sm text-muted hover:text-foreground font-medium transition-colors">
+          <i class="ph-bold ph-arrow-left"></i> Back to Student Analytics
+        </button>
+        <header>
+          <p class="text-xs font-semibold uppercase tracking-wider text-amber-600">Admissions & Rank</p>
+          <h1 class="mt-1 text-2xl font-bold tracking-tight text-gray-900">Rank Predictor</h1>
+          <p class="mt-0.5 text-sm text-muted">Estimated All India Rank (AIR) and target college admission chances.</p>
+        </header>
+
+        <!-- Rank Banner -->
+        <div class="rounded-2xl border border-amber-200 bg-gradient-to-r from-amber-50 to-orange-50 p-6">
+          <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div>
+              <p class="text-xs font-bold uppercase tracking-wider text-amber-800">Projected All India Rank (AIR)</p>
+              <p class="mt-1 text-3xl font-extrabold font-mono text-amber-900" id="rp-banner-rank">AIR 1,450 – 2,100</p>
+              <p class="text-xs text-amber-700 mt-0.5">Based on 98.4 percentile across 26 exams · Open Category</p>
+            </div>
+            <div class="rounded-xl bg-white/80 border border-amber-200 px-4 py-2.5 text-center">
+              <p class="text-[11px] text-muted">Target Exam</p>
+              <p class="font-bold text-gray-900 text-sm">JEE Mains 2026</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- What-If Simulator -->
+        <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+          <div class="flex items-center justify-between mb-2">
+            <div>
+              <h2 class="text-base font-semibold text-gray-900">What-If Score Simulator</h2>
+              <p class="text-xs text-muted">Adjust marks to see real-time impact on projected rank</p>
+            </div>
+            <span class="font-mono text-base font-bold text-primary" id="whatif-delta-display">+15 marks</span>
+          </div>
+          <input type="range" id="whatif-slider" min="-30" max="30" value="15" step="5" oninput="onWhatIfScoreChange(this.value)" class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-primary mt-2">
+          <div class="mt-3 flex items-center justify-between text-xs text-muted">
+            <span>-30 Marks</span>
+            <span class="font-semibold text-gray-900" id="whatif-simulated-rank">Simulated AIR: 820 (~99.5%ile)</span>
+            <span>+30 Marks</span>
+          </div>
+        </div>
+
+        <!-- College Predictions Table -->
+        <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+          <h2 class="text-base font-semibold text-gray-900 mb-1">College Predictions & Chances</h2>
+          <p class="text-xs text-muted mb-4">Historical cutoff comparison based on projected rank bracket</p>
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-sm">
+              <thead>
+                <tr class="border-b border-border text-[11px] font-semibold uppercase tracking-wider text-muted">
+                  <th class="pb-3 pr-4">Institute</th>
+                  <th class="pb-3 pr-4">Branch</th>
+                  <th class="pb-3 pr-4 text-center">Category</th>
+                  <th class="pb-3 pr-4 text-right">Closing Rank</th>
+                  <th class="pb-3 text-right">Chance</th>
+                </tr>
+              </thead>
+              <tbody id="rp-colleges-body"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Historical Rank Trend Chart -->
+        <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+          <h2 class="text-base font-semibold text-gray-900 mb-1">Historical Estimated Rank Trend</h2>
+          <p class="text-xs text-muted mb-4">Progression of AIR rank bracket across past exam submissions (lower is better)</p>
+          <div class="h-60 relative">
+            <canvas id="rankHistoryChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===================================================================== -->
+      <!-- DEEP-DIVE 5: Practice Analytics (Clinical 3-Tab Daily Drill & Mistake Notebook Hub) -->
+      <!-- ===================================================================== -->
+      <div id="section-student-practice" class="section-view max-w-5xl mx-auto space-y-6 hidden fade-in">
+        
+        <!-- Header & Action Bar -->
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 rounded-3xl border border-border bg-white p-5 shadow-xs">
+          <div class="flex items-center gap-3">
+            <button onclick="navigateToStudentDeepDive('detail')" class="flex h-10 w-10 items-center justify-center rounded-2xl border border-border bg-slate-50 transition-colors hover:bg-primary/10 hover:text-primary text-gray-700" title="Back to Student Dossier">
+              <i class="ph-bold ph-arrow-left text-lg"></i>
+            </button>
+            <div>
+              <div class="flex items-center gap-2">
+                <p class="text-xs font-bold uppercase tracking-wider text-orange-600">Practice Engine</p>
+                <span class="rounded-full bg-orange-100 px-2.5 py-0.5 text-[10px] font-bold text-orange-800">JEE / NEET Cadence</span>
+              </div>
+              <h1 class="mt-0.5 text-2xl font-bold tracking-tight text-gray-900">Practice Analytics &amp; Mistake Notebook</h1>
+              <p class="mt-0.5 text-xs text-muted">Daily Practice Problems (DPP) consistency, format volume breakdown, and re-drill error cycles.</p>
+            </div>
+          </div>
+
+          <!-- Immediate Actions & Student Identity Badge -->
+          <div class="flex flex-wrap items-center gap-2">
+            <!-- Student Pill -->
+            <div id="practice-student-badge" class="inline-flex items-center gap-2 rounded-xl border border-orange-200 bg-orange-50/70 px-3 py-1.5 text-xs text-orange-950 font-semibold shadow-xs">
+              <i class="ph-bold ph-student text-base text-orange-600"></i>
+              <span id="practice-student-info">Bhagam Khyathi · SR MPC · Madhapur</span>
+            </div>
+
+            <!-- WhatsApp Parent Alert Action -->
+            <button onclick="openPracticeWhatsAppModal()" class="inline-flex items-center gap-1.5 rounded-xl bg-emerald-600 px-3.5 py-2 text-xs font-semibold text-white shadow-xs hover:bg-emerald-700 transition-all" title="Notify parents of daily homework and practice adherence">
+              <i class="ph-bold ph-whatsapp-logo text-base"></i>
+              <span>WhatsApp Parent</span>
+            </button>
+
+            <!-- Assign Targeted Remedial Drills -->
+            <button onclick="alert('Assigning 15 Targeted Practice Drills for ' + (document.getElementById('practice-student-info')?.textContent || 'Student'))" class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl border border-orange-200 bg-orange-50 text-orange-700 text-xs font-bold hover:bg-orange-100 transition-colors shadow-xs" title="Assign targeted 15-question concept drill">
+              <i class="ph-bold ph-plus-circle text-sm"></i>
+              <span>Assign 15 Drills</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Inactive Student Warning Banner (Dynamic for 'Never Started' or 0-day students like s-nev-4) -->
+        <div id="practice-inactive-banner" class="hidden rounded-2xl border border-rose-200 bg-rose-50/80 p-4 shadow-xs">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+            <div class="flex items-center gap-3">
+              <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-rose-600 text-white">
+                <i class="ph-bold ph-warning-octagon text-xl"></i>
+              </div>
+              <div>
+                <p class="text-xs font-bold text-rose-900 uppercase tracking-wide">Urgent Attention: Zero DPP Submissions</p>
+                <p class="text-xs text-rose-700 mt-0.5" id="practice-inactive-desc">Student has not submitted any Daily Practice Problems. Adherence: 0% · Active Streak: 0 Days. Immediate parental counseling recommended.</p>
+              </div>
+            </div>
+            <button onclick="openPracticeWhatsAppModal()" class="inline-flex items-center gap-1.5 shrink-0 rounded-xl bg-rose-600 px-3.5 py-2 text-xs font-bold text-white shadow-xs hover:bg-rose-700 transition-all">
+              <i class="ph-bold ph-whatsapp-logo text-sm"></i>
+              <span>Escalate to Parent</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Top 4 Pulse Metrics Strip (5-Second Rapid Comprehension) -->
+        <div class="grid grid-cols-2 gap-3 sm:grid-cols-4">
+          <!-- Metric 1: Daily Streak & Consistency -->
+          <div class="rounded-2xl border border-amber-200 bg-amber-50/40 p-4 shadow-xs">
+            <div class="flex items-center justify-between">
+              <span class="text-[11px] font-semibold uppercase tracking-wider text-amber-800">Daily DPP Streak</span>
+              <i class="ph-duotone ph-fire text-lg text-amber-600"></i>
+            </div>
+            <p class="mt-1 font-mono text-xl font-extrabold text-amber-950" id="practice-kpi-streak">19 Days</p>
+            <p class="mt-0.5 text-[11px] text-amber-700 font-medium" id="practice-kpi-streak-sub">Longest: 24 Days</p>
+          </div>
+
+          <!-- Metric 2: Practice Accuracy -->
+          <div class="rounded-2xl border border-emerald-200 bg-emerald-50/40 p-4 shadow-xs">
+            <div class="flex items-center justify-between">
+              <span class="text-[11px] font-semibold uppercase tracking-wider text-emerald-800">Practice Accuracy</span>
+              <i class="ph-duotone ph-check-circle text-lg text-emerald-600"></i>
+            </div>
+            <p class="mt-1 font-mono text-xl font-extrabold text-emerald-950" id="practice-kpi-accuracy">88.4%</p>
+            <p class="mt-0.5 text-[11px] text-emerald-700 font-medium">Across <span class="font-bold" id="practice-kpi-solved">1,480</span> Solved Qs</p>
+            <span class="hidden" id="practice-kpi-accuracy-sub">&plusmn;1.2% this week</span>
+          </div>
+
+          <!-- Metric 3: Self-Study vs Faculty DPPs Balance -->
+          <div class="rounded-2xl border border-purple-200 bg-purple-50/40 p-4 shadow-xs">
+            <div class="flex items-center justify-between">
+              <span class="text-[11px] font-semibold uppercase tracking-wider text-purple-800">Study Habit Balance</span>
+              <i class="ph-duotone ph-scales text-lg text-purple-600"></i>
+            </div>
+            <p class="mt-1 font-mono text-xl font-bold text-purple-950" id="practice-kpi-ratio">65 : 35</p>
+            <p class="mt-0.5 text-[11px] text-purple-700 font-medium">65% Self vs 35% Faculty DPP</p>
+          </div>
+
+          <!-- Metric 4: Mistake Rectification Rate -->
+          <div class="rounded-2xl border border-blue-200 bg-blue-50/40 p-4 shadow-xs">
+            <div class="flex items-center justify-between">
+              <span class="text-[11px] font-semibold uppercase tracking-wider text-blue-800">Mistake Clearance</span>
+              <i class="ph-duotone ph-arrows-clockwise text-lg text-blue-600"></i>
+            </div>
+            <p class="mt-1 font-mono text-xl font-bold text-blue-950" id="practice-kpi-mistake-rate">80.4%</p>
+            <p class="mt-0.5 text-[11px] text-blue-700 font-medium">Cleared in Mistake Notebook</p>
+          </div>
+        </div>
+
+        <!-- 3-Tab Navigation Bar -->
+        <div class="flex border-b border-border bg-white rounded-2xl p-1.5 shadow-xs" id="practice-tabs-nav">
+          <button type="button" onclick="switchPracticeTab('cadence')" id="practice-tab-btn-cadence" class="practice-tab-btn flex-1 flex items-center justify-center gap-2 rounded-xl py-2.5 px-4 text-xs font-bold transition-all bg-orange-600 text-white shadow-xs">
+            <i class="ph-bold ph-calendar text-sm"></i>
+            <span>📅 Daily DPP &amp; Practice Cadence</span>
+          </button>
+          <button type="button" onclick="switchPracticeTab('mistakes')" id="practice-tab-btn-mistakes" class="practice-tab-btn flex-1 flex items-center justify-center gap-2 rounded-xl py-2.5 px-4 text-xs font-medium text-muted transition-all hover:text-foreground hover:bg-slate-50">
+            <i class="ph-bold ph-notebook text-sm"></i>
+            <span>📓 Mistake Notebook &amp; Re-Drills</span>
+          </button>
+          <button type="button" onclick="switchPracticeTab('history')" id="practice-tab-btn-history" class="practice-tab-btn flex-1 flex items-center justify-center gap-2 rounded-xl py-2.5 px-4 text-xs font-medium text-muted transition-all hover:text-foreground hover:bg-slate-50">
+            <i class="ph-bold ph-clock-counter-clockwise text-sm"></i>
+            <span>📋 Daily Activity Log &amp; Audit</span>
+          </button>
+        </div>
+
+        <!-- ===================================================================== -->
+        <!-- TAB 1: DAILY DPP & PRACTICE CADENCE (DEFAULT ACTIVE VIEW) -->
+        <!-- ===================================================================== -->
+        <div id="practice-tab-cadence-panel" class="practice-tab-panel space-y-6">
+
+          <!-- Habit & Discipline Cards Strip -->
+          <div class="grid gap-3 sm:grid-cols-4">
+            <div class="rounded-2xl border border-border bg-surface p-4 shadow-xs">
+              <p class="text-[10px] font-semibold uppercase tracking-wider text-muted">DPP Consecutive Streak</p>
+              <p class="mt-1 font-mono text-lg font-bold text-orange-600" id="practice-kpi-dpp-streak">19 days</p>
+              <p class="text-[10px] text-muted">Daily on-time completion</p>
+            </div>
+            <div class="rounded-2xl border border-border bg-surface p-4 shadow-xs">
+              <p class="text-[10px] font-semibold uppercase tracking-wider text-muted">Mock Test Frequency</p>
+              <p class="mt-1 font-mono text-lg font-bold text-blue-600" id="practice-kpi-mock-freq">2.4 / wk</p>
+              <p class="text-[10px] text-muted">Weekly full &amp; part tests</p>
+            </div>
+            <div class="rounded-2xl border border-border bg-surface p-4 shadow-xs">
+              <p class="text-[10px] font-semibold uppercase tracking-wider text-muted">Practice Time Logged</p>
+              <p class="mt-1 font-mono text-lg font-bold text-purple-600" id="practice-kpi-time">48.5 hrs</p>
+              <p class="text-[10px] text-muted" id="practice-kpi-time-sub">~1.5 hrs / day study hours</p>
+            </div>
+            <div class="rounded-2xl border border-border bg-surface p-4 shadow-xs">
+              <p class="text-[10px] font-semibold uppercase tracking-wider text-muted">DPP Submission Rate</p>
+              <p class="mt-1 font-mono text-lg font-bold text-emerald-600" id="practice-kpi-adherence">94.2%</p>
+              <p class="text-[10px] text-muted">Homework on-time adherence</p>
+            </div>
+          </div>
+
+          <!-- Practice Volume by Format Breakdown Chart -->
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+            <div class="flex items-center justify-between mb-1">
+              <div>
+                <h2 class="text-base font-semibold text-gray-900">Practice Volume by Format</h2>
+                <p class="text-xs text-muted">Questions solved and accuracy across daily homework, chapter tests, PYQs, and self-study</p>
+              </div>
+              <span class="rounded-full bg-orange-50 border border-orange-200 px-2.5 py-0.5 text-[10px] font-bold text-orange-700">All Modules</span>
+            </div>
+            <div class="h-64 relative mt-4">
+              <canvas id="practiceBreakdownChart"></canvas>
+            </div>
+            <div class="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-2 border-t border-border/50 pt-3" id="practice-type-summary"></div>
+          </div>
+
+        </div>
+
+        <!-- ===================================================================== -->
+        <!-- TAB 2: MISTAKE NOTEBOOK & RE-DRILL CYCLES -->
+        <!-- ===================================================================== -->
+        <div id="practice-tab-mistakes-panel" class="practice-tab-panel space-y-6 hidden">
+
+          <!-- Mistake Notebook Rectification Funnel -->
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+            <div class="flex items-center justify-between mb-1">
+              <div>
+                <h2 class="text-base font-semibold text-gray-900 flex items-center gap-2">
+                  <i class="ph-duotone ph-notebook text-orange-600"></i>
+                  Mistake Notebook (Error Rectification Tracker)
+                </h2>
+                <p class="text-xs text-muted">Tracking mistakes from mock tests and DPPs that are re-attempted during evening study hours</p>
+              </div>
+              <span class="rounded-full bg-emerald-50 border border-emerald-200 px-2.5 py-0.5 text-[10px] font-bold text-emerald-700">Rectification Active</span>
+            </div>
+
+            <!-- 4 Funnel Tiles -->
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-4">
+              <div class="p-3.5 bg-slate-50 rounded-xl border border-border text-center">
+                <p class="text-[10px] text-muted uppercase tracking-wider font-semibold">Flagged in Notebook</p>
+                <p class="font-mono text-2xl font-bold text-gray-900 mt-1" id="practice-err-flagged">92</p>
+                <p class="text-[10px] text-muted mt-0.5">Test mistakes logged</p>
+              </div>
+              <div class="p-3.5 bg-emerald-50/50 rounded-xl border border-emerald-200 text-center">
+                <p class="text-[10px] text-emerald-800 uppercase tracking-wider font-semibold">Re-Drilled &amp; Cleared</p>
+                <p class="font-mono text-2xl font-bold text-emerald-600 mt-1" id="practice-err-resolved">74</p>
+                <p class="text-[10px] text-emerald-700 mt-0.5">Mastery confirmed</p>
+              </div>
+              <div class="p-3.5 bg-amber-50/50 rounded-xl border border-amber-200 text-center">
+                <p class="text-[10px] text-amber-800 uppercase tracking-wider font-semibold">Pending Practice</p>
+                <p class="font-mono text-2xl font-bold text-amber-600 mt-1" id="practice-err-pending">18</p>
+                <p class="text-[10px] text-amber-700 mt-0.5">Needs re-attempt</p>
+              </div>
+              <div class="p-3.5 bg-blue-50/50 rounded-xl border border-blue-200 text-center">
+                <p class="text-[10px] text-blue-800 uppercase tracking-wider font-semibold">Avg Turnaround</p>
+                <p class="font-mono text-2xl font-bold text-blue-600 mt-1" id="practice-err-turnaround">2.8 Days</p>
+                <p class="text-[10px] text-blue-700 mt-0.5">Time to clear concept</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pending Weak Chapters Awaiting Practice Re-Attempt -->
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+            <div class="flex items-center justify-between mb-3">
+              <div>
+                <h3 class="text-base font-semibold text-gray-900">Pending Topics in Mistake Notebook</h3>
+                <p class="text-xs text-muted">Concepts marked weak in recent exams requiring 15 targeted practice drills</p>
+              </div>
+              <button onclick="alert('Batch assigning drills for all pending topics...')" class="inline-flex items-center gap-1.5 rounded-xl border border-border bg-white px-3 py-1.5 text-xs font-semibold text-gray-700 hover:bg-slate-50 transition-colors shadow-xs">
+                <i class="ph-bold ph-paper-plane-tilt text-sm text-primary"></i>
+                <span>Assign All Drills</span>
+              </button>
+            </div>
+            <div class="space-y-2.5" id="practice-pending-topics-list">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ===================================================================== -->
+        <!-- TAB 3: DAILY ACTIVITY LOG & SESSION AUDIT -->
+        <!-- ===================================================================== -->
+        <div id="practice-tab-history-panel" class="practice-tab-panel space-y-6 hidden">
+
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4">
+              <div>
+                <h2 class="text-base font-semibold text-gray-900">Recent Practice Activity Log</h2>
+                <p class="text-xs text-muted">Detailed history of daily DPPs, chapter drills, and PYQs attempted</p>
+              </div>
+              <!-- Quick Filter Pills -->
+              <div class="flex flex-wrap items-center gap-1.5" id="practice-activity-filters">
+                <button onclick="filterPracticeActivity('all')" id="prac-filter-all" class="px-2.5 py-1 rounded-lg text-xs font-semibold bg-primary text-white shadow-xs">All</button>
+                <button onclick="filterPracticeActivity('DPP')" id="prac-filter-DPP" class="px-2.5 py-1 rounded-lg text-xs font-medium text-muted hover:text-foreground hover:bg-slate-100 transition-colors">Daily DPPs</button>
+                <button onclick="filterPracticeActivity('Chapter Test')" id="prac-filter-Chapter" class="px-2.5 py-1 rounded-lg text-xs font-medium text-muted hover:text-foreground hover:bg-slate-100 transition-colors">Chapter Tests</button>
+                <button onclick="filterPracticeActivity('PYQ')" id="prac-filter-PYQ" class="px-2.5 py-1 rounded-lg text-xs font-medium text-muted hover:text-foreground hover:bg-slate-100 transition-colors">PYQ Drills</button>
+                <button onclick="filterPracticeActivity('Self Practice')" id="prac-filter-Self" class="px-2.5 py-1 rounded-lg text-xs font-medium text-muted hover:text-foreground hover:bg-slate-100 transition-colors">Self Study</button>
+              </div>
+            </div>
+            <div class="divide-y divide-border/40" id="practice-activity-list"></div>
+          </div>
+
+        </div>
+
+        <!-- ===================================================================== -->
+        <!-- WHATSAPP PARENT HOMEWORK & PRACTICE NOTIFICATION MODAL -->
+        <!-- ===================================================================== -->
+        <div id="practice-whatsapp-modal" class="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/50 backdrop-blur-xs hidden p-4">
+          <div class="w-full max-w-lg rounded-3xl bg-white p-6 shadow-2xl space-y-4">
+            <div class="flex items-center justify-between border-b border-border pb-3">
+              <div class="flex items-center gap-2 text-emerald-700">
+                <i class="ph-bold ph-whatsapp-logo text-2xl"></i>
+                <h3 class="text-base font-bold text-gray-900">Notify Parent: Practice &amp; Homework</h3>
+              </div>
+              <button onclick="closePracticeWhatsAppModal()" class="rounded-xl p-1.5 text-gray-400 hover:bg-slate-100 hover:text-gray-700">
+                <i class="ph-bold ph-x text-base"></i>
+              </button>
+            </div>
+
+            <p class="text-xs text-muted">
+              Auto-composed official attendance &amp; daily homework update to parents:
+            </p>
+
+            <div class="rounded-2xl border border-emerald-200 bg-emerald-50/40 p-4 font-mono text-xs text-gray-800 leading-relaxed whitespace-pre-wrap select-all" id="practice-whatsapp-body">
+              <!-- Dynamically populated by openPracticeWhatsAppModal() -->
+            </div>
+
+            <div class="flex items-center justify-between pt-2">
+              <button type="button" onclick="copyPracticeWhatsAppMessage()" id="practice-whatsapp-copy-btn" class="inline-flex items-center gap-1.5 rounded-xl border border-border bg-white px-3.5 py-2 text-xs font-medium text-gray-700 hover:bg-slate-50 transition-colors">
+                <i class="ph-bold ph-copy text-sm"></i>
+                <span id="practice-whatsapp-copy-text">Copy Text</span>
+              </button>
+              <div class="flex items-center gap-2">
+                <button type="button" onclick="closePracticeWhatsAppModal()" class="rounded-xl px-3.5 py-2 text-xs font-medium text-gray-600 hover:bg-slate-100">
+                  Cancel
+                </button>
+                <button type="button" onclick="sendPracticeWhatsAppDirect()" class="inline-flex items-center gap-1.5 rounded-xl bg-emerald-600 px-4 py-2 text-xs font-bold text-white shadow-xs hover:bg-emerald-700 transition-all">
+                  <i class="ph-bold ph-paper-plane-tilt text-sm"></i>
+                  <span>Open WhatsApp</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ===================================================================== -->
+      <!-- DEEP-DIVE 6: Success Gap -->
+      <!-- Exact replica of backend-source/apps/dashboard/src/app/analytics/student/[id]/success-gap/page-client.tsx -->
+      <!-- ===================================================================== -->
+      <div id="section-student-success-gap" class="section-view max-w-5xl mx-auto space-y-6 hidden fade-in">
+        <button onclick="navigateToStudentDeepDive('detail')" class="inline-flex items-center gap-1.5 text-sm text-muted hover:text-foreground font-medium transition-colors">
+          <i class="ph-bold ph-arrow-left"></i> Back to Student Analytics
+        </button>
+        <header>
+          <p class="text-xs font-semibold uppercase tracking-wider text-emerald-600">Accuracy Delta</p>
+          <h1 class="mt-1 text-2xl font-bold tracking-tight text-gray-900">Strengths vs Weaknesses (Success Gap)</h1>
+          <p class="mt-0.5 text-sm text-muted">Side-by-side comparison of strongest vs weakest topics.</p>
+        </header>
+
+        <!-- Gap Banner -->
+        <div class="rounded-2xl border border-border bg-surface p-5 shadow-xs">
+          <div class="flex items-center justify-between">
+            <div>
+              <p class="text-xs text-muted">Performance Spread</p>
+              <p class="text-2xl font-extrabold font-mono text-primary mt-0.5">+26.8% Delta</p>
+              <p class="text-xs text-muted mt-0.5">Spread between strongest subject: <span class="font-semibold text-gray-900">Mathematics (92.5%)</span> and weakest: <span class="font-semibold text-gray-900">Physics (65.7%)</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 Columns: Top 5 Strengths vs Top 5 Weaknesses -->
+        <div class="grid gap-6 lg:grid-cols-2">
+          <!-- Strengths -->
+          <div class="rounded-2xl border border-success/30 bg-surface p-6 shadow-xs">
+            <h2 class="text-base font-semibold text-success mb-1 flex items-center gap-1.5">
+              <i class="ph-bold ph-trend-up"></i> Top 5 Strongest Topics
+            </h2>
+            <p class="text-xs text-muted mb-4">Highest accuracy and consistent accuracy</p>
+            <div class="space-y-3" id="sg-strengths-list"></div>
+          </div>
+
+          <!-- Weaknesses -->
+          <div class="rounded-2xl border border-danger/30 bg-surface p-6 shadow-xs">
+            <h2 class="text-base font-semibold text-danger mb-1 flex items-center gap-1.5">
+              <i class="ph-bold ph-trend-down"></i> Top 5 Weakest Topics
+            </h2>
+            <p class="text-xs text-muted mb-4">Primary mark leak sources</p>
+            <div class="space-y-3" id="sg-weaknesses-list"></div>
+          </div>
+        </div>
+
+        <!-- Strategic Guidance -->
+        <div class="rounded-2xl border border-primary/20 bg-primary/5 p-5">
+          <p class="text-xs font-bold uppercase tracking-wider text-primary">High-ROI Remedial Target</p>
+          <p class="mt-1 text-xs leading-relaxed text-gray-800" id="sg-actionable-advice">
+            Physics Mechanics accounts for 58% of all lost marks. Boosting Rotation and Wave Optics from 45% to 75% delivers an immediate +24 marks gain.
+          </p>
+        </div>
+      </div>
+
+      <!-- ===================================================================== -->
+      <!-- DEEP-DIVE 7: Weakness Recovery -->
+      <!-- Exact replica of backend-source/apps/dashboard/src/app/analytics/student/[id]/weakness-improvement/page-client.tsx -->
+      <!-- ===================================================================== -->
+      <div id="section-student-weakness-improvement" class="section-view max-w-5xl mx-auto space-y-6 hidden fade-in">
+        <button onclick="navigateToStudentDeepDive('detail')" class="inline-flex items-center gap-1.5 text-sm text-muted hover:text-foreground font-medium transition-colors">
+          <i class="ph-bold ph-arrow-left"></i> Back to Student Analytics
+        </button>
+        <header>
+          <p class="text-xs font-semibold uppercase tracking-wider text-teal-600">Progression</p>
+          <h1 class="mt-1 text-2xl font-bold tracking-tight text-gray-900">Weakness Recovery & Progress</h1>
+          <p class="mt-0.5 text-sm text-muted">30-day before / after recovery metrics for flagged remedial topics.</p>
+        </header>
+
+        <!-- Summary KPIs -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          <div class="rounded-xl border border-border bg-surface p-4 text-center shadow-xs">
+            <p class="text-[10px] text-muted uppercase">Tracked Topics</p>
+            <p class="mt-0.5 font-mono text-2xl font-bold text-gray-900">6</p>
+          </div>
+          <div class="rounded-xl border border-border bg-surface p-4 text-center shadow-xs">
+            <p class="text-[10px] text-muted uppercase">Recovered</p>
+            <p class="mt-0.5 font-mono text-2xl font-bold text-success">3</p>
+          </div>
+          <div class="rounded-xl border border-border bg-surface p-4 text-center shadow-xs">
+            <p class="text-[10px] text-muted uppercase">In Progress</p>
+            <p class="mt-0.5 font-mono text-2xl font-bold text-amber-600">2</p>
+          </div>
+          <div class="rounded-xl border border-border bg-surface p-4 text-center shadow-xs">
+            <p class="text-[10px] text-muted uppercase">Needs Focus</p>
+            <p class="mt-0.5 font-mono text-2xl font-bold text-danger">1</p>
+          </div>
+        </div>
+
+        <!-- Topics List -->
+        <div class="space-y-3" id="wi-topics-list"></div>
+      </div>
+
+      <!-- ===================================================================== -->
+      <!-- DEEP-DIVE 8: Time vs Performance -->
+      <!-- Exact replica of backend-source/apps/dashboard/src/app/analytics/student/[id]/time-vs-performance/page-client.tsx -->
+      <!-- ===================================================================== -->
+      <div id="section-student-time-vs-performance" class="section-view max-w-5xl mx-auto space-y-6 hidden fade-in">
+        <button onclick="navigateToStudentDeepDive('detail')" class="inline-flex items-center gap-1.5 text-sm text-muted hover:text-foreground font-medium transition-colors">
+          <i class="ph-bold ph-arrow-left"></i> Back to Student Analytics
+        </button>
+        <header>
+          <p class="text-xs font-semibold uppercase tracking-wider text-indigo-600">Speed & Accuracy</p>
+          <h1 class="mt-1 text-2xl font-bold tracking-tight text-gray-900">Time vs Performance</h1>
+          <p class="mt-0.5 text-sm text-muted">Pacing quadrant scatter plot and question speed optimization.</p>
+        </header>
+
+        <!-- Pacing Stats -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          <div class="rounded-xl border border-border bg-surface p-4 shadow-xs">
+            <p class="text-xs text-muted">Avg Time / Question</p>
+            <p class="mt-1 font-mono text-xl font-bold text-gray-900">68s</p>
+          </div>
+          <div class="rounded-xl border border-border bg-surface p-4 shadow-xs">
+            <p class="text-xs text-muted">Fastest Subject</p>
+            <p class="mt-1 font-mono text-xl font-bold text-emerald-600">Chem (48s)</p>
+          </div>
+          <div class="rounded-xl border border-border bg-surface p-4 shadow-xs">
+            <p class="text-xs text-muted">Slowest Subject</p>
+            <p class="mt-1 font-mono text-xl font-bold text-amber-600">Math (82s)</p>
+          </div>
+          <div class="rounded-xl border border-border bg-surface p-4 shadow-xs">
+            <p class="text-xs text-muted">Optimal Accuracy Band</p>
+            <p class="mt-1 font-mono text-xl font-bold text-primary">60 – 75s</p>
+          </div>
+        </div>
+
+        <!-- Scatter Plot -->
+        <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+          <div class="flex items-center justify-between mb-2">
+            <div>
+              <h2 class="text-base font-semibold text-gray-900">Pacing vs Accuracy Matrix</h2>
+              <p class="text-xs text-muted">Upper left is the Sweet Spot (Fast & Accurate)</p>
+            </div>
+          </div>
+          <div class="h-72 relative">
+            <canvas id="timePerformanceScatterChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Subject Pacing Table -->
+        <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+          <h2 class="text-base font-semibold text-gray-900 mb-1">Subject Pacing Comparison</h2>
+          <div class="overflow-x-auto mt-3">
+            <table class="w-full text-left text-sm">
+              <thead>
+                <tr class="border-b border-border text-[11px] font-semibold uppercase tracking-wider text-muted">
+                  <th class="pb-3 pr-4">Subject</th>
+                  <th class="pb-3 pr-4">Avg Pace</th>
+                  <th class="pb-3 pr-4">Target Pace</th>
+                  <th class="pb-3 text-right">Efficiency State</th>
+                </tr>
+              </thead>
+              <tbody id="tp-subject-pacing-body"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===================================================================== -->
+      <!-- DEEP-DIVE 9: Attendance Impact -->
+      <!-- Exact replica of backend-source/apps/dashboard/src/app/analytics/student/[id]/attendance-impact/page-client.tsx -->
+      <!-- ===================================================================== -->
+      <div id="section-student-attendance-impact" class="section-view max-w-5xl mx-auto space-y-6 hidden fade-in">
+        <button onclick="navigateToStudentDeepDive('detail')" class="inline-flex items-center gap-1.5 text-sm text-muted hover:text-foreground font-medium transition-colors">
+          <i class="ph-bold ph-arrow-left"></i> Back to Student Analytics
+        </button>
+        <header>
+          <p class="text-xs font-semibold uppercase tracking-wider text-pink-600">Attendance Correlation</p>
+          <h1 class="mt-1 text-2xl font-bold tracking-tight text-gray-900">Attendance × Performance Correlation</h1>
+          <p class="mt-0.5 text-sm text-muted">Impact of class attendance consistency on exam outcomes.</p>
+        </header>
+
+        <!-- KPIs -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          <div class="rounded-xl border border-border bg-surface p-4 text-center shadow-xs">
+            <p class="text-[10px] text-muted uppercase">Student Attendance</p>
+            <p class="mt-0.5 font-mono text-2xl font-bold text-success">98.2%</p>
+            <p class="text-[10px] text-success font-semibold">Rank #1 in Batch</p>
+          </div>
+          <div class="rounded-xl border border-border bg-surface p-4 text-center shadow-xs">
+            <p class="text-[10px] text-muted uppercase">Batch Average</p>
+            <p class="mt-0.5 font-mono text-2xl font-bold text-gray-900">89.4%</p>
+            <p class="text-[10px] text-muted">+8.8% ahead</p>
+          </div>
+          <div class="rounded-xl border border-border bg-surface p-4 text-center shadow-xs">
+            <p class="text-[10px] text-muted uppercase">Classes Attended</p>
+            <p class="mt-0.5 font-mono text-2xl font-bold text-primary">177 / 180</p>
+            <p class="text-[10px] text-muted">3 Excused Absences</p>
+          </div>
+          <div class="rounded-xl border border-border bg-surface p-4 text-center shadow-xs">
+            <p class="text-[10px] text-muted uppercase">Score Multiplier</p>
+            <p class="mt-0.5 font-mono text-2xl font-bold text-emerald-600">+18.4%</p>
+            <p class="text-[10px] text-emerald-600">vs batch median</p>
+          </div>
+        </div>
+
+        <!-- Correlation Scatter Chart -->
+        <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+          <div class="flex items-center justify-between mb-2">
+            <div>
+              <h2 class="text-base font-semibold text-gray-900">Class Attendance % vs Mock Exam Score %</h2>
+              <p class="text-xs text-muted">Positive linear correlation between consistent attendance and exam scores</p>
+            </div>
+            <span class="text-xs font-semibold text-primary">Target Student: (98%, 92%)</span>
+          </div>
+          <div class="h-64 relative">
+            <canvas id="attendanceCorrelationChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Absence History -->
+        <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+          <h2 class="text-base font-semibold text-gray-900 mb-1">Absence Log</h2>
+          <p class="text-xs text-muted mb-4">Recorded absences across current academic term</p>
+          <div class="divide-y divide-border/40" id="attendance-absence-list"></div>
+        </div>
+      </div>
+

@@ -1,0 +1,20 @@
+{
+  "name": "excellencia-admin-analytics-demo",
+  "version": "2.0.0",
+  "description": "Modularized ES module architecture for Excellencia AI Admin Analytics",
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/run-tests.js",
+    "build": "node scripts/assemble-html.js",
+    "extract": "node scripts/assemble-html.js --extract",
+    "serve": "node server.js"
+  },
+  "keywords": [
+    "analytics",
+    "admin",
+    "dashboard",
+    "es-modules"
+  ],
+  "author": "Google DeepMind / Excellencia AI",
+  "license": "ISC"
+}

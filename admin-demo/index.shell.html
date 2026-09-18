@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Excellencia AI — Admin Console</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Phosphor Icons -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: {
+              DEFAULT: '#2563EB',
+              hover: '#1D4ED8',
+              light: '#DBEAFE',
+              dark: '#1E40AF',
+            },
+            success: {
+              DEFAULT: '#10B981',
+              light: '#D1FAE5',
+            },
+            warning: {
+              DEFAULT: '#F59E0B',
+              light: '#FEF3C7',
+            },
+            danger: {
+              DEFAULT: '#EF4444',
+              light: '#FEE2E2',
+            },
+            muted: {
+              DEFAULT: '#6B7280',
+              light: '#F3F4F6',
+            },
+            bg: '#FAFAFA',
+            surface: '#FFFFFF',
+            border: '#E5E7EB',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-bg text-slate-900 antialiased min-h-screen flex font-sans">
+
+  <!-- Top 3px Excellencia Ribbon -->
+  <div class="excellencia-ribbon"></div>
+
+  <!-- Left Sidebar Navigation (Pixel-matched to backend-source/apps/dashboard/src/app/sidebar.tsx) -->
+  <aside class="w-64 bg-surface border-r border-border shrink-0 flex flex-col justify-between sticky top-0 h-screen z-30 pt-1">
+    <div class="flex flex-col min-h-0 flex-1">
+      
+      <!-- Logo Header -->
+      <div class="h-14 flex items-center justify-between px-4 border-b border-border">
+        <a href="#overview" onclick="switchView('overview')" class="flex items-center gap-2.5">
+          <div class="h-8 w-8 rounded-lg bg-gradient-to-br from-blue-600 to-indigo-700 flex items-center justify-center text-white font-black text-base shadow-sm">
+            E
+          </div>
+          <span class="font-semibold text-slate-900 tracking-tight text-base">Excellencia AI</span>
+        </a>
+        <button class="flex h-8 w-8 items-center justify-center rounded-lg border border-border text-muted transition-colors hover:bg-primary/5 hover:text-gray-900" title="Collapse sidebar">
+          <i class="ph-bold ph-caret-double-left text-xs"></i>
+        </button>
+      </div>
+
+      <!-- User Role Level Switcher (Faculty, Principal, Super Admin) -->
+      <div class="px-3 pt-2.5 pb-2 border-b border-border/70 bg-gradient-to-b from-indigo-50/50 to-transparent">
+        <div class="flex items-center justify-between mb-1.5">
+          <span class="text-[10px] font-bold uppercase tracking-wider text-slate-500 flex items-center gap-1">
+            <i class="ph-bold ph-shield-check text-primary"></i> Active Persona
+          </span>
+          <span id="sidebar-role-badge" class="px-1.5 py-0.2 rounded text-[9px] font-extrabold uppercase tracking-wider bg-purple-100 text-purple-700 border border-purple-200">
+            Super Admin
+          </span>
+        </div>
+        <div class="relative">
+          <select id="sidebar-role-select" onchange="onRoleChange(this.value)" class="w-full appearance-none rounded-lg border border-indigo-200 bg-white py-1.5 pl-8 pr-7 text-xs font-bold text-indigo-950 shadow-2xs outline-none transition-all hover:border-primary focus:border-primary focus:ring-1 focus:ring-primary cursor-pointer">
+            <option value="super_admin">⚡ Super Admin (Management)</option>
+            <option value="principal">🏫 Principal (Branch Head)</option>
+            <option value="faculty">👨‍🏫 Faculty (Class Teacher)</option>
+          </select>
+          <i class="ph-duotone ph-user-gear absolute left-2.5 top-1/2 -translate-y-1/2 text-indigo-600 text-sm pointer-events-none"></i>
+          <i class="ph-bold ph-caret-down absolute right-2.5 top-1/2 -translate-y-1/2 text-muted text-xs pointer-events-none"></i>
+        </div>
+      </div>
+
+      <!-- Campus / Branch Switcher (super_admin) -->
+      <div class="px-3 pt-3 pb-1">
+        <div class="relative">
+          <select id="sidebar-branch-select" onchange="onScopeChange(this.value)" class="w-full appearance-none rounded-lg border border-border bg-slate-50/70 hover:bg-slate-100 py-1.5 pl-7 pr-7 text-xs font-semibold text-slate-700 outline-none transition-colors cursor-pointer focus:border-primary">
+            <option value="all">All Branches (Institution)</option>
+            <option value="b-shamirpet">Shamirpet</option>
+            <option value="b-suchitra">Suchitra</option>
+            <option value="b-kokapet">Kokapet</option>
+            <option value="b-miyapur">Miyapur</option>
+            <option value="b-arithri">Arithri Girls Campus</option>
+            <option value="b-ecil">ECIL</option>
+            <option value="b-wmp">West Marredpally</option>
+            <option value="b-madhapur">Madhapur</option>
+            <option value="b-lbnagar">LB Nagar</option>
+            <option value="b-bachupally">Bachupally</option>
+          </select>
+          <span class="absolute left-2.5 top-1/2 -translate-y-1/2 h-2 w-2 rounded-full bg-success"></span>
+          <i class="ph ph-caret-down absolute right-2.5 top-1/2 -translate-y-1/2 text-muted text-xs pointer-events-none"></i>
+        </div>
+      </div>
+
+      <!-- Nav Search -->
+      <div class="px-3 py-2">
+        <div class="relative">
+          <i class="ph ph-magnifying-glass absolute left-2.5 top-1/2 -translate-y-1/2 text-muted text-xs pointer-events-none"></i>
+          <input type="text" id="nav-search-input" onkeyup="filterNavItems(this.value)" placeholder="Search menu…" class="w-full rounded-lg border border-border bg-transparent py-1.5 pl-8 pr-3 text-xs outline-none transition-colors placeholder:text-muted focus:border-primary">
+        </div>
+      </div>
+
+      <!-- Navigation Tree: EXACTLY AS IN SCREENSHOT & sidebar.tsx -->
+      <nav class="min-h-0 flex-1 space-y-1 overflow-y-auto px-3 pb-4 pt-1">
+        
+        <!-- Parent Item: Analytics -->
+        <button onclick="toggleAnalyticsGroup()" id="nav-overview" class="nav-link active">
+          <i class="ph-duotone ph-chart-bar text-xl shrink-0"></i>
+          <span>Analytics</span>
+          <i id="analytics-caret" class="ph-bold ph-caret-down text-xs ml-auto"></i>
+        </button>
+
+        <!-- 7 Collapsible Child Items (Indented with ml-4, matching screenshot icons & order) -->
+        <div class="space-y-1 mt-1" id="analytics-subnav">
+          
+          <!-- 1. Command Center & Insights -->
+          <button onclick="switchView('overview')" id="nav-home" class="nav-link nav-child">
+            <i class="ph ph-sparkle text-lg shrink-0"></i>
+            <span>Command Center & Insights</span>
+          </button>
+
+          <!-- 2. Students -->
+          <button onclick="switchView('students')" id="nav-students" class="nav-link nav-child">
+            <i class="ph ph-student text-lg shrink-0"></i>
+            <span>Students</span>
+          </button>
+
+          <!-- 3. Exams -->
+          <button onclick="switchView('exams')" id="nav-exams" class="nav-link nav-child">
+            <i class="ph ph-exam text-lg shrink-0"></i>
+            <span>Exams</span>
+          </button>
+
+          <!-- 4. Compare -->
+          <button onclick="switchView('compare')" id="nav-compare" class="nav-link nav-child">
+            <i class="ph ph-grid-nine text-lg shrink-0"></i>
+            <span>Compare</span>
+          </button>
+
+          <!-- 5. Branches -->
+          <button onclick="switchView('branches')" id="nav-branches" class="nav-link nav-child">
+            <i class="ph ph-buildings text-lg shrink-0"></i>
+            <span>Branches</span>
+          </button>
+
+          <!-- 6. Practice adherence -->
+          <button onclick="switchView('dpp')" id="nav-dpp" class="nav-link nav-child">
+            <i class="ph ph-lightning text-lg shrink-0"></i>
+            <span>Practice adherence</span>
+          </button>
+
+          <!-- 7. Batch Comparison -->
+          <button onclick="switchView('cohorts')" id="nav-cohorts" class="nav-link nav-child">
+            <i class="ph ph-users-three text-lg shrink-0"></i>
+            <span>Batch Comparison</span>
+          </button>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+    <!-- User Profile Footer — Vercel-style: identity · ⋯ menu · notifications -->
+    <div class="shrink-0 border-t border-border bg-surface px-3 py-3 flex items-center gap-1.5">
+      <div class="flex min-w-0 items-center gap-2.5 flex-1" id="user-profile-card" title="Super Admin — Executive Management">
+        <div id="user-profile-avatar" class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-primary to-purple-600 text-xs font-bold text-white shadow-2xs">
+          SA
+        </div>
+        <div class="min-w-0 flex-1 overflow-hidden">
+          <p id="user-profile-name" class="truncate text-sm font-semibold text-slate-900 leading-tight">Super Admin</p>
+          <p id="user-profile-role" class="truncate text-xs text-muted font-medium">super_admin · Executive</p>
+        </div>
+      </div>
+
+      <!-- Dots menu -->
+      <button class="flex h-8 w-8 items-center justify-center rounded-lg text-muted transition-colors hover:bg-primary/5 hover:text-gray-900" title="Account menu">
+        <i class="ph-bold ph-dots-three text-lg"></i>
+      </button>
+
+      <!-- Notification Bell -->
+      <button class="flex h-8 w-8 items-center justify-center rounded-lg text-muted transition-colors hover:bg-primary/5 hover:text-gray-900 relative" title="Notifications">
+        <i class="ph-duotone ph-bell-ringing text-lg"></i>
+        <span class="absolute top-1.5 right-1.5 h-2 w-2 rounded-full bg-primary"></span>
+      </button>
+    </div>
+  </aside>
+
+  <!-- Main View Area (Full viewport height without extra top bar, exactly as in layout-shell.tsx) -->
+  <div class="flex-1 flex flex-col min-w-0 overflow-y-auto">
+    
+    <main class="min-h-screen bg-bg p-8" id="content-container">
+
+
+      <!-- @include src/modules/overview/overview.html -->
+
+      <!-- @include src/modules/home/home.html -->
+
+      <!-- @include src/modules/students/students.html -->
+
+      <!-- @include src/modules/exams/exams.html -->
+
+      <!-- @include src/modules/exams/exam-detail.html -->
+
+      <!-- @include src/modules/students/test-analysis.html -->
+
+      <!-- @include src/modules/students/answer-behavior.html -->
+
+      <!-- @include src/modules/exams/batch-discrimination.html -->
+
+      <!-- @include src/modules/exams/question-detail-modal.html -->
+
+      <!-- @include src/modules/compare/compare.html -->
+
+      <!-- @include src/modules/branches/branches.html -->
+
+      <!-- @include src/modules/dpp/dpp.html -->
+
+      <!-- @include src/modules/cohorts/cohorts.html -->
+
+      <!-- @include src/modules/batches/batch-detail.html -->
+
+      <!-- @include src/modules/students/student-detail.html -->
+
+      <!-- @include src/modules/students/student-subviews.html -->
+
+
+    </main>
+
+  </div>
+
+
+  <!-- @include src/core/modals.html -->
+
+  <!-- Scripts -->
+  <script src="data/all_data.js?v=16"></script>
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>

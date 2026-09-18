@@ -1,0 +1,88 @@
+      <!-- ===================================================================== -->
+      <!-- SECTION 3E: /analytics/batch/[id]/discrimination/[examId] -->
+      <!-- Exact replica of apps/dashboard/src/app/analytics/batch/[id]/discrimination/[examId]/page-client.tsx -->
+      <!-- ===================================================================== -->
+      <div id="section-batch-discrimination" class="section-view max-w-7xl mx-auto space-y-6 hidden fade-in">
+        
+        <!-- Header -->
+        <div class="flex items-center justify-between gap-4">
+          <div class="flex items-center gap-3">
+            <button onclick="switchView('exam-detail')" class="flex h-9 w-9 items-center justify-center rounded-xl border border-border transition-colors hover:bg-primary/5 text-muted hover:text-slate-900" title="Back to Exam Detail">
+              <i class="ph-bold ph-arrow-left text-base"></i>
+            </button>
+            <div>
+              <div class="flex items-center gap-2">
+                <h1 class="text-2xl font-bold tracking-tight text-gray-900">Item Discrimination Analysis</h1>
+                <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-purple-100 text-purple-800" id="disc-batch-name">SR MPC (Madhapur)</span>
+              </div>
+              <p class="mt-0.5 text-xs text-muted" id="disc-exam-name">Mock Test — JEE Mains (ex-301)</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- KPIs -->
+        <div class="grid grid-cols-1 gap-4 sm:grid-cols-3">
+          <div class="rounded-2xl border border-border bg-surface p-5 shadow-xs">
+            <div class="flex items-center gap-2 text-primary text-xs font-semibold mb-1">
+              <i class="ph-duotone ph-chart-scatter"></i> Average Discrimination Index
+            </div>
+            <p class="text-2xl font-bold font-mono text-gray-900" id="disc-kpi-avg">0.36</p>
+            <p class="text-xs text-muted mt-1">Healthy cohort separation (&ge; 0.3)</p>
+          </div>
+          <div class="rounded-2xl border border-border bg-surface p-5 shadow-xs">
+            <div class="flex items-center gap-2 text-rose-600 text-xs font-semibold mb-1">
+              <i class="ph-duotone ph-flag"></i> Flagged Items
+            </div>
+            <p class="text-2xl font-bold font-mono text-rose-600" id="disc-kpi-flagged">4</p>
+            <p class="text-xs text-muted mt-1">DI &lt; 0.2 or negative discrimination</p>
+          </div>
+          <div class="rounded-2xl border border-border bg-surface p-5 shadow-xs">
+            <div class="flex items-center gap-2 text-emerald-600 text-xs font-semibold mb-1">
+              <i class="ph-duotone ph-check-circle"></i> High Quality Items
+            </div>
+            <p class="text-2xl font-bold font-mono text-emerald-600">26 / 30</p>
+            <p class="text-xs text-muted mt-1">Strong ability differentiators</p>
+          </div>
+        </div>
+
+        <!-- Discrimination Bar Chart with 0.2 reference line -->
+        <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+          <div class="flex items-center justify-between mb-4">
+            <div>
+              <h2 class="text-base font-semibold text-gray-900">Question Item Discrimination Index (DI)</h2>
+              <p class="text-xs text-muted">Values below 0.2 (red dashed line) indicate flawed questions or ambiguous distractors</p>
+            </div>
+          </div>
+          <div class="h-64 relative">
+            <canvas id="batchDiscriminationChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Flagged Questions Table -->
+        <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+          <div class="flex items-center gap-2 mb-3">
+            <div class="flex h-8 w-8 items-center justify-center rounded-lg bg-rose-50 text-rose-600">
+              <i class="ph-duotone ph-warning text-lg"></i>
+            </div>
+            <div>
+              <h2 class="text-sm font-semibold text-gray-900">Flawed & Ambiguous Question Items</h2>
+              <p class="text-xs text-muted">Items requiring pedagogical review or key revision</p>
+            </div>
+          </div>
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-xs">
+              <thead class="border-b border-border bg-slate-50 font-semibold uppercase text-muted">
+                <tr>
+                  <th class="py-2.5 px-3">Q#</th>
+                  <th class="py-2.5 px-3 text-center">Discrimination (DI)</th>
+                  <th class="py-2.5 px-3 text-center">Top 25% Accuracy</th>
+                  <th class="py-2.5 px-3 text-center">Bottom 25% Accuracy</th>
+                  <th class="py-2.5 px-3">Diagnostic Analysis</th>
+                </tr>
+              </thead>
+              <tbody id="disc-flagged-tbody" class="divide-y divide-border"></tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>

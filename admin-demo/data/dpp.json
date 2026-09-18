@@ -1,0 +1,156 @@
+{
+  "overallAdherenceRate": 74.2,
+  "activeDailyPractitioners": 3240,
+  "averageStreakDays": 5.4,
+  "atRiskHabitCount": 182,
+  "batchRollup": [
+    {
+      "batchId": "b-srmpc-madhapur",
+      "batchName": "SR MPC",
+      "branch": "Madhapur",
+      "studentsCount": 78,
+      "adherenceRate": 88.4,
+      "avgStreak": 9.2,
+      "assignedDpps": 45,
+      "completedDpps": 40,
+      "status": "Exceptional"
+    },
+    {
+      "batchId": "b-srbipc-madhapur",
+      "batchName": "SR BIPC",
+      "branch": "Madhapur",
+      "studentsCount": 64,
+      "adherenceRate": 84.1,
+      "avgStreak": 8,
+      "assignedDpps": 45,
+      "completedDpps": 38,
+      "status": "Good"
+    },
+    {
+      "batchId": "b-srmpc-shamirpet",
+      "batchName": "SR MPC",
+      "branch": "Shamirpet",
+      "studentsCount": 408,
+      "adherenceRate": 76.5,
+      "avgStreak": 5.8,
+      "assignedDpps": 45,
+      "completedDpps": 34,
+      "status": "Healthy"
+    },
+    {
+      "batchId": "b-jrmpc-shamirpet",
+      "batchName": "JR MPC",
+      "branch": "Shamirpet",
+      "studentsCount": 365,
+      "adherenceRate": 71,
+      "avgStreak": 4.6,
+      "assignedDpps": 45,
+      "completedDpps": 32,
+      "status": "Moderate"
+    },
+    {
+      "batchId": "b-srmpc-suchitra",
+      "batchName": "SR MPC",
+      "branch": "Suchitra",
+      "studentsCount": 222,
+      "adherenceRate": 68.2,
+      "avgStreak": 4.1,
+      "assignedDpps": 45,
+      "completedDpps": 31,
+      "status": "Attention"
+    },
+    {
+      "batchId": "b-jrbipc-kokapet",
+      "batchName": "JR BIPC",
+      "branch": "Kokapet",
+      "studentsCount": 140,
+      "adherenceRate": 62.4,
+      "avgStreak": 3.4,
+      "assignedDpps": 45,
+      "completedDpps": 28,
+      "status": "At Risk"
+    }
+  ],
+  "studentAdherence": [
+    {
+      "studentId": "s-101",
+      "name": "Bhagam Khyathi",
+      "rollNo": "225144",
+      "batch": "SR MPC",
+      "branch": "Madhapur",
+      "completionPct": 98,
+      "streak": 19,
+      "status": "Elite"
+    },
+    {
+      "studentId": "s-102",
+      "name": "JAY RAJ VAISHNAV",
+      "rollNo": "225167",
+      "batch": "SR MPC",
+      "branch": "Madhapur",
+      "completionPct": 94,
+      "streak": 14,
+      "status": "Active"
+    },
+    {
+      "studentId": "s-103",
+      "name": "VISHWANATH AKSHAY KUMAR",
+      "rollNo": "125029",
+      "batch": "SR MPC",
+      "branch": "Shamirpet",
+      "completionPct": 92,
+      "streak": 12,
+      "status": "Active"
+    },
+    {
+      "studentId": "s-104",
+      "name": "Gowtham Reddy",
+      "rollNo": "225008",
+      "batch": "SR MPC",
+      "branch": "Madhapur",
+      "completionPct": 90,
+      "streak": 10,
+      "status": "Active"
+    },
+    {
+      "studentId": "s-105",
+      "name": "R PRANAV",
+      "rollNo": "425117",
+      "batch": "SR MPC",
+      "branch": "ECIL",
+      "completionPct": 88,
+      "streak": 9,
+      "status": "Active"
+    },
+    {
+      "studentId": "s-107",
+      "name": "Anwita Salike",
+      "rollNo": "225005",
+      "batch": "SR BIPC",
+      "branch": "Madhapur",
+      "completionPct": 95,
+      "streak": 16,
+      "status": "Elite"
+    },
+    {
+      "studentId": "s-risk-1",
+      "name": "Kiran Varma",
+      "rollNo": "225188",
+      "batch": "SR MPC",
+      "branch": "Madhapur",
+      "completionPct": 32,
+      "streak": 0,
+      "status": "Fallen Off"
+    },
+    {
+      "studentId": "s-risk-2",
+      "name": "Siddharth Rao",
+      "rollNo": "225192",
+      "batch": "SR MPC",
+      "branch": "Madhapur",
+      "completionPct": 44,
+      "streak": 1,
+      "status": "At Risk"
+    }
+  ]
+}

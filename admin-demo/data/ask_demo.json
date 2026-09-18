@@ -1,0 +1,16 @@
+{
+  "presets": [
+    {
+      "query": "Why did SR MPC average drop in Grand Mock 1?",
+      "answer": "SR MPC saw a 4.2% dip primarily due to Physics Section B (Rotational Motion and Wave Optics) where 64% of students negative-marked numericals. Mathematics and Chemistry remained steady above the 72nd percentile."
+    },
+    {
+      "query": "Which branch leads in overall JEE Mains performance?",
+      "answer": "Madhapur branch leads in average percentile (59.3rd) followed by Shamirpet (58.4th) and Kokapet (56.8th)."
+    },
+    {
+      "query": "How many students are currently in the critical risk bracket?",
+      "answer": "There are currently 14 students flagged at risk institution-wide (3 critical, 11 warning). Critical students have logged zero platform activity in 4+ days with recent scores falling below the 30th percentile."
+    }
+  ]
+}

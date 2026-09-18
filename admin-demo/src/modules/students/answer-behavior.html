@@ -1,0 +1,87 @@
+      <!-- ===================================================================== -->
+      <!-- SECTION 3D: /analytics/student/[id]/answer-behavior/[examId] -->
+      <!-- Exact replica of apps/dashboard/src/app/analytics/student/[id]/answer-behavior/[examId]/page-client.tsx -->
+      <!-- ===================================================================== -->
+      <div id="section-student-answer-behavior" class="section-view max-w-5xl mx-auto space-y-6 hidden fade-in">
+        
+        <!-- Header -->
+        <div class="flex items-center justify-between gap-4">
+          <div class="flex items-center gap-3">
+            <button onclick="switchView('student-test-analysis')" class="flex h-9 w-9 items-center justify-center rounded-xl border border-border transition-colors hover:bg-primary/5 text-muted hover:text-slate-900" title="Back to Test Analysis">
+              <i class="ph-bold ph-arrow-left text-base"></i>
+            </button>
+            <div>
+              <h1 class="text-2xl font-bold tracking-tight text-gray-900">Answer Behavior & Telemetry</h1>
+              <p class="mt-0.5 text-xs text-muted" id="ab-meta">Second-guess errors, indecision index, and time pressure</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 KPIs -->
+        <div class="grid grid-cols-1 gap-4 sm:grid-cols-3">
+          <div class="rounded-2xl border border-border bg-surface p-5 shadow-xs">
+            <div class="flex items-center gap-2 text-rose-600 text-xs font-semibold mb-1">
+              <i class="ph-duotone ph-arrows-left-right"></i> Changed Correct &rarr; Wrong
+            </div>
+            <p class="text-2xl font-bold font-mono text-rose-600" id="ab-kpi-changed">0</p>
+            <p class="text-xs text-muted mt-1" id="ab-kpi-marks-lost">0 marks lost to second-guessing</p>
+          </div>
+          <div class="rounded-2xl border border-border bg-surface p-5 shadow-xs">
+            <div class="flex items-center gap-2 text-amber-600 text-xs font-semibold mb-1">
+              <i class="ph-duotone ph-flag"></i> Flagged Questions
+            </div>
+            <p class="text-2xl font-bold font-mono text-gray-900" id="ab-kpi-flagged">2</p>
+            <p class="text-xs text-muted mt-1">Marked for review during exam</p>
+          </div>
+          <div class="rounded-2xl border border-border bg-surface p-5 shadow-xs">
+            <div class="flex items-center gap-2 text-primary text-xs font-semibold mb-1">
+              <i class="ph-duotone ph-eye"></i> Avg Visits / Question
+            </div>
+            <p class="text-2xl font-bold font-mono text-primary" id="ab-kpi-visits">1.15</p>
+            <p class="text-xs text-muted mt-1">Low hesitation pace</p>
+          </div>
+        </div>
+
+        <!-- Second-Guess Errors Card -->
+        <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+          <div class="flex items-center gap-2 mb-3">
+            <div class="flex h-8 w-8 items-center justify-center rounded-lg bg-rose-50 text-rose-600">
+              <i class="ph-duotone ph-arrows-left-right text-lg"></i>
+            </div>
+            <div>
+              <h2 class="text-sm font-semibold text-gray-900">Second-Guess Errors</h2>
+              <p class="text-xs text-muted">Questions where student initially selected the correct answer but changed to an incorrect option</p>
+            </div>
+          </div>
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-xs">
+              <thead class="border-b border-border bg-slate-50 font-semibold uppercase text-muted">
+                <tr>
+                  <th class="py-2.5 px-3">Q#</th>
+                  <th class="py-2.5 px-3">Subject</th>
+                  <th class="py-2.5 px-3">Initial Answer</th>
+                  <th class="py-2.5 px-3">Changed To</th>
+                  <th class="py-2.5 px-3 text-right">Marks Lost</th>
+                </tr>
+              </thead>
+              <tbody id="ab-second-guess-tbody" class="divide-y divide-border"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Indecision Index Histogram -->
+        <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+          <h2 class="text-sm font-semibold text-gray-900 mb-1">Indecision Index (Visit Distribution)</h2>
+          <p class="text-xs text-muted mb-4">Breakdown of how many times the student opened each question before finalizing</p>
+          <div class="space-y-3" id="ab-indecision-bars"></div>
+        </div>
+
+        <!-- Time Pressure Analysis -->
+        <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+          <h2 class="text-sm font-semibold text-gray-900 mb-1">Time Pressure Analysis</h2>
+          <p class="text-xs text-muted mb-4">Questions submitted in the final 5 minutes of the test session</p>
+          <div id="ab-time-pressure-content"></div>
+        </div>
+
+      </div>
+

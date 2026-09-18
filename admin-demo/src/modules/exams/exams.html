@@ -1,0 +1,219 @@
+      <!-- ===================================================================== -->
+      <!-- SECTION 3: /analytics/exams (Exam Analytics aggregate workspace) -->
+      <!-- Exact replica of backend-source/apps/dashboard/src/app/analytics/exams/page.tsx -->
+      <!-- ===================================================================== -->
+      <div id="section-exams" class="section-view max-w-7xl mx-auto space-y-6 hidden fade-in">
+        
+        <!-- Header -->
+        <div class="flex items-start gap-4">
+          <button onclick="switchView('overview')" class="mt-1 flex h-9 w-9 shrink-0 items-center justify-center rounded-xl border border-border transition-colors hover:bg-primary/5 text-muted hover:text-slate-900" title="Back to Overview">
+            <i class="ph-bold ph-arrow-left text-lg"></i>
+          </button>
+          <div>
+            <div class="flex items-center gap-3">
+              <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-primary/10">
+                <i class="ph-duotone ph-exam text-2xl text-primary"></i>
+              </div>
+              <div>
+                <h1 class="text-2xl font-bold tracking-tight text-gray-900">Exam Analytics</h1>
+                <p class="mt-1 text-sm text-muted">
+                  Aggregate exam performance across all batches
+                  <span id="exams-count-badge" class="ml-1.5 font-mono text-xs text-primary">(18 exams)</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 KPI Cards matching page.tsx:702-735 -->
+        <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4" id="exams-kpi-grid">
+          <!-- KPI 1: Exams Conducted -->
+          <div class="relative overflow-hidden rounded-2xl border border-border bg-surface p-5 shadow-xs">
+            <i class="ph-duotone ph-exam pointer-events-none absolute -right-3 -top-3 text-7xl text-primary opacity-[0.04]"></i>
+            <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10">
+              <i class="ph-duotone ph-exam text-xl text-primary"></i>
+            </div>
+            <div class="mt-3">
+              <span id="exams-kpi-conducted" class="font-mono text-2xl font-bold tracking-tight text-gray-900">14</span>
+            </div>
+            <p class="mt-1 text-xs text-muted">Exams Conducted</p>
+          </div>
+
+          <!-- KPI 2: Avg Appearance Rate -->
+          <div class="relative overflow-hidden rounded-2xl border border-border bg-surface p-5 shadow-xs">
+            <i class="ph-duotone ph-users pointer-events-none absolute -right-3 -top-3 text-7xl text-emerald-600 opacity-[0.04]"></i>
+            <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-emerald-50 text-emerald-600">
+              <i class="ph-duotone ph-users text-xl text-emerald-600"></i>
+            </div>
+            <div class="mt-3">
+              <span id="exams-kpi-appearance" class="font-mono text-2xl font-bold tracking-tight text-gray-900">92.4%</span>
+            </div>
+            <p class="mt-1 text-xs text-muted">Avg Appearance Rate</p>
+          </div>
+
+          <!-- KPI 3: Avg Score Across Exams -->
+          <div class="relative overflow-hidden rounded-2xl border border-border bg-surface p-5 shadow-xs">
+            <i class="ph-duotone ph-chart-bar pointer-events-none absolute -right-3 -top-3 text-7xl text-purple-600 opacity-[0.04]"></i>
+            <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-purple-50 text-purple-600">
+              <i class="ph-duotone ph-chart-bar text-xl text-purple-600"></i>
+            </div>
+            <div class="mt-3">
+              <span id="exams-kpi-avgscore" class="font-mono text-2xl font-bold tracking-tight text-gray-900">58.4%</span>
+            </div>
+            <p class="mt-1 text-xs text-muted">Avg Score Across Exams</p>
+          </div>
+
+          <!-- KPI 4: Results Pending -->
+          <div class="relative overflow-hidden rounded-2xl border border-border bg-surface p-5 shadow-xs">
+            <i class="ph-duotone ph-clock pointer-events-none absolute -right-3 -top-3 text-7xl text-amber-600 opacity-[0.04]"></i>
+            <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-amber-50 text-amber-600">
+              <i class="ph-duotone ph-clock text-xl text-amber-600"></i>
+            </div>
+            <div class="mt-3">
+              <span id="exams-kpi-pending" class="font-mono text-2xl font-bold tracking-tight text-gray-900">3</span>
+            </div>
+            <p class="mt-1 text-xs text-muted">Results Pending</p>
+          </div>
+        </div>
+
+        <!-- Full Filter Bar matching page.tsx:738-849 -->
+        <div class="flex flex-wrap items-center gap-3" id="exams-filter-bar">
+          <!-- Branch Filter -->
+          <div class="relative">
+            <select id="exams-filter-branch" onchange="onExamsBranchChange(this.value)" aria-label="Filter by branch" class="max-w-[200px] appearance-none rounded-xl border border-border bg-surface px-4 py-2.5 pr-10 text-sm font-medium shadow-xs outline-none transition-colors hover:border-primary focus:border-primary">
+              <option value="all">All Branches</option>
+            </select>
+            <i class="ph-bold ph-caret-down pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-muted text-xs"></i>
+          </div>
+
+          <!-- Batch Filter -->
+          <div class="relative">
+            <select id="exams-filter-batch" onchange="onExamsBatchChange(this.value)" aria-label="Filter by batch" class="max-w-[200px] appearance-none rounded-xl border border-border bg-surface px-4 py-2.5 pr-10 text-sm font-medium shadow-xs outline-none transition-colors hover:border-primary focus:border-primary">
+              <option value="all">All Batches</option>
+            </select>
+            <i class="ph-bold ph-caret-down pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-muted text-xs"></i>
+          </div>
+
+          <!-- Type Filter -->
+          <div class="relative">
+            <select id="exams-filter-type" onchange="onExamsTypeChange(this.value)" class="appearance-none rounded-xl border border-border bg-surface px-4 py-2.5 pr-10 text-sm font-medium shadow-xs outline-none transition-colors hover:border-primary focus:border-primary">
+              <option value="all">All Types</option>
+            </select>
+            <i class="ph-bold ph-caret-down pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-muted text-xs"></i>
+          </div>
+
+          <!-- Status Filter -->
+          <div class="relative">
+            <select id="exams-filter-status" onchange="onExamsStatusChange(this.value)" class="appearance-none rounded-xl border border-border bg-surface px-4 py-2.5 pr-10 text-sm font-medium shadow-xs outline-none transition-colors hover:border-primary focus:border-primary">
+              <option value="all">All Statuses</option>
+              <option value="results_released">Released</option>
+              <option value="completed">Completed</option>
+              <option value="in_progress">In Progress</option>
+              <option value="scheduled">Scheduled</option>
+              <option value="draft">Draft</option>
+              <option value="grading">Grading</option>
+            </select>
+            <i class="ph-bold ph-caret-down pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-muted text-xs"></i>
+          </div>
+
+          <!-- Date Range Filter Popover -->
+          <div class="relative" id="exams-date-filter-wrapper">
+            <button type="button" id="exams-date-preset-btn" onclick="toggleExamDatePopover(event)" aria-haspopup="dialog" class="flex h-[42px] items-center gap-2 rounded-xl border border-border bg-surface px-3.5 text-sm font-medium shadow-xs outline-none transition-all hover:border-primary/60">
+              <i class="ph-duotone ph-calendar-blank text-base text-muted" id="exams-date-icon"></i>
+              <span class="max-w-[180px] truncate text-gray-900" id="exams-date-btn-label">All time</span>
+              <span id="exams-date-clear-btn" onclick="clearExamDateFilter(event)" class="hidden ml-0.5 flex h-5 w-5 items-center justify-center rounded-md text-primary/70 hover:bg-primary/10 hover:text-primary">
+                <i class="ph-bold ph-x text-xs"></i>
+              </span>
+              <i class="ph-bold ph-caret-down ml-auto text-muted text-xs transition-transform" id="exams-date-caret"></i>
+            </button>
+
+            <!-- Date Popover Dropdown -->
+            <div id="exams-date-popover" class="hidden absolute left-0 top-full z-30 mt-2 w-[320px] origin-top-left overflow-hidden rounded-2xl border border-border bg-surface shadow-lg">
+              <!-- Quick Presets -->
+              <div class="grid grid-cols-2 gap-1 p-1.5">
+                <button type="button" onclick="applyExamDatePreset('all')" class="preset-btn rounded-lg px-3 py-2 text-left text-sm font-medium text-foreground hover:bg-primary/5 transition-colors" data-preset="all">All time</button>
+                <button type="button" onclick="applyExamDatePreset('today')" class="preset-btn rounded-lg px-3 py-2 text-left text-sm font-medium text-foreground hover:bg-primary/5 transition-colors" data-preset="today">Today</button>
+                <button type="button" onclick="applyExamDatePreset('7d')" class="preset-btn rounded-lg px-3 py-2 text-left text-sm font-medium text-foreground hover:bg-primary/5 transition-colors" data-preset="7d">Last 7 days</button>
+                <button type="button" onclick="applyExamDatePreset('30d')" class="preset-btn rounded-lg px-3 py-2 text-left text-sm font-medium text-foreground hover:bg-primary/5 transition-colors" data-preset="30d">Last 30 days</button>
+                <button type="button" onclick="applyExamDatePreset('90d')" class="preset-btn rounded-lg px-3 py-2 text-left text-sm font-medium text-foreground hover:bg-primary/5 transition-colors" data-preset="90d">Last 90 days</button>
+                <button type="button" onclick="applyExamDatePreset('month')" class="preset-btn rounded-lg px-3 py-2 text-left text-sm font-medium text-foreground hover:bg-primary/5 transition-colors" data-preset="month">This month</button>
+                <button type="button" onclick="applyExamDatePreset('year')" class="preset-btn rounded-lg px-3 py-2 text-left text-sm font-medium text-foreground hover:bg-primary/5 transition-colors" data-preset="year">This year</button>
+              </div>
+
+              <!-- Custom Range -->
+              <div class="border-t border-border bg-slate-50/40 px-3.5 pb-3.5 pt-3">
+                <div class="mb-2 flex items-center justify-between">
+                  <p class="text-[11px] font-semibold uppercase tracking-wider text-muted">Custom range</p>
+                  <span id="exams-custom-range-active" class="hidden rounded-full bg-primary/10 px-2 py-0.5 text-[10px] font-medium text-primary">Active</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <div class="flex-1">
+                    <label class="mb-1 block text-[10px] font-medium uppercase tracking-wider text-muted">From</label>
+                    <input type="date" id="exams-filter-from" onchange="onExamsDateRangeInputChange()" class="w-full rounded-lg border border-border bg-surface px-2.5 py-1.5 text-sm text-foreground outline-none transition-colors hover:border-primary/60 focus:border-primary focus:ring-2 focus:ring-primary/15">
+                  </div>
+                  <div class="flex-1">
+                    <label class="mb-1 block text-[10px] font-medium uppercase tracking-wider text-muted">To</label>
+                    <input type="date" id="exams-filter-to" onchange="onExamsDateRangeInputChange()" class="w-full rounded-lg border border-border bg-surface px-2.5 py-1.5 text-sm text-foreground outline-none transition-colors hover:border-primary/60 focus:border-primary focus:ring-2 focus:ring-primary/15">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Direct Date inputs -->
+          <input type="date" id="exams-date-from" onchange="onDirectExamsDateChange()" aria-label="From date" class="h-[42px] rounded-xl border border-border bg-surface px-3 text-sm text-foreground outline-none transition-colors hover:border-primary/60 focus:border-primary">
+          <input type="date" id="exams-date-to" onchange="onDirectExamsDateChange()" aria-label="To date" class="h-[42px] rounded-xl border border-border bg-surface px-3 text-sm text-foreground outline-none transition-colors hover:border-primary/60 focus:border-primary">
+        </div>
+
+        <!-- Exams Table Container matching page.tsx:881-1028 -->
+        <div id="exams-table-card" class="rounded-2xl border border-border bg-surface shadow-xs overflow-hidden">
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-sm">
+              <thead>
+                <tr class="border-b border-border text-xs font-semibold uppercase tracking-wider text-muted">
+                  <th class="px-4 py-3">Exam</th>
+                  <th class="px-4 py-3">Date</th>
+                  <th class="px-4 py-3">Type</th>
+                  <th class="px-4 py-3">Batches</th>
+                  <th class="px-4 py-3">Appeared</th>
+                  <th class="px-4 py-3">Rate</th>
+                  <th class="px-4 py-3">Avg Score</th>
+                  <th class="px-4 py-3">Pass Rate</th>
+                  <th class="px-4 py-3">Status</th>
+                  <th class="px-4 py-3"></th>
+                </tr>
+              </thead>
+              <tbody id="exams-table-tbody" class="divide-y divide-border/50"></tbody>
+            </table>
+          </div>
+
+          <!-- Pagination Footer matching page.tsx:1032-1070 -->
+          <div id="exams-pagination-footer" class="flex items-center justify-between border-t border-border px-4 py-3">
+            <p class="text-xs text-muted" id="exams-pagination-info">
+              Showing <span class="font-mono font-medium text-gray-700">1</span> - <span class="font-mono font-medium text-gray-700">10</span> of <span class="font-mono font-medium text-gray-700">18</span>
+            </p>
+            <div class="flex items-center gap-2">
+              <button id="exams-prev-page-btn" onclick="changeExamsPage(-1)" class="flex h-8 w-8 items-center justify-center rounded-lg border border-border text-muted transition-colors hover:bg-primary/5 disabled:cursor-not-allowed disabled:opacity-40">
+                <i class="ph-bold ph-caret-left text-xs"></i>
+              </button>
+              <span class="min-w-[60px] text-center text-xs font-medium text-gray-700">
+                Page <span class="font-mono" id="exams-current-page-display">1</span> / <span class="font-mono" id="exams-total-pages-display">2</span>
+              </span>
+              <button id="exams-next-page-btn" onclick="changeExamsPage(1)" class="flex h-8 w-8 items-center justify-center rounded-lg border border-border text-muted transition-colors hover:bg-primary/5 disabled:cursor-not-allowed disabled:opacity-40">
+                <i class="ph-bold ph-caret-right text-xs"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Empty State matching page.tsx:1075-1093 -->
+        <div id="exams-empty-state" class="hidden mt-16 flex flex-col items-center justify-center text-center p-12">
+          <div class="flex h-16 w-16 items-center justify-center rounded-2xl bg-primary/10">
+            <i class="ph-duotone ph-exam text-3xl text-primary"></i>
+          </div>
+          <p class="mt-4 text-sm font-medium text-gray-700">No exams found</p>
+          <p class="mt-1 text-xs text-muted">Try changing the filters to see more results</p>
+        </div>
+
+      </div>
+

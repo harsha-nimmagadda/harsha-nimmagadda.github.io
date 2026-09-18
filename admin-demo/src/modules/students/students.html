@@ -1,0 +1,100 @@
+      <!-- ===================================================================== -->
+      <!-- SECTION 2: /analytics/students (Students Roster & Filter) -->
+      <!-- ===================================================================== -->
+      <div id="section-students" class="section-view max-w-7xl mx-auto space-y-6 hidden fade-in">
+        
+        <!-- Back Link -->
+        <button onclick="switchView('overview')" class="inline-flex items-center gap-1.5 text-sm text-muted hover:text-primary transition-colors">
+          <i class="ph-bold ph-arrow-left"></i> Back to Overview
+        </button>
+
+        <!-- Header -->
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div class="flex items-center gap-3">
+            <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-primary/10">
+              <i class="ph-duotone ph-student text-2xl text-primary"></i>
+            </div>
+            <div>
+              <h1 class="text-2xl font-bold tracking-tight text-gray-900">Students Analytics</h1>
+              <p class="mt-1 text-sm text-muted">Complete student roster with real-time rank, attendance, and performance trajectory</p>
+            </div>
+          </div>
+          <button type="button" onclick="openBatchModal()" class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl border border-border bg-white text-xs font-semibold text-slate-800 hover:border-primary hover:text-primary transition-all shadow-2xs self-start sm:self-auto">
+            <i class="ph-duotone ph-chalkboard-teacher text-base text-primary"></i>
+            <span>Top Batches Summary</span>
+          </button>
+        </div>
+
+        <!-- Filter Bar matching students/page.tsx:354-429 -->
+        <div class="flex flex-wrap items-center gap-3">
+          <div class="relative min-w-[280px] flex-1">
+            <i class="ph ph-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-muted text-base"></i>
+            <input type="text" id="students-search" onkeyup="filterStudentsTable()" placeholder="Search students by name or roll..." class="h-11 w-full rounded-xl border border-border bg-surface pl-10 pr-4 text-sm outline-none transition-colors focus:border-primary">
+          </div>
+
+          <div class="relative">
+            <select id="students-branch-filter" onchange="filterStudentsTable()" class="appearance-none rounded-xl border border-border bg-surface px-4 py-2.5 pr-10 text-sm font-medium shadow-xs outline-none transition-colors hover:border-primary focus:border-primary">
+              <option value="all">All Branches</option>
+              <option value="Madhapur">Madhapur</option>
+              <option value="Shamirpet">Shamirpet</option>
+              <option value="Suchitra">Suchitra</option>
+              <option value="Kokapet">Kokapet</option>
+              <option value="Miyapur">Miyapur</option>
+              <option value="ECIL">ECIL</option>
+              <option value="West Marredpally">West Marredpally</option>
+              <option value="Arithri Girls Campus">Arithri Girls Campus</option>
+            </select>
+            <i class="ph ph-caret-down pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-muted text-xs"></i>
+          </div>
+
+          <div class="relative">
+            <select id="students-batch-filter" onchange="filterStudentsTable()" class="appearance-none rounded-xl border border-border bg-surface px-4 py-2.5 pr-10 text-sm font-medium shadow-xs outline-none transition-colors hover:border-primary focus:border-primary">
+              <option value="all">All Batches</option>
+              <option value="SR MPC">SR MPC</option>
+              <option value="JR MPC">JR MPC</option>
+              <option value="SR BIPC">SR BIPC</option>
+              <option value="JR BIPC">JR BIPC</option>
+            </select>
+            <i class="ph ph-caret-down pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-muted text-xs"></i>
+          </div>
+
+          <div class="relative">
+            <select id="students-section-filter" onchange="filterStudentsTable()" class="appearance-none rounded-xl border border-border bg-surface px-4 py-2.5 pr-10 text-sm font-medium shadow-xs outline-none transition-colors hover:border-primary focus:border-primary">
+              <option value="all">All Sections</option>
+              <option value="Section A">Section A</option>
+              <option value="Section B">Section B</option>
+              <option value="Section C">Section C</option>
+            </select>
+            <i class="ph ph-caret-down pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-muted text-xs"></i>
+          </div>
+
+          <button onclick="toggleAtRiskStudentsFilter()" id="btn-filter-atrisk" class="rounded-xl border border-border bg-surface px-4 py-2.5 text-sm font-medium text-gray-900 hover:border-danger hover:text-danger transition-colors flex items-center gap-1.5">
+            <i class="ph ph-warning text-danger"></i> At-risk only
+          </button>
+        </div>
+
+        <!-- Student Table matching students/page.tsx:463-530 -->
+        <div class="rounded-2xl border border-border bg-surface shadow-xs overflow-hidden">
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-sm">
+              <thead>
+                <tr class="border-b border-border text-xs font-semibold uppercase tracking-wider text-muted">
+                  <th class="px-4 py-3">#</th>
+                  <th class="px-4 py-3">Name</th>
+                  <th class="px-4 py-3">Roll</th>
+                  <th class="px-4 py-3">Batch</th>
+                  <th class="px-4 py-3">Branch</th>
+                  <th class="px-4 py-3">Avg</th>
+                  <th class="px-4 py-3">Percentile</th>
+                  <th class="px-4 py-3">Exams</th>
+                  <th class="px-4 py-3">Trend</th>
+                  <th class="px-4 py-3 text-right">Dossier</th>
+                </tr>
+              </thead>
+              <tbody id="students-table-tbody" class="divide-y divide-border"></tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+

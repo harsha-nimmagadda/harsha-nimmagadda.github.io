@@ -1,0 +1,120 @@
+/* Design tokens matching backend-source/apps/dashboard/src/app/globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary: #2563EB;
+  --primary-hover: #1D4ED8;
+  --primary-light: #DBEAFE;
+  --primary-dark: #1E40AF;
+  --primary-active-bg: rgba(37, 99, 235, 0.08);
+  
+  --success: #10B981;
+  --success-light: #D1FAE5;
+  --warning: #F59E0B;
+  --warning-light: #FEF3C7;
+  --danger: #EF4444;
+  --danger-light: #FEE2E2;
+  --muted: #6B7280;
+  --muted-light: #F3F4F6;
+  
+  --bg: #FAFAFA;
+  --surface: #FFFFFF;
+  --border: #E5E7EB;
+}
+
+body {
+  font-family: "Inter", "Satoshi", system-ui, -apple-system, sans-serif;
+  background-color: var(--bg);
+  color: #111827;
+}
+
+.font-mono {
+  font-family: "JetBrains Mono", "SF Mono", "Fira Code", monospace;
+}
+
+/* 3px Excellencia brand ribbon at top of screen */
+.excellencia-ribbon {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  z-index: 100;
+  background: linear-gradient(90deg, #EC1E79, #E8232A, #F5821F, #FFC20E, #8DC63F, #00A651, #29ABE2, #1B5FAA, #6459A8, #93278F);
+}
+
+/* Sidebar styling matching main website */
+.nav-link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  border-radius: 0.5rem;
+  padding: 0.55rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  color: #6B7280;
+  transition: all 0.15s ease-in-out;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  width: 100%;
+  text-align: left;
+}
+
+.nav-link:hover {
+  background-color: rgba(37, 99, 235, 0.05);
+  color: #111827;
+}
+
+.nav-link.active {
+  background-color: rgba(37, 99, 235, 0.08);
+  color: #2563EB;
+}
+
+/* Active vertical line indicator */
+.nav-link.active::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 4px;
+  bottom: 4px;
+  width: 3px;
+  border-radius: 9999px;
+  background-color: #2563EB;
+}
+
+/* Indented child item matching sidebar.tsx (item.indent ? 'ml-4' : '') */
+.nav-link.nav-child {
+  margin-left: 1rem;
+  width: calc(100% - 1rem);
+  padding: 0.55rem 0.75rem;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #E5E7EB;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9CA3AF;
+}
+
+/* Fade in animation */
+.fade-in {
+  animation: fadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}

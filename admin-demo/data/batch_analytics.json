@@ -1,0 +1,1087 @@
+{
+  "batchId": "b-srmpc-madhapur",
+  "batchName": "SR MPC (Madhapur)",
+  "targetExam": "JEE Mains",
+  "academicYear": "2025-26",
+  "studentCount": 78,
+  "averageScore": 68.4,
+  "summary": {
+    "currentSize": 78,
+    "targetExam": "JEE Mains",
+    "academicYear": "2025-26",
+    "latestAvgPct": 68.4,
+    "last30SampleSize": 24,
+    "topScorer": {
+      "studentId": "s-101",
+      "name": "Bhagam Khyathi",
+      "avgPct": 94.2
+    },
+    "atRiskCount": 3
+  },
+  "scoreDistribution": {
+    "0-10": 0,
+    "10-20": 1,
+    "20-30": 2,
+    "30-40": 4,
+    "40-50": 8,
+    "50-60": 14,
+    "60-70": 22,
+    "70-80": 18,
+    "80-90": 7,
+    "90-100": 2
+  },
+  "subjects": [
+    {
+      "name": "Physics",
+      "accuracy": 64,
+      "count": 8
+    },
+    {
+      "name": "Chemistry",
+      "accuracy": 72,
+      "count": 8
+    },
+    {
+      "name": "Mathematics",
+      "accuracy": 68,
+      "count": 8
+    }
+  ],
+  "topicPerformance": [
+    {
+      "topicId": "t-1",
+      "topicName": "Rotational Dynamics & Rolling Motion",
+      "subjectName": "Physics",
+      "totalQuestions": 48,
+      "correctAnswers": 16,
+      "accuracy": 33
+    },
+    {
+      "topicId": "t-2",
+      "topicName": "Ionic Equilibrium & Buffer Solutions",
+      "subjectName": "Chemistry",
+      "totalQuestions": 42,
+      "correctAnswers": 16,
+      "accuracy": 38
+    },
+    {
+      "topicId": "t-3",
+      "topicName": "Definite Integrals & Area Under Curves",
+      "subjectName": "Mathematics",
+      "totalQuestions": 50,
+      "correctAnswers": 21,
+      "accuracy": 42
+    },
+    {
+      "topicId": "t-4",
+      "topicName": "Electromagnetic Induction & Lenz Law",
+      "subjectName": "Physics",
+      "totalQuestions": 38,
+      "correctAnswers": 18,
+      "accuracy": 47
+    },
+    {
+      "topicId": "t-5",
+      "topicName": "Aldehydes, Ketones & Nucleophilic Additions",
+      "subjectName": "Chemistry",
+      "totalQuestions": 45,
+      "correctAnswers": 23,
+      "accuracy": 51
+    },
+    {
+      "topicId": "t-6",
+      "topicName": "Differential Equations & Degree",
+      "subjectName": "Mathematics",
+      "totalQuestions": 36,
+      "correctAnswers": 19,
+      "accuracy": 53
+    },
+    {
+      "topicId": "t-7",
+      "topicName": "Wave Optics & Interference",
+      "subjectName": "Physics",
+      "totalQuestions": 40,
+      "correctAnswers": 23,
+      "accuracy": 58
+    },
+    {
+      "topicId": "t-8",
+      "topicName": "Thermodynamics & Heat Engines",
+      "subjectName": "Physics",
+      "totalQuestions": 52,
+      "correctAnswers": 32,
+      "accuracy": 62
+    },
+    {
+      "topicId": "t-9",
+      "topicName": "Coordination Compounds & Crystal Field Theory",
+      "subjectName": "Chemistry",
+      "totalQuestions": 44,
+      "correctAnswers": 29,
+      "accuracy": 66
+    },
+    {
+      "topicId": "t-10",
+      "topicName": "Probability & Bayes Theorem",
+      "subjectName": "Mathematics",
+      "totalQuestions": 35,
+      "correctAnswers": 24,
+      "accuracy": 69
+    },
+    {
+      "topicId": "t-11",
+      "topicName": "Electrostatics & Gauss Law",
+      "subjectName": "Physics",
+      "totalQuestions": 46,
+      "correctAnswers": 33,
+      "accuracy": 72
+    },
+    {
+      "topicId": "t-12",
+      "topicName": "Chemical Bonding & Hybridization",
+      "subjectName": "Chemistry",
+      "totalQuestions": 48,
+      "correctAnswers": 36,
+      "accuracy": 75
+    },
+    {
+      "topicId": "t-13",
+      "topicName": "Matrices & Determinants",
+      "subjectName": "Mathematics",
+      "totalQuestions": 40,
+      "correctAnswers": 32,
+      "accuracy": 80
+    },
+    {
+      "topicId": "t-14",
+      "topicName": "Current Electricity & Ohm's Law",
+      "subjectName": "Physics",
+      "totalQuestions": 42,
+      "correctAnswers": 35,
+      "accuracy": 83
+    },
+    {
+      "topicId": "t-15",
+      "topicName": "Vectors & 3D Geometry",
+      "subjectName": "Mathematics",
+      "totalQuestions": 44,
+      "correctAnswers": 38,
+      "accuracy": 86
+    }
+  ],
+  "studentRanking": [
+    {
+      "rank": 1,
+      "studentId": "s-101",
+      "name": "Bhagam Khyathi",
+      "averagePercentage": 94.2,
+      "averagePercentile": 99.1,
+      "examsAttempted": 26
+    },
+    {
+      "rank": 2,
+      "studentId": "s-102",
+      "name": "JAY RAJ VAISHNAV",
+      "averagePercentage": 91.8,
+      "averagePercentile": 97.4,
+      "examsAttempted": 26
+    },
+    {
+      "rank": 3,
+      "studentId": "s-104",
+      "name": "Gowtham Reddy",
+      "averagePercentage": 88.5,
+      "averagePercentile": 95.2,
+      "examsAttempted": 25
+    },
+    {
+      "rank": 4,
+      "studentId": "s-113",
+      "name": "CHETTI MEGHANA",
+      "averagePercentage": 86.4,
+      "averagePercentile": 93.8,
+      "examsAttempted": 25
+    },
+    {
+      "rank": 5,
+      "studentId": "s-114",
+      "name": "VADLA SHIVA CHARAN",
+      "averagePercentage": 84.1,
+      "averagePercentile": 91.5,
+      "examsAttempted": 24
+    },
+    {
+      "rank": 6,
+      "studentId": "s-115",
+      "name": "KANCHERLA SHIVA PRASAD",
+      "averagePercentage": 82.6,
+      "averagePercentile": 89.2,
+      "examsAttempted": 24
+    },
+    {
+      "rank": 7,
+      "studentId": "s-116",
+      "name": "GUGULOTH MEGHANA",
+      "averagePercentage": 80.5,
+      "averagePercentile": 86.9,
+      "examsAttempted": 23
+    },
+    {
+      "rank": 8,
+      "studentId": "s-117",
+      "name": "KOTTE AKSHAYA",
+      "averagePercentage": 78.9,
+      "averagePercentile": 84.6,
+      "examsAttempted": 24
+    },
+    {
+      "rank": 9,
+      "studentId": "s-118",
+      "name": "POTHULA REVANTH",
+      "averagePercentage": 77.2,
+      "averagePercentile": 82.1,
+      "examsAttempted": 23
+    },
+    {
+      "rank": 10,
+      "studentId": "s-119",
+      "name": "BURRA SHARANYA",
+      "averagePercentage": 75.8,
+      "averagePercentile": 79.5,
+      "examsAttempted": 24
+    },
+    {
+      "rank": 11,
+      "studentId": "s-120",
+      "name": "MOHAMMED REHAN",
+      "averagePercentage": 74,
+      "averagePercentile": 76.8,
+      "examsAttempted": 22
+    },
+    {
+      "rank": 12,
+      "studentId": "s-121",
+      "name": "PULI HARSHITHA",
+      "averagePercentage": 72.5,
+      "averagePercentile": 74,
+      "examsAttempted": 23
+    },
+    {
+      "rank": 13,
+      "studentId": "s-122",
+      "name": "DASARI NIKHIL",
+      "averagePercentage": 70.8,
+      "averagePercentile": 71.4,
+      "examsAttempted": 22
+    },
+    {
+      "rank": 14,
+      "studentId": "s-123",
+      "name": "KOLIPAKA SAHITHI",
+      "averagePercentage": 69.1,
+      "averagePercentile": 68.7,
+      "examsAttempted": 23
+    },
+    {
+      "rank": 15,
+      "studentId": "s-124",
+      "name": "VEMULA VARUN",
+      "averagePercentage": 67.4,
+      "averagePercentile": 65.9,
+      "examsAttempted": 21
+    },
+    {
+      "rank": 72,
+      "studentId": "s-risk-3",
+      "name": "Meera Nair",
+      "averagePercentage": 48.2,
+      "averagePercentile": 38,
+      "examsAttempted": 18
+    },
+    {
+      "rank": 75,
+      "studentId": "s-risk-2",
+      "name": "Siddharth Rao",
+      "averagePercentage": 44,
+      "averagePercentile": 34.2,
+      "examsAttempted": 17
+    },
+    {
+      "rank": 78,
+      "studentId": "s-risk-1",
+      "name": "Kiran Varma",
+      "averagePercentage": 36.5,
+      "averagePercentile": 24.5,
+      "examsAttempted": 16
+    }
+  ],
+  "bloomsMatrix": {
+    "bloomsLevels": [
+      "remember",
+      "understand",
+      "apply",
+      "analyse",
+      "evaluate",
+      "create"
+    ],
+    "cohortSize": 78,
+    "totals": {
+      "attempts": 1840,
+      "correct": 1258,
+      "accuracy": 68
+    },
+    "bloomsTotals": {
+      "remember": {
+        "attempts": 320,
+        "correct": 268,
+        "accuracy": 84
+      },
+      "understand": {
+        "attempts": 410,
+        "correct": 305,
+        "accuracy": 74
+      },
+      "apply": {
+        "attempts": 490,
+        "correct": 328,
+        "accuracy": 67
+      },
+      "analyse": {
+        "attempts": 360,
+        "correct": 216,
+        "accuracy": 60
+      },
+      "evaluate": {
+        "attempts": 180,
+        "correct": 98,
+        "accuracy": 54
+      },
+      "create": {
+        "attempts": 80,
+        "correct": 43,
+        "accuracy": 54
+      }
+    },
+    "topics": [
+      {
+        "topicId": "bm-1",
+        "topicName": "Rotational Dynamics & Rolling Motion",
+        "subjectId": "sub-phy",
+        "subjectName": "Physics",
+        "parentChapterName": "Mechanics",
+        "totalAttempts": 240,
+        "totalCorrect": 128,
+        "accuracy": 53,
+        "blooms": {
+          "remember": {
+            "attempts": 40,
+            "correct": 34,
+            "accuracy": 85,
+            "avgTimeSeconds": 42
+          },
+          "understand": {
+            "attempts": 50,
+            "correct": 32,
+            "accuracy": 64,
+            "avgTimeSeconds": 65
+          },
+          "apply": {
+            "attempts": 70,
+            "correct": 35,
+            "accuracy": 50,
+            "avgTimeSeconds": 110
+          },
+          "analyse": {
+            "attempts": 50,
+            "correct": 18,
+            "accuracy": 36,
+            "avgTimeSeconds": 145
+          },
+          "evaluate": {
+            "attempts": 20,
+            "correct": 7,
+            "accuracy": 35,
+            "avgTimeSeconds": 170
+          },
+          "create": {
+            "attempts": 10,
+            "correct": 2,
+            "accuracy": 20,
+            "avgTimeSeconds": 195
+          }
+        }
+      },
+      {
+        "topicId": "bm-2",
+        "topicName": "Electromagnetic Induction & AC Circuits",
+        "subjectId": "sub-phy",
+        "subjectName": "Physics",
+        "parentChapterName": "Electromagnetism",
+        "totalAttempts": 220,
+        "totalCorrect": 140,
+        "accuracy": 64,
+        "blooms": {
+          "remember": {
+            "attempts": 45,
+            "correct": 40,
+            "accuracy": 89,
+            "avgTimeSeconds": 38
+          },
+          "understand": {
+            "attempts": 55,
+            "correct": 41,
+            "accuracy": 75,
+            "avgTimeSeconds": 58
+          },
+          "apply": {
+            "attempts": 60,
+            "correct": 38,
+            "accuracy": 63,
+            "avgTimeSeconds": 95
+          },
+          "analyse": {
+            "attempts": 40,
+            "correct": 15,
+            "accuracy": 38,
+            "avgTimeSeconds": 135
+          },
+          "evaluate": {
+            "attempts": 15,
+            "correct": 5,
+            "accuracy": 33,
+            "avgTimeSeconds": 160
+          },
+          "create": {
+            "attempts": 5,
+            "correct": 1,
+            "accuracy": 20,
+            "avgTimeSeconds": 180
+          }
+        }
+      },
+      {
+        "topicId": "bm-3",
+        "topicName": "Ionic Equilibrium & Buffer Solutions",
+        "subjectId": "sub-chem",
+        "subjectName": "Chemistry",
+        "parentChapterName": "Physical Chemistry",
+        "totalAttempts": 210,
+        "totalCorrect": 116,
+        "accuracy": 55,
+        "blooms": {
+          "remember": {
+            "attempts": 35,
+            "correct": 30,
+            "accuracy": 86,
+            "avgTimeSeconds": 35
+          },
+          "understand": {
+            "attempts": 45,
+            "correct": 32,
+            "accuracy": 71,
+            "avgTimeSeconds": 52
+          },
+          "apply": {
+            "attempts": 65,
+            "correct": 34,
+            "accuracy": 52,
+            "avgTimeSeconds": 102
+          },
+          "analyse": {
+            "attempts": 45,
+            "correct": 14,
+            "accuracy": 31,
+            "avgTimeSeconds": 140
+          },
+          "evaluate": {
+            "attempts": 15,
+            "correct": 5,
+            "accuracy": 33,
+            "avgTimeSeconds": 165
+          },
+          "create": {
+            "attempts": 5,
+            "correct": 1,
+            "accuracy": 20,
+            "avgTimeSeconds": 175
+          }
+        }
+      },
+      {
+        "topicId": "bm-4",
+        "topicName": "Coordination Chemistry & Isomerism",
+        "subjectId": "sub-chem",
+        "subjectName": "Chemistry",
+        "parentChapterName": "Inorganic Chemistry",
+        "totalAttempts": 230,
+        "totalCorrect": 172,
+        "accuracy": 75,
+        "blooms": {
+          "remember": {
+            "attempts": 50,
+            "correct": 46,
+            "accuracy": 92,
+            "avgTimeSeconds": 30
+          },
+          "understand": {
+            "attempts": 60,
+            "correct": 50,
+            "accuracy": 83,
+            "avgTimeSeconds": 48
+          },
+          "apply": {
+            "attempts": 65,
+            "correct": 48,
+            "accuracy": 74,
+            "avgTimeSeconds": 85
+          },
+          "analyse": {
+            "attempts": 35,
+            "correct": 20,
+            "accuracy": 57,
+            "avgTimeSeconds": 120
+          },
+          "evaluate": {
+            "attempts": 15,
+            "correct": 6,
+            "accuracy": 40,
+            "avgTimeSeconds": 150
+          },
+          "create": {
+            "attempts": 5,
+            "correct": 2,
+            "accuracy": 40,
+            "avgTimeSeconds": 160
+          }
+        }
+      },
+      {
+        "topicId": "bm-5",
+        "topicName": "Definite Integrals & Properties",
+        "subjectId": "sub-math",
+        "subjectName": "Mathematics",
+        "parentChapterName": "Calculus",
+        "totalAttempts": 260,
+        "totalCorrect": 160,
+        "accuracy": 62,
+        "blooms": {
+          "remember": {
+            "attempts": 45,
+            "correct": 39,
+            "accuracy": 87,
+            "avgTimeSeconds": 40
+          },
+          "understand": {
+            "attempts": 55,
+            "correct": 40,
+            "accuracy": 73,
+            "avgTimeSeconds": 60
+          },
+          "apply": {
+            "attempts": 80,
+            "correct": 50,
+            "accuracy": 63,
+            "avgTimeSeconds": 115
+          },
+          "analyse": {
+            "attempts": 50,
+            "correct": 21,
+            "accuracy": 42,
+            "avgTimeSeconds": 150
+          },
+          "evaluate": {
+            "attempts": 20,
+            "correct": 7,
+            "accuracy": 35,
+            "avgTimeSeconds": 180
+          },
+          "create": {
+            "attempts": 10,
+            "correct": 3,
+            "accuracy": 30,
+            "avgTimeSeconds": 210
+          }
+        }
+      },
+      {
+        "topicId": "bm-6",
+        "topicName": "Vectors & 3D Straight Lines",
+        "subjectId": "sub-math",
+        "subjectName": "Mathematics",
+        "parentChapterName": "Algebra & Geometry",
+        "totalAttempts": 250,
+        "totalCorrect": 205,
+        "accuracy": 82,
+        "blooms": {
+          "remember": {
+            "attempts": 50,
+            "correct": 48,
+            "accuracy": 96,
+            "avgTimeSeconds": 28
+          },
+          "understand": {
+            "attempts": 65,
+            "correct": 58,
+            "accuracy": 89,
+            "avgTimeSeconds": 45
+          },
+          "apply": {
+            "attempts": 75,
+            "correct": 62,
+            "accuracy": 83,
+            "avgTimeSeconds": 80
+          },
+          "analyse": {
+            "attempts": 40,
+            "correct": 26,
+            "accuracy": 65,
+            "avgTimeSeconds": 110
+          },
+          "evaluate": {
+            "attempts": 15,
+            "correct": 9,
+            "accuracy": 60,
+            "avgTimeSeconds": 140
+          },
+          "create": {
+            "attempts": 5,
+            "correct": 2,
+            "accuracy": 40,
+            "avgTimeSeconds": 160
+          }
+        }
+      }
+    ]
+  },
+  "tierSegmentation": {
+    "top": {
+      "label": "Top Tier (Advanced)",
+      "studentCount": 12,
+      "averagePercentage": 88.4,
+      "strongSubjects": [
+        {
+          "subjectId": "phy",
+          "subjectName": "Physics",
+          "accuracy": 91,
+          "total": 240
+        },
+        {
+          "subjectId": "math",
+          "subjectName": "Mathematics",
+          "accuracy": 89,
+          "total": 260
+        }
+      ],
+      "weakSubjects": [
+        {
+          "subjectId": "chem",
+          "subjectName": "Chemistry",
+          "accuracy": 82,
+          "total": 220
+        }
+      ],
+      "strongChapters": [
+        {
+          "topicId": "c-1",
+          "topicName": "Vectors & 3D Geometry",
+          "subjectName": "Mathematics",
+          "accuracy": 94,
+          "total": 80
+        },
+        {
+          "topicId": "c-2",
+          "topicName": "Electrostatics & Capacitance",
+          "subjectName": "Physics",
+          "accuracy": 92,
+          "total": 75
+        }
+      ],
+      "weakChapters": [
+        {
+          "topicId": "c-3",
+          "topicName": "Ionic Equilibrium",
+          "subjectName": "Chemistry",
+          "accuracy": 78,
+          "total": 60
+        }
+      ]
+    },
+    "middle": {
+      "label": "Middle Tier (Mainstream)",
+      "studentCount": 46,
+      "averagePercentage": 66.8,
+      "strongSubjects": [
+        {
+          "subjectId": "chem",
+          "subjectName": "Chemistry",
+          "accuracy": 71,
+          "total": 840
+        }
+      ],
+      "weakSubjects": [
+        {
+          "subjectId": "phy",
+          "subjectName": "Physics",
+          "accuracy": 62,
+          "total": 880
+        }
+      ],
+      "strongChapters": [
+        {
+          "topicId": "c-4",
+          "topicName": "Chemical Bonding",
+          "subjectName": "Chemistry",
+          "accuracy": 76,
+          "total": 220
+        },
+        {
+          "topicId": "c-5",
+          "topicName": "Current Electricity",
+          "subjectName": "Physics",
+          "accuracy": 74,
+          "total": 210
+        }
+      ],
+      "weakChapters": [
+        {
+          "topicId": "c-6",
+          "topicName": "Rotational Motion",
+          "subjectName": "Physics",
+          "accuracy": 48,
+          "total": 240
+        },
+        {
+          "topicId": "c-7",
+          "topicName": "Definite Integrals",
+          "subjectName": "Mathematics",
+          "accuracy": 52,
+          "total": 250
+        }
+      ]
+    },
+    "bottom": {
+      "label": "Bottom Tier (Foundation)",
+      "studentCount": 20,
+      "averagePercentage": 43.5,
+      "strongSubjects": [
+        {
+          "subjectId": "math",
+          "subjectName": "Mathematics",
+          "accuracy": 48,
+          "total": 380
+        }
+      ],
+      "weakSubjects": [
+        {
+          "subjectId": "phy",
+          "subjectName": "Physics",
+          "accuracy": 38,
+          "total": 400
+        }
+      ],
+      "strongChapters": [
+        {
+          "topicId": "c-8",
+          "topicName": "Matrices & Determinants",
+          "subjectName": "Mathematics",
+          "accuracy": 58,
+          "total": 95
+        }
+      ],
+      "weakChapters": [
+        {
+          "topicId": "c-9",
+          "topicName": "Rotational Dynamics",
+          "subjectName": "Physics",
+          "accuracy": 28,
+          "total": 110
+        },
+        {
+          "topicId": "c-10",
+          "topicName": "Organic Reaction Mechanisms",
+          "subjectName": "Chemistry",
+          "accuracy": 32,
+          "total": 105
+        }
+      ]
+    }
+  },
+  "atRiskStudents": [
+    {
+      "studentId": "s-risk-1",
+      "name": "Kiran Varma",
+      "rollNo": "225188",
+      "riskScore": 84,
+      "trend": "Declining",
+      "topWeakTopic": "Physics Time Traps (avg 3.8 min/Q)",
+      "recentPercentiles": [
+        32,
+        28,
+        24
+      ]
+    },
+    {
+      "studentId": "s-risk-2",
+      "name": "Siddharth Rao",
+      "rollNo": "225192",
+      "riskScore": 72,
+      "trend": "Declining",
+      "topWeakTopic": "Negative marking in Organic Chemistry (-16 marks)",
+      "recentPercentiles": [
+        40,
+        37,
+        34
+      ]
+    },
+    {
+      "studentId": "s-risk-3",
+      "name": "Meera Nair",
+      "rollNo": "225195",
+      "riskScore": 58,
+      "trend": "Volatile",
+      "topWeakTopic": "Calculus unforced algebraic errors",
+      "recentPercentiles": [
+        44,
+        40,
+        38
+      ]
+    }
+  ],
+  "sampleStudentLookup": {
+    "studentId": "s-101",
+    "studentName": "Bhagam Khyathi",
+    "batchName": "SR MPC (Madhapur)",
+    "batchSize": 78,
+    "batchMedianPct": 68,
+    "studentAvgPct": 94,
+    "percentile": 99,
+    "rankInBatch": 1,
+    "deltaVsMedian": 26,
+    "topScorer": {
+      "studentId": "s-101",
+      "name": "Bhagam Khyathi",
+      "avgPct": 94
+    },
+    "gapToTop": 0,
+    "subjectDeltas": [
+      {
+        "subjectName": "Physics",
+        "studentPct": 92,
+        "batchAvgPct": 64,
+        "delta": 28
+      },
+      {
+        "subjectName": "Mathematics",
+        "studentPct": 96,
+        "batchAvgPct": 68,
+        "delta": 28
+      },
+      {
+        "subjectName": "Chemistry",
+        "studentPct": 94,
+        "batchAvgPct": 72,
+        "delta": 22
+      }
+    ]
+  },
+  "bellCurve": {
+    "mean": 68.4,
+    "stdDev": 12.8,
+    "totalStudents": 78,
+    "buckets": [
+      {
+        "range": "0-10",
+        "count": 0
+      },
+      {
+        "range": "10-20",
+        "count": 1
+      },
+      {
+        "range": "20-30",
+        "count": 2
+      },
+      {
+        "range": "30-40",
+        "count": 4
+      },
+      {
+        "range": "40-50",
+        "count": 8
+      },
+      {
+        "range": "50-60",
+        "count": 14
+      },
+      {
+        "range": "60-70",
+        "count": 22
+      },
+      {
+        "range": "71-80",
+        "count": 18
+      },
+      {
+        "range": "81-90",
+        "count": 7
+      },
+      {
+        "range": "91-100",
+        "count": 2
+      }
+    ]
+  },
+  "boxPlot": [
+    {
+      "name": "Physics",
+      "subject": "Physics",
+      "min": 28,
+      "q1": 52,
+      "median": 68,
+      "q3": 82,
+      "max": 96
+    },
+    {
+      "name": "Chemistry",
+      "subject": "Chemistry",
+      "min": 34,
+      "q1": 58,
+      "median": 74,
+      "q3": 88,
+      "max": 98
+    },
+    {
+      "name": "Mathematics",
+      "subject": "Mathematics",
+      "min": 22,
+      "q1": 48,
+      "median": 64,
+      "q3": 78,
+      "max": 94
+    }
+  ],
+  "attendance": {
+    "avgAttendance": 89.2,
+    "belowThreshold": 2,
+    "totalStudents": 78,
+    "buckets": [
+      {
+        "range": "0-10",
+        "count": 0
+      },
+      {
+        "range": "10-20",
+        "count": 0
+      },
+      {
+        "range": "20-30",
+        "count": 0
+      },
+      {
+        "range": "30-40",
+        "count": 1
+      },
+      {
+        "range": "40-50",
+        "count": 1
+      },
+      {
+        "range": "50-60",
+        "count": 0
+      },
+      {
+        "range": "60-70",
+        "count": 3
+      },
+      {
+        "range": "70-80",
+        "count": 8
+      },
+      {
+        "range": "81-90",
+        "count": 28
+      },
+      {
+        "range": "91-100",
+        "count": 37
+      }
+    ]
+  },
+  "syllabus": {
+    "coveragePercent": 78,
+    "totalCovered": 42,
+    "totalPlanned": 54,
+    "weeks": [
+      {
+        "week": "W1",
+        "planned": 5,
+        "covered": 5
+      },
+      {
+        "week": "W2",
+        "planned": 10,
+        "covered": 10
+      },
+      {
+        "week": "W3",
+        "planned": 16,
+        "covered": 15
+      },
+      {
+        "week": "W4",
+        "planned": 22,
+        "covered": 20
+      },
+      {
+        "week": "W5",
+        "planned": 28,
+        "covered": 26
+      },
+      {
+        "week": "W6",
+        "planned": 34,
+        "covered": 32
+      },
+      {
+        "week": "W7",
+        "planned": 41,
+        "covered": 38
+      },
+      {
+        "week": "W8",
+        "planned": 48,
+        "covered": 44
+      },
+      {
+        "week": "W9",
+        "planned": 55,
+        "covered": 50
+      },
+      {
+        "week": "W10",
+        "planned": 62,
+        "covered": 56
+      },
+      {
+        "week": "W11",
+        "planned": 68,
+        "covered": 62
+      },
+      {
+        "week": "W12",
+        "planned": 75,
+        "covered": 68
+      },
+      {
+        "week": "W13",
+        "planned": 82,
+        "covered": 74
+      },
+      {
+        "week": "W14",
+        "planned": 88,
+        "covered": 78
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+
+      <!-- ===================================================================== -->
+      <!-- SECTION 5: /analytics/branches (Branches Table) -->
+      <!-- ===================================================================== -->
+      <div id="section-branches" class="section-view max-w-7xl mx-auto space-y-6 hidden fade-in">
+        
+        <button onclick="switchView('overview')" class="inline-flex items-center gap-1.5 text-sm text-muted hover:text-primary transition-colors">
+          <i class="ph-bold ph-arrow-left"></i> Back to Overview
+        </button>
+
+        <div class="flex items-center gap-3">
+          <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-primary/10">
+            <i class="ph-duotone ph-buildings text-2xl text-primary"></i>
+          </div>
+          <div>
+            <h1 class="text-2xl font-bold tracking-tight text-gray-900">Branches</h1>
+            <p class="mt-1 text-sm text-muted">All branches in your institution. Click a branch to view its analytics.</p>
+          </div>
+        </div>
+
+        <!-- Branches Table matching branches/page.tsx:107-190 -->
+        <div class="rounded-2xl border border-border bg-surface shadow-xs overflow-hidden">
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm">
+              <thead>
+                <tr class="border-b border-border text-left text-xs font-semibold uppercase tracking-wider text-muted">
+                  <th class="px-5 py-3">Branch</th>
+                  <th class="px-5 py-3 text-center">Students</th>
+                  <th class="px-5 py-3 text-center">Avg Score</th>
+                  <th class="px-5 py-3 text-center">Exams</th>
+                  <th class="px-5 py-3 text-center">Status</th>
+                </tr>
+              </thead>
+              <tbody id="branches-table-tbody" class="divide-y divide-border"></tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>

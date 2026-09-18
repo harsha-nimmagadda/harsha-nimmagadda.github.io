@@ -1,0 +1,176 @@
+{
+  "scope": "institution",
+  "headline": "Academic Operations & Performance Pulse",
+  "subHeadline": "Excellencia Academic Platform • Real-time Overview",
+  "generatedAt": "2026-09-17T10:18:53.435Z",
+  "pulse": {
+    "activeStudents": 4120,
+    "avgScore7d": 58.4,
+    "avgScoreDelta": 2.1,
+    "attendance7d": 89.2,
+    "attendanceDelta": 1.4,
+    "atRiskCount": 14,
+    "testsThisWeek": 18,
+    "submissions24h": 342
+  },
+  "trend30d": [
+    {
+      "day": "Day 1",
+      "avgPct": 54.2,
+      "n": 18
+    },
+    {
+      "day": "Day 5",
+      "avgPct": 55,
+      "n": 24
+    },
+    {
+      "day": "Day 10",
+      "avgPct": 56.4,
+      "n": 32
+    },
+    {
+      "day": "Day 15",
+      "avgPct": 55.8,
+      "n": 28
+    },
+    {
+      "day": "Day 20",
+      "avgPct": 57.2,
+      "n": 44
+    },
+    {
+      "day": "Day 25",
+      "avgPct": 58,
+      "n": 38
+    },
+    {
+      "day": "Day 30",
+      "avgPct": 58.4,
+      "n": 52
+    }
+  ],
+  "risers": [
+    {
+      "studentId": "s-101",
+      "name": "Bhagam Khyathi",
+      "batchName": "SR MPC",
+      "recent": 98.4,
+      "prior": 96.8,
+      "delta": 1.6
+    },
+    {
+      "studentId": "s-102",
+      "name": "JAY RAJ VAISHNAV",
+      "batchName": "SR MPC",
+      "recent": 96.2,
+      "prior": 93.5,
+      "delta": 2.7
+    },
+    {
+      "studentId": "s-103",
+      "name": "VISHWANATH AKSHAY KUMAR",
+      "batchName": "SR MPC",
+      "recent": 95.1,
+      "prior": 91.8,
+      "delta": 3.3
+    },
+    {
+      "studentId": "s-107",
+      "name": "Anwita Salike",
+      "batchName": "SR BIPC",
+      "recent": 94.7,
+      "prior": 92.1,
+      "delta": 2.6
+    }
+  ],
+  "fallers": [
+    {
+      "studentId": "s-risk-1",
+      "name": "Kiran Varma",
+      "batchName": "SR MPC",
+      "recent": 24.5,
+      "prior": 32,
+      "delta": -7.5
+    },
+    {
+      "studentId": "s-risk-2",
+      "name": "Siddharth Rao",
+      "batchName": "SR MPC",
+      "recent": 34.2,
+      "prior": 39.8,
+      "delta": -5.6
+    },
+    {
+      "studentId": "s-risk-3",
+      "name": "Meera Nair",
+      "batchName": "SR MPC",
+      "recent": 38,
+      "prior": 42.4,
+      "delta": -4.4
+    },
+    {
+      "studentId": "s-risk-4",
+      "name": "NAYANI MANO VAISITA",
+      "batchName": "JR MPC",
+      "recent": 26.8,
+      "prior": 31.2,
+      "delta": -4.4
+    }
+  ],
+  "insights": [
+    {
+      "id": "ins-1",
+      "severity": "warning",
+      "title": "Rotational Dynamics Marks Bleed in SR MPC",
+      "body": "Students lose 8.4 marks on average on Rolling Motion questions. Recommend a 40-minute concept drill.",
+      "recommendedActions": [
+        {
+          "label": "Deploy Concept Drill"
+        },
+        {
+          "label": "Notify Faculty"
+        }
+      ]
+    },
+    {
+      "id": "ins-2",
+      "severity": "celebrate",
+      "title": "Strong Velocity in Mathematics Across Madhapur",
+      "body": "Average calculus score is up 4.8% over the past 3 weeks with high consistency.",
+      "recommendedActions": [
+        {
+          "label": "View Batch Trajectory"
+        }
+      ]
+    },
+    {
+      "id": "ins-3",
+      "severity": "suggestion",
+      "title": "14 Students Require Intervention",
+      "body": "Declining scores detected across 3 consecutive assessments with attendance drop below 80%.",
+      "recommendedActions": [
+        {
+          "label": "Generate Intervention Plan"
+        }
+      ]
+    }
+  ],
+  "countdowns": [
+    {
+      "targetExam": "JEE Mains Session 2",
+      "scheduledStart": "2026-04-04",
+      "daysAway": 18
+    },
+    {
+      "targetExam": "NEET UG 2026",
+      "scheduledStart": "2026-05-03",
+      "daysAway": 47
+    },
+    {
+      "targetExam": "EAPCET 2026",
+      "scheduledStart": "2026-05-18",
+      "daysAway": 62
+    }
+  ]
+}

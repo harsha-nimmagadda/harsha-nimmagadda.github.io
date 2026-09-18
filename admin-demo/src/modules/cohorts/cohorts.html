@@ -1,0 +1,329 @@
+      <!-- ===================================================================== -->
+      <!-- SECTION 7: /analytics/institution/cohorts (Batch Comparison - Option 3) -->
+      <!-- ===================================================================== -->
+      <div id="section-cohorts" class="section-view max-w-7xl mx-auto space-y-6 hidden fade-in">
+        
+        <!-- Breadcrumb & Header with 1-Click Action Bar -->
+        <div class="flex flex-col gap-4">
+          <button onclick="switchView('overview')" class="inline-flex items-center gap-1.5 text-sm text-muted hover:text-primary transition-colors w-fit">
+            <i class="ph-bold ph-arrow-left"></i> Back to Overview
+          </button>
+
+          <header class="flex flex-wrap items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+              <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-emerald-100 text-emerald-700 shadow-2xs">
+                <i class="ph-duotone ph-users-three text-2xl"></i>
+              </div>
+              <div>
+                <div class="flex items-center gap-2">
+                  <h1 class="text-2xl font-bold tracking-tight text-gray-900">Batch Comparison</h1>
+                  <span id="cohort-active-badge" class="rounded-full bg-emerald-50 border border-emerald-200/80 px-2.5 py-0.5 text-xs font-semibold text-emerald-800">
+                    JEE 2026 Cohort
+                  </span>
+                </div>
+                <p class="mt-0.5 text-xs text-muted">Side-by-side batch benchmarks, curriculum milestone trajectories, and student cohort standing diagnostic.</p>
+              </div>
+            </div>
+
+            <!-- 1-Click Academic Actions (Rule 1: Maximize Engagement) -->
+            <div class="flex flex-wrap items-center gap-2">
+              <button type="button" onclick="openCohortWhatsAppModal()" class="inline-flex items-center gap-1.5 rounded-xl border border-emerald-300 bg-emerald-50/80 hover:bg-emerald-100 px-3.5 py-2 text-xs font-bold text-emerald-800 shadow-2xs transition-all">
+                <i class="ph-bold ph-whatsapp-logo text-emerald-600 text-sm"></i>
+                <span>WhatsApp Batch Alert</span>
+              </button>
+              <button type="button" onclick="assignCohortDrills()" class="inline-flex items-center gap-1.5 rounded-xl border border-amber-300 bg-amber-50/80 hover:bg-amber-100 px-3.5 py-2 text-xs font-bold text-amber-800 shadow-2xs transition-all">
+                <i class="ph-bold ph-lightning text-amber-600 text-sm"></i>
+                <span>Assign 15 Drills</span>
+              </button>
+              <button type="button" onclick="exportCohortBatchReport()" class="inline-flex items-center gap-1.5 rounded-xl border border-border bg-white hover:bg-slate-50 px-3 py-2 text-xs font-semibold text-slate-700 shadow-2xs transition-all">
+                <i class="ph-bold ph-download-simple text-slate-600 text-sm"></i>
+                <span>Export Standings</span>
+              </button>
+            </div>
+          </header>
+        </div>
+
+        <!-- 5-Second Rapid Comprehension Pulse Strip (Rule 2: 4 Vital Signs) -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-3.5">
+          <!-- Vital 1: Top Performing Batch -->
+          <div class="rounded-2xl border border-border bg-surface p-4 shadow-2xs transition-all hover:border-emerald-200">
+            <span class="text-[10px] uppercase font-bold tracking-wider text-muted flex items-center gap-1">
+              <i class="ph-duotone ph-trophy text-emerald-600"></i> Top Batch
+            </span>
+            <p class="mt-1 font-bold text-base text-gray-900 truncate" id="cohort-kpi-top-batch">SR MPC · Madhapur</p>
+            <p class="mt-0.5 text-xs text-muted flex items-center gap-1 font-mono">
+              <span class="font-bold text-emerald-600" id="cohort-kpi-top-score">78.4%</span> avg · <span id="cohort-kpi-top-att">91.2%</span> att.
+            </p>
+          </div>
+
+          <!-- Vital 2: Benchmark Spread Gap -->
+          <div class="rounded-2xl border border-border bg-surface p-4 shadow-2xs transition-all hover:border-amber-200">
+            <span class="text-[10px] uppercase font-bold tracking-wider text-muted flex items-center gap-1">
+              <i class="ph-duotone ph-arrows-out-line-horizontal text-amber-600"></i> Section Spread Gap
+            </span>
+            <p class="mt-1 font-mono font-bold text-xl text-amber-700" id="cohort-kpi-gap">12.6 pp</p>
+            <p class="mt-0.5 text-xs text-muted truncate">Top vs bottom batch gap</p>
+          </div>
+
+          <!-- Vital 3: Cohort Benchmark -->
+          <div class="rounded-2xl border border-border bg-surface p-4 shadow-2xs transition-all hover:border-blue-200">
+            <span class="text-[10px] uppercase font-bold tracking-wider text-muted flex items-center gap-1">
+              <i class="ph-duotone ph-target text-blue-600"></i> Cohort Benchmark
+            </span>
+            <p class="mt-1 font-mono font-bold text-xl text-gray-900" id="cohort-kpi-benchmark">74.5%</p>
+            <p class="mt-0.5 text-xs text-muted" id="cohort-kpi-enrolled">1,420 students active</p>
+          </div>
+
+          <!-- Vital 4: At-Risk Counseling Queue -->
+          <div onclick="jumpToCohortSection('batches')" class="rounded-2xl border border-rose-200/80 bg-rose-50/40 hover:bg-rose-50/70 p-4 shadow-2xs transition-all cursor-pointer group" title="Click to view lagging batches and at-risk students">
+            <div class="flex items-center justify-between">
+              <span class="text-[10px] uppercase font-bold tracking-wider text-rose-700 flex items-center gap-1">
+                <i class="ph-duotone ph-warning-circle text-rose-600"></i> At-Risk Queue
+              </span>
+              <i class="ph-bold ph-arrow-down text-xs text-rose-400 group-hover:translate-y-0.5 transition-transform"></i>
+            </div>
+            <p class="mt-1 font-mono font-bold text-xl text-rose-700" id="cohort-kpi-at-risk">18 Students</p>
+            <p class="mt-0.5 text-xs text-rose-600 font-medium">Needs faculty counseling</p>
+          </div>
+        </div>
+
+        <!-- Sticky Visual Filter Rail (Rule 5: Option 3 Navigation & Quick Jumps) -->
+        <div id="cohort-sticky-rail" class="sticky top-0 z-20 -mx-2 sm:-mx-4 px-3 sm:px-4 py-2.5 bg-surface/95 backdrop-blur-md border-y border-border shadow-2xs flex flex-wrap items-center justify-between gap-2.5 transition-all">
+          <!-- Left: Cohort Selector Pills -->
+          <div class="flex items-center gap-1.5" id="cohort-rail-selector">
+            <span class="text-[11px] font-bold uppercase tracking-wider text-muted mr-1 hidden sm:inline">Cohort:</span>
+          </div>
+
+          <!-- Right: Quick Jump Anchors -->
+          <div class="flex items-center gap-1 overflow-x-auto text-xs py-0.5">
+            <button type="button" onclick="jumpToCohortSection('trajectory')" class="inline-flex items-center gap-1 rounded-lg px-2.5 py-1 text-slate-600 hover:text-primary hover:bg-slate-100 font-medium transition-colors">
+              <i class="ph-bold ph-chart-line"></i> <span>Trajectory</span>
+            </button>
+            <button type="button" onclick="jumpToCohortSection('distribution')" class="inline-flex items-center gap-1 rounded-lg px-2.5 py-1 text-slate-600 hover:text-primary hover:bg-slate-100 font-medium transition-colors">
+              <i class="ph-bold ph-chart-bar-horizontal"></i> <span>Score Bands</span>
+            </button>
+            <button type="button" onclick="jumpToCohortSection('performers')" class="inline-flex items-center gap-1 rounded-lg px-2.5 py-1 text-slate-600 hover:text-primary hover:bg-slate-100 font-medium transition-colors">
+              <i class="ph-bold ph-crown"></i> <span>Top Students</span>
+            </button>
+            <button type="button" onclick="jumpToCohortSection('lookup')" class="inline-flex items-center gap-1 rounded-lg px-2.5 py-1 text-slate-600 hover:text-primary hover:bg-slate-100 font-medium transition-colors">
+              <i class="ph-bold ph-magnifying-glass"></i> <span>Student Lookup</span>
+            </button>
+            <button type="button" onclick="jumpToCohortSection('batches')" class="inline-flex items-center gap-1 rounded-lg px-2.5 py-1 text-slate-600 hover:text-primary hover:bg-slate-100 font-medium transition-colors">
+              <i class="ph-bold ph-chalkboard-teacher"></i> <span>Batch Matrix</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- SECTION 1: Curriculum Mock Trajectory & Score Spread Bands -->
+        <div class="space-y-6">
+          
+          <!-- Cohort Summary Cards (one card per cohort with live KPIs) -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-5" id="cohorts-cards-container"></div>
+
+          <!-- Milestone Score Trajectory Card -->
+          <div id="cohort-section-trajectory" class="rounded-2xl border border-border bg-surface p-6 shadow-xs scroll-mt-20">
+            <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
+              <div>
+                <h3 class="text-base font-bold text-gray-900">Curriculum Mock Trajectory</h3>
+                <p class="text-xs text-muted mt-0.5">Average score progression across curriculum milestones from Month 1 to Final Grand Mock</p>
+              </div>
+              <!-- Visibility filter chips -->
+              <div class="flex flex-wrap items-center gap-2" id="cohorts-visibility-chips"></div>
+            </div>
+            <div class="h-64 relative">
+              <canvas id="cohortLineChart"></canvas>
+            </div>
+          </div>
+
+          <!-- Score Distribution & Benchmark Spread Bands (Dictionary-free replacement for Quartile Whiskers) -->
+          <div id="cohort-section-distribution" class="rounded-2xl border border-border bg-surface p-6 shadow-xs scroll-mt-20">
+            <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
+              <div>
+                <h3 class="text-base font-bold text-gray-900">Batch Score Spread & Benchmark Bands</h3>
+                <p class="text-xs text-muted mt-0.5">Visual spread showing Foundation Push Zone (bottom 25%) · Core Median · Elite Zone (top 25%)</p>
+              </div>
+              <div class="flex items-center gap-3 text-[11px] text-muted">
+                <span class="flex items-center gap-1"><span class="h-2 w-3 rounded-xs bg-slate-300 inline-block"></span> Range</span>
+                <span class="flex items-center gap-1"><span class="h-2.5 w-3 rounded-xs bg-emerald-500 inline-block"></span> Core 50%</span>
+                <span class="flex items-center gap-1"><span class="h-3 w-1 bg-gray-900 inline-block"></span> Median</span>
+              </div>
+            </div>
+            <div class="space-y-4" id="cohort-distribution-container"></div>
+          </div>
+
+        </div>
+
+        <!-- SECTION 2: Expandable Drawer — Top Performers & Student Standing Diagnostic -->
+        <div id="cohort-drawer-performers" class="rounded-2xl border border-border bg-surface shadow-xs overflow-hidden scroll-mt-20">
+          <!-- Accordion Header -->
+          <button type="button" onclick="toggleCohortDrawer('performers')" class="w-full flex items-center justify-between p-5 bg-slate-50/50 hover:bg-slate-50 transition-colors text-left border-b border-border/70 cursor-pointer">
+            <div class="flex items-center gap-3">
+              <div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-amber-100 text-amber-700 shadow-2xs">
+                <i class="ph-duotone ph-crown text-xl"></i>
+              </div>
+              <div>
+                <div class="flex items-center gap-2">
+                  <h3 class="text-base font-bold text-gray-900">Top Performers & Student Standing Lookup</h3>
+                  <span class="rounded-full bg-amber-50 border border-amber-200/80 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-amber-800">
+                    Individual Diagnostic
+                  </span>
+                </div>
+                <p class="text-xs text-muted mt-0.5">Highest standing students per batch and head-to-head student-vs-cohort positioning tool</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-2 text-muted">
+              <span class="text-xs font-semibold text-slate-600 hidden sm:inline">Toggle Drawer</span>
+              <i id="cohort-drawer-performers-chevron" class="ph-bold ph-caret-down text-base transition-transform duration-200"></i>
+            </div>
+          </button>
+
+          <!-- Accordion Content -->
+          <div id="cohort-drawer-performers-content" class="p-6 space-y-6">
+            
+            <!-- Top Performers Tabbed Table -->
+            <div class="space-y-3">
+              <div class="flex flex-wrap items-center justify-between gap-3">
+                <h4 class="text-sm font-bold text-gray-900">Cohort High Scorers</h4>
+                <div class="flex items-center gap-1.5" id="cohort-top-performer-tabs"></div>
+              </div>
+              <div class="overflow-x-auto rounded-xl border border-border/80">
+                <table class="w-full text-sm">
+                  <thead>
+                    <tr class="border-b border-border text-left text-xs uppercase tracking-wide text-muted bg-slate-50/80 font-semibold">
+                      <th class="px-5 py-2.5">Rank</th>
+                      <th class="px-5 py-2.5">Student</th>
+                      <th class="px-5 py-2.5">Batch</th>
+                      <th class="px-5 py-2.5 text-right">Avg Score</th>
+                      <th class="px-5 py-2.5 text-right">Percentile</th>
+                    </tr>
+                  </thead>
+                  <tbody id="cohort-top-performers-tbody" class="divide-y divide-border/60"></tbody>
+                </table>
+              </div>
+            </div>
+
+            <hr class="border-border/70">
+
+            <!-- Where does a student stand? Diagnostic Tool -->
+            <div id="cohort-section-lookup" class="space-y-4 scroll-mt-24">
+              <div>
+                <h4 class="text-base font-bold text-gray-900">Where does a student stand?</h4>
+                <p class="text-xs text-muted mt-0.5">Pick a cohort and search any student — analyze their percentile, gap to topper, and subject leads/lags.</p>
+              </div>
+
+              <!-- Cohort Select Tabs -->
+              <div class="flex flex-wrap gap-1.5 rounded-xl border border-border bg-slate-50/80 p-1" id="cohort-student-lookup-tabs"></div>
+
+              <!-- Student Autocomplete Search Input -->
+              <div class="relative">
+                <div class="flex items-center gap-2 rounded-xl border border-border bg-surface px-3 py-2.5 shadow-2xs">
+                  <i class="ph-bold ph-magnifying-glass text-muted text-sm"></i>
+                  <input type="text" id="cohort-student-search-input" oninput="onCohortStudentSearch(this.value)" placeholder="Search student by name or roll number…" class="flex-1 bg-transparent text-sm outline-none text-gray-900 placeholder:text-muted">
+                  <button type="button" id="cohort-student-clear-search" onclick="clearCohortStudentSearch()" class="hidden text-muted hover:text-gray-900">
+                    <i class="ph-bold ph-x text-sm"></i>
+                  </button>
+                </div>
+
+                <!-- Autocomplete Results Dropdown -->
+                <div id="cohort-student-search-dropdown" class="hidden absolute left-0 right-0 top-full mt-1 z-30 max-h-64 overflow-y-auto rounded-xl border border-border bg-surface p-1 shadow-lg divide-y divide-border/40"></div>
+              </div>
+
+              <!-- Student Rank Result Card Container -->
+              <div id="cohort-student-rank-result"></div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- SECTION 3: Expandable Drawer — Constituent Batches Comparison & Faculty Action Queue -->
+        <div id="cohort-drawer-batches" class="rounded-2xl border border-border bg-surface shadow-xs overflow-hidden scroll-mt-20">
+          <!-- Accordion Header -->
+          <button type="button" onclick="toggleCohortDrawer('batches')" class="w-full flex items-center justify-between p-5 bg-slate-50/50 hover:bg-slate-50 transition-colors text-left border-b border-border/70 cursor-pointer">
+            <div class="flex items-center gap-3">
+              <div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-blue-100 text-blue-700 shadow-2xs">
+                <i class="ph-duotone ph-chalkboard-teacher text-xl"></i>
+              </div>
+              <div>
+                <div class="flex items-center gap-2">
+                  <h3 class="text-base font-bold text-gray-900">Constituent Batches Comparison & Action Matrix</h3>
+                  <span class="rounded-full bg-blue-50 border border-blue-200/80 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-blue-800">
+                    Batch-to-Batch Standing
+                  </span>
+                </div>
+                <p class="text-xs text-muted mt-0.5">Head-to-head performance across active sections, attendance adherence, and direct intervention links</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-2 text-muted">
+              <span class="text-xs font-semibold text-slate-600 hidden sm:inline">Toggle Drawer</span>
+              <i id="cohort-drawer-batches-chevron" class="ph-bold ph-caret-down text-base transition-transform duration-200"></i>
+            </div>
+          </button>
+
+          <!-- Accordion Content -->
+          <div id="cohort-drawer-batches-content" class="p-6 space-y-4">
+            <div class="overflow-x-auto rounded-xl border border-border/80">
+              <table class="w-full text-sm">
+                <thead>
+                  <tr class="border-b border-border text-left text-xs uppercase tracking-wide text-muted bg-slate-50/80 font-semibold">
+                    <th class="px-5 py-2.5">Batch Name</th>
+                    <th class="px-5 py-2.5">Branch</th>
+                    <th class="px-5 py-2.5 text-center">Enrolled</th>
+                    <th class="px-5 py-2.5 text-right">Avg Percentile</th>
+                    <th class="px-5 py-2.5 text-right">Final Milestone Avg</th>
+                    <th class="px-5 py-2.5 text-center">Attendance</th>
+                    <th class="px-5 py-2.5">Top Performer</th>
+                    <th class="px-5 py-2.5 text-right">Action</th>
+                  </tr>
+                </thead>
+                <tbody id="cohort-batches-tbody" class="divide-y divide-border/60"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- 1-Click WhatsApp Batch Coordination Modal (Rule 1: Actionable Engagement) -->
+        <div id="cohort-whatsapp-modal" class="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/50 backdrop-blur-xs hidden fade-in">
+          <div class="w-full max-w-lg rounded-2xl border border-border bg-surface p-6 shadow-2xl space-y-5 mx-4">
+            
+            <div class="flex items-start justify-between">
+              <div class="flex items-center gap-3">
+                <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-100 text-emerald-700">
+                  <i class="ph-bold ph-whatsapp-logo text-2xl"></i>
+                </div>
+                <div>
+                  <h3 class="text-base font-bold text-gray-900">WhatsApp Batch Notice</h3>
+                  <p class="text-xs text-muted">Faculty Huddle & Academic Dean Coordination</p>
+                </div>
+              </div>
+              <button type="button" onclick="closeCohortWhatsAppModal()" class="rounded-lg p-1 text-muted hover:bg-slate-100 hover:text-gray-900 transition-colors">
+                <i class="ph-bold ph-x text-lg"></i>
+              </button>
+            </div>
+
+            <!-- Pre-drafted WhatsApp Message Box -->
+            <div>
+              <label class="block text-xs font-semibold text-slate-700 mb-1.5 uppercase tracking-wider">
+                Pre-Drafted Academic Coordination Message
+              </label>
+              <textarea id="cohort-whatsapp-message-body" rows="9" class="w-full rounded-xl border border-border bg-slate-50/70 p-3 text-xs font-mono text-slate-800 leading-relaxed outline-none focus:border-emerald-500 focus:bg-white transition-all resize-none"></textarea>
+            </div>
+
+            <!-- Modal Action Buttons -->
+            <div class="flex items-center justify-end gap-2.5 pt-2 border-t border-border/70">
+              <button type="button" onclick="closeCohortWhatsAppModal()" class="rounded-xl border border-border px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-100 transition-colors">
+                Cancel
+              </button>
+              <button type="button" onclick="copyCohortWhatsAppMessage()" id="cohort-copy-whatsapp-btn" class="inline-flex items-center gap-1.5 rounded-xl border border-border bg-white px-4 py-2 text-xs font-semibold text-slate-800 hover:bg-slate-50 shadow-2xs transition-colors">
+                <i class="ph-bold ph-copy text-sm"></i>
+                <span>Copy Text</span>
+              </button>
+              <button type="button" onclick="sendCohortWhatsAppDirect()" class="inline-flex items-center gap-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 px-4 py-2 text-xs font-bold text-white shadow-2xs transition-colors">
+                <i class="ph-bold ph-paper-plane-tilt text-sm"></i>
+                <span>Open WhatsApp</span>
+              </button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>

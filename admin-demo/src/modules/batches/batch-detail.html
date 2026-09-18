@@ -1,0 +1,506 @@
+      <!-- ===================================================================== -->
+      <!-- SECTION 8: /analytics/batch/[id] (Full Batch Detail Analytics) -->
+      <!-- Exact replica of backend-source/apps/dashboard/src/app/analytics/batch/[id]/page-client.tsx -->
+      <!-- ===================================================================== -->
+      <div id="section-batch-detail" class="section-view max-w-7xl mx-auto space-y-6 hidden fade-in">
+        
+        <!-- Header & Scope Bar -->
+        <div>
+          <button onclick="switchView('overview')" class="mb-4 inline-flex items-center gap-1.5 text-sm text-muted transition-colors hover:text-primary font-medium">
+            <i class="ph-bold ph-arrow-left"></i> Back
+          </button>
+          
+          <div class="flex flex-wrap items-start justify-between gap-4">
+            <div>
+              <h1 class="text-2xl font-bold tracking-tight text-gray-900" id="batch-detail-title">SR MPC (Madhapur)</h1>
+              <p class="mt-1 text-sm text-muted" id="batch-detail-meta">
+                <span class="capitalize">JEE Mains</span> · 2025-26 · 78 students
+              </p>
+            </div>
+            
+            <div class="flex flex-wrap items-center gap-2">
+              <div class="relative">
+                <select id="batch-detail-range" onchange="onBatchFilterChange()" class="rounded-xl border border-border bg-white px-3 py-2 text-xs font-medium text-slate-700 shadow-xs outline-none">
+                  <option value="month" selected>Last 30 days</option>
+                  <option value="term">This Term</option>
+                  <option value="all">All-time</option>
+                </select>
+              </div>
+              
+              <div class="relative">
+                <select id="batch-detail-exam-type" onchange="onBatchFilterChange()" class="rounded-xl border border-border bg-white px-3 py-2 text-xs font-medium text-slate-700 shadow-xs outline-none">
+                  <option value="">All Exam Types</option>
+                  <option value="mock_test">Mock Test</option>
+                  <option value="unit_test">Unit Test</option>
+                </select>
+              </div>
+
+              <div class="relative">
+                <button class="inline-flex items-center gap-1.5 rounded-xl border border-border bg-white px-3 py-2 text-xs font-medium text-slate-700 shadow-xs">
+                  <i class="ph-bold ph-users text-muted"></i>
+                  <span id="batch-detail-roster-count">All Students (78)</span>
+                </button>
+              </div>
+
+              <div class="rounded-xl border border-border bg-surface px-4 py-2 text-center shadow-xs">
+                <p class="font-mono text-2xl font-bold text-primary" id="batch-detail-avg-score">68.4%</p>
+                <p class="text-[11px] text-muted">Avg Score</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Live KPI Summary Cards (BatchSummaryCards) -->
+        <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4" id="batch-summary-cards-container">
+          
+          <!-- Students Card -->
+          <div class="rounded-2xl border border-border bg-surface p-5 shadow-xs">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-1.5">
+                <p class="text-[11px] font-medium uppercase tracking-wider text-muted">Students</p>
+                <span title="Total active students assigned to this batch" class="text-muted hover:text-slate-800 cursor-help"><i class="ph-bold ph-info text-xs"></i></span>
+              </div>
+              <i class="ph-duotone ph-users text-sky-600 text-lg"></i>
+            </div>
+            <p class="mt-2 text-2xl font-bold font-mono text-gray-900" id="batch-kpi-students">78</p>
+            <p class="mt-0.5 truncate text-[11px] text-muted" id="batch-kpi-students-sub">JEE Mains · 2025-26</p>
+          </div>
+
+          <!-- Avg Card -->
+          <div class="rounded-2xl border border-border bg-surface p-5 shadow-xs">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-1.5">
+                <p class="text-[11px] font-medium uppercase tracking-wider text-muted">Avg (last 30d)</p>
+                <span title="Average exam percentage across all submissions in last 30 days" class="text-muted hover:text-slate-800 cursor-help"><i class="ph-bold ph-info text-xs"></i></span>
+              </div>
+              <i class="ph-duotone ph-trend-up text-primary text-lg"></i>
+            </div>
+            <p class="mt-2 text-2xl font-bold font-mono text-gray-900" id="batch-kpi-avg">68.4%</p>
+            <p class="mt-0.5 truncate text-[11px] text-muted" id="batch-kpi-avg-sub">24 submissions</p>
+          </div>
+
+          <!-- Top Scorer Card -->
+          <div class="rounded-2xl border border-border bg-surface p-5 shadow-xs">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-1.5">
+                <p class="text-[11px] font-medium uppercase tracking-wider text-muted">Top scorer</p>
+                <span title="Student with highest rolling average across last 5 exams" class="text-muted hover:text-slate-800 cursor-help"><i class="ph-bold ph-info text-xs"></i></span>
+              </div>
+              <i class="ph-duotone ph-crown text-amber-500 text-lg"></i>
+            </div>
+            <div onclick="openStudentModal('s-101')" class="cursor-pointer group">
+              <p class="mt-2 text-base font-semibold text-gray-900 group-hover:text-primary truncate" id="batch-kpi-top-name">Bhagam Khyathi</p>
+              <p class="mt-0.5 font-mono text-xs text-amber-600 font-semibold" id="batch-kpi-top-avg">94.2% avg</p>
+            </div>
+          </div>
+
+          <!-- At Risk Card -->
+          <div class="rounded-2xl border border-border bg-surface p-5 shadow-xs">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-1.5">
+                <p class="text-[11px] font-medium uppercase tracking-wider text-muted">At-risk</p>
+                <span title="Count of students flagged by the at-risk classifier" class="text-muted hover:text-slate-800 cursor-help"><i class="ph-bold ph-info text-xs"></i></span>
+              </div>
+              <i class="ph-duotone ph-warning text-red-500 text-lg"></i>
+            </div>
+            <p class="mt-2 text-2xl font-bold font-mono text-red-600" id="batch-kpi-atrisk-count">3</p>
+            <a href="javascript:void(0)" onclick="switchBatchTab('at-risk')" class="mt-0.5 inline-flex items-center gap-1 text-[11px] font-medium text-primary hover:underline">
+              Review students <i class="ph-bold ph-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Diagnostic Sub-Tab Bar -->
+        <div class="mt-6 flex flex-wrap items-center gap-1 rounded-xl border border-border bg-white p-1 shadow-xs" id="batch-subtabs-nav">
+          <button onclick="switchBatchTab('overview')" data-tab="overview" class="batch-tab-btn rounded-lg px-4 py-2 text-sm font-medium transition-all bg-primary/10 text-primary font-semibold shadow-xs">
+            Overview
+          </button>
+          <button onclick="switchBatchTab('bell-curve')" data-tab="bell-curve" class="batch-tab-btn rounded-lg px-4 py-2 text-sm font-medium transition-all text-muted hover:text-gray-900">
+            Bell Curve
+          </button>
+          <button onclick="switchBatchTab('box-plot')" data-tab="box-plot" class="batch-tab-btn rounded-lg px-4 py-2 text-sm font-medium transition-all text-muted hover:text-gray-900">
+            Box Plot
+          </button>
+          <button onclick="switchBatchTab('at-risk')" data-tab="at-risk" class="batch-tab-btn rounded-lg px-4 py-2 text-sm font-medium transition-all text-muted hover:text-gray-900">
+            At-Risk Students
+          </button>
+          <button onclick="switchBatchTab('attendance')" data-tab="attendance" class="batch-tab-btn rounded-lg px-4 py-2 text-sm font-medium transition-all text-muted hover:text-gray-900">
+            Attendance
+          </button>
+          <button onclick="switchBatchTab('syllabus')" data-tab="syllabus" class="batch-tab-btn rounded-lg px-4 py-2 text-sm font-medium transition-all text-muted hover:text-gray-900">
+            Syllabus Coverage
+          </button>
+        </div>
+
+        <!-- ================================================================= -->
+        <!-- SUB-TAB 1: Overview -->
+        <!-- ================================================================= -->
+        <div id="batch-tab-overview" class="batch-tab-view space-y-6">
+          
+          <!-- Score Distribution & Subject Performance (2-col grid) -->
+          <div class="grid gap-6 lg:grid-cols-2">
+            
+            <!-- Score Distribution -->
+            <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+              <div class="flex items-center gap-1.5">
+                <h2 class="text-base font-semibold text-gray-900">Score Distribution</h2>
+                <span title="Histogram of student scores across all exams. Each bar is a 10-pt bucket." class="text-muted hover:text-slate-800 cursor-help"><i class="ph-bold ph-info text-xs"></i></span>
+              </div>
+              <p class="text-xs text-muted mt-0.5">Distribution across all exams</p>
+              <div class="mt-4 h-60 relative">
+                <canvas id="batchScoreDistChart"></canvas>
+              </div>
+            </div>
+
+            <!-- Subject Performance Radar -->
+            <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+              <div class="flex items-center gap-1.5">
+                <h2 class="text-base font-semibold text-gray-900">Subject Performance</h2>
+                <span title="Average accuracy per subject across all exams in range" class="text-muted hover:text-slate-800 cursor-help"><i class="ph-bold ph-info text-xs"></i></span>
+              </div>
+              <p class="text-xs text-muted mt-0.5">Average accuracy by subject</p>
+              <div class="mt-4 h-60 relative">
+                <canvas id="batchSubjectRadarChart"></canvas>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Topic × Bloom's Taxonomy Matrix -->
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+            <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
+              <div class="flex items-center gap-3">
+                <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-primary/10">
+                  <i class="ph-duotone ph-brain text-xl text-primary"></i>
+                </div>
+                <div>
+                  <h2 class="text-base font-semibold text-gray-900">Topic × Bloom's Taxonomy</h2>
+                  <p class="text-xs text-muted" id="batch-blooms-meta">78 students · 1,840 attempts · 68% overall accuracy</p>
+                </div>
+              </div>
+
+              <div class="flex items-center gap-2">
+                <div class="flex items-center gap-1.5 rounded-lg border border-border bg-slate-50 px-2.5 py-1 text-xs text-slate-700">
+                  <i class="ph-bold ph-funnel-simple text-muted"></i>
+                  <select id="batch-blooms-subject-filter" onchange="filterBloomsSubject(this.value)" class="bg-transparent outline-none cursor-pointer">
+                    <option value="all">All subjects</option>
+                    <option value="sub-phy">Physics</option>
+                    <option value="sub-chem">Chemistry</option>
+                    <option value="sub-math">Mathematics</option>
+                  </select>
+                </div>
+                <span class="rounded-lg border border-border bg-white px-2.5 py-1 text-xs font-medium text-muted">
+                  How this works
+                </span>
+              </div>
+            </div>
+
+            <div class="overflow-x-auto">
+              <table class="w-full border-separate border-spacing-0 text-sm" id="batch-blooms-table">
+                <thead>
+                  <tr class="border-b border-border text-[11px] font-semibold uppercase tracking-wider text-muted">
+                    <th class="sticky left-0 bg-surface pb-2 pr-3 text-left">Topic</th>
+                    <th class="pb-2 px-1 text-center">Remember</th>
+                    <th class="pb-2 px-1 text-center">Understand</th>
+                    <th class="pb-2 px-1 text-center">Apply</th>
+                    <th class="pb-2 px-1 text-center">Analyse</th>
+                    <th class="pb-2 px-1 text-center">Evaluate</th>
+                    <th class="pb-2 px-1 text-center">Create</th>
+                    <th class="pb-2 px-1 text-center">Topic Avg</th>
+                  </tr>
+                </thead>
+                <tbody id="batch-blooms-tbody"></tbody>
+                <tfoot id="batch-blooms-tfoot"></tfoot>
+              </table>
+            </div>
+          </div>
+
+          <!-- Weakest Topics Table -->
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+            <div class="flex items-center gap-1.5 mb-1">
+              <h2 class="text-base font-semibold text-gray-900">Weakest Topics</h2>
+              <span title="Topics sorted by lowest accuracy. Prime candidates for remedial classes." class="text-muted hover:text-slate-800 cursor-help"><i class="ph-bold ph-info text-xs"></i></span>
+            </div>
+            <p class="text-xs text-muted mb-4">Topics where students struggle the most (sorted by accuracy ascending)</p>
+            
+            <div class="overflow-x-auto">
+              <table class="w-full text-left text-sm">
+                <thead>
+                  <tr class="border-b border-border text-xs font-semibold uppercase tracking-wider text-muted">
+                    <th class="pb-2 pr-4">Topic</th>
+                    <th class="pb-2 pr-4">Subject</th>
+                    <th class="pb-2 pr-4 text-right">Questions</th>
+                    <th class="pb-2 pr-4 text-right">Correct</th>
+                    <th class="pb-2 text-right">Accuracy</th>
+                  </tr>
+                </thead>
+                <tbody id="batch-weakest-topics-tbody"></tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Student Leaderboard Table -->
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+            <div class="flex items-center gap-3 mb-4">
+              <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-amber-100">
+                <i class="ph-duotone ph-trophy text-lg text-amber-600"></i>
+              </div>
+              <div>
+                <div class="flex items-center gap-1.5">
+                  <h2 class="text-base font-semibold text-gray-900">Student Leaderboard</h2>
+                  <span title="Students ranked by rolling average across range. Click column headers to sort." class="text-muted hover:text-slate-800 cursor-help"><i class="ph-bold ph-info text-xs"></i></span>
+                </div>
+                <p class="text-xs text-muted">78 students · Click headers to sort</p>
+              </div>
+            </div>
+
+            <div class="overflow-x-auto">
+              <table class="w-full text-left text-sm">
+                <thead>
+                  <tr class="border-b border-border text-xs font-semibold uppercase tracking-wider text-muted">
+                    <th class="cursor-pointer pb-2 pr-3" onclick="sortBatchStudents('rank')">
+                      <span class="flex items-center gap-1"># <span id="sort-icon-rank">▲</span></span>
+                    </th>
+                    <th class="cursor-pointer pb-2 pr-3" onclick="sortBatchStudents('name')">
+                      <span class="flex items-center gap-1">Student <span id="sort-icon-name"></span></span>
+                    </th>
+                    <th class="cursor-pointer pb-2 pr-3 text-right" onclick="sortBatchStudents('averagePercentage')">
+                      <span class="flex items-center justify-end gap-1">Avg Score <span id="sort-icon-averagePercentage"></span></span>
+                    </th>
+                    <th class="cursor-pointer pb-2 pr-3 text-right" onclick="sortBatchStudents('averagePercentile')">
+                      <span class="flex items-center justify-end gap-1">Percentile <span id="sort-icon-averagePercentile"></span></span>
+                    </th>
+                    <th class="cursor-pointer pb-2 text-right" onclick="sortBatchStudents('examsAttempted')">
+                      <span class="flex items-center justify-end gap-1">Exams <span id="sort-icon-examsAttempted"></span></span>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody id="batch-students-roster-tbody"></tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Tier Segmentation Panel (Top / Middle / Bottom) -->
+          <div class="space-y-4">
+            <div>
+              <h2 class="text-base font-semibold text-gray-900">Cohort Tier Segmentation</h2>
+              <p class="text-xs text-muted">Tri-tier capability breakdown highlighting mastery and deficit zones</p>
+            </div>
+            <div class="grid gap-6 md:grid-cols-3" id="batch-tier-segmentation-container"></div>
+          </div>
+
+          <!-- At-Risk Students List in Batch -->
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+            <div class="flex items-center gap-3 mb-4">
+              <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-red-100">
+                <i class="ph-duotone ph-warning text-lg text-red-600"></i>
+              </div>
+              <div>
+                <div class="flex items-center gap-1.5">
+                  <h2 class="text-base font-semibold text-gray-900">At-Risk Students</h2>
+                  <span title="Students flagged with rolling averages below 50% or declining trends" class="text-muted hover:text-slate-800 cursor-help"><i class="ph-bold ph-info text-xs"></i></span>
+                </div>
+                <p class="text-xs text-muted">Students with consistently declining performance</p>
+              </div>
+            </div>
+
+            <div class="space-y-2.5" id="batch-atrisk-overview-list"></div>
+          </div>
+
+          <!-- Student-vs-Batch Lookup (StudentBatchRank) -->
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+            <div class="mb-4">
+              <h2 class="text-base font-semibold text-gray-900">Where does a student stand?</h2>
+              <p class="text-xs text-muted">Search a student in this batch — see their percentile, gap to top, and subject deltas vs batch peers.</p>
+            </div>
+
+            <div class="relative max-w-md mb-4">
+              <div class="flex items-center gap-2 rounded-xl border border-border bg-white px-3 py-2 text-sm shadow-xs">
+                <i class="ph-bold ph-magnifying-glass text-muted"></i>
+                <input type="text" id="batch-student-lookup-input" oninput="onStudentLookupInput(this.value)" placeholder="Search by name or roll number…" class="flex-1 bg-transparent text-sm outline-none placeholder:text-muted">
+              </div>
+              <div id="batch-student-lookup-results" class="absolute z-20 mt-1 w-full bg-white border border-border rounded-xl shadow-lg max-h-48 overflow-y-auto hidden"></div>
+            </div>
+
+            <!-- Student Standing Card Output -->
+            <div id="batch-student-standing-card" class="space-y-4 rounded-2xl border border-border bg-slate-50/70 p-5"></div>
+          </div>
+
+        </div>
+
+        <!-- ================================================================= -->
+        <!-- SUB-TAB 2: Bell Curve -->
+        <!-- ================================================================= -->
+        <div id="batch-tab-bell-curve" class="batch-tab-view space-y-4 hidden">
+          <!-- Tab Intro -->
+          <div class="rounded-2xl border border-border bg-surface p-5 shadow-xs">
+            <p class="text-[11px] font-semibold uppercase tracking-[0.14em] text-muted">About this view</p>
+            <h3 class="mt-1 text-base font-semibold text-foreground">Bell Curve</h3>
+            <p class="mt-2 text-[13px] leading-relaxed text-muted">Histogram of student averages across the selected date range. The shape shows how the batch is distributed — a tall centre with symmetric tails (a bell) means most students cluster near the mean.</p>
+            <div class="mt-3 flex items-start gap-2 rounded-lg border border-primary/20 bg-primary/5 px-3 py-2.5">
+              <span class="mt-0.5 shrink-0 text-[10px] font-bold uppercase tracking-[0.14em] text-primary">Look for</span>
+              <p class="text-[12px] leading-relaxed text-foreground">Skew left = weak majority pulling the mean down. Twin peaks = two distinct performance groups that need different strategies. Flat shape = no clear typical performer.</p>
+            </div>
+          </div>
+
+          <!-- 3 KPI Cards -->
+          <div class="grid gap-4 sm:grid-cols-3">
+            <div class="rounded-xl border border-border bg-surface p-4 shadow-xs">
+              <p class="text-xs font-medium text-muted">Mean</p>
+              <p class="mt-1 text-2xl font-bold font-mono text-gray-900" id="tab-bell-mean">68%</p>
+            </div>
+            <div class="rounded-xl border border-border bg-surface p-4 shadow-xs">
+              <p class="text-xs font-medium text-muted">Std Dev</p>
+              <p class="mt-1 text-2xl font-bold font-mono text-gray-900" id="tab-bell-stddev">13 pts</p>
+            </div>
+            <div class="rounded-xl border border-border bg-surface p-4 shadow-xs">
+              <p class="text-xs font-medium text-muted">Students</p>
+              <p class="mt-1 text-2xl font-bold font-mono text-gray-900" id="tab-bell-students">78</p>
+            </div>
+          </div>
+
+          <!-- Score Distribution Histogram -->
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+            <h3 class="text-base font-semibold text-gray-900 mb-2">Score Distribution & Gaussian Fit</h3>
+            <div class="h-64 relative">
+              <canvas id="tabBellCurveCanvas"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================================================================= -->
+        <!-- SUB-TAB 3: Box Plot -->
+        <!-- ================================================================= -->
+        <div id="batch-tab-box-plot" class="batch-tab-view space-y-4 hidden">
+          <!-- Tab Intro -->
+          <div class="rounded-2xl border border-border bg-surface p-5 shadow-xs">
+            <p class="text-[11px] font-semibold uppercase tracking-[0.14em] text-muted">About this view</p>
+            <h3 class="mt-1 text-base font-semibold text-foreground">Box Plot</h3>
+            <p class="mt-2 text-[13px] leading-relaxed text-muted">Per-subject five-number summary: the box spans the 25th–75th percentile of scores, the line inside is the median, and the whiskers reach the best and worst typical scores. One box per subject.</p>
+            <div class="mt-3 flex items-start gap-2 rounded-lg border border-primary/20 bg-primary/5 px-3 py-2.5">
+              <span class="mt-0.5 shrink-0 text-[10px] font-bold uppercase tracking-[0.14em] text-primary">Look for</span>
+              <p class="text-[12px] leading-relaxed text-foreground">A tall box = scores are all over the place in that subject (inconsistent teaching or mixed foundations). A low median with a small box = the whole batch is uniformly weak.</p>
+            </div>
+          </div>
+
+          <!-- 2 KPI Cards -->
+          <div class="grid gap-4 sm:grid-cols-2">
+            <div class="rounded-xl border border-border bg-surface p-4 shadow-xs">
+              <p class="text-xs font-medium text-muted">Median</p>
+              <p class="mt-1 text-2xl font-bold font-mono text-gray-900" id="tab-boxplot-median">68%</p>
+            </div>
+            <div class="rounded-xl border border-border bg-surface p-4 shadow-xs">
+              <p class="text-xs font-medium text-muted">Subjects</p>
+              <p class="mt-1 text-2xl font-bold font-mono text-gray-900" id="tab-boxplot-subjects">3</p>
+            </div>
+          </div>
+
+          <!-- Spread bars -->
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+            <h3 class="text-base font-semibold text-gray-900 mb-4">Score Spread by Subject</h3>
+            <div class="space-y-4" id="tab-boxplot-list"></div>
+          </div>
+        </div>
+
+        <!-- ================================================================= -->
+        <!-- SUB-TAB 4: At-Risk Students -->
+        <!-- ================================================================= -->
+        <div id="batch-tab-at-risk" class="batch-tab-view space-y-4 hidden">
+          <!-- Tab Intro -->
+          <div class="rounded-2xl border border-border bg-surface p-5 shadow-xs">
+            <p class="text-[11px] font-semibold uppercase tracking-[0.14em] text-muted">About this view</p>
+            <h3 class="mt-1 text-base font-semibold text-foreground">At-Risk Students</h3>
+            <p class="mt-2 text-[13px] leading-relaxed text-muted">Students flagged by the classifier based on their last 3 exams. A student qualifies if their latest <40%, rolling avg <50%, or they show a declining trend. Risk score 0–100 combines decline and absolute shortfall.</p>
+            <div class="mt-3 flex items-start gap-2 rounded-lg border border-primary/20 bg-primary/5 px-3 py-2.5">
+              <span class="mt-0.5 shrink-0 text-[10px] font-bold uppercase tracking-[0.14em] text-primary">Look for</span>
+              <p class="text-[12px] leading-relaxed text-foreground">Above 70 = critical — act this week. 50–70 = assign targeted DPPs. Below 50 = monitor. Use the dedicated at-risk page for the full list + recommended actions.</p>
+            </div>
+          </div>
+
+          <div class="rounded-2xl border border-border bg-surface overflow-hidden shadow-xs">
+            <div class="px-6 py-4 border-b border-border">
+              <h3 class="text-base font-semibold text-gray-900" id="tab-atrisk-header">3 At-Risk Students</h3>
+            </div>
+            <div class="divide-y divide-border" id="tab-atrisk-roster"></div>
+          </div>
+        </div>
+
+        <!-- ================================================================= -->
+        <!-- SUB-TAB 5: Attendance -->
+        <!-- ================================================================= -->
+        <div id="batch-tab-attendance" class="batch-tab-view space-y-4 hidden">
+          <!-- Tab Intro -->
+          <div class="rounded-2xl border border-border bg-surface p-5 shadow-xs">
+            <p class="text-[11px] font-semibold uppercase tracking-[0.14em] text-muted">About this view</p>
+            <h3 class="mt-1 text-base font-semibold text-foreground">Attendance</h3>
+            <p class="mt-2 text-[13px] leading-relaxed text-muted">Histogram of student attendance percentages across the selected range. Each bar is a 10-point bucket (0–10, 10–20, …, 90–100). Helps spot whether attendance is healthy or clusters at the low end.</p>
+            <div class="mt-3 flex items-start gap-2 rounded-lg border border-primary/20 bg-primary/5 px-3 py-2.5">
+              <span class="mt-0.5 shrink-0 text-[10px] font-bold uppercase tracking-[0.14em] text-primary">Look for</span>
+              <p class="text-[12px] leading-relaxed text-foreground">Below 60% is the typical intervention threshold — students in those buckets are candidates for parent outreach. A right-skewed shape (most students ≥80%) is what you want.</p>
+            </div>
+          </div>
+
+          <!-- 3 KPI Cards -->
+          <div class="grid gap-4 sm:grid-cols-3">
+            <div class="rounded-xl border border-border bg-surface p-4 shadow-xs">
+              <p class="text-xs font-medium text-muted">Avg Attendance</p>
+              <p class="mt-1 text-2xl font-bold font-mono text-gray-900" id="tab-att-avg">89%</p>
+            </div>
+            <div class="rounded-xl border border-border bg-surface p-4 shadow-xs">
+              <p class="text-xs font-medium text-muted">Below 60%</p>
+              <p class="mt-1 text-2xl font-bold font-mono text-danger" id="tab-att-below">2</p>
+            </div>
+            <div class="rounded-xl border border-border bg-surface p-4 shadow-xs">
+              <p class="text-xs font-medium text-muted">Total Students</p>
+              <p class="mt-1 text-2xl font-bold font-mono text-gray-900" id="tab-att-total">78</p>
+            </div>
+          </div>
+
+          <!-- Histogram -->
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+            <h3 class="text-base font-semibold text-gray-900 mb-2">Attendance Distribution</h3>
+            <div class="h-64 relative">
+              <canvas id="tabAttendanceCanvas"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================================================================= -->
+        <!-- SUB-TAB 6: Syllabus Coverage -->
+        <!-- ================================================================= -->
+        <div id="batch-tab-syllabus" class="batch-tab-view space-y-4 hidden">
+          <!-- Tab Intro -->
+          <div class="rounded-2xl border border-border bg-surface p-5 shadow-xs">
+            <p class="text-[11px] font-semibold uppercase tracking-[0.14em] text-muted">About this view</p>
+            <h3 class="mt-1 text-base font-semibold text-foreground">Syllabus Coverage</h3>
+            <p class="mt-2 text-[13px] leading-relaxed text-muted">Weekly comparison of topics planned vs topics actually taught. Planned line comes from the teaching calendar; covered line is populated as classes are logged. Gap = schedule drift.</p>
+            <div class="mt-3 flex items-start gap-2 rounded-lg border border-primary/20 bg-primary/5 px-3 py-2.5">
+              <span class="mt-0.5 shrink-0 text-[10px] font-bold uppercase tracking-[0.14em] text-primary">Look for</span>
+              <p class="text-[12px] leading-relaxed text-foreground">Covered line dipping below planned means the batch is falling behind — course-correct before gaps compound. A perfectly aligned pair of lines is the healthy state.</p>
+            </div>
+          </div>
+
+          <!-- 2 KPI Cards -->
+          <div class="grid gap-4 sm:grid-cols-2">
+            <div class="rounded-xl border border-border bg-surface p-4 shadow-xs">
+              <p class="text-xs font-medium text-muted">Coverage</p>
+              <p class="mt-1 text-2xl font-bold font-mono text-gray-900" id="tab-syl-pct">78%</p>
+            </div>
+            <div class="rounded-xl border border-border bg-surface p-4 shadow-xs">
+              <p class="text-xs font-medium text-muted">Topics Covered</p>
+              <p class="mt-1 text-2xl font-bold font-mono text-gray-900" id="tab-syl-topics">42 / 54</p>
+            </div>
+          </div>
+
+          <!-- Weekly Flow Line Chart -->
+          <div class="rounded-2xl border border-border bg-surface p-6 shadow-xs">
+            <h3 class="text-base font-semibold text-gray-900 mb-2">Weekly Cumulative Progression (Planned vs Covered)</h3>
+            <div class="h-64 relative">
+              <canvas id="tabSyllabusCanvas"></canvas>
+            </div>
+          </div>
+        </div>
+
+      </div>
+

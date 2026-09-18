@@ -1,0 +1,146 @@
+[
+  {
+    "id": "b-srmpc-madhapur",
+    "name": "SR MPC",
+    "branchId": "b-madhapur",
+    "branchName": "Madhapur",
+    "targetExam": "JEE Mains",
+    "studentCount": 78,
+    "avgScore": 68.4,
+    "passRate": 94.5,
+    "topScore": 284,
+    "atRiskCount": 3,
+    "faculty": [
+      {
+        "name": "Prof. Anand Kumar",
+        "subject": "Mathematics"
+      },
+      {
+        "name": "Dr. Srinivas Rao",
+        "subject": "Physics"
+      },
+      {
+        "name": "Dr. Venkat Reddy",
+        "subject": "Chemistry"
+      }
+    ]
+  },
+  {
+    "id": "b-srmpc-shamirpet",
+    "name": "SR MPC",
+    "branchId": "b-shamirpet",
+    "branchName": "Shamirpet",
+    "targetExam": "JEE Mains",
+    "studentCount": 408,
+    "avgScore": 64.2,
+    "passRate": 91,
+    "topScore": 278,
+    "atRiskCount": 8,
+    "faculty": [
+      {
+        "name": "Dr. Srinivas Rao",
+        "subject": "Physics"
+      },
+      {
+        "name": "Dr. Venkat Reddy",
+        "subject": "Chemistry"
+      },
+      {
+        "name": "Prof. Anand Kumar",
+        "subject": "Mathematics"
+      }
+    ]
+  },
+  {
+    "id": "b-srbipc-madhapur",
+    "name": "SR BIPC",
+    "branchId": "b-madhapur",
+    "branchName": "Madhapur",
+    "targetExam": "NEET",
+    "studentCount": 64,
+    "avgScore": 62.8,
+    "passRate": 89.2,
+    "topScore": 672,
+    "atRiskCount": 2,
+    "faculty": [
+      {
+        "name": "Dr. Padma Sundari",
+        "subject": "Biology"
+      },
+      {
+        "name": "Dr. Ramesh Babu",
+        "subject": "Botany"
+      },
+      {
+        "name": "Dr. Swathi Naidu",
+        "subject": "Zoology"
+      }
+    ]
+  },
+  {
+    "id": "b-jrmpc-shamirpet",
+    "name": "JR MPC",
+    "branchId": "b-shamirpet",
+    "branchName": "Shamirpet",
+    "targetExam": "JEE Mains",
+    "studentCount": 365,
+    "avgScore": 59.5,
+    "passRate": 86.4,
+    "topScore": 260,
+    "atRiskCount": 6,
+    "faculty": [
+      {
+        "name": "Prof. Lakshmi Devi",
+        "subject": "Physics"
+      },
+      {
+        "name": "Dr. Venkat Reddy",
+        "subject": "Chemistry"
+      }
+    ]
+  },
+  {
+    "id": "b-srmpc-suchitra",
+    "name": "SR MPC",
+    "branchId": "b-suchitra",
+    "branchName": "Suchitra",
+    "targetExam": "JEE Mains",
+    "studentCount": 222,
+    "avgScore": 57.1,
+    "passRate": 85,
+    "topScore": 254,
+    "atRiskCount": 4,
+    "faculty": [
+      {
+        "name": "Prof. Lakshmi Devi",
+        "subject": "Physics"
+      },
+      {
+        "name": "Prof. Anand Kumar",
+        "subject": "Mathematics"
+      }
+    ]
+  },
+  {
+    "id": "b-jrbipc-kokapet",
+    "name": "JR BIPC",
+    "branchId": "b-kokapet",
+    "branchName": "Kokapet",
+    "targetExam": "NEET",
+    "studentCount": 140,
+    "avgScore": 55.4,
+    "passRate": 83.2,
+    "topScore": 640,
+    "atRiskCount": 3,
+    "faculty": [
+      {
+        "name": "Dr. Padma Sundari",
+        "subject": "Biology"
+      },
+      {
+        "name": "Dr. Swathi Naidu",
+        "subject": "Zoology"
+      }
+    ]
+  }
+]
