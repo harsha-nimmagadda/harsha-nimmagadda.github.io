@@ -1,0 +1,647 @@
+[
+  {
+    "id": "exam-2e04db96-a269-49e7-9217-9d29c6aac29a",
+    "name": "SR MPC STAR MAINS_WTM-21_29-08-2026",
+    "date": "29 Aug 2026",
+    "score": "34/300",
+    "total_score": 34,
+    "total_max": 300,
+    "percentage": 11,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "19/100",
+        "percentage": 24,
+        "color": "amber"
+      },
+      {
+        "name": "Mathematics",
+        "score": "12/100",
+        "percentage": 16,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "3/100",
+        "percentage": 4,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "Numerical",
+        "topic": "Modulus and Argument",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 3,
+        "time": "0m 3s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "Numerical",
+        "topic": "Proteins – Amino Acids and Peptide Bond",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 6,
+        "time": "0m 6s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Disaccharides – Sucrose, Maltose, Lactose",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 61,
+        "time": "1m 1s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Tangents and Normals to Conics",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 50,
+        "time": "0m 50s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Argand Plane and Polar Representation",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 18,
+        "time": "0m 18s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Carbohydrates – Classification, Structure, Functions",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 72,
+        "time": "1m 12s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Preparation and Properties of Amines",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 545,
+        "time": "9m 5s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Ohm's Law and Resistance",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 3,
+        "time": "0m 3s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  },
+  {
+    "id": "exam-ecf230ca-33c0-4780-bf93-cb6935b148ce",
+    "name": "SR STAR ADV_WTA-19_(2020_P2)_24-08-2026",
+    "date": "24 Aug 2026",
+    "score": "12/198",
+    "total_score": 12,
+    "total_max": 198,
+    "percentage": 6,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "12/72",
+        "percentage": 17,
+        "color": "amber"
+      },
+      {
+        "name": "Mathematics",
+        "score": "2/72",
+        "percentage": 6,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "-2/72",
+        "percentage": 0,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "Numerical",
+        "topic": "Maxima and Minima – First and Second Derivative Tests",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 1,
+        "time": "0m 1s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "Numerical",
+        "topic": "Motional EMF",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Fundamental Concepts in Organic Reaction Mechanism",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 586,
+        "time": "9m 46s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 4,
+        "type": "Numerical",
+        "topic": "Electrophilic Aromatic Substitution",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 43,
+        "time": "0m 43s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 5,
+        "type": "Numerical",
+        "topic": "Motional EMF",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Multi",
+        "topic": "Group 13 – Boron Family: Borax, Boron Hydrides, Aluminium",
+        "status": "partial",
+        "marks": "1 marks",
+        "time_sec": 164,
+        "time": "2m 44s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Multi",
+        "topic": "Locus Problems & Parametric Approach in Coordinate Geometry",
+        "status": "wrong",
+        "marks": "-2 marks",
+        "time_sec": 32,
+        "time": "0m 32s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 8,
+        "type": "Numerical",
+        "topic": "Aldol Condensation, Cannizzaro Reaction",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 64,
+        "time": "1m 4s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      }
+    ]
+  },
+  {
+    "id": "exam-133e2981-3798-4afd-8b38-8b6825f25f32",
+    "name": "SR MPC STAR MAINS_WTM-20_22-08-2026",
+    "date": "22 Aug 2026",
+    "score": "68/300",
+    "total_score": 68,
+    "total_max": 300,
+    "percentage": 23,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "12/100",
+        "percentage": 16,
+        "color": "amber"
+      },
+      {
+        "name": "Mathematics",
+        "score": "42/100",
+        "percentage": 44,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "14/100",
+        "percentage": 16,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Faraday's Laws of Induction",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 159,
+        "time": "2m 39s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 2,
+        "type": "Numerical",
+        "topic": "Reactions of Carboxylic Acids",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 181,
+        "time": "3m 1s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Motional EMF",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 5,
+        "time": "0m 5s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Bar Magnet and Magnetic Dipole",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 3,
+        "time": "0m 3s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Preparation and Properties of Amines",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 70,
+        "time": "1m 10s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Reactions – Dehydration, Oxidation",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 2,
+        "time": "0m 2s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Basicity of Amines",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 128,
+        "time": "2m 8s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Preparation and Properties of Amines",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 186,
+        "time": "3m 6s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Calculation Error"
+      }
+    ]
+  },
+  {
+    "id": "exam-93991c3b-98b2-4a5a-a336-3d8dfb4a06c4",
+    "name": "SR STAR ADV_WTA-18_(2020_P1)_17-08-2026",
+    "date": "17 Aug 2026",
+    "score": "18/198",
+    "total_score": 18,
+    "total_max": 198,
+    "percentage": 9,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "5/72",
+        "percentage": 6,
+        "color": "amber"
+      },
+      {
+        "name": "Mathematics",
+        "score": "3/72",
+        "percentage": 6,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "10/72",
+        "percentage": 17,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Locus Problems & Parametric Approach in Coordinate Geometry",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 127,
+        "time": "2m 7s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Chord of Contact",
+        "status": "correct",
+        "marks": "3 marks",
+        "time_sec": 506,
+        "time": "8m 26s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "Numerical",
+        "topic": "Bar Magnet and Magnetic Dipole",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 118,
+        "time": "1m 58s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 4,
+        "type": "Numerical",
+        "topic": "Hyperbola – Standard Form, Eccentricity, Asymptotes",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 6,
+        "time": "0m 6s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Multi",
+        "topic": "Haloarenes – Properties and Nucleophilic Aromatic Substitution",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 101,
+        "time": "1m 41s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Multi",
+        "topic": "Hyperbola – Standard Form, Eccentricity, Asymptotes",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 109,
+        "time": "1m 49s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 7,
+        "type": "Numerical",
+        "topic": "Magnetic Field due to Straight Wire, Circular Loop, Solenoid, Toroid",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Multi",
+        "topic": "Ellipse – Standard Form, Eccentricity",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 137,
+        "time": "2m 17s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      }
+    ]
+  },
+  {
+    "id": "exam-515ed04d-1f84-46ee-8875-47fc25571d22",
+    "name": "SR MPC STAR MAINS_WTM-19_16-08-2026",
+    "date": "16 Aug 2026",
+    "score": "32/300",
+    "total_score": 32,
+    "total_max": 300,
+    "percentage": 11,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "15/100",
+        "percentage": 20,
+        "color": "amber"
+      },
+      {
+        "name": "Mathematics",
+        "score": "10/100",
+        "percentage": 16,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "7/100",
+        "percentage": 8,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Reactions of Carboxylic Acids",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 92,
+        "time": "1m 32s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 2,
+        "type": "Numerical",
+        "topic": "Hyperbola – Standard Form, Eccentricity, Asymptotes",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 1,
+        "time": "0m 1s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Dia-, Para- and Ferromagnetic Substances",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Hyperbola – Standard Form, Eccentricity, Asymptotes",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 7,
+        "time": "0m 7s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Hyperbola – Standard Form, Eccentricity, Asymptotes",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 21,
+        "time": "0m 21s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Physical and Chemical Properties of Aldehydes and Ketones",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 25,
+        "time": "0m 25s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Hyperbola – Standard Form, Eccentricity, Asymptotes",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 7,
+        "time": "0m 7s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Hyperbola – Standard Form, Eccentricity, Asymptotes",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 25,
+        "time": "0m 25s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      }
+    ]
+  }
+]

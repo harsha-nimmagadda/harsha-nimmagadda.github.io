@@ -1,0 +1,266 @@
+[
+  {
+    "subject": "Current Affairs & GK",
+    "percentage": 54,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Major national and international sporting events",
+        "percentage": 51
+      },
+      {
+        "name": "Art, culture and heritage of India",
+        "percentage": 50
+      },
+      {
+        "name": "Awards and records in sports",
+        "percentage": 46
+      },
+      {
+        "name": "ICC Cricket events and outcomes",
+        "percentage": 75
+      },
+      {
+        "name": "Olympics, Commonwealth Games, Asian Games",
+        "percentage": 60
+      },
+      {
+        "name": "Indian athletes and achievements",
+        "percentage": 67
+      },
+      {
+        "name": "International organisations and their activities (UN, WTO, IMF, World Bank, etc.) (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Major political developments in India",
+        "percentage": 100
+      },
+      {
+        "name": "Ancient Indian history and civilizations (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Major rivers, mountains and geographical features (Critical)",
+        "percentage": 0
+      }
+    ]
+  },
+  {
+    "subject": "Logical Reasoning",
+    "percentage": 93,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Displacement and Final Position",
+        "percentage": 100
+      },
+      {
+        "name": "Rotation-based Direction Problems",
+        "percentage": 100
+      },
+      {
+        "name": "Cardinal and Ordinal Directions",
+        "percentage": 67
+      }
+    ]
+  },
+  {
+    "subject": "Logical Reasoning (BITSAT)",
+    "percentage": 83,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Displacement and Final Position",
+        "percentage": 95
+      },
+      {
+        "name": "Rotation-based Direction Problems",
+        "percentage": 80
+      },
+      {
+        "name": "Letter Coding",
+        "percentage": 50
+      },
+      {
+        "name": "Cardinal and Ordinal Directions",
+        "percentage": 67
+      },
+      {
+        "name": "Number Series: Missing Number",
+        "percentage": 86
+      },
+      {
+        "name": "Symbol-based Coding",
+        "percentage": 100
+      },
+      {
+        "name": "Substitution Coding",
+        "percentage": 67
+      },
+      {
+        "name": "Coded Arithmetic Operations",
+        "percentage": 80
+      },
+      {
+        "name": "Word-based Classification",
+        "percentage": 100
+      },
+      {
+        "name": "Word Analogy",
+        "percentage": 100
+      },
+      {
+        "name": "Number Analogy",
+        "percentage": 50
+      },
+      {
+        "name": "Number-based Classification",
+        "percentage": 75
+      },
+      {
+        "name": "Number Coding",
+        "percentage": 100
+      },
+      {
+        "name": "Letter-based Classification",
+        "percentage": 100
+      },
+      {
+        "name": "Coded Blood Relations",
+        "percentage": 100
+      },
+      {
+        "name": "Letter Series",
+        "percentage": 100
+      },
+      {
+        "name": "Machine Input-Output: Shifting and Rearrangement",
+        "percentage": 67
+      },
+      {
+        "name": "Reverse Coding",
+        "percentage": 67
+      },
+      {
+        "name": "Figure Matrix Problems",
+        "percentage": 100
+      },
+      {
+        "name": "Completing the Figure Series",
+        "percentage": 100
+      },
+      {
+        "name": "Letter Analogy",
+        "percentage": 100
+      },
+      {
+        "name": "Odd Figure Out",
+        "percentage": 100
+      },
+      {
+        "name": "Mixed Analogy",
+        "percentage": 100
+      },
+      {
+        "name": "Alphanumeric Series",
+        "percentage": 100
+      },
+      {
+        "name": "Wrong Number in Series (Critical)",
+        "percentage": 0
+      }
+    ]
+  },
+  {
+    "subject": "Quantitative Techniques",
+    "percentage": 27,
+    "color": "amber",
+    "subsections": [
+      {
+        "name": "Simple Interest Formula and Applications (Critical)",
+        "percentage": 14
+      },
+      {
+        "name": "Discount and Successive Discounts",
+        "percentage": 80
+      },
+      {
+        "name": "Profit and Loss Percentage (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Cost Price, Selling Price, Marked Price",
+        "percentage": 38
+      },
+      {
+        "name": "Applications of Percentage in Profit/Loss",
+        "percentage": 50
+      },
+      {
+        "name": "Ratio and its Properties",
+        "percentage": 60
+      },
+      {
+        "name": "Dishonest Dealings and False Weights",
+        "percentage": 75
+      },
+      {
+        "name": "Mixing of Two or More Solutions (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Proportion: Direct and Inverse (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Basic Percentage Calculations (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Change in Average (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Alligation Rule (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Successive Percentage Change (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Arithmetic Mean (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Partnership-based Profit Sharing (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Weighted Average",
+        "percentage": 50
+      },
+      {
+        "name": "Percentage Change (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Replacement of Mixtures",
+        "percentage": 50
+      },
+      {
+        "name": "Population Growth and Depreciation (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Partnership (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Average Speed (Critical)",
+        "percentage": 0
+      }
+    ]
+  }
+]

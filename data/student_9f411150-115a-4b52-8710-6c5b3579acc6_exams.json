@@ -1,0 +1,647 @@
+[
+  {
+    "id": "exam-5fc87e53-7748-4d44-9574-f897f4658817",
+    "name": "SR BIPC NCERT Test-19 (29-08-2026)",
+    "date": "29 Aug 2026",
+    "score": "179/320",
+    "total_score": 179,
+    "total_max": 320,
+    "percentage": 56,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "116/160",
+        "percentage": 78,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "36/80",
+        "percentage": 45,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "27/80",
+        "percentage": 35,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Factors affecting photosynthesis",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 22,
+        "time": "0m 22s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Birth control – need and methods, contraception and medical termination of pregnancy (MTP)",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 5,
+        "time": "0m 5s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Physical properties and stability",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 3,
+        "time": "0m 3s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Alternating current and EMF — peak and RMS values",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "C3 and C4 pathways",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 8,
+        "time": "0m 8s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Need for reproductive health and prevention of sexually transmitted diseases (STDs)",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 46,
+        "time": "0m 46s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Birth control – need and methods, contraception and medical termination of pregnancy (MTP)",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 100,
+        "time": "1m 40s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "C3 and C4 pathways",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 19,
+        "time": "0m 19s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  },
+  {
+    "id": "exam-7926f4c6-7bb0-480c-a8fd-e92d47f2671b",
+    "name": "SR BiPC NEET WTN-18_(24-08-2026)",
+    "date": "24 Aug 2026",
+    "score": "300/720",
+    "total_score": 300,
+    "total_max": 720,
+    "percentage": 42,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "210/360",
+        "percentage": 63,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "41/180",
+        "percentage": 27,
+        "color": "amber"
+      },
+      {
+        "name": "Physics",
+        "score": "49/180",
+        "percentage": 31,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Nomenclature, acidic nature",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 2,
+        "time": "0m 2s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Nomenclature, acidic nature",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 11,
+        "time": "0m 11s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Composition of blood — plasma and formed elements",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 19,
+        "time": "0m 19s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Nomenclature, acidic nature",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 11,
+        "time": "0m 11s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Nomenclature, acidic nature",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 77,
+        "time": "1m 17s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Parturition and lactation",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 19,
+        "time": "0m 19s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Haloalkanes – nomenclature, nature of C-X bond, physical and chemical properties, mechanism of substitution reactions",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 8,
+        "time": "0m 8s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Light reaction — photosystems and electron transport",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 18,
+        "time": "0m 18s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-ed8068e9-dc2d-4e89-bf8a-3035b28c0ce2",
+    "name": "SR BiPC NEET WTN-17_(17-08-2026)",
+    "date": "17 Aug 2026",
+    "score": "234/720",
+    "total_score": 234,
+    "total_max": 720,
+    "percentage": 33,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "183/360",
+        "percentage": 57,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "29/180",
+        "percentage": 18,
+        "color": "amber"
+      },
+      {
+        "name": "Physics",
+        "score": "22/180",
+        "percentage": 16,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Male reproductive system",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 10,
+        "time": "0m 10s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Lenz's law",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 26,
+        "time": "0m 26s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Gametogenesis — spermatogenesis and oogenesis",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 41,
+        "time": "0m 41s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Male reproductive system",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 26,
+        "time": "0m 26s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Para-, dia- and ferro-magnetic substances with examples",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 198,
+        "time": "3m 18s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Induced EMF and current",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 1,
+        "time": "0m 1s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Gametogenesis — spermatogenesis and oogenesis",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 9,
+        "time": "0m 9s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Photosynthetic pigments and role of light",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 41,
+        "time": "0m 41s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-15b495cb-4f49-4e18-9c93-d51e06118ef8",
+    "name": "SR BiPC NCERT Test (16-08-2026)",
+    "date": "16 Aug 2026",
+    "score": "125/320",
+    "total_score": 125,
+    "total_max": 320,
+    "percentage": 39,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "84/160",
+        "percentage": 58,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "30/80",
+        "percentage": 40,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "11/80",
+        "percentage": 20,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Methods of preparation of aldehydes and ketones",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 92,
+        "time": "1m 32s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Nomenclature, nature of carbonyl group",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 66,
+        "time": "1m 6s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Reactivity of alpha hydrogen in aldehydes – aldol condensation",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 55,
+        "time": "0m 55s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Female reproductive system",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 22,
+        "time": "0m 22s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Light reaction — photosystems and electron transport",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 26,
+        "time": "0m 26s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Induced EMF and current",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 1433,
+        "time": "23m 53s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Induced EMF and current",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 7,
+        "time": "0m 7s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Gametogenesis — spermatogenesis and oogenesis",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 134,
+        "time": "2m 14s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      }
+    ]
+  },
+  {
+    "id": "exam-fcd11fe1-ac3c-45c0-87e4-566b2a98d40b",
+    "name": "SR BiPC NEET WTN-16 (10-08-2026)",
+    "date": "10 Aug 2026",
+    "score": "222/720",
+    "total_score": 222,
+    "total_max": 720,
+    "percentage": 31,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "159/360",
+        "percentage": 50,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "55/180",
+        "percentage": 33,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "8/180",
+        "percentage": 11,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Mechanism of nucleophilic addition",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 2,
+        "time": "0m 2s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Photosynthesis as a means of autotrophic nutrition",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 121,
+        "time": "2m 1s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Pigments involved in photosynthesis",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 35,
+        "time": "0m 35s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Photosynthesis as a means of autotrophic nutrition",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 9,
+        "time": "0m 9s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Methods of preparation of aldehydes and ketones",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 2,
+        "time": "0m 2s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Nomenclature, nature of carbonyl group",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 1,
+        "time": "0m 1s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Photosynthesis as a means of autotrophic nutrition",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 57,
+        "time": "0m 57s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Bar magnet as an equivalent solenoid",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 275,
+        "time": "4m 35s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  }
+]

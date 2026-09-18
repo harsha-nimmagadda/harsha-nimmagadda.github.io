@@ -1,0 +1,647 @@
+[
+  {
+    "id": "exam-5fc87e53-7748-4d44-9574-f897f4658817",
+    "name": "SR BIPC NCERT Test-19 (29-08-2026)",
+    "date": "29 Aug 2026",
+    "score": "281/320",
+    "total_score": 281,
+    "total_max": 320,
+    "percentage": 88,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "155/160",
+        "percentage": 98,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "60/80",
+        "percentage": 80,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "66/80",
+        "percentage": 85,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "C3 and C4 pathways",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 39,
+        "time": "0m 39s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Factors affecting photosynthesis",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 30,
+        "time": "0m 30s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Preparation: reduction of nitro compounds, nitriles, amides (Hofmann's method), alkylation, Gabriel phthalimide synthesis",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 50,
+        "time": "0m 50s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Amines – Nomenclature, Classification and Structure",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 39,
+        "time": "0m 39s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "C3 and C4 pathways",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 69,
+        "time": "1m 9s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Infertility and assisted reproductive technologies – IVF, ZIFT, GIFT (elementary idea for general awareness)",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 25,
+        "time": "0m 25s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "EMF equation: $\\mathcal{E} = NBA\\omega\\sin\\omega t$",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 411,
+        "time": "6m 51s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Factors affecting photosynthesis",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 24,
+        "time": "0m 24s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-7926f4c6-7bb0-480c-a8fd-e92d47f2671b",
+    "name": "SR BiPC NEET WTN-18_(24-08-2026)",
+    "date": "24 Aug 2026",
+    "score": "591/720",
+    "total_score": 591,
+    "total_max": 720,
+    "percentage": 82,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "330/360",
+        "percentage": 93,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "131/180",
+        "percentage": 78,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "130/180",
+        "percentage": 76,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Calvin cycle (C3 pathway)",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 31,
+        "time": "0m 31s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Embryonic development up to blastocyst",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 38,
+        "time": "0m 38s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Chemiosmotic hypothesis",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 117,
+        "time": "1m 57s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Eddy currents",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 17,
+        "time": "0m 17s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Energy stored in a capacitor",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 74,
+        "time": "1m 14s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Endomembrane system — ER, Golgi complex, lysosomes, vacuoles",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 98,
+        "time": "1m 38s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Haloarenes – nature of C-X bond, substitution reactions (directive influence of halogen for monosubstituted compounds only)",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 170,
+        "time": "2m 50s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "applied_wrong_concept"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Self and mutual inductance",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 31,
+        "time": "0m 31s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-e992eba8-974a-4da8-90d7-3f72b4ac207b",
+    "name": "SR BiPC NCERT Test (AI PAPER)_(22-08-2026)",
+    "date": "22 Aug 2026",
+    "score": "260/320",
+    "total_score": 260,
+    "total_max": 320,
+    "percentage": 81,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "155/160",
+        "percentage": 98,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "70/80",
+        "percentage": 90,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "35/80",
+        "percentage": 55,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Fertilisation and implantation",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 20,
+        "time": "0m 20s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Self and mutual inductance",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 16,
+        "time": "0m 16s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "confused_multiple_options"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Chemiosmotic hypothesis",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 22,
+        "time": "0m 22s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Eddy currents",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 25,
+        "time": "0m 25s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Reproductive health — problems and strategies",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 21,
+        "time": "0m 21s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Self and mutual inductance",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 174,
+        "time": "2m 54s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Fertilisation and implantation",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 27,
+        "time": "0m 27s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Chemiosmotic hypothesis",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 24,
+        "time": "0m 24s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-ed8068e9-dc2d-4e89-bf8a-3035b28c0ce2",
+    "name": "SR BiPC NEET WTN-17_(17-08-2026)",
+    "date": "17 Aug 2026",
+    "score": "572/720",
+    "total_score": 572,
+    "total_max": 720,
+    "percentage": 79,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "325/360",
+        "percentage": 92,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "108/180",
+        "percentage": 67,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "139/180",
+        "percentage": 80,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Photosynthetic pigments and role of light",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 11,
+        "time": "0m 11s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Female reproductive system",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 78,
+        "time": "1m 18s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Methods of preparation of aldehydes and ketones",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 129,
+        "time": "2m 9s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Induced EMF and current",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 81,
+        "time": "1m 21s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Physical and chemical properties",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 27,
+        "time": "0m 27s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Mechanism of nucleophilic addition",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 36,
+        "time": "0m 36s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Early experiments and site of photosynthesis",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 13,
+        "time": "0m 13s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Nomenclature, acidic nature",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 48,
+        "time": "0m 48s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "wrong_option_despite_solving"
+      }
+    ]
+  },
+  {
+    "id": "exam-15b495cb-4f49-4e18-9c93-d51e06118ef8",
+    "name": "SR BiPC NCERT Test (16-08-2026)",
+    "date": "16 Aug 2026",
+    "score": "252/320",
+    "total_score": 252,
+    "total_max": 320,
+    "percentage": 79,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "150/160",
+        "percentage": 95,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "62/80",
+        "percentage": 80,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "40/80",
+        "percentage": 55,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Lenz's law",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 212,
+        "time": "3m 32s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Faraday's laws",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 164,
+        "time": "2m 44s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Microscopic anatomy of testis and ovary",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 61,
+        "time": "1m 1s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Light reaction — photosystems and electron transport",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 104,
+        "time": "1m 44s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "confused_multiple_options"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Light reaction — photosystems and electron transport",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 82,
+        "time": "1m 22s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Light reaction — photosystems and electron transport",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 36,
+        "time": "0m 36s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Lenz's law",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 52,
+        "time": "0m 52s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Induced EMF and current",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 253,
+        "time": "4m 13s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Calculation Error"
+      }
+    ]
+  }
+]

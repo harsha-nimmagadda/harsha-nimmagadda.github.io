@@ -1,0 +1,213 @@
+{
+  "pacing_metrics": [
+    {
+      "subject": "Chemistry",
+      "accuracy": 22,
+      "avg_time_sec": 111,
+      "exam_count": 18
+    },
+    {
+      "subject": "Mathematics",
+      "accuracy": 23,
+      "avg_time_sec": 128,
+      "exam_count": 18
+    },
+    {
+      "subject": "Physics",
+      "accuracy": 17,
+      "avg_time_sec": 93,
+      "exam_count": 18
+    }
+  ],
+  "topic_recovery_history": [
+    {
+      "subject": "Physics",
+      "topic": "Displacement Relation for Progressive Wave",
+      "early_acc": 0,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Mathematics",
+      "topic": "Vector Triple Product",
+      "early_acc": 0,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Chemistry",
+      "topic": "Optical Rotation and Chirality",
+      "early_acc": 0,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Chemistry",
+      "topic": "Carbohydrates – Classification, Structure, Functions",
+      "early_acc": 0,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Mathematics",
+      "topic": "Sum, Product, Quotient Rules of Differentiation",
+      "early_acc": 0,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Chemistry",
+      "topic": "Mole Concept and Molar Masses",
+      "early_acc": 0,
+      "recent_acc": 67
+    }
+  ],
+  "heatmap_data": [
+    {
+      "subject": "Chemistry",
+      "chapters": [
+        {
+          "name": "Abnormal Molar Masses",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Acidity of Carboxylic Acids",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 7,
+          "med_qs": 14,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Acids, Bases – Arrhenius, Brønsted-Lowry, Lewis Concepts",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 12,
+          "med_qs": 17,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Actinides — electronic configuration, comparison with lanthanides",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "English Language",
+      "chapters": [
+        {
+          "name": "General Module",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 50,
+          "med_qs": 10,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Logical Reasoning",
+      "chapters": [
+        {
+          "name": "General Module",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 30,
+          "med_qs": 20,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "chapters": [
+        {
+          "name": "Addition and subtraction of matrices",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Adjoint of a matrix",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 33,
+          "med_qs": 18,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "AM, GM, HM and Their Relations",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 25,
+          "med_qs": 4,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Angle between Two Lines",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 50,
+          "med_qs": 6,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "chapters": [
+        {
+          "name": "Acceleration — average and instantaneous",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Acceleration due to Gravity",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 3,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Ampere's Circuital Law",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Area under v-t graph = displacement",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 50,
+          "med_qs": 4,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2780 @@
+[
+  {
+    "subject": "Biology",
+    "percentage": 60,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Basic concepts of immunology – vaccines",
+        "percentage": 65
+      },
+      {
+        "name": "Human endocrine system – hypothalamus, pituitary gland, pineal gland, thyroid, parathyroid, adrenal, pancreas, gonads",
+        "percentage": 71
+      },
+      {
+        "name": "Transcription, genetic code, translation",
+        "percentage": 52
+      },
+      {
+        "name": "Processes of recombinant DNA technology",
+        "percentage": 62
+      },
+      {
+        "name": "Tools of recombinant DNA technology – restriction enzymes, PCR, gel electrophoresis",
+        "percentage": 83
+      },
+      {
+        "name": "Generation and conduction of nerve impulse",
+        "percentage": 58
+      },
+      {
+        "name": "Photosynthesis as a means of autotrophic nutrition",
+        "percentage": 67
+      },
+      {
+        "name": "Genetically modified organisms – Bt crops",
+        "percentage": 83
+      },
+      {
+        "name": "Nervous system in humans – central nervous system, peripheral nervous system and visceral nervous system",
+        "percentage": 81
+      },
+      {
+        "name": "Skeletal system and its functions",
+        "percentage": 40
+      },
+      {
+        "name": "Cancer",
+        "percentage": 65
+      },
+      {
+        "name": "HIV and AIDS",
+        "percentage": 80
+      },
+      {
+        "name": "Tissue culture",
+        "percentage": 60
+      },
+      {
+        "name": "Phylum Annelida (Critical)",
+        "percentage": 11
+      },
+      {
+        "name": "Structure of DNA and RNA",
+        "percentage": 50
+      },
+      {
+        "name": "Application of biotechnology in health and agriculture",
+        "percentage": 47
+      },
+      {
+        "name": "Genetic engineering (recombinant DNA technology)",
+        "percentage": 76
+      },
+      {
+        "name": "Population interactions – mutualism, competition, predation, parasitism, commensalism, amensalism",
+        "percentage": 56
+      },
+      {
+        "name": "Anatomy of dicot and monocot root, stem and leaf",
+        "percentage": 56
+      },
+      {
+        "name": "Cloning vectors",
+        "percentage": 73
+      },
+      {
+        "name": "Ethical issues related to biotechnology",
+        "percentage": 77
+      },
+      {
+        "name": "Gene expression and regulation – lac operon",
+        "percentage": 38
+      },
+      {
+        "name": "Site of photosynthesis",
+        "percentage": 75
+      },
+      {
+        "name": "Transgenic organisms",
+        "percentage": 92
+      },
+      {
+        "name": "Calvin cycle (C3 pathway)",
+        "percentage": 83
+      },
+      {
+        "name": "Endocrine glands and hormones",
+        "percentage": 70
+      },
+      {
+        "name": "Skeletal muscle – contractile proteins and muscle contraction",
+        "percentage": 60
+      },
+      {
+        "name": "Mechanism of hormone action (elementary idea)",
+        "percentage": 70
+      },
+      {
+        "name": "Disorders of muscular and skeletal system – myasthenia gravis, tetany, muscular dystrophy, arthritis, osteoporosis, gout (High Leak)",
+        "percentage": 22
+      },
+      {
+        "name": "Flower – parts and their modifications",
+        "percentage": 67
+      },
+      {
+        "name": "Neuron and nerves",
+        "percentage": 100
+      },
+      {
+        "name": "Reproductive health — problems and strategies",
+        "percentage": 63
+      },
+      {
+        "name": "Population and ecological adaptations",
+        "percentage": 38
+      },
+      {
+        "name": "Algae (Critical)",
+        "percentage": 13
+      },
+      {
+        "name": "Light reaction — photosystems and electron transport",
+        "percentage": 75
+      },
+      {
+        "name": "Pollination – types, agencies and examples",
+        "percentage": 50
+      },
+      {
+        "name": "Urine formation, osmoregulation",
+        "percentage": 57
+      },
+      {
+        "name": "Menstrual cycle",
+        "percentage": 86
+      },
+      {
+        "name": "Cyclic and non-cyclic photophosphorylation",
+        "percentage": 71
+      },
+      {
+        "name": "Population attributes – growth, birth and death rate, age distribution (Critical)",
+        "percentage": 14
+      },
+      {
+        "name": "Population growth – exponential and logistic growth (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Role of digestive enzymes and gastrointestinal hormones",
+        "percentage": 57
+      },
+      {
+        "name": "Chemiosmotic hypothesis",
+        "percentage": 43
+      },
+      {
+        "name": "Biosafety issues – Biopiracy and patents",
+        "percentage": 100
+      },
+      {
+        "name": "Placenta and pregnancy",
+        "percentage": 67
+      },
+      {
+        "name": "Organisms and environment – habitat and niche",
+        "percentage": 50
+      },
+      {
+        "name": "Mechanism of breathing and its regulation in humans – exchange of gases, transport of gases and regulation of respiration (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Composition of blood, blood groups, coagulation of blood (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Secondary growth (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Ecosystem — structure, function and components",
+        "percentage": 60
+      },
+      {
+        "name": "Joints",
+        "percentage": 40
+      },
+      {
+        "name": "DNA replication",
+        "percentage": 40
+      },
+      {
+        "name": "Endomembrane system — ER, Golgi complex, lysosomes, vacuoles",
+        "percentage": 60
+      },
+      {
+        "name": "Morphology, anatomy and functions of different systems (digestive, circulatory, respiratory, nervous and reproductive) of an insect – cockroach (brief account only)",
+        "percentage": 60
+      },
+      {
+        "name": "Photochemical and biosynthetic phases of photosynthesis",
+        "percentage": 60
+      },
+      {
+        "name": "Ecosystem services (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Hypo- and hyperactivity and related disorders – dwarfism, acromegaly, cretinism, goitre, exophthalmic goitre, diabetes, Addison's disease",
+        "percentage": 100
+      },
+      {
+        "name": "Pigments involved in photosynthesis",
+        "percentage": 50
+      },
+      {
+        "name": "Respiratory volumes and lung capacities (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Fertilisation and implantation",
+        "percentage": 100
+      },
+      {
+        "name": "Growth — phases, rate and conditions (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Morphology and modifications of leaf",
+        "percentage": 100
+      },
+      {
+        "name": "Parturition and lactation",
+        "percentage": 75
+      },
+      {
+        "name": "Embryonic development up to blastocyst",
+        "percentage": 50
+      },
+      {
+        "name": "Cardiac cycle, cardiac output, ECG (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "What is living? (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Regulation of kidney function – renin-angiotensin system, atrial natriuretic factor, ADH and diabetes insipidus",
+        "percentage": 50
+      },
+      {
+        "name": "Cell to cell transport – diffusion, facilitated diffusion, active transport",
+        "percentage": 100
+      },
+      {
+        "name": "Chemical constituents of living cells – biomolecules (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Classes of Vertebrata – Cyclostomata, Chondrichthyes, Osteichthyes, Amphibia, Reptilia, Aves and Mammalia (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Salient features and classification of Fungi",
+        "percentage": 100
+      },
+      {
+        "name": "Application of biotechnology in health – human insulin production, gene therapy (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Anatomy and functions of different parts of flowering plants – meristematic and permanent tissues (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Reproduction, a characteristic feature of all organisms for continuation of species (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Development of seed and formation of fruit",
+        "percentage": 100
+      },
+      {
+        "name": "Cell envelope, cell membrane",
+        "percentage": 67
+      },
+      {
+        "name": "Phylum Platyhelminthes (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Population attributes – growth, birth rate and death rate, age distribution (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Pteridophytes",
+        "percentage": 100
+      },
+      {
+        "name": "Core Fundamentals (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Cell cycle (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Asexual reproduction – binary fission, sporulation, budding, gemmule, fragmentation, vegetative propagation",
+        "percentage": 100
+      },
+      {
+        "name": "Microscopic anatomy of testis and ovary (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Organ and organ system (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Phylum Chordata",
+        "percentage": 100
+      },
+      {
+        "name": "Salient features and classification of Monera",
+        "percentage": 100
+      },
+      {
+        "name": "Sewage treatment",
+        "percentage": 100
+      },
+      {
+        "name": "Structure of prokaryotic and eukaryotic cell",
+        "percentage": 50
+      },
+      {
+        "name": "Phylum Echinodermata",
+        "percentage": 100
+      },
+      {
+        "name": "Phylum Coelenterata (Cnidaria)",
+        "percentage": 100
+      },
+      {
+        "name": "Outbreeding devices (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Organisms and environment (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Population interactions – mutualism, competition, predation, parasitism (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Nutrient cycling",
+        "percentage": 100
+      },
+      {
+        "name": "Nitrogen metabolism – nitrogen cycle, biological nitrogen fixation",
+        "percentage": 100
+      },
+      {
+        "name": "Cilia, flagella and centrioles",
+        "percentage": 100
+      },
+      {
+        "name": "Regulation of cardiac activity",
+        "percentage": 100
+      },
+      {
+        "name": "Gametogenesis — spermatogenesis and oogenesis",
+        "percentage": 100
+      },
+      {
+        "name": "Counter current mechanism and concentration of urine (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Differentiation, dedifferentiation and redifferentiation",
+        "percentage": 100
+      },
+      {
+        "name": "Respiratory disorders – asthma, emphysema, occupational respiratory disorders",
+        "percentage": 100
+      },
+      {
+        "name": "Mendelian disorders – thalassaemia, sickle cell anaemia (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Ribosomes",
+        "percentage": 100
+      },
+      {
+        "name": "Animal tissues – epithelial, connective, muscular and nervous tissues (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Role of hormones as messengers and regulators (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Role of other organs in excretion",
+        "percentage": 100
+      },
+      {
+        "name": "Mechanism of hormone action",
+        "percentage": 100
+      },
+      {
+        "name": "Types of natural selection (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Search for genetic material and DNA as genetic material",
+        "percentage": 100
+      },
+      {
+        "name": "Composition of blood — plasma and formed elements (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Seed (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "C3 and C4 pathways",
+        "percentage": 100
+      },
+      {
+        "name": "DNA packaging (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Double circulation",
+        "percentage": 100
+      },
+      {
+        "name": "In household food processing",
+        "percentage": 100
+      },
+      {
+        "name": "Immunity and vaccines",
+        "percentage": 100
+      },
+      {
+        "name": "Gymnosperms and Angiosperms",
+        "percentage": 100
+      },
+      {
+        "name": "Structure of skeletal muscle and contractile proteins (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Endomembrane system – endoplasmic reticulum, Golgi bodies, lysosomes, vacuoles",
+        "percentage": 100
+      },
+      {
+        "name": "Human insulin and vaccine production (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Modes of excretion – ammonotelism, ureotelism, uricotelism (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Transgenic animals (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Human circulatory system – structure of human heart and blood vessels",
+        "percentage": 100
+      },
+      {
+        "name": "Plant growth regulators — auxins, gibberellins and cytokinins (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Plant growth regulators — ethylene and abscisic acid",
+        "percentage": 100
+      },
+      {
+        "name": "Plant cell and animal cell – cell wall and cell membrane",
+        "percentage": 100
+      }
+    ]
+  },
+  {
+    "subject": "Botany",
+    "percentage": 61,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Permanent tissues — simple and complex",
+        "percentage": 40
+      },
+      {
+        "name": "The leaf — venation, types, phyllotaxy and modifications",
+        "percentage": 62
+      },
+      {
+        "name": "Ribosomes, cytoskeleton, cilia, flagella and centrosome",
+        "percentage": 69
+      },
+      {
+        "name": "Anatomy of dicot and monocot stem",
+        "percentage": 71
+      },
+      {
+        "name": "Meiosis I and Meiosis II",
+        "percentage": 43
+      },
+      {
+        "name": "The stem — types and modifications",
+        "percentage": 59
+      },
+      {
+        "name": "Cell cycle — interphase and M phase",
+        "percentage": 64
+      },
+      {
+        "name": "Proteins and amino acids",
+        "percentage": 79
+      },
+      {
+        "name": "The flower — parts, symmetry, aestivation and placentation",
+        "percentage": 74
+      },
+      {
+        "name": "The root — regions, types and modifications",
+        "percentage": 80
+      },
+      {
+        "name": "Anatomy of dicot and monocot leaf",
+        "percentage": 54
+      },
+      {
+        "name": "Endomembrane system — ER, Golgi complex, lysosomes, vacuoles",
+        "percentage": 74
+      },
+      {
+        "name": "Structure of anther and microsporogenesis",
+        "percentage": 43
+      },
+      {
+        "name": "Pollination — types, agents and adaptations",
+        "percentage": 57
+      },
+      {
+        "name": "Prokaryotic cell — cell envelope, mesosome, ribosome, inclusion bodies",
+        "percentage": 62
+      },
+      {
+        "name": "Nucleus — nuclear envelope, chromatin and nucleolus",
+        "percentage": 79
+      },
+      {
+        "name": "The seed — structure of dicot and monocot seeds",
+        "percentage": 53
+      },
+      {
+        "name": "Chemical composition of living tissue",
+        "percentage": 78
+      },
+      {
+        "name": "Carbohydrates",
+        "percentage": 56
+      },
+      {
+        "name": "Cell theory and overview of the cell",
+        "percentage": 88
+      },
+      {
+        "name": "Bryophytes — liverworts and mosses",
+        "percentage": 38
+      },
+      {
+        "name": "Pteridophytes",
+        "percentage": 40
+      },
+      {
+        "name": "Post-fertilisation events — endosperm and embryo development",
+        "percentage": 47
+      },
+      {
+        "name": "Algae — chlorophyceae, phaeophyceae, rhodophyceae (High Leak)",
+        "percentage": 29
+      },
+      {
+        "name": "Pollen grain — structure, viability and pollen allergy",
+        "percentage": 64
+      },
+      {
+        "name": "Mitosis — karyokinesis and cytokinesis",
+        "percentage": 64
+      },
+      {
+        "name": "Mitochondria and plastids",
+        "percentage": 71
+      },
+      {
+        "name": "Anatomy of dicot and monocot root",
+        "percentage": 50
+      },
+      {
+        "name": "Cell wall and cell membrane",
+        "percentage": 79
+      },
+      {
+        "name": "Lipids",
+        "percentage": 79
+      },
+      {
+        "name": "Kingdom Fungi — phycomycetes, ascomycetes, basidiomycetes, deuteromycetes",
+        "percentage": 38
+      },
+      {
+        "name": "Enzyme inhibition, cofactors and coenzymes",
+        "percentage": 69
+      },
+      {
+        "name": "Outbreeding devices and pollen-pistil interaction",
+        "percentage": 58
+      },
+      {
+        "name": "Enzymes — nature and classification",
+        "percentage": 73
+      },
+      {
+        "name": "Tissue systems — epidermal, ground and vascular",
+        "percentage": 73
+      },
+      {
+        "name": "Meristematic tissues — apical, intercalary and lateral (High Leak)",
+        "percentage": 27
+      },
+      {
+        "name": "Nucleic acids",
+        "percentage": 80
+      },
+      {
+        "name": "Mechanism of enzyme action",
+        "percentage": 80
+      },
+      {
+        "name": "Gymnosperms (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "The pistil, ovule (megasporangium) and embryo sac",
+        "percentage": 70
+      },
+      {
+        "name": "Megasporogenesis and development of female gametophyte",
+        "percentage": 78
+      },
+      {
+        "name": "Kingdom Monera — archaebacteria and eubacteria",
+        "percentage": 75
+      },
+      {
+        "name": "Taxonomy and systematics",
+        "percentage": 75
+      },
+      {
+        "name": "Taxonomic hierarchy — species to kingdom",
+        "percentage": 75
+      },
+      {
+        "name": "What is living? — characteristics of living organisms",
+        "percentage": 83
+      },
+      {
+        "name": "Eukaryotic cell — plant cell versus animal cell",
+        "percentage": 83
+      },
+      {
+        "name": "Structure of bacterial cell",
+        "percentage": 50
+      },
+      {
+        "name": "Inflorescence — racemose and cymose (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Significance of mitosis",
+        "percentage": 83
+      },
+      {
+        "name": "Double fertilisation",
+        "percentage": 100
+      },
+      {
+        "name": "Factors affecting enzyme activity",
+        "percentage": 80
+      },
+      {
+        "name": "Two kingdom and five kingdom systems of classification",
+        "percentage": 40
+      },
+      {
+        "name": "Apomixis, polyembryony and parthenocarpy",
+        "percentage": 60
+      },
+      {
+        "name": "Lichens and mycorrhiza (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Viruses, viroids and prions (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Vegetative propagation — natural and artificial",
+        "percentage": 75
+      },
+      {
+        "name": "Classification of plants into major groups (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Discovery and general characteristics of viruses (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Artificial hybridisation",
+        "percentage": 50
+      },
+      {
+        "name": "Kingdom Protista — chrysophytes, dinoflagellates, euglenoids, slime moulds",
+        "percentage": 75
+      },
+      {
+        "name": "The fruit — types (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Kingdom Plantae and Kingdom Animalia — salient features",
+        "percentage": 67
+      },
+      {
+        "name": "Family Fabaceae",
+        "percentage": 100
+      },
+      {
+        "name": "Photosynthetic pigments and role of light",
+        "percentage": 67
+      },
+      {
+        "name": "Binomial nomenclature and ICBN rules",
+        "percentage": 100
+      },
+      {
+        "name": "Seed and fruit formation (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Structure of TMV and bacteriophage",
+        "percentage": 67
+      },
+      {
+        "name": "Types of classification — artificial, natural and phylogenetic (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Packaging of DNA helix — nucleosome and chromatin",
+        "percentage": 100
+      },
+      {
+        "name": "Ecological adaptations — hydrophytes, xerophytes, mesophytes, halophytes",
+        "percentage": 100
+      },
+      {
+        "name": "Angiosperms — salient features (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Secondary growth in dicot stem and root",
+        "percentage": 100
+      },
+      {
+        "name": "Classification of bacteria by shape and flagellation (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Fermentation",
+        "percentage": 100
+      },
+      {
+        "name": "Means of transport — diffusion, facilitated diffusion, active transport",
+        "percentage": 50
+      },
+      {
+        "name": "Significance of meiosis",
+        "percentage": 50
+      },
+      {
+        "name": "Growth — phases, rate and conditions",
+        "percentage": 100
+      },
+      {
+        "name": "Family Liliaceae (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Economic importance of bacteria (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Early experiments and site of photosynthesis",
+        "percentage": 100
+      },
+      {
+        "name": "The DNA — structure and Watson-Crick model",
+        "percentage": 100
+      },
+      {
+        "name": "Diversity in the living world (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Chemical nature and classification of enzymes (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Calvin cycle (C3 pathway)",
+        "percentage": 100
+      },
+      {
+        "name": "Asexual reproduction — fission, budding, fragmentation, spore formation",
+        "percentage": 100
+      },
+      {
+        "name": "Plant life cycles and alternation of generations",
+        "percentage": 100
+      },
+      {
+        "name": "Translation — tRNA, ribosome and the stages",
+        "percentage": 100
+      },
+      {
+        "name": "Plant breeding — steps and objectives",
+        "percentage": 100
+      },
+      {
+        "name": "Plant breeding for disease and pest resistance",
+        "percentage": 100
+      },
+      {
+        "name": "Nutrition in bacteria — autotrophic and heterotrophic (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Photoperiodism and vernalisation (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Microbodies",
+        "percentage": 100
+      },
+      {
+        "name": "Microbes in production of biogas (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Reproduction in bacteria — binary fission and genetic recombination (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Microbes in industrial products — antibiotics, organic acids, enzymes",
+        "percentage": 100
+      },
+      {
+        "name": "Seed dormancy and germination",
+        "percentage": 100
+      },
+      {
+        "name": "Semi-technical description of a typical flowering plant",
+        "percentage": 100
+      },
+      {
+        "name": "Linkage and crossing over",
+        "percentage": 100
+      },
+      {
+        "name": "Family Solanaceae (Critical)",
+        "percentage": 0
+      }
+    ]
+  },
+  {
+    "subject": "Chemistry",
+    "percentage": 32,
+    "color": "rose",
+    "subsections": [
+      {
+        "name": "Classification and IUPAC nomenclature of organic compounds (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Alcohols – nomenclature, methods of preparation, physical and chemical properties",
+        "percentage": 37
+      },
+      {
+        "name": "Haloalkanes – nomenclature, nature of C-X bond, physical and chemical properties, mechanism of substitution reactions (High Leak)",
+        "percentage": 28
+      },
+      {
+        "name": "Alkanes – nomenclature, isomerism, conformations (ethane only), physical properties, chemical reactions (High Leak)",
+        "percentage": 32
+      },
+      {
+        "name": "Free radicals, carbocations, carbanions (High Leak)",
+        "percentage": 29
+      },
+      {
+        "name": "Phenols – nomenclature, methods of preparation, physical and chemical properties, acidic nature of phenol, electrophilic substitution reactions, uses of phenols",
+        "percentage": 57
+      },
+      {
+        "name": "Alkenes – nomenclature, structure of double bond, geometrical isomerism, physical properties, methods of preparation, chemical reactions (High Leak)",
+        "percentage": 24
+      },
+      {
+        "name": "Concept of hybridisation involving s, p and d orbitals and shapes of some simple molecules (High Leak)",
+        "percentage": 27
+      },
+      {
+        "name": "Nomenclature, acidic nature",
+        "percentage": 53
+      },
+      {
+        "name": "Equilibrium constant (Critical)",
+        "percentage": 6
+      },
+      {
+        "name": "Electronic displacements in a covalent bond – inductive effect, electromeric effect, resonance and hyper-conjugation (High Leak)",
+        "percentage": 24
+      },
+      {
+        "name": "General introduction, methods of qualitative and quantitative analysis",
+        "percentage": 37
+      },
+      {
+        "name": "Mechanism of nucleophilic addition",
+        "percentage": 46
+      },
+      {
+        "name": "Optical rotation",
+        "percentage": 37
+      },
+      {
+        "name": "Atomic and molecular masses, mole concept (High Leak)",
+        "percentage": 26
+      },
+      {
+        "name": "Haloarenes – nature of C-X bond, substitution reactions (directive influence of halogen for monosubstituted compounds only)",
+        "percentage": 65
+      },
+      {
+        "name": "Rutherford's model and its limitations (Critical)",
+        "percentage": 4
+      },
+      {
+        "name": "First law of thermodynamics – internal energy and enthalpy (Critical)",
+        "percentage": 19
+      },
+      {
+        "name": "Enthalpy of bond dissociation, combustion, formation, atomisation, sublimation, phase transition, ionisation, solution and dilution (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Bohr's model and its limitations (High Leak)",
+        "percentage": 21
+      },
+      {
+        "name": "Ethers – nomenclature, methods of preparation, physical and chemical properties, uses (High Leak)",
+        "percentage": 27
+      },
+      {
+        "name": "Methods of preparation, physical and chemical properties (High Leak)",
+        "percentage": 29
+      },
+      {
+        "name": "Electrolysis and laws of electrolysis (Faraday's laws) (High Leak)",
+        "percentage": 24
+      },
+      {
+        "name": "Oxidation number (High Leak)",
+        "percentage": 30
+      },
+      {
+        "name": "Hydrogen peroxide – preparation, reactions, uses and structure (High Leak)",
+        "percentage": 32
+      },
+      {
+        "name": "Chemical reactions, stoichiometry and calculations based on stoichiometry",
+        "percentage": 39
+      },
+      {
+        "name": "Reactivity of alpha hydrogen in aldehydes – aldol condensation",
+        "percentage": 56
+      },
+      {
+        "name": "Aromatic hydrocarbons – benzene: resonance, aromaticity, chemical properties, Hückel rule (High Leak)",
+        "percentage": 29
+      },
+      {
+        "name": "Electron gain enthalpy (High Leak)",
+        "percentage": 31
+      },
+      {
+        "name": "Methods of preparation of aldehydes and ketones",
+        "percentage": 81
+      },
+      {
+        "name": "Acidic character of alkynes",
+        "percentage": 56
+      },
+      {
+        "name": "Introduction of entropy as state function (Critical)",
+        "percentage": 13
+      },
+      {
+        "name": "Bond parameters",
+        "percentage": 40
+      },
+      {
+        "name": "Concept of pH (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Variation of conductivity with concentration – Kohlrausch's law (High Leak)",
+        "percentage": 27
+      },
+      {
+        "name": "Nature of matter, laws of chemical combination (High Leak)",
+        "percentage": 29
+      },
+      {
+        "name": "Surroundings, work, heat, energy, extensive and intensive properties, state functions",
+        "percentage": 50
+      },
+      {
+        "name": "Ionisation enthalpy (High Leak)",
+        "percentage": 21
+      },
+      {
+        "name": "Ionic equilibrium – ionisation of acids and bases (High Leak)",
+        "percentage": 23
+      },
+      {
+        "name": "General introduction, electronic configuration, occurrence, oxidation states, trends in physical and chemical properties (High Leak)",
+        "percentage": 31
+      },
+      {
+        "name": "Polar character of covalent bond (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Molecular orbital theory of homonuclear diatomic molecules (qualitative idea only) (Critical)",
+        "percentage": 8
+      },
+      {
+        "name": "Electrophiles and nucleophiles",
+        "percentage": 42
+      },
+      {
+        "name": "Concept of orbital – quantum numbers (Critical)",
+        "percentage": 8
+      },
+      {
+        "name": "Methods of polymerisation – addition and condensation",
+        "percentage": 58
+      },
+      {
+        "name": "Periodic trends in properties of elements – atomic radii, ionic radii (Critical)",
+        "percentage": 9
+      },
+      {
+        "name": "Kinetic energy and molecular speeds (elementary idea)",
+        "percentage": 45
+      },
+      {
+        "name": "Nomenclature, nature of carbonyl group",
+        "percentage": 60
+      },
+      {
+        "name": "Dual nature of matter and light",
+        "percentage": 40
+      },
+      {
+        "name": "Alkynes – nomenclature, structure of triple bond, physical properties, methods of preparation, chemical reactions (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Atomic number, isotopes and isobars (High Leak)",
+        "percentage": 30
+      },
+      {
+        "name": "Empirical and molecular formula (High Leak)",
+        "percentage": 30
+      },
+      {
+        "name": "Half-life (only for zero and first order reactions) (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Chemicals in food – preservatives, artificial sweetening agents, elementary idea of antioxidants (High Leak)",
+        "percentage": 22
+      },
+      {
+        "name": "Preparation, chemical reactions and importance in synthetic organic chemistry (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Modern periodic law and present form of periodic table (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "EMF of a cell (Critical)",
+        "percentage": 13
+      },
+      {
+        "name": "Gibbs energy change for spontaneous and non-spontaneous processes (Critical)",
+        "percentage": 13
+      },
+      {
+        "name": "Redox reactions (Critical)",
+        "percentage": 13
+      },
+      {
+        "name": "Classification of hydrocarbons",
+        "percentage": 50
+      },
+      {
+        "name": "Peroxide effect (High Leak)",
+        "percentage": 29
+      },
+      {
+        "name": "Expression of concentration of solutions – molality, molarity, mole fraction, percentage (by volume and mass) (Critical)",
+        "percentage": 14
+      },
+      {
+        "name": "Physical and chemical properties",
+        "percentage": 57
+      },
+      {
+        "name": "Covalent bond (High Leak)",
+        "percentage": 29
+      },
+      {
+        "name": "Geometry of covalent molecules (High Leak)",
+        "percentage": 29
+      },
+      {
+        "name": "IUPAC nomenclature of mononuclear coordination compounds",
+        "percentage": 43
+      },
+      {
+        "name": "Factors affecting equilibrium – Le Chatelier's principle",
+        "percentage": 43
+      },
+      {
+        "name": "Markovnikov's rule (High Leak)",
+        "percentage": 29
+      },
+      {
+        "name": "Mechanism of dehydration (Critical)",
+        "percentage": 14
+      },
+      {
+        "name": "Mechanism of electrophilic addition (Critical)",
+        "percentage": 14
+      },
+      {
+        "name": "VSEPR theory (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Criteria for equilibrium",
+        "percentage": 50
+      },
+      {
+        "name": "Directive influence of functional group in mono-substituted benzene",
+        "percentage": 50
+      },
+      {
+        "name": "Arrhenius equation (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Discovery of electron, proton and neutron",
+        "percentage": 50
+      },
+      {
+        "name": "General introduction, electronic configuration, occurrence, trends in physical and chemical properties, uses (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Homolytic and heterolytic fission of a covalent bond",
+        "percentage": 67
+      },
+      {
+        "name": "Hydrolysis of salts (elementary idea)",
+        "percentage": 50
+      },
+      {
+        "name": "Identification of primary, secondary and tertiary alcohols",
+        "percentage": 67
+      },
+      {
+        "name": "Ionic bond (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Lewis structure (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Measurement of ΔU and ΔH – Hess's law of constant heat summation (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Molar mass, percentage composition",
+        "percentage": 50
+      },
+      {
+        "name": "Rate law and specific rate constant (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Relationship between Gibbs energy change and EMF of a cell (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Classification of oxides (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Nernst equation and its application to chemical cells (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Rules for filling electrons in orbitals – Aufbau principle, Pauli's exclusion principle, Hund's rule",
+        "percentage": 40
+      },
+      {
+        "name": "Structure and stereoisomerism",
+        "percentage": 60
+      },
+      {
+        "name": "Solubility product (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Hydrogen bond (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Concept of oxidation and reduction (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Redox reactions, conductance in electrolytic solutions (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Electronic configuration of atoms",
+        "percentage": 50
+      },
+      {
+        "name": "Standard electrode potential",
+        "percentage": 50
+      },
+      {
+        "name": "Dry cell and lead accumulator (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Principles and methods of extraction – concentration, oxidation, reduction, electrolytic method and refining",
+        "percentage": 50
+      },
+      {
+        "name": "Diagonal relationship (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "de Broglie's relationship",
+        "percentage": 50
+      },
+      {
+        "name": "Compounds of sulphur – sulphur dioxide, sulphuric acid (preparation, properties and uses)",
+        "percentage": 100
+      },
+      {
+        "name": "Order and molecularity of a reaction (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Boyle's law, Charles' law, Gay Lussac's law, Avogadro's law (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Lanthanoids – electronic configuration, oxidation states, chemical reactivity and lanthanoid contraction and its consequences (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Specific and molar conductivity",
+        "percentage": 50
+      },
+      {
+        "name": "Nomenclature of elements with atomic number greater than 100 (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Nitration, sulphonation, halogenation, Friedel-Crafts alkylation and acylation (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Biodegradable and non-biodegradable polymers",
+        "percentage": 50
+      },
+      {
+        "name": "Covalent character of ionic bond (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "General trends in properties of first row transition metals – metallic character, ionisation enthalpy, oxidation states, ionic radii, colour, catalytic property, magnetic properties, interstitial compounds, alloy formation (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Types of organic reactions (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Green chemistry as an alternative tool for reducing pollution",
+        "percentage": 67
+      },
+      {
+        "name": "Group 1 and Group 2 elements – general introduction, electronic configuration, occurrence, anomalous properties of first element of each group",
+        "percentage": 67
+      },
+      {
+        "name": "Heavy water",
+        "percentage": 100
+      },
+      {
+        "name": "Henderson equation (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Valence bond theory (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Van der Waals equation",
+        "percentage": 67
+      },
+      {
+        "name": "Ozone and its reactions (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Balancing redox reactions – in terms of loss and gain of electrons and change in oxidation number method (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Properties of colloids – Tyndall effect, Brownian movement, electrophoresis, coagulation",
+        "percentage": 67
+      },
+      {
+        "name": "Resonance",
+        "percentage": 67
+      },
+      {
+        "name": "Significance of classification, brief history of the development of periodic table",
+        "percentage": 100
+      },
+      {
+        "name": "Some important compounds of boron – borax, boric acid, boron hydrides (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Some important polymers – natural and synthetic like polythene, nylon, polyesters, bakelite, rubber",
+        "percentage": 67
+      },
+      {
+        "name": "Equilibrium in physical and chemical processes (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Dalton's atomic theory (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Copolymerisation",
+        "percentage": 100
+      },
+      {
+        "name": "Concepts of system and types of systems",
+        "percentage": 100
+      },
+      {
+        "name": "Bonding – Werner's theory, VBT and CFT",
+        "percentage": 50
+      },
+      {
+        "name": "Aluminium – uses, reactions with acids and alkalies",
+        "percentage": 100
+      },
+      {
+        "name": "Nomenclature, classification, structure",
+        "percentage": 100
+      },
+      {
+        "name": "Amorphous and crystalline solids (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Liquid state – vapour pressure, viscosity and surface tension (qualitative ideas only) (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Occurrence and principles of extraction of aluminium, copper, zinc and iron",
+        "percentage": 50
+      },
+      {
+        "name": "Anomalous properties of first element of group 13",
+        "percentage": 100
+      },
+      {
+        "name": "Buffer solutions (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Biological importance of Mg and Ca (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Point defects",
+        "percentage": 50
+      },
+      {
+        "name": "Preparation and properties of K2Cr2O7 and KMnO4",
+        "percentage": 100
+      },
+      {
+        "name": "General introduction, electronic configuration, occurrence and characteristics of transition metals",
+        "percentage": 50
+      },
+      {
+        "name": "Raoult's law (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Rate of reaction (average and instantaneous)",
+        "percentage": 50
+      },
+      {
+        "name": "Integrated rate equations for zero and first order reactions",
+        "percentage": 50
+      },
+      {
+        "name": "Environmental pollution – air, water and soil pollution (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Shapes of s, p and d orbitals (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Types of bonding (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Smogs",
+        "percentage": 50
+      },
+      {
+        "name": "General introduction – importance and scope of chemistry",
+        "percentage": 50
+      },
+      {
+        "name": "Emulsion – types of emulsions",
+        "percentage": 50
+      },
+      {
+        "name": "Structure, preparation and uses (brief)",
+        "percentage": 50
+      },
+      {
+        "name": "Trends in chemical reactivity with oxygen, water, hydrogen and halogens (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Factors affecting rate of reaction – concentration, temperature, catalyst",
+        "percentage": 50
+      },
+      {
+        "name": "General introduction to p-block elements (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Activation energy (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Adsorption – physisorption and chemisorption",
+        "percentage": 50
+      },
+      {
+        "name": "Melting and boiling points (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Deviation from ideal behaviour – liquefaction of gases",
+        "percentage": 100
+      },
+      {
+        "name": "Depression of freezing point (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Denaturation of proteins",
+        "percentage": 100
+      },
+      {
+        "name": "Cleansing agents – soaps and detergents, cleansing action (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Uses and environmental effects of dichloromethane, trichloromethane, tetrachloromethane, iodoform, freons, DDT",
+        "percentage": 100
+      },
+      {
+        "name": "Common ion effect (with illustrative examples) (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Strong and weak electrolytes (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Heisenberg's uncertainty principle (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Nucleic acids – DNA and RNA (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Heat capacity and specific heat",
+        "percentage": 100
+      },
+      {
+        "name": "Actinoids – electronic configuration, oxidation states and comparison with lanthanoids (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Classification of solids based on different binding forces (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Vitamins – classification and functions (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Ozone",
+        "percentage": 100
+      },
+      {
+        "name": "Enzymes (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Packing in solids",
+        "percentage": 100
+      },
+      {
+        "name": "Colligative properties – relative lowering of vapour pressure (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Fuel cells (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Abnormal molar mass – van't Hoff factor (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Allotropic forms of carbon (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Physical and chemical properties of carbon",
+        "percentage": 100
+      },
+      {
+        "name": "Physical and chemical properties of water (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Degree of ionisation (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Dynamic nature of equilibrium (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Mechanism of electrophilic substitution (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Valence electrons (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Acid rain (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Trends in variation of properties (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Elevation of boiling point",
+        "percentage": 100
+      },
+      {
+        "name": "Voids (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Stability of half-filled and completely filled orbitals",
+        "percentage": 100
+      },
+      {
+        "name": "Applications of redox reactions (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Ideal gas equation (Critical)",
+        "percentage": 0
+      }
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "percentage": 10,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Transpose, Adjoint and Inverse of a Matrix (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Definite Integral as Limit of Sum (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Linear Differential Equations (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Logarithmic Differentiation (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Properties of Determinants",
+        "percentage": 100
+      },
+      {
+        "name": "Relation between Roots and Coefficients (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Tangent and Normal to a Circle (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Area between Two Curves (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Trigonometric Equations (Critical)",
+        "percentage": 0
+      }
+    ]
+  },
+  {
+    "subject": "Physics",
+    "percentage": 24,
+    "color": "blue",
+    "subsections": [
+      {
+        "name": "Momentum and Newton's second law of motion (Critical)",
+        "percentage": 11
+      },
+      {
+        "name": "Elastic and inelastic collisions in one and two dimensions (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Combination of capacitors in series and in parallel (High Leak)",
+        "percentage": 22
+      },
+      {
+        "name": "Series and parallel combinations of resistors (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Acceleration due to gravity and its variation with altitude, depth and rotation (High Leak)",
+        "percentage": 26
+      },
+      {
+        "name": "Force on a moving charge in uniform magnetic and electric fields",
+        "percentage": 36
+      },
+      {
+        "name": "Isothermal and adiabatic processes (High Leak)",
+        "percentage": 27
+      },
+      {
+        "name": "Uniformly accelerated motion (Critical)",
+        "percentage": 14
+      },
+      {
+        "name": "Static and kinetic friction (High Leak)",
+        "percentage": 28
+      },
+      {
+        "name": "Biot-Savart law and its application to current carrying circular loop (Critical)",
+        "percentage": 14
+      },
+      {
+        "name": "Law of conservation of linear momentum and its applications (Critical)",
+        "percentage": 19
+      },
+      {
+        "name": "Ampere's law and its applications to infinitely long straight wire",
+        "percentage": 36
+      },
+      {
+        "name": "Bernoulli's theorem and its applications (High Leak)",
+        "percentage": 24
+      },
+      {
+        "name": "Work-energy theorem (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Torque experienced by a current loop in a uniform magnetic field (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "First law of thermodynamics (Critical)",
+        "percentage": 13
+      },
+      {
+        "name": "Equilibrium of concurrent forces (High Leak)",
+        "percentage": 26
+      },
+      {
+        "name": "Laws of friction (Critical)",
+        "percentage": 14
+      },
+      {
+        "name": "Para-, dia- and ferro-magnetic substances with examples",
+        "percentage": 45
+      },
+      {
+        "name": "Projectile motion (High Leak)",
+        "percentage": 32
+      },
+      {
+        "name": "Conservation of mechanical energy (kinetic and potential energies) (Critical)",
+        "percentage": 10
+      },
+      {
+        "name": "Application of surface tension – drops, bubbles and capillary rise (Critical)",
+        "percentage": 19
+      },
+      {
+        "name": "Work done by a constant force and a variable force (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Inertia, Newton's first law of motion",
+        "percentage": 45
+      },
+      {
+        "name": "Thermal expansion of solids, liquids and gases (Critical)",
+        "percentage": 16
+      },
+      {
+        "name": "Moving coil galvanometer – its current sensitivity and conversion to ammeter and voltmeter (Critical)",
+        "percentage": 5
+      },
+      {
+        "name": "Vector addition – analytical method",
+        "percentage": 42
+      },
+      {
+        "name": "Drift velocity and mobility and their relation with electric current",
+        "percentage": 50
+      },
+      {
+        "name": "Young's modulus (Critical)",
+        "percentage": 11
+      },
+      {
+        "name": "Power (High Leak)",
+        "percentage": 29
+      },
+      {
+        "name": "Electromagnetic spectrum (radio waves, microwaves, infrared, visible, ultraviolet, X-rays, gamma rays) (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Values of moments of inertia for simple geometrical objects (High Leak)",
+        "percentage": 31
+      },
+      {
+        "name": "Energy stored in a capacitor (Critical)",
+        "percentage": 7
+      },
+      {
+        "name": "Current loop as a magnetic dipole and its magnetic dipole moment (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Impulse (Critical)",
+        "percentage": 13
+      },
+      {
+        "name": "Rigid body rotation and equations of rotational motion (Critical)",
+        "percentage": 13
+      },
+      {
+        "name": "Moment of inertia (Critical)",
+        "percentage": 14
+      },
+      {
+        "name": "General vectors and their notations",
+        "percentage": 36
+      },
+      {
+        "name": "Thermal conductivity (High Leak)",
+        "percentage": 29
+      },
+      {
+        "name": "Torque on a magnetic dipole (bar magnet) in a uniform magnetic field",
+        "percentage": 46
+      },
+      {
+        "name": "Terminal velocity (High Leak)",
+        "percentage": 23
+      },
+      {
+        "name": "Self and mutual inductance",
+        "percentage": 38
+      },
+      {
+        "name": "Pressure due to a fluid column (High Leak)",
+        "percentage": 31
+      },
+      {
+        "name": "Dynamics of uniform circular motion – centripetal force (Critical)",
+        "percentage": 8
+      },
+      {
+        "name": "Escape velocity (High Leak)",
+        "percentage": 31
+      },
+      {
+        "name": "Force between two parallel current-carrying conductors – definition of ampere (High Leak)",
+        "percentage": 31
+      },
+      {
+        "name": "Kepler's laws of planetary motion (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Gravitational potential energy (Critical)",
+        "percentage": 8
+      },
+      {
+        "name": "Centre of mass of a two-particle system (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Applications to specific heats of gases (Critical)",
+        "percentage": 18
+      },
+      {
+        "name": "Uniform circular motion (High Leak)",
+        "percentage": 27
+      },
+      {
+        "name": "Kirchhoff's laws and simple applications (Critical)",
+        "percentage": 10
+      },
+      {
+        "name": "Need for displacement current",
+        "percentage": 56
+      },
+      {
+        "name": "Motion in a vertical circle",
+        "percentage": 44
+      },
+      {
+        "name": "Heat transfer – conduction, convection and radiation (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Energy in SHM – kinetic and potential energies",
+        "percentage": 44
+      },
+      {
+        "name": "Wheatstone bridge (High Leak)",
+        "percentage": 22
+      },
+      {
+        "name": "Heat engine and refrigerator",
+        "percentage": 78
+      },
+      {
+        "name": "Comparison of linear and rotational motions (High Leak)",
+        "percentage": 22
+      },
+      {
+        "name": "Capacitance of a parallel plate capacitor with and without dielectric medium between the plates (Critical)",
+        "percentage": 13
+      },
+      {
+        "name": "Equation of state of a perfect gas (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Force on a current-carrying conductor in a uniform magnetic field (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Orbital velocity of a satellite (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Position and displacement vectors",
+        "percentage": 38
+      },
+      {
+        "name": "Electric current, flow of electric charges in a metallic conductor",
+        "percentage": 50
+      },
+      {
+        "name": "Scalar and vector quantities (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Parallel and perpendicular axes theorems and their applications (Critical)",
+        "percentage": 13
+      },
+      {
+        "name": "Gauss's theorem and its applications to find field due to infinitely long straight wire, uniformly charged infinite plane sheet and uniformly charged thin spherical shell (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Surface energy and surface tension (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Electromagnetic induction (High Leak)",
+        "percentage": 29
+      },
+      {
+        "name": "Electric potential due to a point charge, a dipole and system of charges (High Leak)",
+        "percentage": 29
+      },
+      {
+        "name": "Faraday's laws (Critical)",
+        "percentage": 14
+      },
+      {
+        "name": "Newton's third law of motion (Critical)",
+        "percentage": 14
+      },
+      {
+        "name": "Radius of gyration (Critical)",
+        "percentage": 14
+      },
+      {
+        "name": "Velocity-time and position-time graphs (Critical)",
+        "percentage": 14
+      },
+      {
+        "name": "RMS speed of gas molecules (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Elastic behaviour (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Effect of gravity on fluid pressure (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Permanent magnets (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Moment of a force – torque (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Angular momentum (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Kinetic energy (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Laws of conservation of angular momentum and its applications",
+        "percentage": 50
+      },
+      {
+        "name": "Magnetic field lines",
+        "percentage": 67
+      },
+      {
+        "name": "Rules of differentiation — product, quotient, and chain rule (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Electrical resistivity and conductivity (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Universal law of gravitation",
+        "percentage": 40
+      },
+      {
+        "name": "Potential difference and EMF of a cell (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Lenz's law",
+        "percentage": 40
+      },
+      {
+        "name": "Electrical energy and power (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Magnetic field intensity due to a magnetic dipole (bar magnet) along its axis and perpendicular to its axis (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Examples of circular motion (vehicle on a level circular road, vehicle on banked road) (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Radioactivity – alpha, beta and gamma particles/rays and their properties (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Specific heat capacity – Cp and Cv",
+        "percentage": 40
+      },
+      {
+        "name": "Relations for uniformly accelerated motion (graphical treatment) (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Resolution of vectors",
+        "percentage": 40
+      },
+      {
+        "name": "Anomalous expansion of water",
+        "percentage": 40
+      },
+      {
+        "name": "Viscosity (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Polarisation – plane polarised light",
+        "percentage": 50
+      },
+      {
+        "name": "Stefan's law (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Eddy currents",
+        "percentage": 50
+      },
+      {
+        "name": "Heat, work and internal energy (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Concept of pressure",
+        "percentage": 50
+      },
+      {
+        "name": "Transverse nature of electromagnetic waves",
+        "percentage": 100
+      },
+      {
+        "name": "Metre bridge (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Coulomb's law – force between two point charges (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Electric potential, potential difference (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Bulk modulus (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Average speed and instantaneous velocity (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Addition and subtraction of vectors – graphical method (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Streamline and turbulent flow",
+        "percentage": 50
+      },
+      {
+        "name": "Pascal's law and its applications (hydraulic lift and hydraulic brakes)",
+        "percentage": 50
+      },
+      {
+        "name": "Stokes' law (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Gravitational potential (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Temperature dependence of resistance (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Wein's displacement law (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Shear modulus of rigidity",
+        "percentage": 67
+      },
+      {
+        "name": "Carnot's theorem and Carnot engine (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Conservative forces (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Electromagnets and factors affecting their strengths (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Stress-strain relationship (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Thermal equilibrium and definition of temperature (zeroth law) (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Qualitative ideas of Blackbody radiation (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Potential energy of a spring (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Newton's law of cooling and Stefan's law (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Excess of pressure across a curved surface (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Equipotential surfaces",
+        "percentage": 50
+      },
+      {
+        "name": "Equilibrium of rigid bodies",
+        "percentage": 50
+      },
+      {
+        "name": "Heat, temperature, thermal expansion",
+        "percentage": 50
+      },
+      {
+        "name": "Hooke's law",
+        "percentage": 100
+      },
+      {
+        "name": "Internal resistance of a cell",
+        "percentage": 50
+      },
+      {
+        "name": "Kinetic interpretation of temperature",
+        "percentage": 100
+      },
+      {
+        "name": "Law of equipartition of energy (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Momentum conservation and centre of mass motion",
+        "percentage": 50
+      },
+      {
+        "name": "Motion in a plane – cases of uniform velocity and uniform acceleration (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Notion of potential energy (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Ohm's law – electrical resistance (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Oscillations of a spring – restoring force and force constant (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Poisson's ratio (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Carbon resistors – colour code (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Electrical potential energy of a system of two point charges in an electrostatic field (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Change of state – latent heat capacity (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Centre of mass of a rigid body (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Bar magnet as an equivalent solenoid",
+        "percentage": 100
+      },
+      {
+        "name": "Concept of mean free path (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Straight and toroidal solenoids",
+        "percentage": 50
+      },
+      {
+        "name": "Fundamental and derived units",
+        "percentage": 100
+      },
+      {
+        "name": "Significant figures",
+        "percentage": 100
+      },
+      {
+        "name": "Simple harmonic motion (SHM) and its equation (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Simple pendulum – derivation of expression for its time period (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Reactance and impedance (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Speed of wave motion",
+        "percentage": 100
+      },
+      {
+        "name": "Radioactive decay law (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Doppler effect (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Beats (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Geo-stationary satellites",
+        "percentage": 100
+      },
+      {
+        "name": "Calorimetry (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Characteristics of a transistor (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Superposition principle and continuous charge distribution (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Concept of magnetic field, Oersted's experiment (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Non-conservative forces (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Applications of electromagnetic waves",
+        "percentage": 100
+      },
+      {
+        "name": "Nature of physical laws (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Cyclotron",
+        "percentage": 100
+      },
+      {
+        "name": "Davisson-Germer experiment",
+        "percentage": 100
+      },
+      {
+        "name": "Degrees of freedom",
+        "percentage": 100
+      },
+      {
+        "name": "Derivatives of standard functions (power, trigonometric, exponential, logarithmic) (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Lubrication",
+        "percentage": 100
+      },
+      {
+        "name": "Differentiation as a rate of change",
+        "percentage": 100
+      },
+      {
+        "name": "Dimensional analysis and its applications (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Units of measurement – SI units (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Basic concepts of digital techniques and logic gates (OR, AND, NOT, NAND, NOR) (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Kinetic theory of gases – assumptions (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Einstein's photoelectric equation – particle nature of light (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Elastic energy (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "V-I characteristics (linear and non-linear) (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Interference – Young's double slit experiment and expression for fringe width (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Electric field lines",
+        "percentage": 100
+      },
+      {
+        "name": "Second law of thermodynamics – reversible and irreversible processes (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Energy bands in conductors, semiconductors and insulators (qualitative ideas only)",
+        "percentage": 100
+      },
+      {
+        "name": "Forces between multiple charges (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Rolling friction (Critical)",
+        "percentage": 0
+      }
+    ]
+  },
+  {
+    "subject": "Zoology",
+    "percentage": 63,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Biodiversity — patterns, loss and conservation",
+        "percentage": 59
+      },
+      {
+        "name": "Epithelial tissue",
+        "percentage": 59
+      },
+      {
+        "name": "Basis of classification — symmetry, coelom, germ layers, segmentation",
+        "percentage": 47
+      },
+      {
+        "name": "Population attributes and growth models",
+        "percentage": 65
+      },
+      {
+        "name": "Habit, habitat and external morphology",
+        "percentage": 73
+      },
+      {
+        "name": "Human parasites — Entamoeba, Plasmodium, Ascaris, Wuchereria, Taenia",
+        "percentage": 80
+      },
+      {
+        "name": "Population interactions",
+        "percentage": 42
+      },
+      {
+        "name": "Energy flow, food chains and food webs",
+        "percentage": 78
+      },
+      {
+        "name": "Drugs and alcohol abuse (High Leak)",
+        "percentage": 35
+      },
+      {
+        "name": "Ecosystem — structure, function and components",
+        "percentage": 79
+      },
+      {
+        "name": "Taxonomy, systematics and taxonomic hierarchy",
+        "percentage": 48
+      },
+      {
+        "name": "Phylum Cnidaria (Coelenterata)",
+        "percentage": 58
+      },
+      {
+        "name": "Reproductive system and development",
+        "percentage": 73
+      },
+      {
+        "name": "Organisms and their environment — habitat and niche",
+        "percentage": 59
+      },
+      {
+        "name": "Class Chondrichthyes",
+        "percentage": 76
+      },
+      {
+        "name": "Nervous and sensory system",
+        "percentage": 48
+      },
+      {
+        "name": "Class Amphibia",
+        "percentage": 76
+      },
+      {
+        "name": "General characters of Chordata and its subphyla",
+        "percentage": 45
+      },
+      {
+        "name": "Phylum Arthropoda",
+        "percentage": 80
+      },
+      {
+        "name": "Phylum Mollusca",
+        "percentage": 63
+      },
+      {
+        "name": "Class Mammalia",
+        "percentage": 53
+      },
+      {
+        "name": "Phylum Annelida",
+        "percentage": 72
+      },
+      {
+        "name": "Connective tissue",
+        "percentage": 65
+      },
+      {
+        "name": "Phylum Porifera",
+        "percentage": 82
+      },
+      {
+        "name": "Phylum Echinodermata",
+        "percentage": 65
+      },
+      {
+        "name": "Phylum Platyhelminthes",
+        "percentage": 44
+      },
+      {
+        "name": "Class Osteichthyes",
+        "percentage": 69
+      },
+      {
+        "name": "Class Cyclostomata",
+        "percentage": 40
+      },
+      {
+        "name": "Communicable and non-communicable diseases",
+        "percentage": 71
+      },
+      {
+        "name": "Excretory system",
+        "percentage": 62
+      },
+      {
+        "name": "Binomial nomenclature and ICZN rules",
+        "percentage": 85
+      },
+      {
+        "name": "Phylum Hemichordata",
+        "percentage": 50
+      },
+      {
+        "name": "Phylum Nematoda (Aschelminthes)",
+        "percentage": 50
+      },
+      {
+        "name": "Levels of organisation",
+        "percentage": 75
+      },
+      {
+        "name": "Phylum Ctenophora",
+        "percentage": 67
+      },
+      {
+        "name": "Ecological pyramids",
+        "percentage": 67
+      },
+      {
+        "name": "Pathogens and pathogenicity",
+        "percentage": 82
+      },
+      {
+        "name": "Circulatory system",
+        "percentage": 90
+      },
+      {
+        "name": "Digestive system",
+        "percentage": 89
+      },
+      {
+        "name": "Urochordata and Cephalochordata",
+        "percentage": 50
+      },
+      {
+        "name": "Class Reptilia",
+        "percentage": 63
+      },
+      {
+        "name": "Class Aves",
+        "percentage": 50
+      },
+      {
+        "name": "Biogeochemical cycles",
+        "percentage": 67
+      },
+      {
+        "name": "Respiratory system (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Environmental issues — pollution and its control",
+        "percentage": 100
+      },
+      {
+        "name": "Disorders of the respiratory system",
+        "percentage": 100
+      },
+      {
+        "name": "Central nervous system — brain and spinal cord (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Muscular tissue (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Parasitism and parasitic adaptations",
+        "percentage": 100
+      },
+      {
+        "name": "Biodiversity and the need for classification",
+        "percentage": 100
+      },
+      {
+        "name": "Immunity and vaccines",
+        "percentage": 100
+      },
+      {
+        "name": "Adrenal gland",
+        "percentage": 100
+      },
+      {
+        "name": "Evidences of evolution — morphological, embryological, palaeontological (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Digestion of carbohydrates, proteins and fats",
+        "percentage": 50
+      },
+      {
+        "name": "Disorders of the endocrine system (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Nervous tissue",
+        "percentage": 50
+      },
+      {
+        "name": "Transport of oxygen and carbon dioxide (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Endocrine glands and hormones",
+        "percentage": 50
+      },
+      {
+        "name": "What is living? — characteristics of living organisms",
+        "percentage": 100
+      },
+      {
+        "name": "Modes of excretion — ammonotelism, ureotelism, uricotelism",
+        "percentage": 100
+      },
+      {
+        "name": "Natural selection — types",
+        "percentage": 100
+      },
+      {
+        "name": "Apiculture and sericulture",
+        "percentage": 100
+      },
+      {
+        "name": "Neuron — structure and types",
+        "percentage": 100
+      },
+      {
+        "name": "Animal breeding",
+        "percentage": 100
+      },
+      {
+        "name": "Alimentary canal and digestive glands (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Disorders of the circulatory system (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Absorption and assimilation (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Regulation of kidney function — ADH, RAAS and ANF",
+        "percentage": 100
+      },
+      {
+        "name": "Reproduction — binary fission and multiple fission",
+        "percentage": 100
+      },
+      {
+        "name": "Sexually transmitted diseases",
+        "percentage": 100
+      },
+      {
+        "name": "Theories of evolution — Lamarckism and Darwinism",
+        "percentage": 100
+      },
+      {
+        "name": "Transmission of impulse across a synapse (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Counter current mechanism and concentration of urine (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Disorders of the digestive system",
+        "percentage": 100
+      },
+      {
+        "name": "Disorders of the muscular and skeletal system",
+        "percentage": 100
+      },
+      {
+        "name": "Double circulation and regulation of cardiac activity (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Human circulatory system — heart and blood vessels",
+        "percentage": 100
+      },
+      {
+        "name": "Human excretory system — kidney and nephron structure",
+        "percentage": 100
+      },
+      {
+        "name": "Mechanism of muscle contraction",
+        "percentage": 100
+      },
+      {
+        "name": "Microscopic anatomy of testis and ovary",
+        "percentage": 100
+      }
+    ]
+  }
+]

@@ -1,0 +1,781 @@
+[
+  {
+    "subject": "Chemistry",
+    "percentage": 27,
+    "color": "amber",
+    "subsections": [
+      {
+        "name": "Bohr's Atomic Model (High Leak)",
+        "percentage": 21
+      },
+      {
+        "name": "Mole Concept and Molar Masses (Critical)",
+        "percentage": 19
+      },
+      {
+        "name": "Stoichiometry and Stoichiometric Calculations (High Leak)",
+        "percentage": 21
+      },
+      {
+        "name": "Expression of Concentration – Molality, Molarity, Mole Fraction (Critical)",
+        "percentage": 15
+      },
+      {
+        "name": "Hybridisation – sp, sp2, sp3, sp3d, sp3d2 (Critical)",
+        "percentage": 18
+      },
+      {
+        "name": "Orbitals and Quantum Numbers",
+        "percentage": 47
+      },
+      {
+        "name": "VSEPR Theory and Molecular Shapes (High Leak)",
+        "percentage": 29
+      },
+      {
+        "name": "Modern Periodic Law and Long Form of Periodic Table",
+        "percentage": 46
+      },
+      {
+        "name": "Ionisation Enthalpy",
+        "percentage": 38
+      },
+      {
+        "name": "Percentage Composition and Empirical Formula (Critical)",
+        "percentage": 8
+      },
+      {
+        "name": "Electronic Configuration and Periodic Table (High Leak)",
+        "percentage": 31
+      },
+      {
+        "name": "Mole Concept",
+        "percentage": 50
+      },
+      {
+        "name": "Ionic Bond – Lattice Enthalpy (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Resonance and Formal Charge",
+        "percentage": 36
+      },
+      {
+        "name": "Electronic Configuration of Elements",
+        "percentage": 64
+      },
+      {
+        "name": "Oxidation Number and Concept of Oxidation-Reduction (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Dual Nature of Matter – de Broglie Relation (High Leak)",
+        "percentage": 30
+      },
+      {
+        "name": "Molecular Orbital Theory – LCAO (High Leak)",
+        "percentage": 22
+      },
+      {
+        "name": "Limiting Reagent (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Chemical Equations and Stoichiometric Calculations (Critical)",
+        "percentage": 13
+      },
+      {
+        "name": "Discovery of Electron, Proton and Neutron (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Atomic Radii and Ionic Radii",
+        "percentage": 50
+      },
+      {
+        "name": "First Law of Thermodynamics (Critical)",
+        "percentage": 14
+      },
+      {
+        "name": "Bond Order and Magnetic Properties (Critical)",
+        "percentage": 14
+      },
+      {
+        "name": "Valence Bond Theory – Orbital Overlap",
+        "percentage": 57
+      },
+      {
+        "name": "Kossel-Lewis Approach to Chemical Bonding (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Internal Energy and Enthalpy (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Basic Concepts",
+        "percentage": 50
+      },
+      {
+        "name": "Covalent Bond – Lewis Structures (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Dipole Moment (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Heisenberg's Uncertainty Principle (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Quantum Mechanical Model of Atom",
+        "percentage": 50
+      },
+      {
+        "name": "System, Surroundings and Types of Systems (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Rules for Filling Orbitals – Aufbau, Hund, Pauli",
+        "percentage": 40
+      },
+      {
+        "name": "Hydrogen Bonding – Inter and Intramolecular (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "General Properties of Transition Metals (d-block) (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Laws of Chemical Combination (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Molecular Orbital Theory (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Electronegativity (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Bond Enthalpy and Lattice Energy (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Periodicity in Valence and Oxidation States",
+        "percentage": 50
+      },
+      {
+        "name": "Enthalpies of Combustion, Formation, Neutralisation, Sublimation (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Electron Gain Enthalpy",
+        "percentage": 100
+      },
+      {
+        "name": "Electronic Configuration",
+        "percentage": 50
+      },
+      {
+        "name": "Periodic Trends in Properties (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Atomic and Molecular Masses",
+        "percentage": 50
+      },
+      {
+        "name": "Balancing of Redox Reactions – Ion Electron Method (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Schrodinger Wave Equation & Radial/Angular Probability Distributions",
+        "percentage": 50
+      },
+      {
+        "name": "Modern Periodic Table",
+        "percentage": 50
+      },
+      {
+        "name": "Lanthanoid Contraction",
+        "percentage": 100
+      },
+      {
+        "name": "Actinoids – Electronic Configuration and Properties (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Hydrides – Ionic, Covalent, Metallic (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Equivalent Concept & Normality in Titrations (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Electronic configuration and general properties (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Electron gain enthalpy — trends (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "MO Theory (Molecular Orbital Theory) for diatomic molecules",
+        "percentage": 100
+      },
+      {
+        "name": "Nature of C-X bond in haloarenes — resonance (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Second Law and Spontaneity (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Shapes of s, p, d Orbitals (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "s-, p-, d-, f-block elements (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Atomic Models (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Stoichiometry of reactions — mass-mass, mass-volume, volume-volume (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Anomalous Properties of Beryllium (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Trends in Properties of d-block Elements",
+        "percentage": 100
+      },
+      {
+        "name": "Hydrogen Bond and Intermolecular Forces",
+        "percentage": 100
+      }
+    ]
+  },
+  {
+    "subject": "English Proficiency",
+    "percentage": 35,
+    "color": "blue",
+    "subsections": [
+      {
+        "name": "Synonyms & Antonyms (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Idioms & Phrases",
+        "percentage": 50
+      },
+      {
+        "name": "Subject-Verb Agreement (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "One Word Substitution",
+        "percentage": 50
+      },
+      {
+        "name": "Word Analogies",
+        "percentage": 50
+      },
+      {
+        "name": "Prepositions (Time, Place, Direction)",
+        "percentage": 100
+      },
+      {
+        "name": "Spelling & Commonly Confused Words",
+        "percentage": 100
+      },
+      {
+        "name": "Spotting Errors in Sentences",
+        "percentage": 100
+      },
+      {
+        "name": "Tenses (Present, Past, Future — all forms) (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Active & Passive Voice (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Inference & Implication (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Modifiers (Misplaced & Dangling) (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Para Jumbles (Sentence Rearrangement) (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Parallelism & Redundancy (Critical)",
+        "percentage": 0
+      }
+    ]
+  },
+  {
+    "subject": "Logical Reasoning (BITSAT)",
+    "percentage": 40,
+    "color": "blue",
+    "subsections": [
+      {
+        "name": "Number Series (High Leak)",
+        "percentage": 29
+      },
+      {
+        "name": "Letter Series (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Family Tree & Relationships (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Direction Sense Test (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Letter Coding",
+        "percentage": 50
+      },
+      {
+        "name": "Ranking & Order (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Syllogisms",
+        "percentage": 100
+      },
+      {
+        "name": "Odd One Out (Classification) (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Mirror & Water Images (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Number Analogy (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Number Coding (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Alphanumeric Series",
+        "percentage": 100
+      },
+      {
+        "name": "Paper Cutting & Punching (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Pattern Perception",
+        "percentage": 100
+      },
+      {
+        "name": "Pattern Recognition in Series",
+        "percentage": 100
+      },
+      {
+        "name": "Rule Detection in Figures (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Statements & Arguments",
+        "percentage": 100
+      },
+      {
+        "name": "Statements & Conclusions",
+        "percentage": 100
+      },
+      {
+        "name": "Cubes & Dice",
+        "percentage": 100
+      },
+      {
+        "name": "Word Analogy",
+        "percentage": 100
+      },
+      {
+        "name": "Figure Formation & Analysis",
+        "percentage": 100
+      },
+      {
+        "name": "Figure Matrix (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Coding in a Fictitious Language",
+        "percentage": 100
+      }
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "percentage": 25,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Trigonometric Ratios and Identities",
+        "percentage": 38
+      },
+      {
+        "name": "Cartesian Coordinate System (Critical)",
+        "percentage": 16
+      },
+      {
+        "name": "Various Forms – Point-Slope, Slope-Intercept, Two-Point, Intercept (Critical)",
+        "percentage": 15
+      },
+      {
+        "name": "Trigonometric Equations (High Leak)",
+        "percentage": 35
+      },
+      {
+        "name": "Transpose, Adjoint and Inverse of a Matrix (High Leak)",
+        "percentage": 28
+      },
+      {
+        "name": "Distance of a Point from a Line (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Slope and Equation of a Line",
+        "percentage": 40
+      },
+      {
+        "name": "Properties of Determinants (Critical)",
+        "percentage": 15
+      },
+      {
+        "name": "Operations on Matrices – Addition, Multiplication (High Leak)",
+        "percentage": 32
+      },
+      {
+        "name": "Evaluation of Determinants (Critical)",
+        "percentage": 18
+      },
+      {
+        "name": "Consistency and Inconsistency of System of Linear Equations (High Leak)",
+        "percentage": 27
+      },
+      {
+        "name": "General Solutions (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Standard Locus Problems (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Trigonometric Functions and Their Graphs (High Leak)",
+        "percentage": 23
+      },
+      {
+        "name": "Definition and Equation of Locus (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Angle between Two Lines (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Trigonometric Ratios (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Identities of Hyperbolic Functions (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Solving Trigonometric Equations (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Symmetric and Skew-Symmetric Matrices (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Types of Matrices (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Compound Angle Formulae (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Definitions of Hyperbolic Functions (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Multiple and Sub-Multiple Angles (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Periodicity (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Transformations (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Binomial Theorem for Positive Integral Indices (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Area of Triangle using Determinants (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Family of Lines (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Statements Involving Natural Numbers",
+        "percentage": 50
+      },
+      {
+        "name": "Normal Form of a Line",
+        "percentage": 50
+      },
+      {
+        "name": "Applications of compound angle formulae (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Cramer's Rule (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Conditions for increasing/decreasing using first derivative",
+        "percentage": 100
+      },
+      {
+        "name": "Relation between Roots and Coefficients (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Ratios of \\(-\\theta\\), \\(90°\\pm\\theta\\), \\(180°\\pm\\theta\\), \\(270°\\pm\\theta\\), \\(360°\\pm\\theta\\) (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "\\(\\sin(A\\pm B)\\), \\(\\cos(A\\pm B)\\), \\(\\tan(A\\pm B)\\) formulae (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Principle of Mathematical Induction (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Locus Problems & Parametric Approach in Coordinate Geometry (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Infinite Geometric Series",
+        "percentage": 100
+      },
+      {
+        "name": "Definition of definite integral as limit of sum (Critical)",
+        "percentage": 0
+      }
+    ]
+  },
+  {
+    "subject": "Physics",
+    "percentage": 27,
+    "color": "blue",
+    "subsections": [
+      {
+        "name": "Projectile Motion",
+        "percentage": 55
+      },
+      {
+        "name": "Newton's Second Law – F = ma (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Impulse and Momentum (High Leak)",
+        "percentage": 24
+      },
+      {
+        "name": "Friction (Critical)",
+        "percentage": 4
+      },
+      {
+        "name": "Scalars and Vectors (High Leak)",
+        "percentage": 35
+      },
+      {
+        "name": "Vector Addition and Subtraction (High Leak)",
+        "percentage": 24
+      },
+      {
+        "name": "Kinematic Equations for Constant Acceleration (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Free Body Diagrams (High Leak)",
+        "percentage": 30
+      },
+      {
+        "name": "Relative Motion in Two Dimensions (High Leak)",
+        "percentage": 35
+      },
+      {
+        "name": "Average and Instantaneous Velocity",
+        "percentage": 44
+      },
+      {
+        "name": "Motion of Centre of Mass (Critical)",
+        "percentage": 7
+      },
+      {
+        "name": "Work Done by Constant and Variable Force (Critical)",
+        "percentage": 7
+      },
+      {
+        "name": "Power",
+        "percentage": 45
+      },
+      {
+        "name": "Laws of Friction",
+        "percentage": 36
+      },
+      {
+        "name": "Newton's Laws of Motion (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Work-Energy Theorem (Critical)",
+        "percentage": 11
+      },
+      {
+        "name": "Relative Velocity (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Static and Kinetic Friction (Critical)",
+        "percentage": 13
+      },
+      {
+        "name": "Centre of Mass",
+        "percentage": 38
+      },
+      {
+        "name": "Uniformly Accelerated Motion",
+        "percentage": 38
+      },
+      {
+        "name": "Uniform and Non-Uniform Motion (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Elastic Potential Energy (Critical)",
+        "percentage": 13
+      },
+      {
+        "name": "Elastic and Inelastic Collisions (Critical)",
+        "percentage": 13
+      },
+      {
+        "name": "Hooke's Law (Critical)",
+        "percentage": 14
+      },
+      {
+        "name": "Conservation of Mechanical Energy",
+        "percentage": 43
+      },
+      {
+        "name": "Spring-Mass System",
+        "percentage": 40
+      },
+      {
+        "name": "Newton's Third Law – Action-Reaction",
+        "percentage": 40
+      },
+      {
+        "name": "Potential Energy (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Kinetic Energy (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Position, Path Length and Displacement (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Resolution of Vectors (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Coefficient of Restitution (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Work (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Head-On and Oblique Collisions (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Conservative and Non-Conservative Forces (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Uniform Circular Motion (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Newton's First Law – Inertia",
+        "percentage": 100
+      },
+      {
+        "name": "Acceleration due to Gravity",
+        "percentage": 100
+      },
+      {
+        "name": "Projectile motion — horizontal and vertical components (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Concept of relative velocity in a plane (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Time of flight, maximum height, horizontal range",
+        "percentage": 100
+      },
+      {
+        "name": "Gravitational Potential Energy (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Reaction time and relative motion in 1D (Critical)",
+        "percentage": 0
+      }
+    ]
+  }
+]

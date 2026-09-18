@@ -1,0 +1,635 @@
+[
+  {
+    "id": "exam-7926f4c6-7bb0-480c-a8fd-e92d47f2671b",
+    "name": "SR BiPC NEET WTN-18_(24-08-2026)",
+    "date": "24 Aug 2026",
+    "score": "210/720",
+    "total_score": 210,
+    "total_max": 720,
+    "percentage": 29,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "189/360",
+        "percentage": 59,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "5/180",
+        "percentage": 4,
+        "color": "amber"
+      },
+      {
+        "name": "Physics",
+        "score": "16/180",
+        "percentage": 13,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Kirchhoff's laws and simple applications",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 15,
+        "time": "0m 15s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Calvin cycle (C3 pathway)",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 172,
+        "time": "2m 52s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Nomenclature, acidic nature",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 29,
+        "time": "0m 29s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Calvin cycle (C3 pathway)",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 116,
+        "time": "1m 56s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Eddy currents",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 40,
+        "time": "0m 40s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Parturition and lactation",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 18,
+        "time": "0m 18s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Nomenclature, acidic nature",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Dry cell and lead accumulator",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 55,
+        "time": "0m 55s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      }
+    ]
+  },
+  {
+    "id": "exam-e992eba8-974a-4da8-90d7-3f72b4ac207b",
+    "name": "SR BiPC NCERT Test (AI PAPER)_(22-08-2026)",
+    "date": "22 Aug 2026",
+    "score": "111/320",
+    "total_score": 111,
+    "total_max": 320,
+    "percentage": 35,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "102/160",
+        "percentage": 70,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "5/80",
+        "percentage": 10,
+        "color": "amber"
+      },
+      {
+        "name": "Physics",
+        "score": "4/80",
+        "percentage": 10,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Reproductive health — problems and strategies",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 19,
+        "time": "0m 19s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Nomenclature, acidic nature",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 82,
+        "time": "1m 22s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Nomenclature, acidic nature",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 207,
+        "time": "3m 27s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Nomenclature, acidic nature",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 13,
+        "time": "0m 13s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Menstrual cycle",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 19,
+        "time": "0m 19s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Faraday's laws",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 7,
+        "time": "0m 7s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Eddy currents",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 9,
+        "time": "0m 9s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Nomenclature, acidic nature",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 85,
+        "time": "1m 25s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      }
+    ]
+  },
+  {
+    "id": "exam-ed8068e9-dc2d-4e89-bf8a-3035b28c0ce2",
+    "name": "SR BiPC NEET WTN-17_(17-08-2026)",
+    "date": "17 Aug 2026",
+    "score": "92/720",
+    "total_score": 92,
+    "total_max": 720,
+    "percentage": 13,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "92/360",
+        "percentage": 34,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "5/180",
+        "percentage": 4,
+        "color": "amber"
+      },
+      {
+        "name": "Physics",
+        "score": "-5/180",
+        "percentage": 0,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Nomenclature, acidic nature",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 17,
+        "time": "0m 17s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Physical and chemical properties",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 1,
+        "time": "0m 1s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Gametogenesis — spermatogenesis and oogenesis",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 193,
+        "time": "3m 13s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Gametogenesis — spermatogenesis and oogenesis",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 128,
+        "time": "2m 8s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Light reaction — photosystems and electron transport",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 28,
+        "time": "0m 28s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Para-, dia- and ferro-magnetic substances with examples",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 28,
+        "time": "0m 28s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Faraday's laws",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 3,
+        "time": "0m 3s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Microscopic anatomy of testis and ovary",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 29,
+        "time": "0m 29s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-55f223bf-2b8d-49d2-a5dd-e8edf6656116",
+    "name": "Mock Test — Neet",
+    "date": "8 Aug 2026",
+    "score": "2/40",
+    "total_score": 2,
+    "total_max": 40,
+    "percentage": 5,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "2/40",
+        "percentage": 10,
+        "color": "emerald"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "Assertion-Reason",
+        "topic": "Pregnancy and placenta formation (elementary idea)",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 11,
+        "time": "0m 11s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Processes of recombinant DNA technology",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 14,
+        "time": "0m 14s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Deficiency symptoms",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 3,
+        "time": "0m 3s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Transgenic animals",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 6,
+        "time": "0m 6s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Amniocentesis",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 13,
+        "time": "0m 13s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Gametogenesis – spermatogenesis and oogenesis",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 17,
+        "time": "0m 17s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Chromosomal disorders in humans – Down's syndrome, Turner's and Klinefelter's syndromes",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 14,
+        "time": "0m 14s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Biology",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 41,
+        "time": "0m 41s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      }
+    ]
+  },
+  {
+    "id": "exam-b321ec7b-422e-402d-819c-bb99c79e92d5",
+    "name": "SR BiPC NEET WTN-15 (03-08-2026)",
+    "date": "3 Aug 2026",
+    "score": "171/720",
+    "total_score": 171,
+    "total_max": 720,
+    "percentage": 24,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "171/360",
+        "percentage": 53,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "0/180",
+        "percentage": 0,
+        "color": "amber"
+      },
+      {
+        "name": "Physics",
+        "score": "0/180",
+        "percentage": 0,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Application of biotechnology in health and agriculture",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 104,
+        "time": "1m 44s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Genetically modified organisms – Bt crops",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 99,
+        "time": "1m 39s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Genetically modified organisms – Bt crops",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 171,
+        "time": "2m 51s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Alcohols – nomenclature, methods of preparation, physical and chemical properties",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 1,
+        "time": "0m 1s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Series and parallel combinations of resistors",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Basic concepts of immunology – vaccines",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 212,
+        "time": "3m 32s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Application of biotechnology in health and agriculture",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 89,
+        "time": "1m 29s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Phenols – nomenclature, methods of preparation, physical and chemical properties, acidic nature of phenol, electrophilic substitution reactions, uses of phenols",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  }
+]

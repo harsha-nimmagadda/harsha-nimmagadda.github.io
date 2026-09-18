@@ -1,0 +1,314 @@
+{
+  "pacing_metrics": [
+    {
+      "subject": "Biology",
+      "accuracy": 75,
+      "avg_time_sec": 72,
+      "exam_count": 34
+    },
+    {
+      "subject": "Chemistry",
+      "accuracy": 21,
+      "avg_time_sec": 60,
+      "exam_count": 19
+    },
+    {
+      "subject": "Mathematics",
+      "accuracy": 10,
+      "avg_time_sec": 3,
+      "exam_count": 2
+    },
+    {
+      "subject": "Physics",
+      "accuracy": 28,
+      "avg_time_sec": 63,
+      "exam_count": 20
+    }
+  ],
+  "topic_recovery_history": [
+    {
+      "subject": "Zoology",
+      "topic": "Phylum Annelida",
+      "early_acc": 20,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Zoology",
+      "topic": "Urochordata and Cephalochordata",
+      "early_acc": 0,
+      "recent_acc": 75
+    },
+    {
+      "subject": "Botany",
+      "topic": "Algae — chlorophyceae, phaeophyceae, rhodophyceae",
+      "early_acc": 29,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Botany",
+      "topic": "The root — regions, types and modifications",
+      "early_acc": 33,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Physics",
+      "topic": "Lenz's law",
+      "early_acc": 0,
+      "recent_acc": 57
+    },
+    {
+      "subject": "Biology",
+      "topic": "Respiratory volumes and lung capacities",
+      "early_acc": 50,
+      "recent_acc": 100
+    }
+  ],
+  "heatmap_data": [
+    {
+      "subject": "Biology",
+      "chapters": [
+        {
+          "name": "Adaptive radiation",
+          "easy_acc": 0,
+          "easy_qs": 1,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Adolescence and drug and alcohol abuse",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 50,
+          "med_qs": 2,
+          "hard_acc": 0,
+          "hard_qs": 1
+        },
+        {
+          "name": "Algae",
+          "easy_acc": 0,
+          "easy_qs": 1,
+          "med_acc": 0,
+          "med_qs": 3,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Amniocentesis",
+          "easy_acc": 0,
+          "easy_qs": 1,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Botany",
+      "chapters": [
+        {
+          "name": "Algae — chlorophyceae, phaeophyceae, rhodophyceae",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 64,
+          "med_qs": 14,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Anatomy of dicot and monocot leaf",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 67,
+          "med_qs": 24,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Anatomy of dicot and monocot root",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 71,
+          "med_qs": 14,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Anatomy of dicot and monocot stem",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 68,
+          "med_qs": 31,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "chapters": [
+        {
+          "name": "Acidic character of alkynes",
+          "easy_acc": 50,
+          "easy_qs": 4,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Acid rain",
+          "easy_acc": 0,
+          "easy_qs": 2,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Activation energy",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 25,
+          "med_qs": 4,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Addition of H_2O (acid-catalysed hydration)",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "chapters": [
+        {
+          "name": "Area between Two Curves",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Area under Simple Curves",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Axiomatic Approach to Probability",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Binary Operations",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 0,
+          "hard_qs": 1
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "chapters": [
+        {
+          "name": "Acceleration due to gravity and its variation with altitude, depth and rotation",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 12,
+          "med_qs": 33,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "AC Circuit with R, L, C",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 0,
+          "hard_qs": 1
+        },
+        {
+          "name": "Accuracy and precision of measuring instruments",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "AC generator and transformer",
+          "easy_acc": 0,
+          "easy_qs": 3,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Zoology",
+      "chapters": [
+        {
+          "name": "Absorption and assimilation",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Adrenal gland",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 2,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Alimentary canal and digestive glands",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Animal breeding",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    }
+  ]
+}

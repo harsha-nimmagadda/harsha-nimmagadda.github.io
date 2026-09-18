@@ -1,0 +1,623 @@
+[
+  {
+    "id": "exam-862a8217-9767-422c-a46f-7a374ecb3466",
+    "name": "Mock Test — Custom",
+    "date": "29 Aug 2026",
+    "score": "0/40",
+    "total_score": 0,
+    "total_max": 40,
+    "percentage": 0,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "0/12",
+        "percentage": 0,
+        "color": "amber"
+      },
+      {
+        "name": "Mathematics",
+        "score": "0/16",
+        "percentage": 0,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "0/12",
+        "percentage": 0,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Concept of relative velocity in a plane",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Applications of compound angle formulae",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "\\(\\sin(A\\pm B)\\), \\(\\cos(A\\pm B)\\), \\(\\tan(A\\pm B)\\) formulae",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Electronic configuration and general properties",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "s-, p-, d-, f-block elements",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Applications of compound angle formulae",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Electron gain enthalpy — trends",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Reaction time and relative motion in 1D",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  },
+  {
+    "id": "exam-8c67d723-7c6b-495e-a72d-f883f9d211cd",
+    "name": "Daily 5 — 29 Aug 2026",
+    "date": "29 Aug 2026",
+    "score": "8/20",
+    "total_score": 8,
+    "total_max": 20,
+    "percentage": 40,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "0/8",
+        "percentage": 0,
+        "color": "amber"
+      },
+      {
+        "name": "Mathematics",
+        "score": "4/8",
+        "percentage": 50,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "4/4",
+        "percentage": 100,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Stoichiometry of reactions — mass-mass, mass-volume, volume-volume",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 6,
+        "time": "0m 6s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "time_management"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Definition of definite integral as limit of sum",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 5,
+        "time": "0m 5s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "no_concept_knowledge"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Time of flight, maximum height, horizontal range",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 6,
+        "time": "0m 6s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Conditions for increasing/decreasing using first derivative",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Nature of C-X bond in haloarenes — resonance",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 5,
+        "time": "0m 5s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "no_concept_knowledge"
+      }
+    ]
+  },
+  {
+    "id": "exam-4168d144-9724-469c-96d8-4f2d56458d9e",
+    "name": "JR MPC ALL MAINS _WTM-12_(29-08-2026)",
+    "date": "29 Aug 2026",
+    "score": "3/300",
+    "total_score": 3,
+    "total_max": 300,
+    "percentage": 1,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "-7/100",
+        "percentage": 4,
+        "color": "amber"
+      },
+      {
+        "name": "Mathematics",
+        "score": "10/100",
+        "percentage": 24,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "16/100",
+        "percentage": 16,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Elastic and Inelastic Collisions",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 3174,
+        "time": "52m 54s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "Numerical",
+        "topic": "Elastic and Inelastic Collisions",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 34,
+        "time": "0m 34s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "First Law of Thermodynamics",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 16,
+        "time": "0m 16s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Elastic and Inelastic Collisions",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 205,
+        "time": "3m 25s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Internal Energy and Enthalpy",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 52,
+        "time": "0m 52s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Coefficient of Restitution",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 94,
+        "time": "1m 34s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 7,
+        "type": "Numerical",
+        "topic": "Mole Concept and Molar Masses",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 512,
+        "time": "8m 32s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 8,
+        "type": "Numerical",
+        "topic": "First Law of Thermodynamics",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 2,
+        "time": "0m 2s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  },
+  {
+    "id": "exam-42bcce27-1c08-4096-ad1c-f5b15bb0bfa8",
+    "name": "JR MPC ALL BITSAT WTB-02 - Set B (24-08-2026)_online",
+    "date": "24 Aug 2026",
+    "score": "10/390",
+    "total_score": 10,
+    "total_max": 390,
+    "percentage": 3,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "2/120",
+        "percentage": 27,
+        "color": "amber"
+      },
+      {
+        "name": "English Proficiency",
+        "score": "14/40",
+        "percentage": 60,
+        "color": "emerald"
+      },
+      {
+        "name": "Logical Reasoning (BITSAT)",
+        "score": "20/80",
+        "percentage": 25,
+        "color": "amber"
+      },
+      {
+        "name": "Mathematics",
+        "score": "40/160",
+        "percentage": 25,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "-6/120",
+        "percentage": 20,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Spotting Errors in Sentences",
+        "status": "correct",
+        "marks": "3 marks",
+        "time_sec": 52,
+        "time": "0m 52s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Spelling & Commonly Confused Words",
+        "status": "correct",
+        "marks": "3 marks",
+        "time_sec": 24,
+        "time": "0m 24s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Distance of a Point from a Line",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 3,
+        "time": "0m 3s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Family Tree & Relationships",
+        "status": "correct",
+        "marks": "3 marks",
+        "time_sec": 27,
+        "time": "0m 27s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Synonyms & Antonyms",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 75,
+        "time": "1m 15s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Work Done by Constant and Variable Force",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 1,
+        "time": "0m 1s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Oxidation Number and Concept of Oxidation-Reduction",
+        "status": "correct",
+        "marks": "3 marks",
+        "time_sec": 25,
+        "time": "0m 25s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Slope and Equation of a Line",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 2,
+        "time": "0m 2s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  },
+  {
+    "id": "exam-b89a89c9-a56c-4c39-b591-16404dabbe55",
+    "name": "JR MPC ALL MAINS_WTM-11 (22-08-2026)",
+    "date": "22 Aug 2026",
+    "score": "32/300",
+    "total_score": 32,
+    "total_max": 300,
+    "percentage": 11,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "7/100",
+        "percentage": 20,
+        "color": "amber"
+      },
+      {
+        "name": "Mathematics",
+        "score": "10/100",
+        "percentage": 24,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "15/100",
+        "percentage": 28,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Distance of a Point from a Line",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 84,
+        "time": "1m 24s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Motion of Centre of Mass",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 113,
+        "time": "1m 53s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Distance of a Point from a Line",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 36,
+        "time": "0m 36s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Limiting Reagent",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 1,
+        "time": "0m 1s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Angle between Two Lines",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 9,
+        "time": "0m 9s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Impulse and Momentum",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 2,
+        "time": "0m 2s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Slope and Equation of a Line",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 2,
+        "time": "0m 2s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Angle between Two Lines",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 2,
+        "time": "0m 2s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  }
+]

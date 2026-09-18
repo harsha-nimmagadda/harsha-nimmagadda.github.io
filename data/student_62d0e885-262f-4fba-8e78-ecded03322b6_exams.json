@@ -1,0 +1,575 @@
+[
+  {
+    "id": "exam-7926f4c6-7bb0-480c-a8fd-e92d47f2671b",
+    "name": "SR BiPC NEET WTN-18_(24-08-2026)",
+    "date": "24 Aug 2026",
+    "score": "344/720",
+    "total_score": 344,
+    "total_max": 720,
+    "percentage": 48,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "224/360",
+        "percentage": 67,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "86/180",
+        "percentage": 56,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "34/180",
+        "percentage": 29,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Nomenclature, acidic nature",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 65,
+        "time": "1m 5s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Reproductive health — problems and strategies",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Electromagnetic induction",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 2,
+        "time": "0m 2s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Nomenclature, acidic nature",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 2,
+        "time": "0m 2s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Eddy currents",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 2,
+        "time": "0m 2s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Light reaction — photosystems and electron transport",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 13,
+        "time": "0m 13s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Nomenclature, acidic nature",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 10,
+        "time": "0m 10s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Ethers – nomenclature, methods of preparation, physical and chemical properties, uses",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 7,
+        "time": "0m 7s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-a672d520-047f-472b-9261-cfda384cd91f",
+    "name": "DPP — 24 Aug 2026",
+    "date": "24 Aug 2026",
+    "score": "40/72",
+    "total_score": 40,
+    "total_max": 72,
+    "percentage": 56,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "0/8",
+        "percentage": 0,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "24/32",
+        "percentage": 75,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "16/32",
+        "percentage": 50,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Rutherford's model and its limitations",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "Assertion-Reason",
+        "topic": "Drift velocity and mobility and their relation with electric current",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Ampere's law and its applications to infinitely long straight wire",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Combination of capacitors in series and in parallel",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Bond parameters",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Combination of capacitors in series and in parallel",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Rules of differentiation — product, quotient, and chain rule",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 8,
+        "type": "Assertion-Reason",
+        "topic": "Electromagnetic spectrum (radio waves, microwaves, infrared, visible, ultraviolet, X-rays, gamma rays)",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  },
+  {
+    "id": "exam-3a1d6eed-6fdb-47fc-ba86-94e4d2ce5c64",
+    "name": "Daily 5 — 24 Aug 2026",
+    "date": "24 Aug 2026",
+    "score": "8/20",
+    "total_score": 8,
+    "total_max": 20,
+    "percentage": 40,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "0/8",
+        "percentage": 0,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "8/8",
+        "percentage": 100,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "0/4",
+        "percentage": 0,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Interference – Young's double slit experiment and expression for fringe width",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "Assertion-Reason",
+        "topic": "Point defects",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Generation and conduction of nerve impulse",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "What is living?",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "Assertion-Reason",
+        "topic": "Haloarenes – nature of C-X bond, substitution reactions (directive influence of halogen for monosubstituted compounds only)",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-6fe1475f-893d-49fa-92bf-78c968c29512",
+    "name": "Daily 5 — 22 Aug 2026",
+    "date": "22 Aug 2026",
+    "score": "8/20",
+    "total_score": 8,
+    "total_max": 20,
+    "percentage": 40,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "0/4",
+        "percentage": 0,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "8/8",
+        "percentage": 100,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "0/8",
+        "percentage": 0,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Series and parallel combinations of resistors",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "misread_question"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Structure of DNA and RNA",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "wrong_option_despite_solving"
+      },
+      {
+        "q_num": 3,
+        "type": "Assertion-Reason",
+        "topic": "Resonance",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "Assertion-Reason",
+        "topic": "Anomalous expansion of water",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "wrong_option_despite_solving"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Electron gain enthalpy",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-0b15ce94-c3bc-4e2f-98fe-4606b87f053f",
+    "name": "DPP — 19 Aug 2026",
+    "date": "19 Aug 2026",
+    "score": "28/72",
+    "total_score": 28,
+    "total_max": 72,
+    "percentage": 39,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "4/8",
+        "percentage": 50,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "12/44",
+        "percentage": 27,
+        "color": "amber"
+      },
+      {
+        "name": "Physics",
+        "score": "12/20",
+        "percentage": 60,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Methods of polymerisation – addition and condensation",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Polar character of covalent bond",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Concept of pH",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "General introduction, electronic configuration, occurrence, oxidation states, trends in physical and chemical properties",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "IUPAC nomenclature of mononuclear coordination compounds",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Rutherford's model and its limitations",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Ethers – nomenclature, methods of preparation, physical and chemical properties, uses",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Phylum Annelida",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  }
+]

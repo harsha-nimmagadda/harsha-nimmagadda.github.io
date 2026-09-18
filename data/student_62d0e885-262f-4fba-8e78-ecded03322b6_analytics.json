@@ -1,0 +1,314 @@
+{
+  "pacing_metrics": [
+    {
+      "subject": "Biology",
+      "accuracy": 66,
+      "avg_time_sec": 47,
+      "exam_count": 19
+    },
+    {
+      "subject": "Chemistry",
+      "accuracy": 40,
+      "avg_time_sec": 33,
+      "exam_count": 20
+    },
+    {
+      "subject": "Mathematics",
+      "accuracy": 10,
+      "avg_time_sec": 3,
+      "exam_count": 1
+    },
+    {
+      "subject": "Physics",
+      "accuracy": 28,
+      "avg_time_sec": 64,
+      "exam_count": 15
+    }
+  ],
+  "topic_recovery_history": [
+    {
+      "subject": "Chemistry",
+      "topic": "Directive influence of functional group in mono-substituted benzene",
+      "early_acc": 0,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Physics",
+      "topic": "Streamline and turbulent flow",
+      "early_acc": 0,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Physics",
+      "topic": "Pascal's law and its applications (hydraulic lift and hydraulic brakes)",
+      "early_acc": 0,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Biology",
+      "topic": "Role of digestive enzymes and gastrointestinal hormones",
+      "early_acc": 25,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Biology",
+      "topic": "Population and ecological adaptations",
+      "early_acc": 0,
+      "recent_acc": 75
+    },
+    {
+      "subject": "Biology",
+      "topic": "Reproductive health — problems and strategies",
+      "early_acc": 25,
+      "recent_acc": 100
+    }
+  ],
+  "heatmap_data": [
+    {
+      "subject": "Biology",
+      "chapters": [
+        {
+          "name": "Algae",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 13,
+          "med_qs": 8,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Anatomy and functions of different parts of flowering plants – meristematic and permanent tissues",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 33,
+          "med_qs": 3,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Anatomy of dicot and monocot root, stem and leaf",
+          "easy_acc": 0,
+          "easy_qs": 1,
+          "med_acc": 33,
+          "med_qs": 3,
+          "hard_acc": 83,
+          "hard_qs": 6
+        },
+        {
+          "name": "Animal tissues – epithelial, connective, muscular and nervous tissues",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Botany",
+      "chapters": [
+        {
+          "name": "Algae — chlorophyceae, phaeophyceae, rhodophyceae",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 29,
+          "med_qs": 14,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Anatomy of dicot and monocot leaf",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 54,
+          "med_qs": 24,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Anatomy of dicot and monocot root",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 50,
+          "med_qs": 14,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Anatomy of dicot and monocot stem",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 71,
+          "med_qs": 31,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "chapters": [
+        {
+          "name": "Abnormal molar mass – van't Hoff factor",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Acidic character of alkynes",
+          "easy_acc": 64,
+          "easy_qs": 14,
+          "med_acc": 0,
+          "med_qs": 2,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Acid rain",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Actinoids – electronic configuration, oxidation states and comparison with lanthanoids",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "chapters": [
+        {
+          "name": "Area between Two Curves",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Definite Integral as Limit of Sum",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Linear Differential Equations",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Logarithmic Differentiation",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "chapters": [
+        {
+          "name": "Acceleration due to gravity and its variation with altitude, depth and rotation",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 26,
+          "med_qs": 34,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Addition and subtraction of vectors – graphical method",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 25,
+          "med_qs": 4,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Ampere's law and its applications to infinitely long straight wire",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 67,
+          "med_qs": 6,
+          "hard_acc": 33,
+          "hard_qs": 6
+        },
+        {
+          "name": "Angular momentum",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 17,
+          "med_qs": 6,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Zoology",
+      "chapters": [
+        {
+          "name": "Absorption and assimilation",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Adrenal gland",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 2,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Alimentary canal and digestive glands",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Animal breeding",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    }
+  ]
+}

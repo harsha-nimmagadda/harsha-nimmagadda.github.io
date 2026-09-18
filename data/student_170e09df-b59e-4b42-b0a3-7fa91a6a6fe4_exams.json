@@ -1,0 +1,647 @@
+[
+  {
+    "id": "exam-5fc87e53-7748-4d44-9574-f897f4658817",
+    "name": "SR BIPC NCERT Test-19 (29-08-2026)",
+    "date": "29 Aug 2026",
+    "score": "190/320",
+    "total_score": 190,
+    "total_max": 320,
+    "percentage": 59,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "130/160",
+        "percentage": 85,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "37/80",
+        "percentage": 55,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "23/80",
+        "percentage": 40,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Preparation: reduction of nitro compounds, nitriles, amides (Hofmann's method), alkylation, Gabriel phthalimide synthesis",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 25,
+        "time": "0m 25s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "C3 and C4 pathways",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 24,
+        "time": "0m 24s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Need for reproductive health and prevention of sexually transmitted diseases (STDs)",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 15,
+        "time": "0m 15s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Birth control – need and methods, contraception and medical termination of pregnancy (MTP)",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 8,
+        "time": "0m 8s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Infertility and assisted reproductive technologies – IVF, ZIFT, GIFT (elementary idea for general awareness)",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 8,
+        "time": "0m 8s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Alternating current and EMF — peak and RMS values",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 104,
+        "time": "1m 44s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "C3 and C4 pathways",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 43,
+        "time": "0m 43s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Physical properties — H-bonding, BP, basicity",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 21,
+        "time": "0m 21s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-7926f4c6-7bb0-480c-a8fd-e92d47f2671b",
+    "name": "SR BiPC NEET WTN-18_(24-08-2026)",
+    "date": "24 Aug 2026",
+    "score": "249/720",
+    "total_score": 249,
+    "total_max": 720,
+    "percentage": 35,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "168/360",
+        "percentage": 57,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "32/180",
+        "percentage": 29,
+        "color": "amber"
+      },
+      {
+        "name": "Physics",
+        "score": "49/180",
+        "percentage": 38,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Parturition and lactation",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 48,
+        "time": "0m 48s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Menstrual cycle",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 43,
+        "time": "0m 43s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Haloalkanes – nomenclature, nature of C-X bond, physical and chemical properties, mechanism of substitution reactions",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 9,
+        "time": "0m 9s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Light reaction — photosystems and electron transport",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 26,
+        "time": "0m 26s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Growth — phases, rate and conditions",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 17,
+        "time": "0m 17s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Composition of blood — plasma and formed elements",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 54,
+        "time": "0m 54s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Calvin cycle (C3 pathway)",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 34,
+        "time": "0m 34s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Calvin cycle (C3 pathway)",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 16,
+        "time": "0m 16s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  },
+  {
+    "id": "exam-e992eba8-974a-4da8-90d7-3f72b4ac207b",
+    "name": "SR BiPC NCERT Test (AI PAPER)_(22-08-2026)",
+    "date": "22 Aug 2026",
+    "score": "201/320",
+    "total_score": 201,
+    "total_max": 320,
+    "percentage": 63,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "105/160",
+        "percentage": 73,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "50/80",
+        "percentage": 65,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "46/80",
+        "percentage": 60,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Calvin cycle (C3 pathway)",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 31,
+        "time": "0m 31s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Calvin cycle (C3 pathway)",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 29,
+        "time": "0m 29s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Nomenclature, acidic nature",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 17,
+        "time": "0m 17s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Self and mutual inductance",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 15,
+        "time": "0m 15s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Parturition and lactation",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 67,
+        "time": "1m 7s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Chemiosmotic hypothesis",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 56,
+        "time": "0m 56s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Reproductive health — problems and strategies",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 94,
+        "time": "1m 34s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Induced EMF and current",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 114,
+        "time": "1m 54s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-ed8068e9-dc2d-4e89-bf8a-3035b28c0ce2",
+    "name": "SR BiPC NEET WTN-17_(17-08-2026)",
+    "date": "17 Aug 2026",
+    "score": "213/720",
+    "total_score": 213,
+    "total_max": 720,
+    "percentage": 30,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "153/360",
+        "percentage": 52,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "31/180",
+        "percentage": 29,
+        "color": "amber"
+      },
+      {
+        "name": "Physics",
+        "score": "29/180",
+        "percentage": 24,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Half-life (only for zero and first order reactions)",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 1463,
+        "time": "24m 23s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Microscopic anatomy of testis and ovary",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 91,
+        "time": "1m 31s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Light reaction — photosystems and electron transport",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 48,
+        "time": "0m 48s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Nernst equation and its application to chemical cells",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 16,
+        "time": "0m 16s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Population interactions",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 7,
+        "time": "0m 7s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Physical and chemical properties",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 20,
+        "time": "0m 20s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Magnetic field intensity due to a magnetic dipole (bar magnet) along its axis and perpendicular to its axis",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 10,
+        "time": "0m 10s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Gametogenesis — spermatogenesis and oogenesis",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 131,
+        "time": "2m 11s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      }
+    ]
+  },
+  {
+    "id": "exam-15b495cb-4f49-4e18-9c93-d51e06118ef8",
+    "name": "SR BiPC NCERT Test (16-08-2026)",
+    "date": "16 Aug 2026",
+    "score": "175/320",
+    "total_score": 175,
+    "total_max": 320,
+    "percentage": 55,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "123/160",
+        "percentage": 80,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "42/80",
+        "percentage": 60,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "10/80",
+        "percentage": 25,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Photosynthetic pigments and role of light",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 78,
+        "time": "1m 18s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Light reaction — photosystems and electron transport",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 37,
+        "time": "0m 37s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Male reproductive system",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 61,
+        "time": "1m 1s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Light reaction — photosystems and electron transport",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 169,
+        "time": "2m 49s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Light reaction — photosystems and electron transport",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 54,
+        "time": "0m 54s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Induced EMF and current",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 152,
+        "time": "2m 32s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Light reaction — photosystems and electron transport",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 49,
+        "time": "0m 49s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Light reaction — photosystems and electron transport",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 111,
+        "time": "1m 51s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  }
+]

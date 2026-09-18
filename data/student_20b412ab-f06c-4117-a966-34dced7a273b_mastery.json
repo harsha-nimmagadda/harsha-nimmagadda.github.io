@@ -1,0 +1,353 @@
+[
+  {
+    "subject": "Current Affairs & GK",
+    "percentage": 84,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Art, culture and heritage of India",
+        "percentage": 86
+      },
+      {
+        "name": "Major national and international sporting events",
+        "percentage": 81
+      },
+      {
+        "name": "Awards and records in sports",
+        "percentage": 55
+      },
+      {
+        "name": "ICC Cricket events and outcomes",
+        "percentage": 90
+      },
+      {
+        "name": "Indian athletes and achievements",
+        "percentage": 75
+      },
+      {
+        "name": "International organisations and their activities (UN, WTO, IMF, World Bank, etc.)",
+        "percentage": 100
+      },
+      {
+        "name": "Olympics, Commonwealth Games, Asian Games",
+        "percentage": 100
+      },
+      {
+        "name": "Major political developments in India",
+        "percentage": 100
+      },
+      {
+        "name": "Ancient Indian history and civilizations",
+        "percentage": 100
+      },
+      {
+        "name": "Major rivers, mountains and geographical features",
+        "percentage": 100
+      },
+      {
+        "name": "Major judicial decisions and landmark judgments",
+        "percentage": 100
+      }
+    ]
+  },
+  {
+    "subject": "Legal Reasoning",
+    "percentage": 95,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Defences in tort — consent, contributory negligence, act of God, etc.",
+        "percentage": 88
+      },
+      {
+        "name": "Free consent — coercion, undue influence, fraud, misrepresentation, mistake",
+        "percentage": 86
+      },
+      {
+        "name": "Offer and acceptance",
+        "percentage": 100
+      },
+      {
+        "name": "General conditions of liability in tort",
+        "percentage": 100
+      },
+      {
+        "name": "Essentials of a valid contract",
+        "percentage": 100
+      },
+      {
+        "name": "Consideration and its types",
+        "percentage": 100
+      },
+      {
+        "name": "Volenti non fit injuria (consent is a defence)",
+        "percentage": 100
+      },
+      {
+        "name": "Capacity to contract",
+        "percentage": 100
+      },
+      {
+        "name": "Damnum sine injuria and injuria sine damno",
+        "percentage": 100
+      },
+      {
+        "name": "Contingent contracts",
+        "percentage": 100
+      },
+      {
+        "name": "Remedies in tort — damages, injunction, restitution",
+        "percentage": 100
+      },
+      {
+        "name": "Void, voidable, valid and unenforceable contracts",
+        "percentage": 100
+      }
+    ]
+  },
+  {
+    "subject": "Logical Reasoning",
+    "percentage": 85,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Displacement and Final Position",
+        "percentage": 89
+      },
+      {
+        "name": "Rotation-based Direction Problems",
+        "percentage": 92
+      },
+      {
+        "name": "Cardinal and Ordinal Directions",
+        "percentage": 67
+      }
+    ]
+  },
+  {
+    "subject": "Logical Reasoning (BITSAT)",
+    "percentage": 86,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Pattern-based reasoning within passages",
+        "percentage": 53
+      },
+      {
+        "name": "Applying principles to new situations",
+        "percentage": 93
+      },
+      {
+        "name": "Sequence and series patterns in context",
+        "percentage": 100
+      },
+      {
+        "name": "Completing analogies based on given patterns",
+        "percentage": 90
+      },
+      {
+        "name": "Classifying items based on logical categories",
+        "percentage": 88
+      },
+      {
+        "name": "Number Series: Missing Number",
+        "percentage": 71
+      },
+      {
+        "name": "Word-based Classification",
+        "percentage": 100
+      },
+      {
+        "name": "Word Analogy",
+        "percentage": 100
+      },
+      {
+        "name": "Number Analogy",
+        "percentage": 100
+      },
+      {
+        "name": "Number-based Classification",
+        "percentage": 100
+      },
+      {
+        "name": "Letter-based Classification",
+        "percentage": 100
+      },
+      {
+        "name": "Letter Series",
+        "percentage": 100
+      },
+      {
+        "name": "Letter Analogy",
+        "percentage": 100
+      },
+      {
+        "name": "Completing the Figure Series",
+        "percentage": 100
+      },
+      {
+        "name": "Figure Matrix Problems",
+        "percentage": 100
+      },
+      {
+        "name": "Odd Figure Out",
+        "percentage": 50
+      },
+      {
+        "name": "Mixed Analogy",
+        "percentage": 100
+      },
+      {
+        "name": "Alphanumeric Series (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Wrong Number in Series",
+        "percentage": 100
+      }
+    ]
+  },
+  {
+    "subject": "Quantitative Techniques",
+    "percentage": 60,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Simple Interest Formula and Applications",
+        "percentage": 83
+      },
+      {
+        "name": "Profit and loss percentage (High Leak)",
+        "percentage": 22
+      },
+      {
+        "name": "Ratio and proportion — direct and inverse",
+        "percentage": 86
+      },
+      {
+        "name": "Discount and marked price (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "Mixtures and alligation (basic)",
+        "percentage": 50
+      },
+      {
+        "name": "Ratio and its Properties",
+        "percentage": 60
+      },
+      {
+        "name": "Problems on averages",
+        "percentage": 100
+      },
+      {
+        "name": "Change in Average (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Partnership problems (basic) (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Percentage — calculation and application",
+        "percentage": 100
+      },
+      {
+        "name": "Basic Percentage Calculations",
+        "percentage": 75
+      },
+      {
+        "name": "Alligation Rule (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Proportion: Direct and Inverse",
+        "percentage": 100
+      },
+      {
+        "name": "Mixing of Two or More Solutions",
+        "percentage": 50
+      },
+      {
+        "name": "Arithmetic Mean",
+        "percentage": 67
+      },
+      {
+        "name": "Pie charts — reading and interpreting data (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Successive Percentage Change",
+        "percentage": 67
+      },
+      {
+        "name": "Percentage change — increase and decrease",
+        "percentage": 100
+      },
+      {
+        "name": "Weighted Average (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Bar graphs — reading and interpreting data",
+        "percentage": 50
+      },
+      {
+        "name": "Calculating ratios and comparisons from data (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Percentage Change",
+        "percentage": 100
+      },
+      {
+        "name": "Replacement of Mixtures (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Tables — reading and interpreting data",
+        "percentage": 100
+      },
+      {
+        "name": "Questions on deriving information and applying basic mathematical operations (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Line graphs — reading and interpreting data",
+        "percentage": 100
+      },
+      {
+        "name": "Finding missing values in data sets (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Weighted average",
+        "percentage": 100
+      },
+      {
+        "name": "Cost price, selling price and profit/loss",
+        "percentage": 100
+      },
+      {
+        "name": "Successive discounts",
+        "percentage": 100
+      },
+      {
+        "name": "Calculating percentage from graphs (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Average Speed (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Population Growth and Depreciation",
+        "percentage": 100
+      },
+      {
+        "name": "Partnership (Critical)",
+        "percentage": 0
+      }
+    ]
+  }
+]

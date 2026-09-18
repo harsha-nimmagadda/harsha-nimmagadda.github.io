@@ -1,0 +1,550 @@
+[
+  {
+    "id": "exam-16fc38e5-5bfb-4aaf-bd3c-c4bc83023097",
+    "name": "JR & SR IPMAT WE Exam  (25 Jul 2026)",
+    "date": "27 Jul 2026",
+    "score": "420/480",
+    "total_score": 420,
+    "total_max": 480,
+    "percentage": 88,
+    "type": "External Upload",
+    "summary": "Center mock test upload.",
+    "subjects": [
+      {
+        "name": "Current Affairs & GK",
+        "score": "140/160",
+        "percentage": 90,
+        "color": "emerald"
+      },
+      {
+        "name": "Logical Reasoning",
+        "score": "140/160",
+        "percentage": 90,
+        "color": "emerald"
+      },
+      {
+        "name": "Quantitative Techniques",
+        "score": "140/160",
+        "percentage": 90,
+        "color": "emerald"
+      }
+    ],
+    "questions": []
+  },
+  {
+    "id": "exam-83105c63-d527-4895-8392-8a6ecb1e7502",
+    "name": "13_09_2025_JR_MPC_ALL_MAINS_WTM_09",
+    "date": "13 Sept 2025",
+    "score": "117/300",
+    "total_score": 117,
+    "total_max": 300,
+    "percentage": 39,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "50/100",
+        "percentage": 52,
+        "color": "rose"
+      },
+      {
+        "name": "Mathematics",
+        "score": "36/100",
+        "percentage": 40,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "31/100",
+        "percentage": 32,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Union, Intersection, Difference and Complement of Sets",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "Numerical",
+        "topic": "Law of Mass Action and Equilibrium Constants Kp and Kc",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Pair of Lines",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Uniform Circular Motion",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Relationship between ΔG and Equilibrium Constant",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Union, Intersection, Difference and Complement of Sets",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Law of Mass Action and Equilibrium Constants Kp and Kc",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Kinematics of Rotational Motion",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  },
+  {
+    "id": "exam-d0ee36a1-1be3-440a-84ab-185fe31b7d6c",
+    "name": "08_09_2025_JR_MPC_ALL_EAPCET_WTE_02",
+    "date": "8 Sept 2025",
+    "score": "15/160",
+    "total_score": 15,
+    "total_max": 160,
+    "percentage": 9,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "0/160",
+        "percentage": 0,
+        "color": "amber"
+      },
+      {
+        "name": "Mathematics",
+        "score": "15/320",
+        "percentage": 19,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "0/160",
+        "percentage": 0,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Relation: \\Delta H = \\Delta U + \\Delta n_g RT",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Second law: \\Delta S_{universe} > 0 for spontaneous process",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Perfectly inelastic collision",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Coefficient of restitution",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Angle between pair of lines: \\(\\tan\\theta = \\frac{2\\sqrt{h^2-ab}}{a+b}\\)",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Statement: \\Delta U = q + w",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Centre of mass of a system of particles",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Intercept form: \\(x/a + y/b = 1\\)",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  },
+  {
+    "id": "exam-c738be75-2aaf-48a3-9bb2-76365993bc5f",
+    "name": "30_08_2025_JR_MPC_ALL_MAINS_WTM_08",
+    "date": "30 Aug 2025",
+    "score": "39/300",
+    "total_score": 39,
+    "total_max": 300,
+    "percentage": 13,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "16/100",
+        "percentage": 28,
+        "color": "amber"
+      },
+      {
+        "name": "Mathematics",
+        "score": "9/100",
+        "percentage": 16,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "14/100",
+        "percentage": 24,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Distance of a Point from a Line",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "Numerical",
+        "topic": "First Law of Thermodynamics",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 3,
+        "type": "Numerical",
+        "topic": "Impulse and Momentum",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Normal Form of a Line",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Cartesian Coordinate System",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 6,
+        "type": "Numerical",
+        "topic": "Hess's Law of Constant Heat Summation",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "First Law of Thermodynamics",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Centre of Mass",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-8e7dc41b-c895-4dfe-9f7a-a54c08e5d6d4",
+    "name": "18_08_2025_JR_MPC_ALL_MAINS_WTM_07",
+    "date": "18 Aug 2025",
+    "score": "88/300",
+    "total_score": 88,
+    "total_max": 300,
+    "percentage": 29,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "25/100",
+        "percentage": 32,
+        "color": "rose"
+      },
+      {
+        "name": "Mathematics",
+        "score": "43/100",
+        "percentage": 52,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "20/100",
+        "percentage": 28,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Oxidation Number and Concept of Oxidation-Reduction",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "Numerical",
+        "topic": "Work Done by Constant and Variable Force",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Work Done by Constant and Variable Force",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "Numerical",
+        "topic": "Static and Kinetic Friction",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "Numerical",
+        "topic": "Stoichiometry and Stoichiometric Calculations",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "First Law of Thermodynamics",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Ellipse – Standard Form, Eccentricity",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 8,
+        "type": "Numerical",
+        "topic": "Work-Energy Theorem",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  }
+]

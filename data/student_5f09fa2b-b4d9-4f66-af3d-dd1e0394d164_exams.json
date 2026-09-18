@@ -1,0 +1,575 @@
+[
+  {
+    "id": "exam-5fc87e53-7748-4d44-9574-f897f4658817",
+    "name": "SR BIPC NCERT Test-19 (29-08-2026)",
+    "date": "29 Aug 2026",
+    "score": "184/320",
+    "total_score": 184,
+    "total_max": 320,
+    "percentage": 58,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "127/160",
+        "percentage": 83,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "34/80",
+        "percentage": 45,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "23/80",
+        "percentage": 30,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Preparation and Properties of Amines",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 92,
+        "time": "1m 32s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "C3 and C4 pathways",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 14,
+        "time": "0m 14s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Physical properties — H-bonding, BP, basicity",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 72,
+        "time": "1m 12s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Alternating currents – peak and RMS value of alternating current/voltage",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 36,
+        "time": "0m 36s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Birth control – need and methods, contraception and medical termination of pregnancy (MTP)",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 187,
+        "time": "3m 7s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Reaction with mineral acids — salt formation",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 10,
+        "time": "0m 10s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Photorespiration",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 6,
+        "time": "0m 6s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "RMS: $I_{rms} = I_0/\\sqrt{2}$",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 7,
+        "time": "0m 7s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  },
+  {
+    "id": "exam-f01b7545-5b8f-4cac-9317-9276b5466e5a",
+    "name": "Daily 5 — 28 Aug 2026",
+    "date": "28 Aug 2026",
+    "score": "8/20",
+    "total_score": 8,
+    "total_max": 20,
+    "percentage": 40,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "0/4",
+        "percentage": 0,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "4/8",
+        "percentage": 50,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "4/8",
+        "percentage": 50,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Velocity-time and position-time graphs",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 213,
+        "time": "3m 33s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Gibbs energy change for spontaneous and non-spontaneous processes",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 26,
+        "time": "0m 26s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "Assertion-Reason",
+        "topic": "Microbes as biofertilisers",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 43,
+        "time": "0m 43s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 4,
+        "type": "Assertion-Reason",
+        "topic": "Elastic and inelastic collisions in one and two dimensions",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 27,
+        "time": "0m 27s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Gibbs energy change for spontaneous and non-spontaneous processes",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 25,
+        "time": "0m 25s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      }
+    ]
+  },
+  {
+    "id": "exam-7926f4c6-7bb0-480c-a8fd-e92d47f2671b",
+    "name": "SR BiPC NEET WTN-18_(24-08-2026)",
+    "date": "24 Aug 2026",
+    "score": "159/720",
+    "total_score": 159,
+    "total_max": 720,
+    "percentage": 22,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "117/360",
+        "percentage": 42,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "22/180",
+        "percentage": 13,
+        "color": "amber"
+      },
+      {
+        "name": "Physics",
+        "score": "20/180",
+        "percentage": 13,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Nomenclature, acidic nature",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 23,
+        "time": "0m 23s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Light reaction — photosystems and electron transport",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 69,
+        "time": "1m 9s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Nomenclature, acidic nature",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 8,
+        "time": "0m 8s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Chemiosmotic hypothesis",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 91,
+        "time": "1m 31s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Moment of inertia",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 12,
+        "time": "0m 12s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Self and mutual inductance",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 20,
+        "time": "0m 20s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Nomenclature, acidic nature",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 26,
+        "time": "0m 26s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Chemiosmotic hypothesis",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 22,
+        "time": "0m 22s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  },
+  {
+    "id": "exam-7d643509-3524-4f65-a511-bbc9dabe2054",
+    "name": "Daily 5 — 23 Aug 2026",
+    "date": "23 Aug 2026",
+    "score": "8/20",
+    "total_score": 8,
+    "total_max": 20,
+    "percentage": 40,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "0/4",
+        "percentage": 0,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "4/8",
+        "percentage": 50,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "4/8",
+        "percentage": 50,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "Assertion-Reason",
+        "topic": "Atomic and molecular masses, mole concept",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 28,
+        "time": "0m 28s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Projectile motion",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 32,
+        "time": "0m 32s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "Assertion-Reason",
+        "topic": "Young's modulus",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 14,
+        "time": "0m 14s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "no_concept_knowledge"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Cancer",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 28,
+        "time": "0m 28s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "misread_question"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Surroundings, work, heat, energy, extensive and intensive properties, state functions",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 13,
+        "time": "0m 13s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "wrong_option_despite_solving"
+      }
+    ]
+  },
+  {
+    "id": "exam-e992eba8-974a-4da8-90d7-3f72b4ac207b",
+    "name": "SR BiPC NCERT Test (AI PAPER)_(22-08-2026)",
+    "date": "22 Aug 2026",
+    "score": "77/320",
+    "total_score": 77,
+    "total_max": 320,
+    "percentage": 24,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "60/160",
+        "percentage": 48,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "12/80",
+        "percentage": 20,
+        "color": "amber"
+      },
+      {
+        "name": "Physics",
+        "score": "5/80",
+        "percentage": 15,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Eddy currents",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 17,
+        "time": "0m 17s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Menstrual cycle",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 51,
+        "time": "0m 51s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Calvin cycle (C3 pathway)",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 19,
+        "time": "0m 19s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Eddy currents",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 29,
+        "time": "0m 29s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Cyclic and non-cyclic photophosphorylation",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 38,
+        "time": "0m 38s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Embryonic development up to blastocyst",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 423,
+        "time": "7m 3s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Cyclic and non-cyclic photophosphorylation",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 35,
+        "time": "0m 35s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Chemiosmotic hypothesis",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 17,
+        "time": "0m 17s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  }
+]

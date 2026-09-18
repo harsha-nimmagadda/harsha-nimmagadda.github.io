@@ -1,0 +1,303 @@
+{
+  "pacing_metrics": [],
+  "topic_recovery_history": [
+    {
+      "subject": "Mathematics",
+      "topic": "Types of Relations – Reflexive, Symmetric, Transitive, Equivalence",
+      "early_acc": 0,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Logical Reasoning",
+      "topic": "Mixed Analogy",
+      "early_acc": 50,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Chemistry",
+      "topic": "Factors Affecting Equilibrium – Le Chatelier's Principle",
+      "early_acc": 50,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Mathematics",
+      "topic": "Condition for three lines to be concurrent",
+      "early_acc": 50,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Chemistry",
+      "topic": "Enthalpies of Combustion, Formation, Neutralisation, Sublimation",
+      "early_acc": 0,
+      "recent_acc": 50
+    },
+    {
+      "subject": "Physics",
+      "topic": "Area under v-t graph = displacement",
+      "early_acc": 0,
+      "recent_acc": 50
+    }
+  ],
+  "heatmap_data": [
+    {
+      "subject": "Chemistry",
+      "chapters": [
+        {
+          "name": "Actinides — electronic configuration, comparison with lanthanides",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Anomalous Properties of Beryllium",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Anomalous Properties of Lithium",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 2,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Anomalous Properties of Second Period Elements",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 2,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Current Affairs & GK",
+      "chapters": [
+        {
+          "name": "Art, culture and heritage of India",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 75,
+          "hard_qs": 4
+        },
+        {
+          "name": "Constitution of India — basics",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 89,
+          "hard_qs": 9
+        },
+        {
+          "name": "Foreign policy of India",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 100,
+          "hard_qs": 2
+        },
+        {
+          "name": "Geopolitical events and conflicts",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 100,
+          "hard_qs": 1
+        }
+      ]
+    },
+    {
+      "subject": "English Language",
+      "chapters": [
+        {
+          "name": "General Module",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 80,
+          "med_qs": 10,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Logical Reasoning",
+      "chapters": [
+        {
+          "name": "General Module",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 45,
+          "med_qs": 20,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Letter Analogy",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 100,
+          "hard_qs": 7
+        },
+        {
+          "name": "Mixed Analogy",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 75,
+          "hard_qs": 4
+        },
+        {
+          "name": "Number Analogy",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 80,
+          "hard_qs": 10
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "chapters": [
+        {
+          "name": "Addition and subtraction of matrices",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Adjoint of a matrix",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 44,
+          "med_qs": 18,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Angle between general pair of straight lines",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 4,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Angle between pair of lines: \\(\\tan\\theta = \\frac{2\\sqrt{h^2-ab}}{a+b}\\)",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 17,
+          "med_qs": 6,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "chapters": [
+        {
+          "name": "Acceleration — average and instantaneous",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Area under v-t graph = displacement",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 25,
+          "med_qs": 4,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Average and Instantaneous Velocity",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 35,
+          "med_qs": 17,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Banking of Roads",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 50,
+          "med_qs": 4,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Quantitative Techniques",
+      "chapters": [
+        {
+          "name": "Basic Percentage Calculations",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 100,
+          "hard_qs": 7
+        },
+        {
+          "name": "Compound Interest Formula and Applications",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 100,
+          "hard_qs": 1
+        },
+        {
+          "name": "Discount and Successive Discounts",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 0,
+          "hard_qs": 1
+        },
+        {
+          "name": "Percentage Change",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 75,
+          "hard_qs": 8
+        }
+      ]
+    }
+  ]
+}

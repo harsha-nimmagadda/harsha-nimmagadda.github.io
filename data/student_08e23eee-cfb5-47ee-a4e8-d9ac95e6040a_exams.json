@@ -1,0 +1,629 @@
+[
+  {
+    "id": "exam-5fc87e53-7748-4d44-9574-f897f4658817",
+    "name": "SR BIPC NCERT Test-19 (29-08-2026)",
+    "date": "29 Aug 2026",
+    "score": "208/320",
+    "total_score": 208,
+    "total_max": 320,
+    "percentage": 65,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "150/160",
+        "percentage": 95,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "34/80",
+        "percentage": 50,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "24/80",
+        "percentage": 35,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Birth control – need and methods, contraception and medical termination of pregnancy (MTP)",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 32,
+        "time": "0m 32s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Reaction with mineral acids — salt formation",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 103,
+        "time": "1m 43s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Self-Inductance and Mutual Inductance",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 85,
+        "time": "1m 25s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Energy Stored in an Inductor",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 19,
+        "time": "0m 19s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "AC Circuit with R, L, C",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 81,
+        "time": "1m 21s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Basic nature — comparison: aliphatic amines > NH_3 > aniline; effect of substituents on aniline",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 42,
+        "time": "0m 42s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Preparation, chemical reactions and importance in synthetic organic chemistry",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 122,
+        "time": "2m 2s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "C3 and C4 pathways",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 71,
+        "time": "1m 11s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-2c8855dc-d7df-4e60-b25d-a489440053ae",
+    "name": "Mock Test — Neet",
+    "date": "24 Aug 2026",
+    "score": "-1/80",
+    "total_score": -1,
+    "total_max": 80,
+    "percentage": -1,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "-1/16",
+        "percentage": 0,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "0/36",
+        "percentage": 0,
+        "color": "amber"
+      },
+      {
+        "name": "Physics",
+        "score": "0/28",
+        "percentage": 0,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Structure, preparation and uses (brief)",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Skeletal muscle – contractile proteins and muscle contraction",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Boyle's law, Charles' law, Gay Lussac's law, Avogadro's law",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Combination of capacitors in series and in parallel",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Rate of reaction (average and instantaneous)",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 6,
+        "type": "Assertion-Reason",
+        "topic": "Organ and organ system",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Haloalkanes – nomenclature, nature of C-X bond, physical and chemical properties, mechanism of substitution reactions",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 8,
+        "type": "Assertion-Reason",
+        "topic": "Nuclear fission and fusion",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  },
+  {
+    "id": "exam-7926f4c6-7bb0-480c-a8fd-e92d47f2671b",
+    "name": "SR BiPC NEET WTN-18_(24-08-2026)",
+    "date": "24 Aug 2026",
+    "score": "428/720",
+    "total_score": 428,
+    "total_max": 720,
+    "percentage": 59,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "280/360",
+        "percentage": 82,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "79/180",
+        "percentage": 49,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "69/180",
+        "percentage": 44,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Energy stored in a capacitor",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 68,
+        "time": "1m 8s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Placenta and pregnancy",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 35,
+        "time": "0m 35s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Reproductive health — problems and strategies",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 18,
+        "time": "0m 18s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Self and mutual inductance",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 54,
+        "time": "0m 54s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Eddy currents",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 12,
+        "time": "0m 12s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Moment of inertia",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 53,
+        "time": "0m 53s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Kirchhoff's laws and simple applications",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 42,
+        "time": "0m 42s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "did_not_check_all_options"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Chemiosmotic hypothesis",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 69,
+        "time": "1m 9s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-cbef43cc-69a0-4f6d-9eae-e06380361db6",
+    "name": "DPP — 23 Aug 2026",
+    "date": "23 Aug 2026",
+    "score": "20/72",
+    "total_score": 20,
+    "total_max": 72,
+    "percentage": 28,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "8/8",
+        "percentage": 100,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "4/8",
+        "percentage": 50,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "4/4",
+        "percentage": 100,
+        "color": "blue"
+      },
+      {
+        "name": "Zoology",
+        "score": "4/4",
+        "percentage": 100,
+        "color": "emerald"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Neuron — structure and types",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 5,
+        "time": "0m 5s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Work-energy theorem",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Development of seed and formation of fruit",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 5,
+        "time": "0m 5s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Polar character of covalent bond",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 7,
+        "time": "0m 7s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Photosynthesis as a means of autotrophic nutrition",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Concept of pH",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-e992eba8-974a-4da8-90d7-3f72b4ac207b",
+    "name": "SR BiPC NCERT Test (AI PAPER)_(22-08-2026)",
+    "date": "22 Aug 2026",
+    "score": "194/320",
+    "total_score": 194,
+    "total_max": 320,
+    "percentage": 61,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Biology",
+        "score": "135/160",
+        "percentage": 88,
+        "color": "emerald"
+      },
+      {
+        "name": "Chemistry",
+        "score": "35/80",
+        "percentage": 50,
+        "color": "rose"
+      },
+      {
+        "name": "Physics",
+        "score": "24/80",
+        "percentage": 35,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Cyclic and non-cyclic photophosphorylation",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 10,
+        "time": "0m 10s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Menstrual cycle",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 17,
+        "time": "0m 17s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Calvin cycle (C3 pathway)",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 12,
+        "time": "0m 12s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Embryonic development up to blastocyst",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 39,
+        "time": "0m 39s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Eddy currents",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 19,
+        "time": "0m 19s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Calvin cycle (C3 pathway)",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 10,
+        "time": "0m 10s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Chemiosmotic hypothesis",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 120,
+        "time": "2m 0s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Nomenclature, acidic nature",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 6,
+        "time": "0m 6s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  }
+]

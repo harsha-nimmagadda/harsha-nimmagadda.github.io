@@ -1,0 +1,384 @@
+{
+  "pacing_metrics": [
+    {
+      "subject": "Chemistry",
+      "accuracy": 22,
+      "avg_time_sec": 10,
+      "exam_count": 1
+    },
+    {
+      "subject": "Current Affairs & GK",
+      "accuracy": 36,
+      "avg_time_sec": 83,
+      "exam_count": 5
+    },
+    {
+      "subject": "Legal Reasoning",
+      "accuracy": 33,
+      "avg_time_sec": 144,
+      "exam_count": 1
+    },
+    {
+      "subject": "Logical Reasoning",
+      "accuracy": 30,
+      "avg_time_sec": 62,
+      "exam_count": 1
+    },
+    {
+      "subject": "Logical Reasoning (BITSAT)",
+      "accuracy": 42,
+      "avg_time_sec": 47,
+      "exam_count": 5
+    },
+    {
+      "subject": "Mathematics",
+      "accuracy": 18,
+      "avg_time_sec": 9,
+      "exam_count": 2
+    },
+    {
+      "subject": "Physics",
+      "accuracy": 50,
+      "avg_time_sec": 11,
+      "exam_count": 1
+    },
+    {
+      "subject": "Quantitative Techniques",
+      "accuracy": 23,
+      "avg_time_sec": 33,
+      "exam_count": 5
+    }
+  ],
+  "topic_recovery_history": [
+    {
+      "subject": "Logical Reasoning (BITSAT)",
+      "topic": "Number Series: Missing Number",
+      "early_acc": 25,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Quantitative Techniques",
+      "topic": "Ratio and its Properties",
+      "early_acc": 0,
+      "recent_acc": 50
+    },
+    {
+      "subject": "Logical Reasoning (BITSAT)",
+      "topic": "Word Analogy",
+      "early_acc": 50,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Logical Reasoning (BITSAT)",
+      "topic": "Word-based Classification",
+      "early_acc": 17,
+      "recent_acc": 67
+    },
+    {
+      "subject": "Quantitative Techniques",
+      "topic": "Basic Percentage Calculations",
+      "early_acc": 0,
+      "recent_acc": 50
+    },
+    {
+      "subject": "Logical Reasoning (BITSAT)",
+      "topic": "Letter-based Classification",
+      "early_acc": 17,
+      "recent_acc": 60
+    }
+  ],
+  "heatmap_data": [
+    {
+      "subject": "Chemistry",
+      "chapters": [
+        {
+          "name": "Chemical reactivity trends",
+          "easy_acc": 0,
+          "easy_qs": 1,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Electronic configuration and general properties",
+          "easy_acc": 100,
+          "easy_qs": 1,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Electronic configuration of elements up to Z=30",
+          "easy_acc": 0,
+          "easy_qs": 1,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Ionic radius — cation and anion sizes",
+          "easy_acc": 0,
+          "easy_qs": 2,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Current Affairs & GK",
+      "chapters": [
+        {
+          "name": "Ancient Indian history and civilizations",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 100,
+          "hard_qs": 1
+        },
+        {
+          "name": "Art, culture and heritage of India",
+          "easy_acc": 50,
+          "easy_qs": 8,
+          "med_acc": 20,
+          "med_qs": 15,
+          "hard_acc": 29,
+          "hard_qs": 7
+        },
+        {
+          "name": "Awards and records in sports",
+          "easy_acc": 50,
+          "easy_qs": 2,
+          "med_acc": 50,
+          "med_qs": 6,
+          "hard_acc": 13,
+          "hard_qs": 23
+        },
+        {
+          "name": "ICC Cricket events and outcomes",
+          "easy_acc": 75,
+          "easy_qs": 4,
+          "med_acc": 40,
+          "med_qs": 10,
+          "hard_acc": 50,
+          "hard_qs": 2
+        }
+      ]
+    },
+    {
+      "subject": "Legal Reasoning",
+      "chapters": [
+        {
+          "name": "Damnum sine injuria and injuria sine damno",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 0,
+          "hard_qs": 3
+        },
+        {
+          "name": "Defences in tort — consent, contributory negligence, act of God, etc.",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 53,
+          "hard_qs": 17
+        },
+        {
+          "name": "General conditions of liability in tort",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 17,
+          "hard_qs": 6
+        },
+        {
+          "name": "Remedies in tort — damages, injunction, restitution",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 0,
+          "hard_qs": 1
+        }
+      ]
+    },
+    {
+      "subject": "Logical Reasoning",
+      "chapters": [
+        {
+          "name": "Cardinal and Ordinal Directions",
+          "easy_acc": 100,
+          "easy_qs": 2,
+          "med_acc": 60,
+          "med_qs": 5,
+          "hard_acc": 50,
+          "hard_qs": 2
+        },
+        {
+          "name": "Displacement and Final Position",
+          "easy_acc": 0,
+          "easy_qs": 3,
+          "med_acc": 11,
+          "med_qs": 9,
+          "hard_acc": 33,
+          "hard_qs": 6
+        },
+        {
+          "name": "Rotation-based Direction Problems",
+          "easy_acc": 0,
+          "easy_qs": 3,
+          "med_acc": 50,
+          "med_qs": 6,
+          "hard_acc": 0,
+          "hard_qs": 4
+        }
+      ]
+    },
+    {
+      "subject": "Logical Reasoning (BITSAT)",
+      "chapters": [
+        {
+          "name": "Alphanumeric Series",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Applying principles to new situations",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 33,
+          "hard_qs": 15
+        },
+        {
+          "name": "Cardinal and Ordinal Directions",
+          "easy_acc": 0,
+          "easy_qs": 1,
+          "med_acc": 33,
+          "med_qs": 6,
+          "hard_acc": 100,
+          "hard_qs": 2
+        },
+        {
+          "name": "Coded Arithmetic Operations",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 0,
+          "hard_qs": 5
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "chapters": [
+        {
+          "name": "Absolute (global) maximum and minimum",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Adjoint of a matrix",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Algebraic Operations on Functions",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Angle of intersection of two curves",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "chapters": [
+        {
+          "name": "Projectile motion — horizontal and vertical components",
+          "easy_acc": 50,
+          "easy_qs": 2,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Quantitative Techniques",
+      "chapters": [
+        {
+          "name": "Alligation Rule",
+          "easy_acc": 0,
+          "easy_qs": 1,
+          "med_acc": 0,
+          "med_qs": 2,
+          "hard_acc": 0,
+          "hard_qs": 1
+        },
+        {
+          "name": "Applications of Percentage in Profit/Loss",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 0,
+          "hard_qs": 6
+        },
+        {
+          "name": "Arithmetic Mean",
+          "easy_acc": 50,
+          "easy_qs": 2,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Average Speed",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 0,
+          "hard_qs": 1
+        }
+      ]
+    }
+  ]
+}

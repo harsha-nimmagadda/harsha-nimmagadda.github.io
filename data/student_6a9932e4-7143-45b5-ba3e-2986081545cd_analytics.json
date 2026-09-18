@@ -1,0 +1,273 @@
+{
+  "pacing_metrics": [
+    {
+      "subject": "Biology",
+      "accuracy": 66,
+      "avg_time_sec": 155,
+      "exam_count": 10
+    },
+    {
+      "subject": "Botany",
+      "accuracy": 50,
+      "avg_time_sec": 4,
+      "exam_count": 1
+    },
+    {
+      "subject": "Chemistry",
+      "accuracy": 46,
+      "avg_time_sec": 30,
+      "exam_count": 9
+    },
+    {
+      "subject": "Physics",
+      "accuracy": 35,
+      "avg_time_sec": 60,
+      "exam_count": 9
+    }
+  ],
+  "topic_recovery_history": [
+    {
+      "subject": "Botany",
+      "topic": "Kingdom Protista — chrysophytes, dinoflagellates, euglenoids, slime moulds",
+      "early_acc": 0,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Biology",
+      "topic": "Population interactions – mutualism, competition, predation, parasitism, commensalism, amensalism",
+      "early_acc": 0,
+      "recent_acc": 80
+    },
+    {
+      "subject": "Chemistry",
+      "topic": "Haloarenes – nature of C-X bond, substitution reactions (directive influence of halogen for monosubstituted compounds only)",
+      "early_acc": 0,
+      "recent_acc": 75
+    },
+    {
+      "subject": "Biology",
+      "topic": "Photochemical and biosynthetic phases of photosynthesis",
+      "early_acc": 33,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Biology",
+      "topic": "Ethical issues related to biotechnology",
+      "early_acc": 33,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Chemistry",
+      "topic": "Modern periodic law and present form of periodic table",
+      "early_acc": 0,
+      "recent_acc": 67
+    }
+  ],
+  "heatmap_data": [
+    {
+      "subject": "Biology",
+      "chapters": [
+        {
+          "name": "Adaptive radiation",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Anatomy and functions of different parts of flowering plants – meristematic and permanent tissues",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 33,
+          "med_qs": 3,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Anatomy of dicot and monocot root, stem and leaf",
+          "easy_acc": 100,
+          "easy_qs": 1,
+          "med_acc": 50,
+          "med_qs": 4,
+          "hard_acc": 67,
+          "hard_qs": 3
+        },
+        {
+          "name": "Animal tissues – epithelial, connective, muscular and nervous tissues",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Botany",
+      "chapters": [
+        {
+          "name": "Algae — chlorophyceae, phaeophyceae, rhodophyceae",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 57,
+          "med_qs": 14,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Anatomy of dicot and monocot leaf",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 46,
+          "med_qs": 24,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Anatomy of dicot and monocot root",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 57,
+          "med_qs": 14,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Anatomy of dicot and monocot stem",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 55,
+          "med_qs": 31,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "chapters": [
+        {
+          "name": "Acidic character of alkynes",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Activation energy",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Adsorption – physisorption and chemisorption",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 2,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Alcohols – nomenclature, methods of preparation, physical and chemical properties",
+          "easy_acc": 0,
+          "easy_qs": 1,
+          "med_acc": 0,
+          "med_qs": 4,
+          "hard_acc": 50,
+          "hard_qs": 4
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "chapters": [
+        {
+          "name": "Acceleration due to gravity and its variation with altitude, depth and rotation",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 12,
+          "med_qs": 33,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "AC Circuit with R, L, C",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 0,
+          "hard_qs": 1
+        },
+        {
+          "name": "AC Voltage and RMS Values",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": 0,
+          "hard_qs": 1
+        },
+        {
+          "name": "Addition and subtraction of vectors – graphical method",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 25,
+          "med_qs": 4,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Zoology",
+      "chapters": [
+        {
+          "name": "Absorption and assimilation",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Adrenal gland",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 2,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Alimentary canal and digestive glands",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Animal breeding",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    }
+  ]
+}

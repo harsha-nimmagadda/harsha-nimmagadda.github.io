@@ -1,0 +1,260 @@
+[
+  {
+    "id": "exam-dd1b6a36-5e37-418b-ba8f-acd9d4e8655f",
+    "name": "JR & SR IPMAT WEEKEND Test (29-08-2026)",
+    "date": "29 Aug 2026",
+    "score": "69/480",
+    "total_score": 69,
+    "total_max": 480,
+    "percentage": 14,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Current Affairs & GK",
+        "score": "82/160",
+        "percentage": 60,
+        "color": "emerald"
+      },
+      {
+        "name": "Logical Reasoning",
+        "score": "-13/160",
+        "percentage": 10,
+        "color": "amber"
+      },
+      {
+        "name": "Quantitative Techniques",
+        "score": "0/160",
+        "percentage": 0,
+        "color": "amber"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "ICC Cricket events and outcomes",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 19,
+        "time": "0m 19s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Major national and international sporting events",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 11,
+        "time": "0m 11s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Displacement and Final Position",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 43,
+        "time": "0m 43s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Simple Interest Formula and Applications",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Olympics, Commonwealth Games, Asian Games",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 7,
+        "time": "0m 7s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Simple Interest Formula and Applications",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Simple Interest Formula and Applications",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "1m 0s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Olympics, Commonwealth Games, Asian Games",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 6,
+        "time": "0m 6s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-4f84c531-af97-472f-aee8-9fbc4127025f",
+    "name": "JR & SR IPMAT EXAM (08-08-2026)",
+    "date": "8 Aug 2026",
+    "score": "144/480",
+    "total_score": 144,
+    "total_max": 480,
+    "percentage": 30,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Current Affairs & GK",
+        "score": "27/160",
+        "percentage": 28,
+        "color": "amber"
+      },
+      {
+        "name": "Logical Reasoning (BITSAT)",
+        "score": "100/160",
+        "percentage": 70,
+        "color": "emerald"
+      },
+      {
+        "name": "Quantitative Techniques",
+        "score": "17/160",
+        "percentage": 25,
+        "color": "amber"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Art, culture and heritage of India",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 7,
+        "time": "0m 7s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Art, culture and heritage of India",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 5,
+        "time": "0m 5s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Number Series: Missing Number",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 23,
+        "time": "0m 23s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Art, culture and heritage of India",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 16,
+        "time": "0m 16s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Replacement of Mixtures",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 8,
+        "time": "0m 8s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Art, culture and heritage of India",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 14,
+        "time": "0m 14s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Number Analogy",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 43,
+        "time": "0m 43s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Weighted Average",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 206,
+        "time": "3m 26s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  }
+]

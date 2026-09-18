@@ -1,0 +1,518 @@
+[
+  {
+    "id": "exam-dd1b6a36-5e37-418b-ba8f-acd9d4e8655f",
+    "name": "JR & SR IPMAT WEEKEND Test (29-08-2026)",
+    "date": "29 Aug 2026",
+    "score": "171/480",
+    "total_score": 171,
+    "total_max": 480,
+    "percentage": 36,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Current Affairs & GK",
+        "score": "39/160",
+        "percentage": 30,
+        "color": "blue"
+      },
+      {
+        "name": "Logical Reasoning",
+        "score": "100/160",
+        "percentage": 70,
+        "color": "emerald"
+      },
+      {
+        "name": "Quantitative Techniques",
+        "score": "32/160",
+        "percentage": 23,
+        "color": "amber"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Displacement and Final Position",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 232,
+        "time": "3m 52s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Displacement and Final Position",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 24,
+        "time": "0m 24s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Major national and international sporting events",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 21,
+        "time": "0m 21s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "ICC Cricket events and outcomes",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 19,
+        "time": "0m 19s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Olympics, Commonwealth Games, Asian Games",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 34,
+        "time": "0m 34s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Simple Interest Formula and Applications",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 120,
+        "time": "2m 0s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Displacement and Final Position",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 78,
+        "time": "1m 18s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Major national and international sporting events",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 33,
+        "time": "0m 33s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      }
+    ]
+  },
+  {
+    "id": "exam-c165e895-1da8-4d2a-aaa5-99fe4b879f9a",
+    "name": "JR & SR IPMAT_Weeked Test (22-08-2026): Directions | Simple Interest | Sports",
+    "date": "22 Aug 2026",
+    "score": "155/480",
+    "total_score": 155,
+    "total_max": 480,
+    "percentage": 32,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Current Affairs & GK",
+        "score": "50/160",
+        "percentage": 45,
+        "color": "blue"
+      },
+      {
+        "name": "Logical Reasoning (BITSAT)",
+        "score": "85/160",
+        "percentage": 63,
+        "color": "emerald"
+      },
+      {
+        "name": "Quantitative Techniques",
+        "score": "20/160",
+        "percentage": 30,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Displacement and Final Position",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 51,
+        "time": "0m 51s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Simple Interest Formula and Applications",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 38,
+        "time": "0m 38s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Simple Interest Formula and Applications",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 5,
+        "time": "0m 5s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Simple Interest Formula and Applications",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 2,
+        "time": "0m 2s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Awards and records in sports",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 24,
+        "time": "0m 24s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Displacement and Final Position",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 112,
+        "time": "1m 52s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Simple Interest Formula and Applications",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 3,
+        "time": "0m 3s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Rotation-based Direction Problems",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 94,
+        "time": "1m 34s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-4f84c531-af97-472f-aee8-9fbc4127025f",
+    "name": "JR & SR IPMAT EXAM (08-08-2026)",
+    "date": "8 Aug 2026",
+    "score": "151/480",
+    "total_score": 151,
+    "total_max": 480,
+    "percentage": 31,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Current Affairs & GK",
+        "score": "24/160",
+        "percentage": 25,
+        "color": "amber"
+      },
+      {
+        "name": "Logical Reasoning (BITSAT)",
+        "score": "111/160",
+        "percentage": 75,
+        "color": "emerald"
+      },
+      {
+        "name": "Quantitative Techniques",
+        "score": "16/160",
+        "percentage": 20,
+        "color": "amber"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Letter Series",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 58,
+        "time": "0m 58s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Major political developments in India",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 25,
+        "time": "0m 25s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Alligation Rule",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 1,
+        "time": "0m 1s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Number Series: Missing Number",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 161,
+        "time": "2m 41s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Figure Matrix Problems",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 33,
+        "time": "0m 33s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Number Analogy",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 76,
+        "time": "1m 16s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Ratio and its Properties",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 103,
+        "time": "1m 43s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Art, culture and heritage of India",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 32,
+        "time": "0m 32s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      }
+    ]
+  },
+  {
+    "id": "exam-24096e1c-28ad-4bf6-94bf-a1aa7a43ae85",
+    "name": "JR & SR IPMAT Weekly Test -3_(01-08-2026)",
+    "date": "1 Aug 2026",
+    "score": "44/480",
+    "total_score": 44,
+    "total_max": 480,
+    "percentage": 9,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Current Affairs & GK",
+        "score": "15/160",
+        "percentage": 28,
+        "color": "amber"
+      },
+      {
+        "name": "Logical Reasoning (BITSAT)",
+        "score": "10/160",
+        "percentage": 25,
+        "color": "amber"
+      },
+      {
+        "name": "Quantitative Techniques",
+        "score": "19/160",
+        "percentage": 18,
+        "color": "amber"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Odd Figure Out",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 7,
+        "time": "0m 7s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Mixing of Two or More Solutions",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 104,
+        "time": "1m 44s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Art, culture and heritage of India",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 26,
+        "time": "0m 26s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Word-based Classification",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 30,
+        "time": "0m 30s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Odd Figure Out",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 79,
+        "time": "1m 19s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Art, culture and heritage of India",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Odd Figure Out",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 39,
+        "time": "0m 39s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Word-based Classification",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 82,
+        "time": "1m 22s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Calculation Error"
+      }
+    ]
+  }
+]

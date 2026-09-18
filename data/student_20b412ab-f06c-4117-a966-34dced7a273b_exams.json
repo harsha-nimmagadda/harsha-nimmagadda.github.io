@@ -1,0 +1,530 @@
+[
+  {
+    "id": "exam-dd1b6a36-5e37-418b-ba8f-acd9d4e8655f",
+    "name": "JR & SR IPMAT WEEKEND Test (29-08-2026)",
+    "date": "29 Aug 2026",
+    "score": "389/480",
+    "total_score": 389,
+    "total_max": 480,
+    "percentage": 81,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Current Affairs & GK",
+        "score": "131/160",
+        "percentage": 83,
+        "color": "emerald"
+      },
+      {
+        "name": "Logical Reasoning",
+        "score": "131/160",
+        "percentage": 85,
+        "color": "emerald"
+      },
+      {
+        "name": "Quantitative Techniques",
+        "score": "127/160",
+        "percentage": 83,
+        "color": "emerald"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Rotation-based Direction Problems",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 23,
+        "time": "0m 23s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Indian athletes and achievements",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 35,
+        "time": "0m 35s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Simple Interest Formula and Applications",
+        "status": "wrong",
+        "marks": "-1 marks",
+        "time_sec": 24,
+        "time": "0m 24s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Rotation-based Direction Problems",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 15,
+        "time": "0m 15s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Indian athletes and achievements",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 904,
+        "time": "15m 4s",
+        "difficulty": "hard",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Rotation-based Direction Problems",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 8,
+        "time": "0m 8s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Cardinal and Ordinal Directions",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 24,
+        "time": "0m 24s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Simple Interest Formula and Applications",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 103,
+        "time": "1m 43s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-5ea1a613-3706-4678-bc11-79daa88519c5",
+    "name": "JR & SR CLAT WEEKEND Test-04_ (16-08-2026)",
+    "date": "16 Aug 2026",
+    "score": "308/480",
+    "total_score": 308,
+    "total_max": 480,
+    "percentage": 64,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Current Affairs & GK",
+        "score": "88/120",
+        "percentage": 73,
+        "color": "emerald"
+      },
+      {
+        "name": "Legal Reasoning",
+        "score": "112/120",
+        "percentage": 93,
+        "color": "emerald"
+      },
+      {
+        "name": "Logical Reasoning (BITSAT)",
+        "score": "88/120",
+        "percentage": 73,
+        "color": "emerald"
+      },
+      {
+        "name": "Quantitative Techniques",
+        "score": "20/120",
+        "percentage": 17,
+        "color": "amber"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "Passage",
+        "topic": "Major national and international sporting events",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 23,
+        "time": "0m 23s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "Passage",
+        "topic": "Pattern-based reasoning within passages",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 47,
+        "time": "0m 47s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "Passage",
+        "topic": "Major national and international sporting events",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 13,
+        "time": "0m 13s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "Passage",
+        "topic": "Applying principles to new situations",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 73,
+        "time": "1m 13s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "Passage",
+        "topic": "Volenti non fit injuria (consent is a defence)",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 30,
+        "time": "0m 30s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "Passage",
+        "topic": "Bar graphs — reading and interpreting data",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "Passage",
+        "topic": "Profit and loss percentage",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 8,
+        "type": "Passage",
+        "topic": "Pie charts — reading and interpreting data",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 60,
+        "time": "--",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  },
+  {
+    "id": "exam-85cae5c2-babb-461a-a021-93857b70d9a2",
+    "name": "JR & SR CLAT Weekly Test — 08 Aug 2026",
+    "date": "8 Aug 2026",
+    "score": "113/120",
+    "total_score": 113,
+    "total_max": 120,
+    "percentage": 94,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Current Affairs & GK",
+        "score": "29/120",
+        "percentage": 97,
+        "color": "emerald"
+      },
+      {
+        "name": "Legal Reasoning",
+        "score": "29/120",
+        "percentage": 97,
+        "color": "emerald"
+      },
+      {
+        "name": "Logical Reasoning (BITSAT)",
+        "score": "28/120",
+        "percentage": 93,
+        "color": "emerald"
+      },
+      {
+        "name": "Quantitative Techniques",
+        "score": "27/120",
+        "percentage": 90,
+        "color": "emerald"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Sequence and series patterns in context",
+        "status": "correct",
+        "marks": "1 marks",
+        "time_sec": 17,
+        "time": "0m 17s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Problems on averages",
+        "status": "correct",
+        "marks": "1 marks",
+        "time_sec": 32,
+        "time": "0m 32s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Free consent — coercion, undue influence, fraud, misrepresentation, mistake",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 32,
+        "time": "0m 32s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Classifying items based on logical categories",
+        "status": "correct",
+        "marks": "1 marks",
+        "time_sec": 4,
+        "time": "0m 4s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Offer and acceptance",
+        "status": "correct",
+        "marks": "1 marks",
+        "time_sec": 38,
+        "time": "0m 38s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Sequence and series patterns in context",
+        "status": "correct",
+        "marks": "1 marks",
+        "time_sec": 11,
+        "time": "0m 11s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Pie charts — reading and interpreting data",
+        "status": "correct",
+        "marks": "1 marks",
+        "time_sec": 23,
+        "time": "0m 23s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Capacity to contract",
+        "status": "correct",
+        "marks": "1 marks",
+        "time_sec": 21,
+        "time": "0m 21s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  },
+  {
+    "id": "exam-4f84c531-af97-472f-aee8-9fbc4127025f",
+    "name": "JR & SR IPMAT EXAM (08-08-2026)",
+    "date": "8 Aug 2026",
+    "score": "341/480",
+    "total_score": 341,
+    "total_max": 480,
+    "percentage": 71,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Current Affairs & GK",
+        "score": "126/160",
+        "percentage": 83,
+        "color": "emerald"
+      },
+      {
+        "name": "Logical Reasoning (BITSAT)",
+        "score": "140/160",
+        "percentage": 90,
+        "color": "emerald"
+      },
+      {
+        "name": "Quantitative Techniques",
+        "score": "75/160",
+        "percentage": 48,
+        "color": "blue"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Replacement of Mixtures",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 18,
+        "time": "0m 18s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Word-based Classification",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 9,
+        "time": "0m 9s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Ratio and its Properties",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 70,
+        "time": "1m 10s",
+        "difficulty": "medium",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Successive Percentage Change",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 32,
+        "time": "0m 32s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Calculation Error"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Art, culture and heritage of India",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 35,
+        "time": "0m 35s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Weighted Average",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 7,
+        "time": "0m 7s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Number-based Classification",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 31,
+        "time": "0m 31s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Letter Analogy",
+        "status": "correct",
+        "marks": "4 marks",
+        "time_sec": 26,
+        "time": "0m 26s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      }
+    ]
+  }
+]

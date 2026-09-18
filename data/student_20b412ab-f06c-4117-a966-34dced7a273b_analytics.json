@@ -1,0 +1,270 @@
+{
+  "pacing_metrics": [
+    {
+      "subject": "Current Affairs & GK",
+      "accuracy": 84,
+      "avg_time_sec": 29,
+      "exam_count": 4
+    },
+    {
+      "subject": "Legal Reasoning",
+      "accuracy": 95,
+      "avg_time_sec": 94,
+      "exam_count": 2
+    },
+    {
+      "subject": "Logical Reasoning",
+      "accuracy": 85,
+      "avg_time_sec": 60,
+      "exam_count": 1
+    },
+    {
+      "subject": "Logical Reasoning (BITSAT)",
+      "accuracy": 86,
+      "avg_time_sec": 54,
+      "exam_count": 3
+    },
+    {
+      "subject": "Quantitative Techniques",
+      "accuracy": 71,
+      "avg_time_sec": 58,
+      "exam_count": 4
+    }
+  ],
+  "topic_recovery_history": [
+    {
+      "subject": "Current Affairs & GK",
+      "topic": "Indian athletes and achievements",
+      "early_acc": 50,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Quantitative Techniques",
+      "topic": "Basic Percentage Calculations",
+      "early_acc": 50,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Current Affairs & GK",
+      "topic": "Major national and international sporting events",
+      "early_acc": 68,
+      "recent_acc": 94
+    },
+    {
+      "subject": "Quantitative Techniques",
+      "topic": "Ratio and proportion — direct and inverse",
+      "early_acc": 75,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Legal Reasoning",
+      "topic": "Free consent — coercion, undue influence, fraud, misrepresentation, mistake",
+      "early_acc": 75,
+      "recent_acc": 100
+    },
+    {
+      "subject": "Logical Reasoning (BITSAT)",
+      "topic": "Classifying items based on logical categories",
+      "early_acc": 75,
+      "recent_acc": 100
+    }
+  ],
+  "heatmap_data": [
+    {
+      "subject": "Current Affairs & GK",
+      "chapters": [
+        {
+          "name": "Ancient Indian history and civilizations",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 100,
+          "hard_qs": 2
+        },
+        {
+          "name": "Art, culture and heritage of India",
+          "easy_acc": 82,
+          "easy_qs": 17,
+          "med_acc": 87,
+          "med_qs": 30,
+          "hard_acc": 91,
+          "hard_qs": 11
+        },
+        {
+          "name": "Awards and records in sports",
+          "easy_acc": 100,
+          "easy_qs": 1,
+          "med_acc": 100,
+          "med_qs": 3,
+          "hard_acc": 29,
+          "hard_qs": 7
+        },
+        {
+          "name": "ICC Cricket events and outcomes",
+          "easy_acc": 100,
+          "easy_qs": 2,
+          "med_acc": 83,
+          "med_qs": 6,
+          "hard_acc": 100,
+          "hard_qs": 2
+        }
+      ]
+    },
+    {
+      "subject": "Legal Reasoning",
+      "chapters": [
+        {
+          "name": "Capacity to contract",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 2,
+          "hard_acc": 100,
+          "hard_qs": 1
+        },
+        {
+          "name": "Consideration and its types",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 3,
+          "hard_acc": 100,
+          "hard_qs": 2
+        },
+        {
+          "name": "Contingent contracts",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Damnum sine injuria and injuria sine damno",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 100,
+          "hard_qs": 3
+        }
+      ]
+    },
+    {
+      "subject": "Logical Reasoning",
+      "chapters": [
+        {
+          "name": "Cardinal and Ordinal Directions",
+          "easy_acc": 100,
+          "easy_qs": 2,
+          "med_acc": 80,
+          "med_qs": 5,
+          "hard_acc": 0,
+          "hard_qs": 2
+        },
+        {
+          "name": "Displacement and Final Position",
+          "easy_acc": 100,
+          "easy_qs": 3,
+          "med_acc": 89,
+          "med_qs": 9,
+          "hard_acc": 83,
+          "hard_qs": 6
+        },
+        {
+          "name": "Rotation-based Direction Problems",
+          "easy_acc": 100,
+          "easy_qs": 3,
+          "med_acc": 83,
+          "med_qs": 6,
+          "hard_acc": 100,
+          "hard_qs": 4
+        }
+      ]
+    },
+    {
+      "subject": "Logical Reasoning (BITSAT)",
+      "chapters": [
+        {
+          "name": "Alphanumeric Series",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Applying principles to new situations",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 93,
+          "hard_qs": 15
+        },
+        {
+          "name": "Classifying items based on logical categories",
+          "easy_acc": 100,
+          "easy_qs": 1,
+          "med_acc": 80,
+          "med_qs": 5,
+          "hard_acc": 100,
+          "hard_qs": 2
+        },
+        {
+          "name": "Completing analogies based on given patterns",
+          "easy_acc": 100,
+          "easy_qs": 3,
+          "med_acc": 67,
+          "med_qs": 3,
+          "hard_acc": 100,
+          "hard_qs": 4
+        }
+      ]
+    },
+    {
+      "subject": "Quantitative Techniques",
+      "chapters": [
+        {
+          "name": "Alligation Rule",
+          "easy_acc": 0,
+          "easy_qs": 1,
+          "med_acc": 0,
+          "med_qs": 2,
+          "hard_acc": 0,
+          "hard_qs": 1
+        },
+        {
+          "name": "Arithmetic Mean",
+          "easy_acc": 100,
+          "easy_qs": 2,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Average Speed",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 0,
+          "hard_qs": 1
+        },
+        {
+          "name": "Bar graphs — reading and interpreting data",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": 0,
+          "hard_qs": 1
+        }
+      ]
+    }
+  ]
+}

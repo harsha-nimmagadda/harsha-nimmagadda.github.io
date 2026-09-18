@@ -1,0 +1,198 @@
+[
+  {
+    "subject": "Current Affairs & GK",
+    "percentage": 44,
+    "color": "blue",
+    "subsections": [
+      {
+        "name": "Art, culture and heritage of India (High Leak)",
+        "percentage": 28
+      },
+      {
+        "name": "Major national and international sporting events",
+        "percentage": 45
+      },
+      {
+        "name": "ICC Cricket events and outcomes",
+        "percentage": 80
+      },
+      {
+        "name": "Indian athletes and achievements",
+        "percentage": 63
+      },
+      {
+        "name": "Awards and records in sports",
+        "percentage": 50
+      },
+      {
+        "name": "Olympics, Commonwealth Games, Asian Games",
+        "percentage": 60
+      },
+      {
+        "name": "Major political developments in India (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "International organisations and their activities (UN, WTO, IMF, World Bank, etc.) (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Major rivers, mountains and geographical features (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Ancient Indian history and civilizations (Critical)",
+        "percentage": 0
+      }
+    ]
+  },
+  {
+    "subject": "Logical Reasoning",
+    "percentage": 10,
+    "color": "amber",
+    "subsections": [
+      {
+        "name": "Displacement and Final Position (Critical)",
+        "percentage": 6
+      },
+      {
+        "name": "Rotation-based Direction Problems (Critical)",
+        "percentage": 15
+      },
+      {
+        "name": "Cardinal and Ordinal Directions (Critical)",
+        "percentage": 11
+      }
+    ]
+  },
+  {
+    "subject": "Logical Reasoning (BITSAT)",
+    "percentage": 70,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Number Series: Missing Number",
+        "percentage": 71
+      },
+      {
+        "name": "Word Analogy",
+        "percentage": 100
+      },
+      {
+        "name": "Number-based Classification",
+        "percentage": 75
+      },
+      {
+        "name": "Word-based Classification",
+        "percentage": 75
+      },
+      {
+        "name": "Number Analogy",
+        "percentage": 75
+      },
+      {
+        "name": "Letter Series",
+        "percentage": 100
+      },
+      {
+        "name": "Letter-based Classification",
+        "percentage": 100
+      },
+      {
+        "name": "Letter Analogy",
+        "percentage": 100
+      },
+      {
+        "name": "Completing the Figure Series (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Figure Matrix Problems (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Odd Figure Out (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Mixed Analogy",
+        "percentage": 100
+      },
+      {
+        "name": "Wrong Number in Series",
+        "percentage": 100
+      },
+      {
+        "name": "Alphanumeric Series (Critical)",
+        "percentage": 0
+      }
+    ]
+  },
+  {
+    "subject": "Quantitative Techniques",
+    "percentage": 13,
+    "color": "amber",
+    "subsections": [
+      {
+        "name": "Simple Interest Formula and Applications (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Ratio and its Properties (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Basic Percentage Calculations (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Alligation Rule",
+        "percentage": 50
+      },
+      {
+        "name": "Proportion: Direct and Inverse (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Change in Average",
+        "percentage": 50
+      },
+      {
+        "name": "Mixing of Two or More Solutions (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Successive Percentage Change (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Arithmetic Mean (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Weighted Average",
+        "percentage": 50
+      },
+      {
+        "name": "Percentage Change (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Replacement of Mixtures (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Population Growth and Depreciation (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Partnership",
+        "percentage": 100
+      },
+      {
+        "name": "Average Speed (Critical)",
+        "percentage": 0
+      }
+    ]
+  }
+]

@@ -1,0 +1,214 @@
+[
+  {
+    "subject": "Current Affairs & GK",
+    "percentage": 32,
+    "color": "blue",
+    "subsections": [
+      {
+        "name": "Art, culture and heritage of India (High Leak)",
+        "percentage": 27
+      },
+      {
+        "name": "Major national and international sporting events (High Leak)",
+        "percentage": 29
+      },
+      {
+        "name": "Awards and records in sports",
+        "percentage": 44
+      },
+      {
+        "name": "ICC Cricket events and outcomes",
+        "percentage": 63
+      },
+      {
+        "name": "Olympics, Commonwealth Games, Asian Games (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Indian athletes and achievements (Critical)",
+        "percentage": 17
+      },
+      {
+        "name": "International organisations and their activities (UN, WTO, IMF, World Bank, etc.) (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Major political developments in India (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Ancient Indian history and civilizations",
+        "percentage": 100
+      },
+      {
+        "name": "Indian literature and languages (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Major rivers, mountains and geographical features (Critical)",
+        "percentage": 0
+      }
+    ]
+  },
+  {
+    "subject": "Logical Reasoning",
+    "percentage": 70,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Displacement and Final Position",
+        "percentage": 61
+      },
+      {
+        "name": "Rotation-based Direction Problems",
+        "percentage": 92
+      },
+      {
+        "name": "Cardinal and Ordinal Directions",
+        "percentage": 56
+      }
+    ]
+  },
+  {
+    "subject": "Logical Reasoning (BITSAT)",
+    "percentage": 54,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Displacement and Final Position",
+        "percentage": 57
+      },
+      {
+        "name": "Odd Figure Out",
+        "percentage": 38
+      },
+      {
+        "name": "Number-based Classification (High Leak)",
+        "percentage": 21
+      },
+      {
+        "name": "Word-based Classification",
+        "percentage": 50
+      },
+      {
+        "name": "Letter-based Classification",
+        "percentage": 45
+      },
+      {
+        "name": "Rotation-based Direction Problems",
+        "percentage": 50
+      },
+      {
+        "name": "Cardinal and Ordinal Directions",
+        "percentage": 89
+      },
+      {
+        "name": "Number Series: Missing Number",
+        "percentage": 43
+      },
+      {
+        "name": "Word Analogy",
+        "percentage": 100
+      },
+      {
+        "name": "Number Analogy",
+        "percentage": 75
+      },
+      {
+        "name": "Letter Series",
+        "percentage": 100
+      },
+      {
+        "name": "Completing the Figure Series",
+        "percentage": 100
+      },
+      {
+        "name": "Letter Analogy",
+        "percentage": 100
+      },
+      {
+        "name": "Figure Matrix Problems",
+        "percentage": 50
+      },
+      {
+        "name": "Mixed Analogy",
+        "percentage": 100
+      },
+      {
+        "name": "Alphanumeric Series",
+        "percentage": 100
+      },
+      {
+        "name": "Wrong Number in Series (Critical)",
+        "percentage": 0
+      }
+    ]
+  },
+  {
+    "subject": "Quantitative Techniques",
+    "percentage": 23,
+    "color": "amber",
+    "subsections": [
+      {
+        "name": "Simple Interest Formula and Applications (High Leak)",
+        "percentage": 26
+      },
+      {
+        "name": "Mixing of Two or More Solutions (Critical)",
+        "percentage": 19
+      },
+      {
+        "name": "Alligation Rule (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Replacement of Mixtures (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Weighted Average (Critical)",
+        "percentage": 13
+      },
+      {
+        "name": "Ratio and its Properties (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Change in Average (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Proportion: Direct and Inverse",
+        "percentage": 75
+      },
+      {
+        "name": "Basic Percentage Calculations",
+        "percentage": 50
+      },
+      {
+        "name": "Successive Percentage Change (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Arithmetic Mean",
+        "percentage": 67
+      },
+      {
+        "name": "Percentage Change (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Partnership (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Average Speed (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Population Growth and Depreciation",
+        "percentage": 100
+      }
+    ]
+  }
+]
