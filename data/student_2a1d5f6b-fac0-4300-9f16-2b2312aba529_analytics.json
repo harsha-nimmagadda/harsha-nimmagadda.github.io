@@ -1,0 +1,334 @@
+{
+  "pacing_metrics": [
+    {
+      "subject": "Current Affairs & GK",
+      "accuracy": 53,
+      "avg_time_sec": 19,
+      "exam_count": 1
+    },
+    {
+      "subject": "Legal Reasoning",
+      "accuracy": 40,
+      "avg_time_sec": 115,
+      "exam_count": 1
+    },
+    {
+      "subject": "Logical Reasoning (BITSAT)",
+      "accuracy": 43,
+      "avg_time_sec": 20,
+      "exam_count": 1
+    },
+    {
+      "subject": "Quantitative Techniques",
+      "accuracy": 17,
+      "avg_time_sec": 16,
+      "exam_count": 1
+    }
+  ],
+  "topic_recovery_history": [
+    {
+      "subject": "Quantitative Techniques",
+      "topic": "Percentage — calculation and application",
+      "early_acc": 0,
+      "recent_acc": 50
+    },
+    {
+      "subject": "Physics",
+      "topic": "Projectile Motion",
+      "early_acc": 14,
+      "recent_acc": 43
+    },
+    {
+      "subject": "Logical Reasoning (BITSAT)",
+      "topic": "Completing analogies based on given patterns",
+      "early_acc": 40,
+      "recent_acc": 60
+    },
+    {
+      "subject": "Current Affairs & GK",
+      "topic": "Art, culture and heritage of India",
+      "early_acc": 46,
+      "recent_acc": 62
+    }
+  ],
+  "heatmap_data": [
+    {
+      "subject": "Chemistry",
+      "chapters": [
+        {
+          "name": "Atomic Radii and Ionic Radii",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 3,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Bohr's Atomic Model",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 3,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Discovery of Electron, Proton and Neutron",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Dual Nature of Matter – de Broglie Relation",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Current Affairs & GK",
+      "chapters": [
+        {
+          "name": "Ancient Indian history and civilizations",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": null,
+          "med_qs": 0,
+          "hard_acc": 100,
+          "hard_qs": 1
+        },
+        {
+          "name": "Art, culture and heritage of India",
+          "easy_acc": 56,
+          "easy_qs": 9,
+          "med_acc": 38,
+          "med_qs": 13,
+          "hard_acc": 100,
+          "hard_qs": 4
+        },
+        {
+          "name": "International organisations and their activities (UN, WTO, IMF, World Bank, etc.)",
+          "easy_acc": 0,
+          "easy_qs": 1,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Major judicial decisions and landmark judgments",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Legal Reasoning",
+      "chapters": [
+        {
+          "name": "Capacity to contract",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 50,
+          "med_qs": 2,
+          "hard_acc": 100,
+          "hard_qs": 1
+        },
+        {
+          "name": "Consideration and its types",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 33,
+          "med_qs": 3,
+          "hard_acc": 0,
+          "hard_qs": 2
+        },
+        {
+          "name": "Contingent contracts",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Essentials of a valid contract",
+          "easy_acc": 0,
+          "easy_qs": 1,
+          "med_acc": 50,
+          "med_qs": 4,
+          "hard_acc": 0,
+          "hard_qs": 1
+        }
+      ]
+    },
+    {
+      "subject": "Logical Reasoning (BITSAT)",
+      "chapters": [
+        {
+          "name": "Classifying items based on logical categories",
+          "easy_acc": 100,
+          "easy_qs": 1,
+          "med_acc": 40,
+          "med_qs": 5,
+          "hard_acc": 50,
+          "hard_qs": 2
+        },
+        {
+          "name": "Completing analogies based on given patterns",
+          "easy_acc": 100,
+          "easy_qs": 3,
+          "med_acc": 33,
+          "med_qs": 3,
+          "hard_acc": 25,
+          "hard_qs": 4
+        },
+        {
+          "name": "Sequence and series patterns in context",
+          "easy_acc": 20,
+          "easy_qs": 5,
+          "med_acc": 50,
+          "med_qs": 6,
+          "hard_acc": 0,
+          "hard_qs": 1
+        }
+      ]
+    },
+    {
+      "subject": "Mathematics",
+      "chapters": [
+        {
+          "name": "Binomial Theorem for Positive Integral Indices",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Evaluation of Determinants",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 50,
+          "med_qs": 2,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Operations on Matrices – Addition, Multiplication",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 2,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Properties of Determinants",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 50,
+          "med_qs": 2,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "chapters": [
+        {
+          "name": "Average and Instantaneous Velocity",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 7,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Projectile Motion",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 29,
+          "med_qs": 14,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Relative Motion in Two Dimensions",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 50,
+          "med_qs": 2,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Relative Velocity",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        }
+      ]
+    },
+    {
+      "subject": "Quantitative Techniques",
+      "chapters": [
+        {
+          "name": "Bar graphs — reading and interpreting data",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Line graphs — reading and interpreting data",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 100,
+          "med_qs": 1,
+          "hard_acc": null,
+          "hard_qs": 0
+        },
+        {
+          "name": "Mixtures and alligation (basic)",
+          "easy_acc": null,
+          "easy_qs": 0,
+          "med_acc": 0,
+          "med_qs": 4,
+          "hard_acc": 0,
+          "hard_qs": 1
+        },
+        {
+          "name": "Percentage — calculation and application",
+          "easy_acc": 0,
+          "easy_qs": 1,
+          "med_acc": 0,
+          "med_qs": 1,
+          "hard_acc": 50,
+          "hard_qs": 2
+        }
+      ]
+    }
+  ]
+}

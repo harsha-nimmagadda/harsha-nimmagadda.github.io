@@ -1,0 +1,239 @@
+[
+  {
+    "subject": "Chemistry",
+    "percentage": 4,
+    "color": "amber",
+    "subsections": [
+      {
+        "name": "Ionisation Enthalpy (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Atomic Radii and Ionic Radii (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Bohr's Atomic Model (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Modern Periodic Law and Long Form of Periodic Table (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Electronic Configuration and Periodic Table (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Orbitals and Quantum Numbers (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Electronic Configuration of Elements (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Lanthanoid Contraction (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Discovery of Electron, Proton and Neutron (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Dual Nature of Matter – de Broglie Relation (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "General Properties of Transition Metals (d-block) (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Rules for Filling Orbitals – Aufbau, Hund, Pauli (Critical)",
+        "percentage": 0
+      }
+    ]
+  },
+  {
+    "subject": "Current Affairs & GK",
+    "percentage": 53,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Art, culture and heritage of India",
+        "percentage": 54
+      },
+      {
+        "name": "International organisations and their activities (UN, WTO, IMF, World Bank, etc.) (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Ancient Indian history and civilizations",
+        "percentage": 100
+      },
+      {
+        "name": "Major judicial decisions and landmark judgments",
+        "percentage": 100
+      }
+    ]
+  },
+  {
+    "subject": "Legal Reasoning",
+    "percentage": 40,
+    "color": "blue",
+    "subsections": [
+      {
+        "name": "Free consent — coercion, undue influence, fraud, misrepresentation, mistake (Critical)",
+        "percentage": 14
+      },
+      {
+        "name": "Offer and acceptance",
+        "percentage": 57
+      },
+      {
+        "name": "Essentials of a valid contract (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Consideration and its types (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Capacity to contract",
+        "percentage": 67
+      },
+      {
+        "name": "Contingent contracts",
+        "percentage": 100
+      },
+      {
+        "name": "Void, voidable, valid and unenforceable contracts",
+        "percentage": 100
+      }
+    ]
+  },
+  {
+    "subject": "Logical Reasoning (BITSAT)",
+    "percentage": 43,
+    "color": "blue",
+    "subsections": [
+      {
+        "name": "Sequence and series patterns in context (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Completing analogies based on given patterns",
+        "percentage": 50
+      },
+      {
+        "name": "Classifying items based on logical categories",
+        "percentage": 50
+      }
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "percentage": 24,
+    "color": "emerald",
+    "subsections": [
+      {
+        "name": "Trigonometric Ratios and Identities (High Leak)",
+        "percentage": 24
+      },
+      {
+        "name": "Evaluation of Determinants",
+        "percentage": 50
+      },
+      {
+        "name": "Operations on Matrices – Addition, Multiplication (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Properties of Determinants",
+        "percentage": 50
+      },
+      {
+        "name": "Symmetric and Skew-Symmetric Matrices (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Binomial Theorem for Positive Integral Indices (Critical)",
+        "percentage": 0
+      }
+    ]
+  },
+  {
+    "subject": "Physics",
+    "percentage": 20,
+    "color": "blue",
+    "subsections": [
+      {
+        "name": "Projectile Motion (High Leak)",
+        "percentage": 29
+      },
+      {
+        "name": "Average and Instantaneous Velocity (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Relative Motion in Two Dimensions",
+        "percentage": 50
+      },
+      {
+        "name": "Relative Velocity (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Vector Addition and Subtraction (Critical)",
+        "percentage": 0
+      }
+    ]
+  },
+  {
+    "subject": "Quantitative Techniques",
+    "percentage": 17,
+    "color": "amber",
+    "subsections": [
+      {
+        "name": "Ratio and proportion — direct and inverse (Critical)",
+        "percentage": 14
+      },
+      {
+        "name": "Mixtures and alligation (basic) (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Problems on averages (Critical)",
+        "percentage": 20
+      },
+      {
+        "name": "Percentage — calculation and application (High Leak)",
+        "percentage": 25
+      },
+      {
+        "name": "Percentage change — increase and decrease (High Leak)",
+        "percentage": 33
+      },
+      {
+        "name": "Tables — reading and interpreting data (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Line graphs — reading and interpreting data",
+        "percentage": 100
+      },
+      {
+        "name": "Weighted average (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Pie charts — reading and interpreting data (Critical)",
+        "percentage": 0
+      },
+      {
+        "name": "Bar graphs — reading and interpreting data (Critical)",
+        "percentage": 0
+      }
+    ]
+  }
+]

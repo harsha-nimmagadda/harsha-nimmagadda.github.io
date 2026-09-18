@@ -1,0 +1,169 @@
+[
+  {
+    "id": "exam-85cae5c2-babb-461a-a021-93857b70d9a2",
+    "name": "JR & SR CLAT Weekly Test — 08 Aug 2026",
+    "date": "8 Aug 2026",
+    "score": "46/120",
+    "total_score": 46,
+    "total_max": 120,
+    "percentage": 38,
+    "type": "Online Platform",
+    "summary": "Diagnostic telemetry captured.",
+    "subjects": [
+      {
+        "name": "Current Affairs & GK",
+        "score": "16/120",
+        "percentage": 53,
+        "color": "emerald"
+      },
+      {
+        "name": "Legal Reasoning",
+        "score": "12/120",
+        "percentage": 40,
+        "color": "blue"
+      },
+      {
+        "name": "Logical Reasoning (BITSAT)",
+        "score": "13/120",
+        "percentage": 43,
+        "color": "blue"
+      },
+      {
+        "name": "Quantitative Techniques",
+        "score": "5/120",
+        "percentage": 17,
+        "color": "amber"
+      }
+    ],
+    "questions": [
+      {
+        "q_num": 1,
+        "type": "MCQ Single",
+        "topic": "Completing analogies based on given patterns",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 3,
+        "time": "0m 3s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 2,
+        "type": "MCQ Single",
+        "topic": "Art, culture and heritage of India",
+        "status": "correct",
+        "marks": "1 marks",
+        "time_sec": 8,
+        "time": "0m 8s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 3,
+        "type": "MCQ Single",
+        "topic": "Percentage — calculation and application",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 23,
+        "time": "0m 23s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 4,
+        "type": "MCQ Single",
+        "topic": "Percentage change — increase and decrease",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 1,
+        "time": "0m 1s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 5,
+        "type": "MCQ Single",
+        "topic": "Art, culture and heritage of India",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 13,
+        "time": "0m 13s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 6,
+        "type": "MCQ Single",
+        "topic": "Ratio and proportion — direct and inverse",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 13,
+        "time": "0m 13s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      },
+      {
+        "q_num": 7,
+        "type": "MCQ Single",
+        "topic": "Free consent — coercion, undue influence, fraud, misrepresentation, mistake",
+        "status": "correct",
+        "marks": "1 marks",
+        "time_sec": 3,
+        "time": "0m 3s",
+        "difficulty": "easy",
+        "is_guess": false,
+        "note": "Clean Solve"
+      },
+      {
+        "q_num": 8,
+        "type": "MCQ Single",
+        "topic": "Sequence and series patterns in context",
+        "status": "wrong",
+        "marks": "0 marks",
+        "time_sec": 2,
+        "time": "0m 2s",
+        "difficulty": "easy",
+        "is_guess": true,
+        "note": "Blind Guess"
+      }
+    ]
+  },
+  {
+    "id": "exam-d2578f6d-b04c-4063-a6b7-9c9b9b6acb26",
+    "name": "110726_Jr MPC_JEE MAINS_WTM-05",
+    "date": "11 Jul 2026",
+    "score": "33/300",
+    "total_score": 33,
+    "total_max": 300,
+    "percentage": 11,
+    "type": "External Upload",
+    "summary": "Center mock test upload.",
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "score": "-2/100",
+        "percentage": 4,
+        "color": "amber"
+      },
+      {
+        "name": "Mathematics",
+        "score": "21/100",
+        "percentage": 24,
+        "color": "emerald"
+      },
+      {
+        "name": "Physics",
+        "score": "14/100",
+        "percentage": 20,
+        "color": "blue"
+      }
+    ],
+    "questions": []
+  }
+]
