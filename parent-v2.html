@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent Intelligence & Guidance Hub • Question-Led Parent V2</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts Inter & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    boxShadow: {
+                        '2xs': '0 1px 2px 0 rgba(0, 0, 0, 0.04)',
+                        'xs': '0 1px 3px 0 rgba(0, 0, 0, 0.06), 0 1px 2px 0 rgba(0, 0, 0, 0.03)',
+                        'card': '0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05)',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(4px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in { animation: fadeIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased min-h-screen flex flex-col font-sans">
+
+    <!-- Version Switcher Bar -->
+    <div class="bg-slate-900 text-white text-xs px-4 py-2 border-b border-slate-800">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
+            <div class="flex items-center space-x-2">
+                <span class="bg-teal-600 text-white text-[10px] font-black px-2 py-0.5 rounded tracking-wide">VERSION 2 • QUESTION-LED</span>
+                <span class="text-slate-200 font-medium">Reassurance &amp; Strategic Guidance Engine</span>
+            </div>
+            <div class="flex items-center space-x-3">
+                <span class="text-slate-400 hidden md:inline">Looking for the traditional multi-metric view?</span>
+                <a href="parent-v1.html" class="inline-flex items-center space-x-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold px-3 py-1 rounded-lg text-xs transition-colors border border-slate-700 shadow-sm">
+                    <span>Switch to Parent V1 (Baseline)</span>
+                    <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Top Sticky Navigation -->
+    <header class="bg-white border-b border-slate-200/80 sticky top-0 z-40 backdrop-blur-md bg-white/95">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between py-3 gap-3 border-b border-slate-100">
+                
+                <!-- Institutional Brand & Portal Badge -->
+                <div class="flex items-center space-x-3.5">
+                    <div class="w-10 h-10 rounded-2xl bg-teal-600 text-white flex items-center justify-center text-lg font-black shadow-md shadow-teal-200 shrink-0">
+                        <i class="fa-solid fa-user-shield"></i>
+                    </div>
+                    <div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-base sm:text-lg font-black text-slate-900 tracking-tight">EXCELLENCIA</span>
+                            <span class="px-2 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider bg-teal-50 text-teal-800 border border-teal-200">
+                                Parent Intelligence V2
+                            </span>
+                        </div>
+                        <p class="text-xs text-slate-500 font-medium">
+                            Guidance &amp; Reassurance Engine for Parents of 11th &amp; 12th Competitive Students
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Right Action Bar: Student Selector & Version Toggle -->
+                <div class="flex items-center space-x-2.5 shrink-0 flex-wrap gap-y-2">
+                    
+                    <!-- Child Selector Dropdown -->
+                    <div class="flex items-center space-x-2 bg-slate-50 hover:bg-slate-100 px-3 py-1.5 rounded-xl border border-slate-200/80 text-xs font-semibold text-slate-700 transition-colors shadow-2xs">
+                        <i class="fa-solid fa-graduation-cap text-teal-600 text-xs"></i>
+                        <select id="student-selector" class="bg-transparent text-xs font-bold text-slate-800 focus:outline-none cursor-pointer pr-1 py-0.5 border-0">
+                            <option value="0">Loading students...</option>
+                        </select>
+                    </div>
+
+                    <!-- Target Exam Badge -->
+                    <span id="parent-target-pill" class="text-xs font-black text-teal-800 bg-teal-50 px-2.5 py-1.5 rounded-xl border border-teal-200">
+                        JEE MAINS 2027
+                    </span>
+
+                    <!-- Version 1 Action Link -->
+                    <a href="parent-v1.html" class="px-3 py-1.5 rounded-xl text-xs font-bold bg-slate-100 hover:bg-slate-200 border border-slate-300 text-slate-700 transition-all shadow-2xs flex items-center space-x-1.5 cursor-pointer" title="Switch to Baseline Parent V1">
+                        <i class="fa-solid fa-table-columns text-slate-500 text-xs"></i>
+                        <span>Parent V1 Baseline</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Parent-Question-Led Navigation Tabs -->
+            <nav class="flex items-center space-x-2 py-2.5 overflow-x-auto no-scrollbar text-xs font-bold" id="parent-nav">
+                <button data-view="view-standing" class="parent-nav-pill active px-3.5 py-2 rounded-xl bg-teal-700 text-white shadow-xs transition-all flex items-center space-x-1.5 cursor-pointer">
+                    <i class="fa-solid fa-gauge text-xs"></i>
+                    <span>1. Where Does My Child Stand?</span>
+                </button>
+                <button data-view="view-leaks" class="parent-nav-pill px-3.5 py-2 rounded-xl bg-slate-100 text-slate-700 hover:bg-slate-200 transition-all flex items-center space-x-1.5 cursor-pointer">
+                    <i class="fa-solid fa-magnifying-glass-chart text-xs text-slate-400"></i>
+                    <span>2. Why Are Marks Leaking?</span>
+                </button>
+                <button data-view="view-playbook" class="parent-nav-pill px-3.5 py-2 rounded-xl bg-slate-100 text-slate-700 hover:bg-slate-200 transition-all flex items-center space-x-1.5 cursor-pointer">
+                    <i class="fa-solid fa-utensils text-xs text-slate-400"></i>
+                    <span>3. How Can I Help Tonight?</span>
+                </button>
+                <button data-view="view-ptm" class="parent-nav-pill px-3.5 py-2 rounded-xl bg-slate-100 text-slate-700 hover:bg-slate-200 transition-all flex items-center space-x-1.5 cursor-pointer">
+                    <i class="fa-solid fa-comments text-xs text-slate-400"></i>
+                    <span>4. What Should I Ask at PTM?</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-6 flex-1 space-y-6">
+
+        <!-- ================================================================= -->
+        <!-- QUESTION 1: WHERE DOES MY CHILD STAND FOR THEIR TARGET EXAM?      -->
+        <!-- ================================================================= -->
+        <div id="view-standing" class="parent-view space-y-6">
+
+            <!-- Question Contract Banner -->
+            <div class="bg-teal-50/70 border border-teal-200/80 rounded-2xl p-3.5 text-xs text-teal-900 flex items-start space-x-2.5">
+                <i class="fa-solid fa-circle-question text-teal-600 mt-0.5 text-sm shrink-0"></i>
+                <div class="space-y-0.5">
+                    <span class="font-extrabold uppercase tracking-wide text-[10px] text-teal-800">Parent Question Contract:</span>
+                    <p class="font-medium text-slate-700">
+                        When checking your child's progress, you ask <em>"Is my child on track for a top college, and what should I expect?"</em>. We support this with calibrated JEE percentiles and realistic seat projections, while daily stress and home focus remain things to observe at home.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 5-Second Executive Pulse & College Projection -->
+            <section class="bg-white rounded-3xl p-6 shadow-sm border border-slate-200/80 space-y-6">
+                <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6 border-b border-slate-100 pb-6">
+                    
+                    <!-- Left: Preparation Health Dial & AI Verdict -->
+                    <div class="flex items-start space-x-5 flex-1">
+                        
+                        <!-- Health Dial -->
+                        <div class="relative w-24 h-24 shrink-0 flex items-center justify-center">
+                            <svg class="w-full h-full transform -rotate-90" viewBox="0 0 36 36">
+                                <path class="text-slate-100" stroke-width="3.5" stroke="currentColor" fill="none"
+                                      d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                <path class="text-teal-600 transition-all duration-1000 ease-out" stroke-dasharray="84, 100" stroke-width="3.5" stroke-linecap="round" stroke="currentColor" fill="none"
+                                      d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" id="health-score-dial" />
+                            </svg>
+                            <div class="absolute flex flex-col items-center justify-center text-center">
+                                <span class="text-2xl font-black text-slate-900" id="parent-health-score">84</span>
+                                <span class="text-[9px] font-extrabold uppercase text-teal-700">Health</span>
+                            </div>
+                        </div>
+
+                        <!-- Plain English Verdict -->
+                        <div class="space-y-1.5 flex-1">
+                            <div class="flex items-center space-x-2">
+                                <span class="px-2.5 py-0.5 rounded-full text-xs font-black uppercase bg-emerald-50 text-emerald-700 border border-emerald-200 flex items-center space-x-1.5">
+                                    <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                                    <span id="parent-verdict-tag">🟢 On Track • Top 35% of Batch</span>
+                                </span>
+                                <span class="text-xs text-slate-400 font-semibold" id="parent-updated-tag">Updated WTM-21</span>
+                            </div>
+                            <h2 class="text-lg sm:text-xl font-black text-slate-900 tracking-tight" id="parent-glance-headline">
+                                Bhagam is well-positioned for Top NITs &amp; IIITs (97.6–98.5%ile projection).
+                            </h2>
+                            <p class="text-xs text-slate-600 font-medium leading-relaxed" id="parent-glance-desc">
+                                Her test consistency is 90% (18 of 20 tests written). She is performing solidly above the batch average in Physics and Mathematics, while Chemistry has quick, recoverable mark leaks.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <!-- Right: Calibrated JEE Target Projection Card -->
+                    <div class="lg:w-96 bg-gradient-to-br from-teal-50 to-blue-50/50 p-4 rounded-2xl border border-teal-200/80 space-y-3 shrink-0">
+                        <div class="flex items-center justify-between border-b border-teal-200/60 pb-2">
+                            <span class="text-[10px] font-black uppercase tracking-wider text-teal-800">Calibrated JEE Mains Projection</span>
+                            <span class="text-[10px] font-black bg-teal-200/60 text-teal-900 px-2 py-0.5 rounded-full">Premier College Zone</span>
+                        </div>
+                        <div class="grid grid-cols-3 gap-2 text-center">
+                            <div class="p-2 rounded-xl bg-white/80 border border-teal-100 shadow-2xs">
+                                <span class="text-[10px] text-slate-400 font-bold block">Target Score</span>
+                                <span class="text-sm sm:text-base font-black text-slate-900" id="parent-proj-score">162–188</span>
+                                <span class="text-[9px] text-slate-500 block">Out of 300</span>
+                            </div>
+                            <div class="p-2 rounded-xl bg-white/80 border border-teal-100 shadow-2xs">
+                                <span class="text-[10px] text-slate-400 font-bold block">Percentile</span>
+                                <span class="text-sm sm:text-base font-black text-teal-800" id="parent-proj-pct">97.6–98.5</span>
+                                <span class="text-[9px] text-slate-500 block">Top 2%</span>
+                            </div>
+                            <div class="p-2 rounded-xl bg-white/80 border border-teal-100 shadow-2xs">
+                                <span class="text-[10px] text-slate-400 font-bold block">Est. AIR</span>
+                                <span class="text-sm sm:text-base font-black text-indigo-700" id="parent-proj-air">13.5k–21k</span>
+                                <span class="text-[9px] text-slate-500 block">NIT / IIIT Tier</span>
+                            </div>
+                        </div>
+                        <p class="text-[11px] text-teal-950 font-medium">
+                            <i class="fa-solid fa-graduation-cap text-teal-600 mr-1"></i>
+                            Qualifies for Computer Science / ECE branches at Premier NITs (Warangal, Calicut, Surathkal) and top IIITs.
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- INDIAN EXAM REALITY TRANSLATOR (Dismantling the 95% Board Exam Myth) -->
+                <div class="p-4 rounded-2xl bg-amber-50/70 border border-amber-200/80 space-y-2">
+                    <div class="flex items-center space-x-2 text-amber-900 font-black text-xs">
+                        <i class="fa-solid fa-scale-unbalanced-flip text-amber-600"></i>
+                        <span>The Competitive Exam Reality Check (Why 45% in JEE is Excellent):</span>
+                    </div>
+                    <p class="text-xs text-amber-950 leading-relaxed font-medium">
+                        In Class 10 board exams, scoring 95% is normal because questions test basic textbook recall. In contrast, JEE Mains is a national elimination exam with negative marking (+4 / -1). Scoring <strong>45% to 55% in JEE places a student in the top 2% of the entire nation</strong>. Do not panic when marks look lower than school report cards!
+                    </p>
+                </div>
+            </section>
+
+            <!-- INTERACTIVE "WHAT-IF" RECOVERY SIMULATOR -->
+            <section class="bg-white rounded-3xl p-6 shadow-sm border border-slate-200/80 space-y-5">
+                <div class="flex items-center justify-between border-b border-slate-100 pb-3">
+                    <div>
+                        <h3 class="text-base font-black text-slate-900 tracking-tight flex items-center">
+                            <i class="fa-solid fa-sliders text-teal-600 mr-2"></i> Interactive "What-If" Score Recovery Simulator
+                        </h3>
+                        <p class="text-xs text-slate-500 font-medium">See how fixing simple calculation mistakes and guessing habits elevates your child's rank.</p>
+                    </div>
+                    <span class="text-xs font-bold text-teal-700 bg-teal-50 px-2.5 py-1 rounded-full border border-teal-200">
+                        Dynamic Rank Uplift
+                    </span>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+                    
+                    <!-- Sliders -->
+                    <div class="space-y-4">
+                        
+                        <!-- Slider 1: Calculation Errors -->
+                        <div class="space-y-1.5">
+                            <div class="flex justify-between text-xs font-bold text-slate-700">
+                                <span>Recover Calculation Slips (Avoid Rushing)</span>
+                                <span id="sim-calc-val" class="text-teal-700 font-black">+12 Marks</span>
+                            </div>
+                            <input type="range" id="sim-calc-slider" min="0" max="20" step="4" value="12"
+                                   class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-teal-600"
+                                   oninput="updateSimulator()">
+                            <span class="text-[10px] text-slate-400 block">Current slips: 4 questions lost in WTM-21</span>
+                        </div>
+
+                        <!-- Slider 2: Guessing Discipline -->
+                        <div class="space-y-1.5">
+                            <div class="flex justify-between text-xs font-bold text-slate-700">
+                                <span>Eliminate Negative Marking (Blind Guesses)</span>
+                                <span id="sim-guess-val" class="text-teal-700 font-black">+4 Marks</span>
+                            </div>
+                            <input type="range" id="sim-guess-slider" min="0" max="10" step="2" value="4"
+                                   class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-teal-600"
+                                   oninput="updateSimulator()">
+                            <span class="text-[10px] text-slate-400 block">Current penalty: 1 quick guess in WTM-21</span>
+                        </div>
+
+                    </div>
+
+                    <!-- Simulator Projected Result Card -->
+                    <div class="bg-slate-50 p-5 rounded-2xl border border-slate-200 text-center space-y-2">
+                        <span class="text-[10px] font-black uppercase tracking-wider text-slate-400">Projected Uplifted Outcome</span>
+                        <div class="flex items-center justify-center space-x-3">
+                            <h4 class="text-3xl font-black text-teal-700" id="sim-uplifted-score">131 / 300</h4>
+                            <span class="px-2 py-0.5 rounded-full text-xs font-black bg-emerald-100 text-emerald-800" id="sim-net-recovered">+16 Recovered</span>
+                        </div>
+                        <p class="text-xs font-bold text-slate-800" id="sim-projected-rank-text">
+                            Pushes All India Rank from ~18,000 &rarr; ~11,500 AIR (+6,500 Seats Higher!)
+                        </p>
+                        <p class="text-[11px] text-slate-500 font-medium">
+                            No new syllabus needed. This rank leap comes strictly from eliminating avoidable execution errors.
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+
+        <!-- ================================================================= -->
+        <!-- QUESTION 2: WHY ARE MARKS LEAKING? (BEHAVIORAL AUTOPSY)           -->
+        <!-- ================================================================= -->
+        <div id="view-leaks" class="parent-view hidden space-y-6">
+
+            <!-- Question Contract Banner -->
+            <div class="bg-rose-50/70 border border-rose-200/80 rounded-2xl p-3.5 text-xs text-rose-900 flex items-start space-x-2.5">
+                <i class="fa-solid fa-circle-question text-rose-600 mt-0.5 text-sm shrink-0"></i>
+                <div class="space-y-0.5">
+                    <span class="font-extrabold uppercase tracking-wide text-[10px] text-rose-800">Parent Question Contract:</span>
+                    <p class="font-medium text-slate-700">
+                        When reviewing recent test scores, you ask <em>"Is my child struggling with concepts, or is it exam pressure and careless mistakes?"</em>. We support this by breaking down avoidable execution bleeds versus genuine subject understanding.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Effort vs Outcome Quadrant -->
+            <section class="bg-white rounded-3xl p-6 shadow-sm border border-slate-200/80 space-y-4">
+                <div class="flex items-center justify-between border-b border-slate-100 pb-3">
+                    <div>
+                        <h3 class="text-base font-black text-slate-900 tracking-tight">Effort &times; Outcome Diagnostic Pulse</h3>
+                        <p class="text-xs text-slate-500 font-medium">Correlating your child's study effort against test scores.</p>
+                    </div>
+                    <span class="px-3 py-1 rounded-full text-xs font-black bg-emerald-50 text-emerald-800 border border-emerald-200">
+                        🟢 Working Hard &amp; Improving
+                    </span>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-3.5 text-xs">
+                    <div class="p-3.5 rounded-2xl bg-slate-50 border border-slate-100 space-y-1">
+                        <span class="text-[10px] font-bold text-slate-400 uppercase">Classroom &amp; Homework</span>
+                        <p class="font-extrabold text-slate-800 text-sm">92% Homework Submitted</p>
+                        <span class="text-[10px] text-emerald-600 font-semibold block">High diligence, zero laziness</span>
+                    </div>
+                    <div class="p-3.5 rounded-2xl bg-slate-50 border border-slate-100 space-y-1">
+                        <span class="text-[10px] font-bold text-slate-400 uppercase">Test Attendance Discipline</span>
+                        <p class="font-extrabold text-slate-800 text-sm">18 of 20 Tests Written</p>
+                        <span class="text-[10px] text-teal-600 font-semibold block">90% test discipline</span>
+                    </div>
+                    <div class="p-3.5 rounded-2xl bg-slate-50 border border-slate-100 space-y-1">
+                        <span class="text-[10px] font-bold text-slate-400 uppercase">Test-Taking Composure</span>
+                        <p class="font-extrabold text-rose-700 text-sm">-16 Avoidable Marks Lost</p>
+                        <span class="text-[10px] text-rose-600 font-semibold block">Rushing under time pressure</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Breakdown of the -16 Marks Lost -->
+            <section class="bg-white rounded-3xl p-6 shadow-sm border border-slate-200/80 space-y-4">
+                <h3 class="text-base font-black text-slate-900 tracking-tight">
+                    Where Did Marks Actually Go in WTM-21? (Avoidable Leaks Autopsy)
+                </h3>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    
+                    <!-- Leak 1: Calculation Slips -->
+                    <div class="p-4 rounded-2xl bg-rose-50/60 border border-rose-200 space-y-2">
+                        <div class="flex items-center justify-between">
+                            <span class="font-black text-rose-800 text-xs">Calculation Slips</span>
+                            <span class="text-base font-black text-rose-700">-12 Marks</span>
+                        </div>
+                        <p class="text-[11px] text-slate-600 leading-relaxed font-medium">
+                            In 4 questions, she spent over 1 minute, applied the correct formula, but made a sign or arithmetic slip at the end. She knew the answer!
+                        </p>
+                        <span class="text-[10px] font-bold text-rose-700 block">Fix: Write down intermediate steps rather than mental math.</span>
+                    </div>
+
+                    <!-- Leak 2: Blind Guess -->
+                    <div class="p-4 rounded-2xl bg-amber-50/60 border border-amber-200 space-y-2">
+                        <div class="flex items-center justify-between">
+                            <span class="font-black text-amber-800 text-xs">Quick Abandonment</span>
+                            <span class="text-base font-black text-amber-700">-4 Marks</span>
+                        </div>
+                        <p class="text-[11px] text-slate-600 leading-relaxed font-medium">
+                            Skipped Question 1 (Capacitors) in just 10 seconds without attempting it. It was rated an easy question with high cohort accuracy.
+                        </p>
+                        <span class="text-[10px] font-bold text-amber-700 block">Fix: Read every question fully before skipping.</span>
+                    </div>
+
+                    <!-- Leak 3: Time Trap -->
+                    <div class="p-4 rounded-2xl bg-indigo-50/60 border border-indigo-200 space-y-2">
+                        <div class="flex items-center justify-between">
+                            <span class="font-black text-indigo-800 text-xs">Time Trap Sunk Cost</span>
+                            <span class="text-base font-black text-indigo-700">9m 7s Burned</span>
+                        </div>
+                        <p class="text-[11px] text-slate-600 leading-relaxed font-medium">
+                            Invested 9 minutes on Question 4 (Argand Plane), which caused her to rush through the final 5 Chemistry questions.
+                        </p>
+                        <span class="text-[10px] font-bold text-indigo-700 block">Fix: Strict 3-minute cutoff on stubborn questions.</span>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+
+        <!-- ================================================================= -->
+        <!-- QUESTION 3: HOW CAN I HELP AT HOME TONIGHT? (DINNER TABLE PLAYBOOK)-->
+        <!-- ================================================================= -->
+        <div id="view-playbook" class="parent-view hidden space-y-6">
+
+            <!-- Question Contract Banner -->
+            <div class="bg-blue-50/70 border border-blue-200/80 rounded-2xl p-3.5 text-xs text-blue-900 flex items-start space-x-2.5">
+                <i class="fa-solid fa-circle-question text-blue-600 mt-0.5 text-sm shrink-0"></i>
+                <div class="space-y-0.5">
+                    <span class="font-extrabold uppercase tracking-wide text-[10px] text-blue-800">Parent Question Contract:</span>
+                    <p class="font-medium text-slate-700">
+                        When sitting down with your child tonight, you ask <em>"How do I support without sounding like I am interrogating or pressuring them?"</em>. We support this with current classroom syllabus context and non-nagging conversational prompts.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Current Classroom Syllabus Tracker -->
+            <section class="bg-white rounded-3xl p-6 shadow-sm border border-slate-200/80 space-y-4">
+                <div class="flex items-center justify-between border-b border-slate-100 pb-3">
+                    <div>
+                        <h3 class="text-base font-black text-slate-900 tracking-tight">What Excellencia Faculty Are Teaching This Week</h3>
+                        <p class="text-xs text-slate-500 font-medium">Understanding what your child is studying Monday–Saturday helps you ask grounded questions.</p>
+                    </div>
+                    <span class="text-xs font-bold text-blue-700 bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200">
+                        Week 21 Syllabus Pacing
+                    </span>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-3.5 text-xs">
+                    <div class="p-3.5 rounded-2xl bg-slate-50 border border-slate-100 space-y-1">
+                        <span class="text-[10px] font-bold text-blue-600 uppercase">Physics Lectures</span>
+                        <p class="font-bold text-slate-800">Electromagnetism &amp; Ampere's Law</p>
+                        <span class="text-[11px] text-slate-500">Preparing for dielectric and magnetic field problems.</span>
+                    </div>
+                    <div class="p-3.5 rounded-2xl bg-slate-50 border border-slate-100 space-y-1">
+                        <span class="text-[10px] font-bold text-amber-600 uppercase">Chemistry Lectures</span>
+                        <p class="font-bold text-slate-800">Diazonium Salts &amp; Amines Coupling</p>
+                        <span class="text-[11px] text-slate-500">Scheduled for 4 high-yield questions on Sunday.</span>
+                    </div>
+                    <div class="p-3.5 rounded-2xl bg-slate-50 border border-slate-100 space-y-1">
+                        <span class="text-[10px] font-bold text-emerald-600 uppercase">Mathematics Lectures</span>
+                        <p class="font-bold text-slate-800">Complex Numbers Geometry &amp; Loci</p>
+                        <span class="text-[11px] text-slate-500">Focusing on triangle inequality shortcuts.</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tonight's Specific Conversation Starter -->
+            <section class="bg-gradient-to-r from-teal-600 to-blue-700 text-white rounded-3xl p-6 shadow-md space-y-3">
+                <div class="flex items-center space-x-2 text-xs font-black uppercase tracking-wider text-teal-200">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <span>Tonight's Non-Nagging Dinner Table Starter</span>
+                </div>
+                <h4 class="text-base sm:text-lg font-black leading-snug">
+                    "I noticed your Physics accuracy was 60% on Sunday, which is really strong. The teachers mentioned Chemistry had some tricky Diazonium reaction questions—did you get time to review those today?"
+                </h4>
+                <p class="text-xs text-teal-100 font-medium leading-relaxed">
+                    <strong>Why this works:</strong> It begins with genuine praise for her stronghold (Physics), demonstrates you know what was on the test, and opens the door to Chemistry without criticizing her score.
+                </p>
+            </section>
+
+            <!-- 3 Golden Rules for Indian Parents -->
+            <section class="bg-white rounded-3xl p-6 shadow-sm border border-slate-200/80 space-y-4">
+                <h3 class="text-base font-black text-slate-900 tracking-tight">
+                    The 3 Golden Rules for Supporting Competitive Exam Students
+                </h3>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+                    
+                    <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-2">
+                        <span class="font-black text-slate-900 text-sm flex items-center">
+                            <i class="fa-solid fa-ban text-rose-500 mr-2"></i> 1. Avoid Peer Comparisons
+                        </span>
+                        <p class="text-slate-600 font-medium leading-relaxed">
+                            Never ask <em>"How much did Sharma-ji's son get?"</em>. In competitive exams, comparing against classmates breeds defensive silence. Compare your child only against their own previous mock score.
+                        </p>
+                    </div>
+
+                    <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-2">
+                        <span class="font-black text-slate-900 text-sm flex items-center">
+                            <i class="fa-solid fa-bed text-teal-600 mr-2"></i> 2. Protect 7 Hours of Sleep
+                        </span>
+                        <p class="text-slate-600 font-medium leading-relaxed">
+                            Calculation slips (-12 marks in WTM-21) are 3x more likely when students sleep under 6 hours before a 3-hour Sunday morning exam. Sleep is a performance multiplier.
+                        </p>
+                    </div>
+
+                    <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-2">
+                        <span class="font-black text-slate-900 text-sm flex items-center">
+                            <i class="fa-solid fa-heart-pulse text-indigo-600 mr-2"></i> 3. Focus on Process, Not AIR
+                        </span>
+                        <p class="text-slate-600 font-medium leading-relaxed">
+                            Praise her for sitting through 18 of 20 tests and completing homework. Ranks fluctuate with paper difficulty, but test discipline guarantees a top college seat.
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+
+        <!-- ================================================================= -->
+        <!-- QUESTION 4: WHAT SHOULD I ASK AT PTM? (FACULTY PARTNERSHIP)       -->
+        <!-- ================================================================= -->
+        <div id="view-ptm" class="parent-view hidden space-y-6">
+
+            <!-- Question Contract Banner -->
+            <div class="bg-indigo-50/70 border border-indigo-200/80 rounded-2xl p-3.5 text-xs text-indigo-900 flex items-start space-x-2.5">
+                <i class="fa-solid fa-circle-question text-indigo-600 mt-0.5 text-sm shrink-0"></i>
+                <div class="space-y-0.5">
+                    <span class="font-extrabold uppercase tracking-wide text-[10px] text-indigo-800">Parent Question Contract:</span>
+                    <p class="font-medium text-slate-700">
+                        When meeting teachers at the college PTM, you ask <em>"What specific, actionable questions should I ask so the meeting is productive?"</em>. We support this with 3 data-grounded questions tailored to your child's exact test profile.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 3 Data-Grounded Questions for Parents to Ask Faculty -->
+            <section class="bg-white rounded-3xl p-6 shadow-sm border border-slate-200/80 space-y-4">
+                <div class="flex items-center justify-between border-b border-slate-100 pb-3">
+                    <div>
+                        <h3 class="text-base font-black text-slate-900 tracking-tight">Your 3 Key Discussion Questions for Faculty</h3>
+                        <p class="text-xs text-slate-500 font-medium">Use these constructive questions during your 10-minute PTM slot.</p>
+                    </div>
+                    <span class="text-xs font-bold text-indigo-700 bg-indigo-50 px-2.5 py-1 rounded-full border border-indigo-200">
+                        Next PTM: Saturday, 12 Sept
+                    </span>
+                </div>
+
+                <div class="space-y-3">
+                    
+                    <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-1.5">
+                        <div class="flex items-center justify-between">
+                            <span class="font-black text-slate-900 text-xs text-blue-700">Question 1 for Chemistry Teacher:</span>
+                            <span class="text-[10px] font-bold bg-white px-2 py-0.5 rounded border">Diazonium Focus</span>
+                        </div>
+                        <p class="text-xs font-bold text-slate-800">
+                            "Bhagam lost 12 marks in Chemistry on Sunday due to calculation slips in reaction conditions. In the upcoming remedial sessions, can she get 15 minutes of guided step-by-step practice on organic coupling reactions?"
+                        </p>
+                    </div>
+
+                    <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-1.5">
+                        <div class="flex items-center justify-between">
+                            <span class="font-black text-slate-900 text-xs text-emerald-700">Question 2 for Mathematics Teacher:</span>
+                            <span class="text-[10px] font-bold bg-white px-2 py-0.5 rounded border">Pacing Strategy</span>
+                        </div>
+                        <p class="text-xs font-bold text-slate-800">
+                            "Her math accuracy is strong (48%), but she averages 3m 59s per question and got trapped on the Argand plane question. What benchmark time should she use before skipping to Chemistry?"
+                        </p>
+                    </div>
+
+                    <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-1.5">
+                        <div class="flex items-center justify-between">
+                            <span class="font-black text-slate-900 text-xs text-purple-700">Question 3 for Class Mentor:</span>
+                            <span class="text-[10px] font-bold bg-white px-2 py-0.5 rounded border">Overall Strategy</span>
+                        </div>
+                        <p class="text-xs font-bold text-slate-800">
+                            "Her overall rank projection is in the 97.6–98.5%ile band (Top NIT zone). Do you recommend she focus strictly on Mains score maximization, or begin parallel JEE Advanced problem sets now?"
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Verified Attendance & College Contact Details -->
+            <section class="bg-white rounded-3xl p-6 shadow-sm border border-slate-200/80 space-y-4">
+                <h3 class="text-base font-black text-slate-900 tracking-tight">Attendance &amp; Institutional Mentorship</h3>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+                    <div class="p-4 rounded-2xl bg-slate-50 border border-slate-100 space-y-2">
+                        <span class="text-[10px] font-black uppercase text-slate-400">Official Exam Attendance</span>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-2xl font-black text-teal-700">18 / 20 Tests</span>
+                            <span class="text-xs font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200">90% Verified</span>
+                        </div>
+                        <p class="text-[11px] text-slate-500 font-medium">
+                            Tests missed: WTM-07 (Health leave) and WTM-15. Excellent discipline.
+                        </p>
+                    </div>
+
+                    <div class="p-4 rounded-2xl bg-slate-50 border border-slate-100 space-y-2">
+                        <span class="text-[10px] font-black uppercase text-slate-400">Class Mentor Contact</span>
+                        <p class="text-sm font-black text-slate-900">Prof. K. R. Sharma (SR MPC Lead)</p>
+                        <p class="text-[11px] text-slate-500">Campus: Madhapur Main Branch • Office Hours: 4:30 PM – 6:00 PM</p>
+                        <button onclick="alert('Mentor WhatsApp link copied: +91 98490 12345')" class="px-3 py-1.5 rounded-xl bg-teal-50 hover:bg-teal-100 border border-teal-200 text-teal-800 font-bold transition-all cursor-pointer flex items-center space-x-1.5">
+                            <i class="fa-brands fa-whatsapp text-teal-600"></i>
+                            <span>Message Class Mentor</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-slate-200/80 py-6 mt-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
+            <p>© 2026 Excellencia Junior College • Parent Intelligence &amp; Reassurance Engine</p>
+            <div class="flex items-center space-x-4 text-slate-500">
+                <a href="parent-v2.html" class="hover:text-teal-700 font-bold transition-colors">Parent V2 (Question-Led)</a>
+                <span>•</span>
+                <a href="parent-v1.html" class="hover:text-slate-700 font-bold transition-colors">Parent V1 (Baseline)</a>
+                <span>•</span>
+                <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="hover:text-slate-800 font-bold transition-colors">Back to Top ↑</button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Preloaded Static Data & Application JavaScript Engine -->
+    <script src="data/students_data.js"></script>
+    <script src="parent-v2.js"></script>
+</body>
+</html>
